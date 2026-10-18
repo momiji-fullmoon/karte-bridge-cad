@@ -1,0 +1,225 @@
+{
+  "id": "8335004236",
+  "name": "高久跨道橋(上り)",
+  "source_pdf": "カルテ様式-3_8335004236_004_166.695_高久跨道橋(上り).pdf",
+  "overview_page": 3,
+  "units": "m",
+  "superstructures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "25.25m+33.9m",
+      "spans": [
+        25.25,
+        33.9
+      ],
+      "height": 1.6,
+      "height_raw": "1.6",
+      "girder_count": 4,
+      "form": "2径間連続鋼非合成鈑桁橋",
+      "deck_thickness": 0.18,
+      "evidence": {
+        "page": 3,
+        "raw": "1       鋼                    25.25m+33.9m                      1.6          4 2径間連続鋼非合成鈑桁橋                                上路橋            コンクリート系                           18 鋼コンクリート合成床版                                                   無し"
+      }
+    }
+  ],
+  "supports": [
+    {
+      "name": "A1",
+      "material": "RC",
+      "height": 10.6,
+      "form": "控え壁式橋台",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 3,
+        "raw": "A1      RC                            10.6 控え壁式橋台                                        RC                    直接基礎                                                          固定ゴム支承"
+      }
+    },
+    {
+      "name": "P1",
+      "material": "RC",
+      "height": 13.3,
+      "form": "T型橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 3,
+        "raw": "P1      RC                            13.3 T型橋脚(RC)                                      RC                    直接基礎                                      0                 0 可動ゴム支承,"
+      }
+    },
+    {
+      "name": "A2",
+      "material": "RC",
+      "height": 14.8,
+      "form": "控え壁式橋台",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 3,
+        "raw": "A2      RC                            14.8 控え壁式橋台                                        RC                    直接基礎                                                          可動ゴム支承"
+      }
+    }
+  ],
+  "evidence": {
+    "length": {
+      "page": 3,
+      "label": "橋長\\(m\\)",
+      "raw": "60.100"
+    },
+    "span_count": {
+      "page": 3,
+      "label": "総径間数",
+      "raw": "2"
+    },
+    "grade_percent": {
+      "page": 3,
+      "label": "縦断勾配\\(%\\)",
+      "raw": "3.550"
+    },
+    "width_composition": {
+      "page": 3,
+      "raw": "0.00           0.00          0.00            0.00              0.00              0.00          0.00          0          0.00              0.00                   0           0.00             0.00             0.00           0.00          0.00"
+    }
+  },
+  "issues": [
+    "全幅員の抽出未完了"
+  ],
+  "length": 60.1,
+  "span_count": 2,
+  "plan_radius": null,
+  "grade_percent": 3.55,
+  "bridge_type": "2径間連続非合成鈑桁橋",
+  "plan_shape": "基 構造           計編",
+  "latitude": 36.98828,
+  "longitude": 140.06832,
+  "width": 9.0,
+  "effective_width": 8.0,
+  "left_curb_width": 0.5,
+  "left_curb_height": 0.25,
+  "left_sidewalk": 0.0,
+  "left_shoulder": 0.0,
+  "left_lane_width": 0.0,
+  "left_lane_count": 0.0,
+  "median": 0.0,
+  "separator": 0.0,
+  "right_lane_count": 0.0,
+  "right_lane_width": 0.0,
+  "right_shoulder": 0.0,
+  "right_sidewalk": 0.0,
+  "right_curb_height": 0.25,
+  "right_curb_width": 0.5,
+  "source_sha256": "9c6d801d605bc710707af3c89c7e68eaa50f24babca0c9cd22e0f88db052576f",
+  "drawing_pages": [
+    3,
+    4,
+    5
+  ],
+  "girder_spacing": 2.45,
+  "asphalt_thickness": 0.08,
+  "crossfall": 0.02,
+  "drawing_evidence": {
+    "width": {
+      "page": 4,
+      "raw": "断面図 9000=500+8000+500。幅員表の0は欠落値として扱う",
+      "status": "drawing_dimension_conflict"
+    },
+    "effective_width": {
+      "page": 4,
+      "raw": "断面図8000",
+      "status": "drawing_dimension"
+    },
+    "girder_spacing": {
+      "page": 4,
+      "raw": "断面図 3@2450=7350、両側825",
+      "status": "drawing_dimension"
+    },
+    "asphalt_thickness": {
+      "page": 4,
+      "raw": "断面図 アスファルト舗装厚80",
+      "status": "drawing_dimension"
+    },
+    "crossfall": {
+      "page": 4,
+      "raw": "断面図2.0%。モデルは左右対称の屋根勾配として簡略化",
+      "status": "drawing_dimension_simplified_profile"
+    }
+  },
+  "classification": "諸元・断面図照合モデル",
+  "skew_degrees": 0.0,
+  "deck_grade": 0.0,
+  "rail_height": 1.1,
+  "bearing_height": 0.25,
+  "steel_web": 0.014,
+  "steel_flange": 0.025,
+  "model_structures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "25.25m+33.9m",
+      "spans": [
+        25.25,
+        33.9
+      ],
+      "height": 1.6,
+      "height_raw": "1.6",
+      "girder_count": 4,
+      "form": "2径間連続鋼非合成鈑桁橋",
+      "deck_thickness": 0.18,
+      "evidence": {
+        "page": 3,
+        "raw": "1       鋼                    25.25m+33.9m                      1.6          4 2径間連続鋼非合成鈑桁橋                                上路橋            コンクリート系                           18 鋼コンクリート合成床版                                                   無し"
+      }
+    }
+  ],
+  "model_length": 60.1,
+  "end_overhang": 0.4750000000000014,
+  "group_gap": 0.0,
+  "assumptions": [
+    {
+      "field": "deck_grade",
+      "value": 0.0,
+      "reason": "諸元の縦断勾配3.55%は保持。変化点・符号・縦断曲線未確定のため、モデルの縦断は水平に簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "steel_sections",
+      "value": {
+        "web": 0.014,
+        "flange": 0.025
+      },
+      "reason": "板厚・フランジ幅・補剛材断面は概略値。原図の製作断面とは未照合",
+      "status": "assumed"
+    },
+    {
+      "field": "rail_height_and_post_spacing",
+      "value": [
+        1.1,
+        4.0
+      ],
+      "reason": "高欄・防護柵は断面と設置間隔を簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "bearing_dimensions",
+      "value": [
+        0.6,
+        0.55,
+        0.25
+      ],
+      "reason": "支承種別は元資料に保持し、形状を直方体へ簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "support_sections",
+      "value": "parametric envelope",
+      "reason": "下部構造高は諸元値。壁厚・柱径・梁断面・フーチング幅は概略値",
+      "status": "assumed"
+    },
+    {
+      "field": "end_overhang",
+      "value": 0.4750000000000014,
+      "reason": "橋長と支間合計の差の端部配分は仮定",
+      "status": "assumed"
+    }
+  ],
+  "model_support_count": 3
+}

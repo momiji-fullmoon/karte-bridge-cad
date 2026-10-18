@@ -1,0 +1,290 @@
+{
+  "id": "8335050027",
+  "name": "才川橋(下り)",
+  "source_pdf": "カルテ様式-3_8335050027_050_49.468_才川橋(下り).pdf",
+  "overview_page": 3,
+  "units": "m",
+  "superstructures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "29.200m",
+      "spans": [
+        29.2
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 4,
+      "form": "単純鋼非合成鈑桁橋",
+      "deck_thickness": 0.24,
+      "evidence": {
+        "page": 3,
+        "raw": "1       鋼                    29.200m                          1.80          4 単純鋼非合成鈑桁橋                                   上路橋            コンクリート系                        24.0 場所打床版                                                            有り"
+      }
+    },
+    {
+      "number": 2,
+      "material": "鋼",
+      "span_expression": "29.200m",
+      "spans": [
+        29.2
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 4,
+      "form": "単純鋼非合成鈑桁橋",
+      "deck_thickness": 0.24,
+      "evidence": {
+        "page": 3,
+        "raw": "2       鋼                    29.200m                          1.80          4 単純鋼非合成鈑桁橋                                   上路橋            コンクリート系                        24.0 場所打床版                                                            有り"
+      }
+    },
+    {
+      "number": 3,
+      "material": "鋼",
+      "span_expression": "29.200m",
+      "spans": [
+        29.2
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 4,
+      "form": "単純鋼非合成鈑桁橋",
+      "deck_thickness": 0.24,
+      "evidence": {
+        "page": 3,
+        "raw": "3       鋼                    29.200m                          1.80          4 単純鋼非合成鈑桁橋                                   上路橋            コンクリート系                        24.0 場所打床版                                                            有り"
+      }
+    }
+  ],
+  "supports": [
+    {
+      "name": "A1",
+      "material": "RC",
+      "height": 9.0,
+      "form": "控え壁式橋台",
+      "foundation_form": "既製鋼ぐい",
+      "evidence": {
+        "page": 3,
+        "raw": "A1      RC                             9.00 控え壁式橋台                                       鋼                     既製鋼ぐい                                    0.5                 38 固定支承板支承"
+      }
+    },
+    {
+      "name": "P1",
+      "material": "RC",
+      "height": 9.452,
+      "form": "ラーメン橋台",
+      "foundation_form": "既製鋼ぐい",
+      "evidence": {
+        "page": 3,
+        "raw": "P1      RC                             9.452 ラーメン橋台                                      鋼                     既製鋼ぐい                                    0.5                   可動支承板支承,固定支承板支承"
+      }
+    },
+    {
+      "name": "P2",
+      "material": "RC",
+      "height": 9.452,
+      "form": "ラーメン橋台",
+      "foundation_form": "既製鋼ぐい",
+      "evidence": {
+        "page": 3,
+        "raw": "P2      RC                             9.452 ラーメン橋台                                      鋼                     既製鋼ぐい                                    0.5                   可動支承板支承,固定支承板支承"
+      }
+    },
+    {
+      "name": "A2",
+      "material": "RC",
+      "height": 9.0,
+      "form": "控え壁式橋台",
+      "foundation_form": "既製鋼ぐい",
+      "evidence": {
+        "page": 3,
+        "raw": "A2      RC                             9.00 控え壁式橋台                                       鋼                     既製鋼ぐい                                    0.5                 38 可動支承板支承"
+      }
+    }
+  ],
+  "evidence": {
+    "length": {
+      "page": 3,
+      "label": "橋長\\(m\\)",
+      "raw": "89.500"
+    },
+    "span_count": {
+      "page": 3,
+      "label": "総径間数",
+      "raw": "3"
+    },
+    "grade_percent": {
+      "page": 3,
+      "label": "縦断勾配\\(%\\)",
+      "raw": "1.338"
+    },
+    "width_composition": {
+      "page": 3,
+      "raw": "11.75          10.75          0.50              0.15            2.50              0.75          7.00          2          0.00              0.00                    0           0.00             0.50             0.00            0.25          0.50"
+    }
+  },
+  "issues": [],
+  "length": 89.5,
+  "span_count": 3,
+  "plan_radius": null,
+  "grade_percent": 1.338,
+  "bridge_type": "単純非合成鈑桁橋3連",
+  "plan_shape": "斜橋",
+  "latitude": 36.28917,
+  "longitude": 139.55276,
+  "width": 11.75,
+  "effective_width": 10.75,
+  "left_curb_width": 0.5,
+  "left_curb_height": 0.15,
+  "left_sidewalk": 2.5,
+  "left_shoulder": 0.75,
+  "left_lane_width": 7.0,
+  "left_lane_count": 2.0,
+  "median": 0.0,
+  "separator": 0.0,
+  "right_lane_count": 0.0,
+  "right_lane_width": 0.0,
+  "right_shoulder": 0.5,
+  "right_sidewalk": 0.0,
+  "right_curb_height": 0.25,
+  "right_curb_width": 0.5,
+  "source_sha256": "6bf6b8c98c762532bb5b88e1fbb3c6031def01a9bfd8edf0b96653c418a0646e",
+  "drawing_pages": [
+    3,
+    4
+  ],
+  "drawing_evidence": {},
+  "classification": "諸元ベースの概略三次元CAD",
+  "asphalt_thickness": 0.05,
+  "crossfall": 0.0,
+  "skew_degrees": 0.0,
+  "deck_grade": 0.0,
+  "rail_height": 1.1,
+  "bearing_height": 0.25,
+  "steel_web": 0.014,
+  "steel_flange": 0.025,
+  "model_structures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "29.200m",
+      "spans": [
+        29.2
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 4,
+      "form": "単純鋼非合成鈑桁橋",
+      "deck_thickness": 0.24,
+      "evidence": {
+        "page": 3,
+        "raw": "1       鋼                    29.200m                          1.80          4 単純鋼非合成鈑桁橋                                   上路橋            コンクリート系                        24.0 場所打床版                                                            有り"
+      }
+    },
+    {
+      "number": 2,
+      "material": "鋼",
+      "span_expression": "29.200m",
+      "spans": [
+        29.2
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 4,
+      "form": "単純鋼非合成鈑桁橋",
+      "deck_thickness": 0.24,
+      "evidence": {
+        "page": 3,
+        "raw": "2       鋼                    29.200m                          1.80          4 単純鋼非合成鈑桁橋                                   上路橋            コンクリート系                        24.0 場所打床版                                                            有り"
+      }
+    },
+    {
+      "number": 3,
+      "material": "鋼",
+      "span_expression": "29.200m",
+      "spans": [
+        29.2
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 4,
+      "form": "単純鋼非合成鈑桁橋",
+      "deck_thickness": 0.24,
+      "evidence": {
+        "page": 3,
+        "raw": "3       鋼                    29.200m                          1.80          4 単純鋼非合成鈑桁橋                                   上路橋            コンクリート系                        24.0 場所打床版                                                            有り"
+      }
+    }
+  ],
+  "model_length": 89.5,
+  "end_overhang": 0.6,
+  "group_gap": 0.35000000000000286,
+  "assumptions": [
+    {
+      "field": "deck_grade",
+      "value": 0.0,
+      "reason": "諸元の縦断勾配1.338%は保持。変化点・符号・縦断曲線未確定のため、モデルの縦断は水平に簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "skew_degrees",
+      "value": 0.0,
+      "reason": "斜橋の斜角未確定。端部・支点方向は直角に簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "asphalt_thickness",
+      "value": 0.05,
+      "reason": "一般図で個別照合していない可視化用パラメータ",
+      "status": "assumed"
+    },
+    {
+      "field": "crossfall",
+      "value": 0.0,
+      "reason": "一般図で個別照合していない可視化用パラメータ",
+      "status": "assumed"
+    },
+    {
+      "field": "steel_sections",
+      "value": {
+        "web": 0.014,
+        "flange": 0.025
+      },
+      "reason": "板厚・フランジ幅・補剛材断面は概略値。原図の製作断面とは未照合",
+      "status": "assumed"
+    },
+    {
+      "field": "rail_height_and_post_spacing",
+      "value": [
+        1.1,
+        4.0
+      ],
+      "reason": "高欄・防護柵は断面と設置間隔を簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "bearing_dimensions",
+      "value": [
+        0.6,
+        0.55,
+        0.25
+      ],
+      "reason": "支承種別は元資料に保持し、形状を直方体へ簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "support_sections",
+      "value": "parametric envelope",
+      "reason": "下部構造高は諸元値。壁厚・柱径・梁断面・フーチング幅は概略値",
+      "status": "assumed"
+    },
+    {
+      "field": "inter_structure_gaps",
+      "value": 0.35000000000000286,
+      "reason": "橋長と支間合計の差を構造体間に均等配分。桁端・遊間寸法とは未照合",
+      "status": "assumed"
+    }
+  ],
+  "model_support_count": 4
+}

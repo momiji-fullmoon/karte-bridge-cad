@@ -1,0 +1,220 @@
+{
+  "id": "8335004215",
+  "name": "問屋町跨道橋",
+  "source_pdf": "カルテ様式-3_8335004215_004_101.640_問屋町跨道橋.pdf",
+  "overview_page": 3,
+  "units": "m",
+  "superstructures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "39.25m+62.00m+39.25m",
+      "spans": [
+        39.25,
+        62.0,
+        39.25
+      ],
+      "height": 1.9,
+      "height_raw": "1.9",
+      "girder_count": 2,
+      "form": "3径間連続鋼鋼床版箱桁橋",
+      "deck_thickness": 0.0016,
+      "evidence": {
+        "page": 3,
+        "raw": "1       鋼                    39.25m+62.00m+39.25m              1.9          2 3径間連続鋼鋼床版箱桁橋                                上路橋            鋼系                             0.16 鋼床版                                                               有り"
+      }
+    }
+  ],
+  "supports": [
+    {
+      "name": "A1",
+      "material": "RC",
+      "height": 9.5,
+      "form": "逆T式橋台",
+      "foundation_form": "場所打ぐい(深礎を含む)",
+      "evidence": {
+        "page": 3,
+        "raw": "A1      RC                                9.5 逆T式橋台                                      RC                    場所打ぐい(深礎を含む)                             1.2                 12 その他"
+      }
+    },
+    {
+      "name": "P1",
+      "material": "鋼",
+      "height": 12.0,
+      "form": "ラーメン橋脚(鋼製)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 3,
+        "raw": "P1      鋼                             12.0 ラーメン橋脚(鋼製)                                    鋼                     直接基礎"
+      }
+    },
+    {
+      "name": "P2",
+      "material": "鋼",
+      "height": 10.9,
+      "form": "ラーメン橋脚(鋼製)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 3,
+        "raw": "P2      鋼                             10.9 ラーメン橋脚(鋼製)                                    鋼                     直接基礎"
+      }
+    },
+    {
+      "name": "A2",
+      "material": "RC",
+      "height": 9.3,
+      "form": "逆T式橋台",
+      "foundation_form": "場所打ぐい(深礎を含む)",
+      "evidence": {
+        "page": 3,
+        "raw": "A2      RC                                9.3 逆T式橋台                                      RC                    場所打ぐい(深礎を含む)                             1.2                 12 その他"
+      }
+    }
+  ],
+  "evidence": {
+    "length": {
+      "page": 3,
+      "label": "橋長\\(m\\)",
+      "raw": "142.000"
+    },
+    "span_count": {
+      "page": 3,
+      "label": "総径間数",
+      "raw": "3"
+    },
+    "grade_percent": {
+      "page": 3,
+      "label": "縦断勾配\\(%\\)",
+      "raw": "4.000"
+    },
+    "width_composition": {
+      "page": 3,
+      "raw": "19.50          18.50          0.50            0.27              0.00              0.75          7.00          2          0.00              2.00                    2            7.00             0.75             0.00            0.27          0.50"
+    }
+  },
+  "issues": [],
+  "length": 142.0,
+  "span_count": 3,
+  "plan_radius": null,
+  "grade_percent": 4.0,
+  "bridge_type": "3径間連続鋼床版箱桁ラーメン橋",
+  "plan_shape": "直橋(直角橋)",
+  "latitude": 36.53103,
+  "longitude": 139.92704,
+  "width": 19.5,
+  "effective_width": 18.5,
+  "left_curb_width": 0.5,
+  "left_curb_height": 0.27,
+  "left_sidewalk": 0.0,
+  "left_shoulder": 0.75,
+  "left_lane_width": 7.0,
+  "left_lane_count": 2.0,
+  "median": 0.0,
+  "separator": 2.0,
+  "right_lane_count": 2.0,
+  "right_lane_width": 7.0,
+  "right_shoulder": 0.75,
+  "right_sidewalk": 0.0,
+  "right_curb_height": 0.27,
+  "right_curb_width": 0.5,
+  "source_sha256": "9758d9af1a354d7494a01e0a284910118bebe07e26a64630c39e1028d3cdd470",
+  "drawing_pages": [
+    3,
+    4
+  ],
+  "drawing_evidence": {},
+  "classification": "諸元ベースの概略三次元CAD",
+  "asphalt_thickness": 0.05,
+  "crossfall": 0.0,
+  "skew_degrees": 0.0,
+  "deck_grade": 0.0,
+  "rail_height": 1.1,
+  "bearing_height": 0.25,
+  "steel_web": 0.014,
+  "steel_flange": 0.025,
+  "model_structures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "39.25m+62.00m+39.25m",
+      "spans": [
+        39.25,
+        62.0,
+        39.25
+      ],
+      "height": 1.9,
+      "height_raw": "1.9",
+      "girder_count": 2,
+      "form": "3径間連続鋼鋼床版箱桁橋",
+      "deck_thickness": 0.0016,
+      "evidence": {
+        "page": 3,
+        "raw": "1       鋼                    39.25m+62.00m+39.25m              1.9          2 3径間連続鋼鋼床版箱桁橋                                上路橋            鋼系                             0.16 鋼床版                                                               有り"
+      }
+    }
+  ],
+  "model_length": 142.0,
+  "end_overhang": 0.6,
+  "group_gap": 0.30000000000000004,
+  "assumptions": [
+    {
+      "field": "deck_grade",
+      "value": 0.0,
+      "reason": "諸元の縦断勾配4.0%は保持。変化点・符号・縦断曲線未確定のため、モデルの縦断は水平に簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "asphalt_thickness",
+      "value": 0.05,
+      "reason": "一般図で個別照合していない可視化用パラメータ",
+      "status": "assumed"
+    },
+    {
+      "field": "crossfall",
+      "value": 0.0,
+      "reason": "一般図で個別照合していない可視化用パラメータ",
+      "status": "assumed"
+    },
+    {
+      "field": "steel_sections",
+      "value": {
+        "web": 0.014,
+        "flange": 0.025
+      },
+      "reason": "板厚・フランジ幅・補剛材断面は概略値。原図の製作断面とは未照合",
+      "status": "assumed"
+    },
+    {
+      "field": "rail_height_and_post_spacing",
+      "value": [
+        1.1,
+        4.0
+      ],
+      "reason": "高欄・防護柵は断面と設置間隔を簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "bearing_dimensions",
+      "value": [
+        0.6,
+        0.55,
+        0.25
+      ],
+      "reason": "支承種別は元資料に保持し、形状を直方体へ簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "support_sections",
+      "value": "parametric envelope",
+      "reason": "下部構造高は諸元値。壁厚・柱径・梁断面・フーチング幅は概略値",
+      "status": "assumed"
+    },
+    {
+      "field": "inter_structure_gaps",
+      "value": 0.30000000000000004,
+      "reason": "橋長と支間合計の差を構造体間に均等配分。桁端・遊間寸法とは未照合",
+      "status": "assumed"
+    }
+  ],
+  "model_support_count": 4
+}

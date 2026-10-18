@@ -1,0 +1,503 @@
+{
+  "id": "8335050008",
+  "name": "堀込高架橋（下り線）",
+  "source_pdf": "カルテ様式-3_8335050008_050_37.596_堀込高架橋（下り線）.pdf",
+  "overview_page": 5,
+  "units": "m",
+  "superstructures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "37.000m+45.000m+37.000m",
+      "spans": [
+        37.0,
+        45.0,
+        37.0
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 5,
+      "form": "3径間連続鋼非合成鈑桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "1      鋼                        37.000m+45.000m+37.000m                            1.80         5 3径間連続鋼非合成鈑桁橋                                                           上路橋               コンクリート系                20.0 場所打床版                               有り"
+      }
+    },
+    {
+      "number": 2,
+      "material": "鋼",
+      "span_expression": "37.000m+45.000m+37.000m",
+      "spans": [
+        37.0,
+        45.0,
+        37.0
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 5,
+      "form": "3径間連続鋼非合成鈑桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "2      鋼                        37.000m+45.000m+37.000m                            1.80         5 3径間連続鋼非合成鈑桁橋                                                           上路橋               コンクリート系                20.0 場所打床版                               有り"
+      }
+    },
+    {
+      "number": 3,
+      "material": "PC",
+      "span_expression": "28.400m+28.850m+28.400m",
+      "spans": [
+        28.4,
+        28.85,
+        28.4
+      ],
+      "height": 1.5,
+      "height_raw": "1.50",
+      "girder_count": 5,
+      "form": "3径間連結PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "3      PC                       28.400m+28.850m+28.400m                            1.50         5 3径間連結PCポステンT桁橋                                                         上路橋               コンクリート系                20.0 間詰め型(プレキャスト主桁+場所打床版)                有り"
+      }
+    },
+    {
+      "number": 4,
+      "material": "PC",
+      "span_expression": "28.400m+28.850m+28.400m",
+      "spans": [
+        28.4,
+        28.85,
+        28.4
+      ],
+      "height": 1.5,
+      "height_raw": "1.50",
+      "girder_count": 5,
+      "form": "3径間連結PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "4      PC                       28.400m+28.850m+28.400m                            1.50         5 3径間連結PCポステンT桁橋                                                         上路橋               コンクリート系                20.0 間詰め型(プレキャスト主桁+場所打床版)                有り"
+      }
+    },
+    {
+      "number": 5,
+      "material": "鋼",
+      "span_expression": "44.023m+52.982m+44.014m",
+      "spans": [
+        44.023,
+        52.982,
+        44.014
+      ],
+      "height": 2.1,
+      "height_raw": "2.10",
+      "girder_count": 5,
+      "form": "3径間連続鋼非合成鈑桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "5      鋼                        44.023m+52.982m+44.014m                            2.10         5 3径間連続鋼非合成鈑桁橋                                                           上路橋               コンクリート系                20.0 場所打床版"
+      }
+    }
+  ],
+  "supports": [
+    {
+      "name": "A1",
+      "material": "RC",
+      "height": 8.99,
+      "form": "逆T式橋台",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "A1     RC                                                8.99 逆T式橋台                        RC                              直接基礎                                                                       可動支承板支承"
+      }
+    },
+    {
+      "name": "P11",
+      "material": "RC",
+      "height": 10.11,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "P11    RC                                               10.11 ラーメン橋脚(RC)                   RC                              直接基礎                                                                       可動ゴム支承"
+      }
+    },
+    {
+      "name": "P10",
+      "material": "RC",
+      "height": 10.41,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "P10    RC                                               10.41 ラーメン橋脚(RC)                   RC                              直接基礎                                                                       固定ゴム支承"
+      }
+    },
+    {
+      "name": "P1",
+      "material": "RC",
+      "height": 7.21,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "P1     RC                                                7.21 ラーメン橋脚(RC)                   RC                              直接基礎                                                                       固定支承板支承,"
+      }
+    },
+    {
+      "name": "A2",
+      "material": "RC",
+      "height": 7.5,
+      "form": "逆T式橋台",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "A2     RC                                                7.50 逆T式橋台                        RC                              直接基礎                                                                       可動支承板支承"
+      }
+    },
+    {
+      "name": "P6",
+      "material": "RC",
+      "height": 9.41,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "既製PCぐい",
+      "evidence": {
+        "page": 6,
+        "raw": "P6     RC                                                9.41 ラーメン橋脚(RC)                   PC                              既製PCぐい                                                    1.0             6 可動支承板支承,可動ゴム支承"
+      }
+    },
+    {
+      "name": "P5",
+      "material": "RC",
+      "height": 8.71,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "既製PCぐい",
+      "evidence": {
+        "page": 6,
+        "raw": "P5     RC                                                8.71 ラーメン橋脚(RC)                   PC                              既製PCぐい                                                    1.0             6 可動支承板支承,"
+      }
+    },
+    {
+      "name": "P4",
+      "material": "RC",
+      "height": 8.91,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "既製PCぐい",
+      "evidence": {
+        "page": 6,
+        "raw": "P4     RC                                                8.91 ラーメン橋脚(RC)                   PC                              既製PCぐい                                                    1.0             8 固定支承板支承,"
+      }
+    },
+    {
+      "name": "P3",
+      "material": "RC",
+      "height": 8.41,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "既製PCぐい",
+      "evidence": {
+        "page": 6,
+        "raw": "P3     RC                                                8.41 ラーメン橋脚(RC)                   PC                              既製PCぐい                                                    1.0             5 可動支承板支承"
+      }
+    },
+    {
+      "name": "P2",
+      "material": "RC",
+      "height": 7.91,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "既製PCぐい",
+      "evidence": {
+        "page": 6,
+        "raw": "P2     RC                                                7.91 ラーメン橋脚(RC)                   PC                              既製PCぐい                                                    1.0             6 可動支承板支承,"
+      }
+    },
+    {
+      "name": "P14",
+      "material": "RC",
+      "height": 5.91,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "P14    RC                                                5.91 ラーメン橋脚(RC)                   RC                              直接基礎                                                                       固定支承板支承,"
+      }
+    },
+    {
+      "name": "P13",
+      "material": "RC",
+      "height": 7.81,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "P13    RC                                                7.81 ラーメン橋脚(RC)                   RC                              直接基礎                                                                       可動支承板支承,"
+      }
+    },
+    {
+      "name": "P12",
+      "material": "RC",
+      "height": 9.71,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "P12    RC                                                9.71 ラーメン橋脚(RC)                   RC                              直接基礎                                                                       可動ゴム支承,可動支承板支承"
+      }
+    },
+    {
+      "name": "P9",
+      "material": "RC",
+      "height": 10.61,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "P9     RC                                               10.61 ラーメン橋脚(RC)                   RC                              直接基礎                                                                       可動ゴム支承"
+      }
+    },
+    {
+      "name": "P8",
+      "material": "RC",
+      "height": 10.81,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "P8     RC                                               10.81 ラーメン橋脚(RC)                   RC                              直接基礎                                                                       可動ゴム支承"
+      }
+    },
+    {
+      "name": "P7",
+      "material": "RC",
+      "height": 10.41,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "直接基礎",
+      "evidence": {
+        "page": 6,
+        "raw": "P7     RC                                               10.41 ラーメン橋脚(RC)                   RC                              直接基礎                                                                       固定ゴム支承"
+      }
+    }
+  ],
+  "evidence": {
+    "length": {
+      "page": 5,
+      "label": "橋長\\(m\\)",
+      "raw": "554.160"
+    },
+    "span_count": {
+      "page": 5,
+      "label": "総径間数",
+      "raw": "15"
+    },
+    "grade_percent": {
+      "page": 5,
+      "label": "縦断勾配\\(%\\)",
+      "raw": "4.000"
+    },
+    "width_composition": {
+      "page": 5,
+      "raw": "9.35           8.25            0.50        0.25             0.00            0.75         3.50             1           0.00              0.00              1          3.50             0.50           0.00         0.25            0.60"
+    }
+  },
+  "issues": [],
+  "length": 554.16,
+  "span_count": 15,
+  "plan_radius": null,
+  "grade_percent": 4.0,
+  "bridge_type": "等級       1等橋                             設計活荷重      TL‐20",
+  "plan_shape": "直橋(直角橋)",
+  "latitude": 36.31174,
+  "longitude": 139.43659,
+  "width": 9.35,
+  "effective_width": 8.25,
+  "left_curb_width": 0.5,
+  "left_curb_height": 0.25,
+  "left_sidewalk": 0.0,
+  "left_shoulder": 0.75,
+  "left_lane_width": 3.5,
+  "left_lane_count": 1.0,
+  "median": 0.0,
+  "separator": 0.0,
+  "right_lane_count": 1.0,
+  "right_lane_width": 3.5,
+  "right_shoulder": 0.5,
+  "right_sidewalk": 0.0,
+  "right_curb_height": 0.25,
+  "right_curb_width": 0.6,
+  "source_sha256": "452f700576c1c7884a6bc4633d0583a61cffaaaad259bf2302e29887fb7abed4",
+  "drawing_pages": [
+    7
+  ],
+  "drawing_evidence": {},
+  "classification": "諸元ベースの概略三次元CAD",
+  "asphalt_thickness": 0.05,
+  "crossfall": 0.0,
+  "skew_degrees": 0.0,
+  "deck_grade": 0.0,
+  "rail_height": 1.1,
+  "bearing_height": 0.25,
+  "steel_web": 0.014,
+  "steel_flange": 0.025,
+  "model_structures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "37.000m+45.000m+37.000m",
+      "spans": [
+        37.0,
+        45.0,
+        37.0
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 5,
+      "form": "3径間連続鋼非合成鈑桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "1      鋼                        37.000m+45.000m+37.000m                            1.80         5 3径間連続鋼非合成鈑桁橋                                                           上路橋               コンクリート系                20.0 場所打床版                               有り"
+      }
+    },
+    {
+      "number": 2,
+      "material": "鋼",
+      "span_expression": "37.000m+45.000m+37.000m",
+      "spans": [
+        37.0,
+        45.0,
+        37.0
+      ],
+      "height": 1.8,
+      "height_raw": "1.80",
+      "girder_count": 5,
+      "form": "3径間連続鋼非合成鈑桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "2      鋼                        37.000m+45.000m+37.000m                            1.80         5 3径間連続鋼非合成鈑桁橋                                                           上路橋               コンクリート系                20.0 場所打床版                               有り"
+      }
+    },
+    {
+      "number": 3,
+      "material": "PC",
+      "span_expression": "28.400m+28.850m+28.400m",
+      "spans": [
+        28.4,
+        28.85,
+        28.4
+      ],
+      "height": 1.5,
+      "height_raw": "1.50",
+      "girder_count": 5,
+      "form": "3径間連結PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "3      PC                       28.400m+28.850m+28.400m                            1.50         5 3径間連結PCポステンT桁橋                                                         上路橋               コンクリート系                20.0 間詰め型(プレキャスト主桁+場所打床版)                有り"
+      }
+    },
+    {
+      "number": 4,
+      "material": "PC",
+      "span_expression": "28.400m+28.850m+28.400m",
+      "spans": [
+        28.4,
+        28.85,
+        28.4
+      ],
+      "height": 1.5,
+      "height_raw": "1.50",
+      "girder_count": 5,
+      "form": "3径間連結PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "4      PC                       28.400m+28.850m+28.400m                            1.50         5 3径間連結PCポステンT桁橋                                                         上路橋               コンクリート系                20.0 間詰め型(プレキャスト主桁+場所打床版)                有り"
+      }
+    },
+    {
+      "number": 5,
+      "material": "鋼",
+      "span_expression": "44.023m+52.982m+44.014m",
+      "spans": [
+        44.023,
+        52.982,
+        44.014
+      ],
+      "height": 2.1,
+      "height_raw": "2.10",
+      "girder_count": 5,
+      "form": "3径間連続鋼非合成鈑桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 6,
+        "raw": "5      鋼                        44.023m+52.982m+44.014m                            2.10         5 3径間連続鋼非合成鈑桁橋                                                           上路橋               コンクリート系                20.0 場所打床版"
+      }
+    }
+  ],
+  "model_length": 554.16,
+  "end_overhang": 0.6,
+  "group_gap": 0.660250000000002,
+  "assumptions": [
+    {
+      "field": "deck_grade",
+      "value": 0.0,
+      "reason": "諸元の縦断勾配4.0%は保持。変化点・符号・縦断曲線未確定のため、モデルの縦断は水平に簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "asphalt_thickness",
+      "value": 0.05,
+      "reason": "一般図で個別照合していない可視化用パラメータ",
+      "status": "assumed"
+    },
+    {
+      "field": "crossfall",
+      "value": 0.0,
+      "reason": "一般図で個別照合していない可視化用パラメータ",
+      "status": "assumed"
+    },
+    {
+      "field": "steel_sections",
+      "value": {
+        "web": 0.014,
+        "flange": 0.025
+      },
+      "reason": "板厚・フランジ幅・補剛材断面は概略値。原図の製作断面とは未照合",
+      "status": "assumed"
+    },
+    {
+      "field": "rail_height_and_post_spacing",
+      "value": [
+        1.1,
+        4.0
+      ],
+      "reason": "高欄・防護柵は断面と設置間隔を簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "bearing_dimensions",
+      "value": [
+        0.6,
+        0.55,
+        0.25
+      ],
+      "reason": "支承種別は元資料に保持し、形状を直方体へ簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "support_sections",
+      "value": "parametric envelope",
+      "reason": "下部構造高は諸元値。壁厚・柱径・梁断面・フーチング幅は概略値",
+      "status": "assumed"
+    },
+    {
+      "field": "inter_structure_gaps",
+      "value": 0.660250000000002,
+      "reason": "橋長と支間合計の差を構造体間に均等配分。桁端・遊間寸法とは未照合",
+      "status": "assumed"
+    }
+  ],
+  "model_support_count": 16
+}

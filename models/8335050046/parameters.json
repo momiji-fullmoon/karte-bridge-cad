@@ -1,0 +1,358 @@
+{
+  "id": "8335050046",
+  "name": "大平高架ランプ(上り)",
+  "source_pdf": "カルテ様式-3_8335050046_050_64.885_大平高架ランプ(上り).pdf",
+  "overview_page": 3,
+  "units": "m",
+  "superstructures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "32.200m",
+      "spans": [
+        32.2
+      ],
+      "height": 1.6,
+      "height_raw": "1.60",
+      "girder_count": 4,
+      "form": "単純鋼非合成鈑桁橋",
+      "deck_thickness": 0.22,
+      "evidence": {
+        "page": 3,
+        "raw": "1       鋼                    32.200m                          1.60          4 単純鋼非合成鈑桁橋                                   上路橋            コンクリート系                        22.0 場所打床版"
+      }
+    },
+    {
+      "number": 2,
+      "material": "PC",
+      "span_expression": "24.300m",
+      "spans": [
+        24.3
+      ],
+      "height": 1.35,
+      "height_raw": "1.35",
+      "girder_count": 5,
+      "form": "単純PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 3,
+        "raw": "2       PC                   24.300m                          1.35          5 単純PCポステンT桁橋                                 上路橋            コンクリート系                        20.0 一体型(場所打主桁+場所打床版)"
+      }
+    },
+    {
+      "number": 3,
+      "material": "PC",
+      "span_expression": "24.300m",
+      "spans": [
+        24.3
+      ],
+      "height": 1.35,
+      "height_raw": "1.35",
+      "girder_count": 5,
+      "form": "単純PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 3,
+        "raw": "3       PC                   24.300m                          1.35          5 単純PCポステンT桁橋                                 上路橋            コンクリート系                        20.0 一体型(場所打主桁+場所打床版)"
+      }
+    },
+    {
+      "number": 999,
+      "material": "PC",
+      "span_expression": "未記載構造体の概略補間",
+      "spans": [
+        1.0,
+        1.0
+      ],
+      "height": 1.35,
+      "height_raw": "1.35",
+      "girder_count": 5,
+      "form": "単純PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "raw": "支間・構造形式の補間"
+      }
+    }
+  ],
+  "supports": [
+    {
+      "name": "P21",
+      "material": "RC",
+      "height": 7.8,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "既製PCぐい",
+      "evidence": {
+        "page": 3,
+        "raw": "P21     RC                             7.80 ラーメン橋脚(RC)                                   PC                    既製PCぐい                                   1.0                 22 可動支承板支承"
+      }
+    },
+    {
+      "name": "P22",
+      "material": "RC",
+      "height": 7.8,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "既製PCぐい",
+      "evidence": {
+        "page": 3,
+        "raw": "P22     RC                             7.80 ラーメン橋脚(RC)                                   PC                    既製PCぐい                                   1.0                 20 固定支承板支承,可動支承板支承"
+      }
+    },
+    {
+      "name": "P23",
+      "material": "RC",
+      "height": 7.8,
+      "form": "ラーメン橋脚(RC)",
+      "foundation_form": "既製PCぐい",
+      "evidence": {
+        "page": 3,
+        "raw": "P23     RC                             7.80 ラーメン橋脚(RC)                                   PC                    既製PCぐい                                   1.0                 5 固定支承板支承,可動支承板支承"
+      }
+    }
+  ],
+  "evidence": {
+    "length": {
+      "page": 3,
+      "label": "橋長\\(m\\)",
+      "raw": "83.130"
+    },
+    "span_count": {
+      "page": 3,
+      "label": "総径間数",
+      "raw": "5"
+    },
+    "grade_percent": {
+      "page": 3,
+      "label": "縦断勾配\\(%\\)",
+      "raw": "5.852"
+    },
+    "width_composition": {
+      "page": 3,
+      "raw": "9.60           8.50          0.60              0.20            0.00              1.00          3.12          1          0.00              0.00                    0           0.00             1.38           3.00            0.10          0.50"
+    }
+  },
+  "issues": [],
+  "length": 83.13,
+  "span_count": 5,
+  "plan_radius": null,
+  "grade_percent": 5.852,
+  "bridge_type": "単純非合成鈑桁橋,単純PCポステンT桁橋2連",
+  "plan_shape": "斜橋",
+  "latitude": 36.30226,
+  "longitude": 139.70418,
+  "width": 9.6,
+  "effective_width": 8.5,
+  "left_curb_width": 0.6,
+  "left_curb_height": 0.2,
+  "left_sidewalk": 0.0,
+  "left_shoulder": 1.0,
+  "left_lane_width": 3.12,
+  "left_lane_count": 1.0,
+  "median": 0.0,
+  "separator": 0.0,
+  "right_lane_count": 0.0,
+  "right_lane_width": 0.0,
+  "right_shoulder": 1.38,
+  "right_sidewalk": 3.0,
+  "right_curb_height": 0.1,
+  "right_curb_width": 0.5,
+  "source_sha256": "6e33542b8ee9e2b9e615307a32fb4133beb86bceeabe0e226988046619d1b4d7",
+  "drawing_pages": [
+    3,
+    4
+  ],
+  "drawing_evidence": {},
+  "classification": "諸元ベースの概略三次元CAD",
+  "asphalt_thickness": 0.05,
+  "crossfall": 0.0,
+  "skew_degrees": 0.0,
+  "deck_grade": 0.0,
+  "rail_height": 1.1,
+  "bearing_height": 0.25,
+  "steel_web": 0.014,
+  "steel_flange": 0.025,
+  "model_structures": [
+    {
+      "number": 1,
+      "material": "鋼",
+      "span_expression": "32.200m",
+      "spans": [
+        32.2
+      ],
+      "height": 1.6,
+      "height_raw": "1.60",
+      "girder_count": 4,
+      "form": "単純鋼非合成鈑桁橋",
+      "deck_thickness": 0.22,
+      "evidence": {
+        "page": 3,
+        "raw": "1       鋼                    32.200m                          1.60          4 単純鋼非合成鈑桁橋                                   上路橋            コンクリート系                        22.0 場所打床版"
+      }
+    },
+    {
+      "number": 2,
+      "material": "PC",
+      "span_expression": "24.300m",
+      "spans": [
+        24.3
+      ],
+      "height": 1.35,
+      "height_raw": "1.35",
+      "girder_count": 5,
+      "form": "単純PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 3,
+        "raw": "2       PC                   24.300m                          1.35          5 単純PCポステンT桁橋                                 上路橋            コンクリート系                        20.0 一体型(場所打主桁+場所打床版)"
+      }
+    },
+    {
+      "number": 3,
+      "material": "PC",
+      "span_expression": "24.300m",
+      "spans": [
+        24.3
+      ],
+      "height": 1.35,
+      "height_raw": "1.35",
+      "girder_count": 5,
+      "form": "単純PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "page": 3,
+        "raw": "3       PC                   24.300m                          1.35          5 単純PCポステンT桁橋                                 上路橋            コンクリート系                        20.0 一体型(場所打主桁+場所打床版)"
+      }
+    },
+    {
+      "number": 999,
+      "material": "PC",
+      "span_expression": "未記載構造体の概略補間",
+      "spans": [
+        1.0,
+        1.0
+      ],
+      "height": 1.35,
+      "height_raw": "1.35",
+      "girder_count": 5,
+      "form": "単純PCポステンT桁橋",
+      "deck_thickness": 0.2,
+      "evidence": {
+        "raw": "支間・構造形式の補間"
+      }
+    }
+  ],
+  "model_length": 83.13,
+  "end_overhang": 0.16499999999999204,
+  "group_gap": 0.0,
+  "assumptions": [
+    {
+      "field": "deck_grade",
+      "value": 0.0,
+      "reason": "諸元の縦断勾配5.852%は保持。変化点・符号・縦断曲線未確定のため、モデルの縦断は水平に簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "skew_degrees",
+      "value": 0.0,
+      "reason": "斜橋の斜角未確定。端部・支点方向は直角に簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "asphalt_thickness",
+      "value": 0.05,
+      "reason": "一般図で個別照合していない可視化用パラメータ",
+      "status": "assumed"
+    },
+    {
+      "field": "crossfall",
+      "value": 0.0,
+      "reason": "一般図で個別照合していない可視化用パラメータ",
+      "status": "assumed"
+    },
+    {
+      "field": "steel_sections",
+      "value": {
+        "web": 0.014,
+        "flange": 0.025
+      },
+      "reason": "板厚・フランジ幅・補剛材断面は概略値。原図の製作断面とは未照合",
+      "status": "assumed"
+    },
+    {
+      "field": "rail_height_and_post_spacing",
+      "value": [
+        1.1,
+        4.0
+      ],
+      "reason": "高欄・防護柵は断面と設置間隔を簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "bearing_dimensions",
+      "value": [
+        0.6,
+        0.55,
+        0.25
+      ],
+      "reason": "支承種別は元資料に保持し、形状を直方体へ簡略化",
+      "status": "assumed"
+    },
+    {
+      "field": "support_sections",
+      "value": "parametric envelope",
+      "reason": "下部構造高は諸元値。壁厚・柱径・梁断面・フーチング幅は概略値",
+      "status": "assumed"
+    },
+    {
+      "field": "missing_structures",
+      "value": [
+        1.0,
+        1.0
+      ],
+      "reason": "総径間数に対して構造体列が欠落。残余橋長から概略補間。追加位置は末尾という仮定",
+      "status": "assumed"
+    },
+    {
+      "field": "end_overhang",
+      "value": 0.16499999999999204,
+      "reason": "橋長と支間合計の差の端部配分は仮定",
+      "status": "assumed"
+    },
+    {
+      "field": "A1",
+      "value": 7.8,
+      "reason": "該当支点の諸元が未抽出／未記載。同橋の下部構造高の中央値を仮定",
+      "status": "assumed"
+    },
+    {
+      "field": "P1",
+      "value": 7.8,
+      "reason": "該当支点の諸元が未抽出／未記載。同橋の下部構造高の中央値を仮定",
+      "status": "assumed"
+    },
+    {
+      "field": "P2",
+      "value": 7.8,
+      "reason": "該当支点の諸元が未抽出／未記載。同橋の下部構造高の中央値を仮定",
+      "status": "assumed"
+    },
+    {
+      "field": "P3",
+      "value": 7.8,
+      "reason": "該当支点の諸元が未抽出／未記載。同橋の下部構造高の中央値を仮定",
+      "status": "assumed"
+    },
+    {
+      "field": "P4",
+      "value": 7.8,
+      "reason": "該当支点の諸元が未抽出／未記載。同橋の下部構造高の中央値を仮定",
+      "status": "assumed"
+    },
+    {
+      "field": "A2",
+      "value": 7.8,
+      "reason": "該当支点の諸元が未抽出／未記載。同橋の下部構造高の中央値を仮定",
+      "status": "assumed"
+    }
+  ],
+  "model_support_count": 6
+}
