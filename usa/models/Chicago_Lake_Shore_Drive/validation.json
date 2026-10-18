@@ -1,0 +1,6638 @@
+{
+  "case_id": "Chicago_Lake_Shore_Drive",
+  "name": "Lake Shore Drive bascule bridge (UNSCALED REVIEW MODEL)",
+  "family": "bascule",
+  "native_generation_success": true,
+  "real_world_scale_known": false,
+  "status": "unscaled_review",
+  "sources": [
+    {
+      "path": "LSDplelevdrwg.jpg",
+      "sha256": "9fff42e780359c6b26b448ece186f544e730921d6531c1dcdf9b6153a6b42b72",
+      "bytes": 142563
+    },
+    {
+      "path": "LSDraildrwg.jpg",
+      "sha256": "b0d35cdfe1b21d8ae62618eab792d1268b116149f9be448d0e09b7618c8573f8",
+      "bytes": 246029
+    }
+  ],
+  "dimensions_mm": {
+    "main_length": 100000.0,
+    "width": 34000.0,
+    "height": 8000.0
+  },
+  "dimension_sources": {
+    "length": {
+      "method": "normalization",
+      "value_mm": 100000.0
+    },
+    "width": {
+      "method": "normalization",
+      "value_mm": 34000.0
+    },
+    "height": {
+      "method": "normalization",
+      "value_mm": 8000.0
+    }
+  },
+  "source_dimension_conflicts": [],
+  "native": {
+    "body_count": 160,
+    "feature_count": 317,
+    "feature_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      280,
+      281,
+      282,
+      283,
+      284,
+      285,
+      286,
+      287,
+      288,
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317
+    ],
+    "native_feature_errors": [],
+    "bbox_mm": [
+      [
+        -3000.0,
+        -21500.0,
+        -8149.522291780424
+      ],
+      [
+        103000.0,
+        21500.0,
+        9000.0
+      ]
+    ],
+    "total_member_volume_mm3": 1945377102241.2634,
+    "max_member_endpoint_error_mm": 1.9121031111015908e-11,
+    "endpoint_checks": [
+      {
+        "member": "leaf_lower_chord_001",
+        "endpoint_error_mm": 1.7280399333685637e-11
+      },
+      {
+        "member": "leaf_vertical_001",
+        "endpoint_error_mm": 4.712048740614028e-13
+      },
+      {
+        "member": "leaf_diagonal_001",
+        "endpoint_error_mm": 2.033691978340166e-12
+      },
+      {
+        "member": "leaf_lower_chord_002",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_002",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_002",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "leaf_lower_chord_003",
+        "endpoint_error_mm": 1.7659192816561335e-11
+      },
+      {
+        "member": "leaf_vertical_003",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_003",
+        "endpoint_error_mm": 3.637978807091713e-12
+      },
+      {
+        "member": "leaf_lower_chord_004",
+        "endpoint_error_mm": 1.8749713606747085e-11
+      },
+      {
+        "member": "leaf_vertical_004",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_004",
+        "endpoint_error_mm": 5.145192977524232e-12
+      },
+      {
+        "member": "leaf_lower_chord_005",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_005",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_005",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_lower_chord_006",
+        "endpoint_error_mm": 6.558459564010244e-12
+      },
+      {
+        "member": "leaf_vertical_006",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_006",
+        "endpoint_error_mm": 3.637978807091713e-12
+      },
+      {
+        "member": "leaf_upper_chord_001",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_lower_chord_007",
+        "endpoint_error_mm": 1.7304316852860617e-11
+      },
+      {
+        "member": "leaf_vertical_007",
+        "endpoint_error_mm": 1.024311791346878e-12
+      },
+      {
+        "member": "leaf_diagonal_007",
+        "endpoint_error_mm": 2.033691978340166e-12
+      },
+      {
+        "member": "leaf_lower_chord_008",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_008",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_008",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "leaf_lower_chord_009",
+        "endpoint_error_mm": 1.7659192816561335e-11
+      },
+      {
+        "member": "leaf_vertical_009",
+        "endpoint_error_mm": 1.2862197421537486e-12
+      },
+      {
+        "member": "leaf_diagonal_009",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_lower_chord_010",
+        "endpoint_error_mm": 1.8749713606747085e-11
+      },
+      {
+        "member": "leaf_vertical_010",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_010",
+        "endpoint_error_mm": 3.638422869199817e-12
+      },
+      {
+        "member": "leaf_lower_chord_011",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_011",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_011",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_lower_chord_012",
+        "endpoint_error_mm": 5.532240293449121e-12
+      },
+      {
+        "member": "leaf_vertical_012",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_012",
+        "endpoint_error_mm": 1.2862197421537486e-12
+      },
+      {
+        "member": "leaf_upper_chord_002",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_lower_chord_013",
+        "endpoint_error_mm": 1.7280399333685637e-11
+      },
+      {
+        "member": "leaf_vertical_013",
+        "endpoint_error_mm": 4.712048740614028e-13
+      },
+      {
+        "member": "leaf_diagonal_013",
+        "endpoint_error_mm": 2.033691978340166e-12
+      },
+      {
+        "member": "leaf_lower_chord_014",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_014",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_014",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "leaf_lower_chord_015",
+        "endpoint_error_mm": 1.7682597986298407e-11
+      },
+      {
+        "member": "leaf_vertical_015",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_015",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_lower_chord_016",
+        "endpoint_error_mm": 1.8749713606747085e-11
+      },
+      {
+        "member": "leaf_vertical_016",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_016",
+        "endpoint_error_mm": 3.638422869199817e-12
+      },
+      {
+        "member": "leaf_lower_chord_017",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_017",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_017",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_lower_chord_018",
+        "endpoint_error_mm": 5.4569682106375694e-12
+      },
+      {
+        "member": "leaf_vertical_018",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_018",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_upper_chord_003",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_lower_chord_019",
+        "endpoint_error_mm": 1.7280399333685637e-11
+      },
+      {
+        "member": "leaf_vertical_019",
+        "endpoint_error_mm": 4.712048740614028e-13
+      },
+      {
+        "member": "leaf_diagonal_019",
+        "endpoint_error_mm": 2.033691978340166e-12
+      },
+      {
+        "member": "leaf_lower_chord_020",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_020",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_020",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "leaf_lower_chord_021",
+        "endpoint_error_mm": 1.7659192816561335e-11
+      },
+      {
+        "member": "leaf_vertical_021",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_021",
+        "endpoint_error_mm": 3.637978807091713e-12
+      },
+      {
+        "member": "leaf_lower_chord_022",
+        "endpoint_error_mm": 1.8749713606747085e-11
+      },
+      {
+        "member": "leaf_vertical_022",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_022",
+        "endpoint_error_mm": 5.145192977524232e-12
+      },
+      {
+        "member": "leaf_lower_chord_023",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_023",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_023",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_lower_chord_024",
+        "endpoint_error_mm": 6.558459564010244e-12
+      },
+      {
+        "member": "leaf_vertical_024",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_024",
+        "endpoint_error_mm": 3.637978807091713e-12
+      },
+      {
+        "member": "leaf_upper_chord_004",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_lower_chord_025",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_025",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_025",
+        "endpoint_error_mm": 7.332580706405269e-12
+      },
+      {
+        "member": "leaf_lower_chord_026",
+        "endpoint_error_mm": 1.9099388737231493e-11
+      },
+      {
+        "member": "leaf_vertical_026",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_026",
+        "endpoint_error_mm": 3.749942721349417e-12
+      },
+      {
+        "member": "leaf_lower_chord_027",
+        "endpoint_error_mm": 5.4569682106375694e-12
+      },
+      {
+        "member": "leaf_vertical_027",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_027",
+        "endpoint_error_mm": 3.637978807091713e-12
+      },
+      {
+        "member": "leaf_lower_chord_028",
+        "endpoint_error_mm": 6.366462912410498e-12
+      },
+      {
+        "member": "leaf_vertical_028",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_028",
+        "endpoint_error_mm": 2.7284841053187847e-12
+      },
+      {
+        "member": "leaf_lower_chord_029",
+        "endpoint_error_mm": 5.4569682106375694e-12
+      },
+      {
+        "member": "leaf_vertical_029",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_029",
+        "endpoint_error_mm": 1.4580309236299762e-11
+      },
+      {
+        "member": "leaf_lower_chord_030",
+        "endpoint_error_mm": 4.547473508864641e-12
+      },
+      {
+        "member": "leaf_vertical_030",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_030",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_upper_chord_005",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_lower_chord_031",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_031",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_031",
+        "endpoint_error_mm": 7.332580706405269e-12
+      },
+      {
+        "member": "leaf_lower_chord_032",
+        "endpoint_error_mm": 1.9121031111015908e-11
+      },
+      {
+        "member": "leaf_vertical_032",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_032",
+        "endpoint_error_mm": 1.2862197421537486e-12
+      },
+      {
+        "member": "leaf_lower_chord_033",
+        "endpoint_error_mm": 5.4569682106375694e-12
+      },
+      {
+        "member": "leaf_vertical_033",
+        "endpoint_error_mm": 1.2862197421537486e-12
+      },
+      {
+        "member": "leaf_diagonal_033",
+        "endpoint_error_mm": 2.033691978340166e-12
+      },
+      {
+        "member": "leaf_lower_chord_034",
+        "endpoint_error_mm": 6.431098710768743e-12
+      },
+      {
+        "member": "leaf_vertical_034",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_034",
+        "endpoint_error_mm": 2.7284841053187847e-12
+      },
+      {
+        "member": "leaf_lower_chord_035",
+        "endpoint_error_mm": 5.532240293449121e-12
+      },
+      {
+        "member": "leaf_vertical_035",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_035",
+        "endpoint_error_mm": 1.4608648056499997e-11
+      },
+      {
+        "member": "leaf_lower_chord_036",
+        "endpoint_error_mm": 4.547473508864641e-12
+      },
+      {
+        "member": "leaf_vertical_036",
+        "endpoint_error_mm": 1.2862197421537486e-12
+      },
+      {
+        "member": "leaf_diagonal_036",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_upper_chord_006",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_lower_chord_037",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_037",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_037",
+        "endpoint_error_mm": 7.332580706405269e-12
+      },
+      {
+        "member": "leaf_lower_chord_038",
+        "endpoint_error_mm": 1.9099388737231493e-11
+      },
+      {
+        "member": "leaf_vertical_038",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_038",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_lower_chord_039",
+        "endpoint_error_mm": 5.4569682106375694e-12
+      },
+      {
+        "member": "leaf_vertical_039",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_039",
+        "endpoint_error_mm": 2.033691978340166e-12
+      },
+      {
+        "member": "leaf_lower_chord_040",
+        "endpoint_error_mm": 6.366462912410498e-12
+      },
+      {
+        "member": "leaf_vertical_040",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_040",
+        "endpoint_error_mm": 2.7284841053187847e-12
+      },
+      {
+        "member": "leaf_lower_chord_041",
+        "endpoint_error_mm": 5.4569682106375694e-12
+      },
+      {
+        "member": "leaf_vertical_041",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_041",
+        "endpoint_error_mm": 1.4608648056499997e-11
+      },
+      {
+        "member": "leaf_lower_chord_042",
+        "endpoint_error_mm": 4.547473508864641e-12
+      },
+      {
+        "member": "leaf_vertical_042",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_042",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_upper_chord_007",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_lower_chord_043",
+        "endpoint_error_mm": 1.8189894035458565e-11
+      },
+      {
+        "member": "leaf_vertical_043",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_043",
+        "endpoint_error_mm": 7.332580706405269e-12
+      },
+      {
+        "member": "leaf_lower_chord_044",
+        "endpoint_error_mm": 1.9099388737231493e-11
+      },
+      {
+        "member": "leaf_vertical_044",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_044",
+        "endpoint_error_mm": 3.749942721349417e-12
+      },
+      {
+        "member": "leaf_lower_chord_045",
+        "endpoint_error_mm": 5.4569682106375694e-12
+      },
+      {
+        "member": "leaf_vertical_045",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_045",
+        "endpoint_error_mm": 3.637978807091713e-12
+      },
+      {
+        "member": "leaf_lower_chord_046",
+        "endpoint_error_mm": 6.366462912410498e-12
+      },
+      {
+        "member": "leaf_vertical_046",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_046",
+        "endpoint_error_mm": 2.7284841053187847e-12
+      },
+      {
+        "member": "leaf_lower_chord_047",
+        "endpoint_error_mm": 5.4569682106375694e-12
+      },
+      {
+        "member": "leaf_vertical_047",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "leaf_diagonal_047",
+        "endpoint_error_mm": 1.4580309236299762e-11
+      },
+      {
+        "member": "leaf_lower_chord_048",
+        "endpoint_error_mm": 4.547473508864641e-12
+      },
+      {
+        "member": "leaf_vertical_048",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_diagonal_048",
+        "endpoint_error_mm": 9.094947017729282e-13
+      },
+      {
+        "member": "leaf_upper_chord_008",
+        "endpoint_error_mm": 0.0
+      }
+    ],
+    "bodies": [
+      {
+        "area_mm2": 3450400000.0,
+        "bbox": {
+          "max": [
+            50000.0,
+            17000.0,
+            5.684341886080802e-14
+          ],
+          "min": [
+            0.0,
+            -17000.000000000004,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          25000.0,
+          -6.535947712418302e-13,
+          -149.99999999999997
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "deck_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 510000000000.0
+      },
+      {
+        "area_mm2": 8133559.170550039,
+        "bbox": {
+          "max": [
+            8345.295116675767,
+            -16910.0,
+            -7183.811041552933
+          ],
+          "min": [
+            -11.96178334243318,
+            -17090.0,
+            -8149.5222917804185
+          ]
+        },
+        "center_of_mass": [
+          4166.666666666441,
+          -16999.999999998443,
+          -7666.6666666659785
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34360504
+      },
+      {
+        "area_mm2": 4978400.0,
+        "bbox": {
+          "max": [
+            90.00000000000047,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            -90.0,
+            -17070.0,
+            -8000.0
+          ]
+        },
+        "center_of_mass": [
+          -1.3761534147276436e-13,
+          -17000.000000000007,
+          -4150.000000000001
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 194039999.99999857
+      },
+      {
+        "area_mm2": 4820462.75722008,
+        "bbox": {
+          "max": [
+            8378.482110585297,
+            -16960.0,
+            -246.5061880900912
+          ],
+          "min": [
+            -45.14877725196311,
+            -17040.0,
+            -7386.827145243242
+          ]
+        },
+        "center_of_mass": [
+          4166.6666666663505,
+          -17000.00000000133,
+          -3816.6666666663514
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 122132506.54738863
+      },
+      {
+        "area_mm2": 8133559.170550035,
+        "bbox": {
+          "max": [
+            16678.6284500091,
+            -16910.0,
+            -6517.144374886266
+          ],
+          "min": [
+            8321.371549990901,
+            -17090.0,
+            -7482.855625113752
+          ]
+        },
+        "center_of_mass": [
+          12500.000000000542,
+          -17000.000000001033,
+          -7000.000000000482
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34333163
+      },
+      {
+        "area_mm2": 4551733.333333333,
+        "bbox": {
+          "max": [
+            8423.333333333334,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            8243.333333333334,
+            -17070.0,
+            -7333.333333333333
+          ]
+        },
+        "center_of_mass": [
+          8333.333333332463,
+          -16999.99999999814,
+          -3816.6666666668193
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 177240000.0000782
+      },
+      {
+        "area_mm2": 4636716.080297142,
+        "bbox": {
+          "max": [
+            16709.163394225197,
+            -16960.0,
+            -244.37601104904388
+          ],
+          "min": [
+            8290.836605774804,
+            -17040.0,
+            -6722.290655617622
+          ]
+        },
+        "center_of_mass": [
+          12499.999999999456,
+          -17000.000000000575,
+          -3483.3333333328032
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 117455318.40755208
+      },
+      {
+        "area_mm2": 8133559.17055005,
+        "bbox": {
+          "max": [
+            25011.961783342435,
+            -16910.0,
+            -5850.477708219599
+          ],
+          "min": [
+            16654.704883324233,
+            -17090.0,
+            -6816.188958447085
+          ]
+        },
+        "center_of_mass": [
+          20833.333333334398,
+          -17000.000000000102,
+          -6333.333333333269
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34342194
+      },
+      {
+        "area_mm2": 4125066.666666666,
+        "bbox": {
+          "max": [
+            16756.666666666668,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            16576.666666666668,
+            -17070.0,
+            -6666.666666666666
+          ]
+        },
+        "center_of_mass": [
+          16666.666666666184,
+          -16999.999999999614,
+          -3483.3333333334913
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 160440000.00001588
+      },
+      {
+        "area_mm2": 4464753.930569264,
+        "bbox": {
+          "max": [
+            25039.519588655894,
+            -16960.0,
+            -242.22282360249164
+          ],
+          "min": [
+            16627.147078010774,
+            -17040.0,
+            -6057.777176397509
+          ]
+        },
+        "center_of_mass": [
+          20833.33333333688,
+          -17000.00000000339,
+          -3150.000000000217
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 113078100.050759
+      },
+      {
+        "area_mm2": 8133559.170550045,
+        "bbox": {
+          "max": [
+            33345.29511667577,
+            -16910.0,
+            -5183.811041552933
+          ],
+          "min": [
+            24988.038216657565,
+            -17090.0,
+            -6149.5222917804185
+          ]
+        },
+        "center_of_mass": [
+          29166.66666667069,
+          -17000.00000000242,
+          -5666.66666666745
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34317845
+      },
+      {
+        "area_mm2": 3698399.9999999995,
+        "bbox": {
+          "max": [
+            25090.0,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            24910.0,
+            -17070.0,
+            -6000.0
+          ]
+        },
+        "center_of_mass": [
+          25000.0,
+          -17000.0,
+          -3149.999999999982
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 143640000.0
+      },
+      {
+        "area_mm2": 4305995.789624547,
+        "bbox": {
+          "max": [
+            33369.52411189423,
+            -16960.0,
+            -240.08149244885547
+          ],
+          "min": [
+            24963.809221439107,
+            -17040.0,
+            -5393.251840884476
+          ]
+        },
+        "center_of_mass": [
+          29166.666666667694,
+          -17000.00000000349,
+          -2816.666666664395
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 109036983.73581187
+      },
+      {
+        "area_mm2": 8133559.170550045,
+        "bbox": {
+          "max": [
+            41678.628450009106,
+            -16910.0,
+            -4517.144374886266
+          ],
+          "min": [
+            33321.3715499909,
+            -17090.0,
+            -5482.855625113752
+          ]
+        },
+        "center_of_mass": [
+          37499.99999999528,
+          -16999.999999998494,
+          -4999.999999999644
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3436019
+      },
+      {
+        "area_mm2": 3271733.3333333326,
+        "bbox": {
+          "max": [
+            33423.333333333336,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            33243.333333333336,
+            -17070.0,
+            -5333.333333333333
+          ]
+        },
+        "center_of_mass": [
+          33333.33333332556,
+          -16999.99999999595,
+          -2816.6666666678902
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 126840000.00012334
+      },
+      {
+        "area_mm2": 4161961.1146861706,
+        "bbox": {
+          "max": [
+            41699.156423335844,
+            -16960.0,
+            -237.99664757791066
+          ],
+          "min": [
+            33300.84357666416,
+            -17040.0,
+            -4728.670019088755
+          ]
+        },
+        "center_of_mass": [
+          37500.00000001668,
+          -17000.00000001031,
+          -2483.3333333319156
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 105370646.55539258
+      },
+      {
+        "area_mm2": 8133559.170550044,
+        "bbox": {
+          "max": [
+            50011.961783342435,
+            -16910.0,
+            -3850.4777082195756
+          ],
+          "min": [
+            41654.70488332424,
+            -17090.0,
+            -4816.188958447085
+          ]
+        },
+        "center_of_mass": [
+          45833.333333341,
+          -17000.000000003165,
+          -4333.333333334215
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34310406
+      },
+      {
+        "area_mm2": 2845066.666666666,
+        "bbox": {
+          "max": [
+            41756.66666666667,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            41576.66666666667,
+            -17070.0,
+            -4666.666666666666
+          ]
+        },
+        "center_of_mass": [
+          41666.66666667912,
+          -17000.00000000487,
+          -2483.33333333208
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 110039999.99987411
+      },
+      {
+        "area_mm2": 4034236.0440631527,
+        "bbox": {
+          "max": [
+            50028.40594649142,
+            -16960.0,
+            -236.02264303734717
+          ],
+          "min": [
+            41638.260720175254,
+            -17040.0,
+            -4063.9773569626536
+          ]
+        },
+        "center_of_mass": [
+          45833.33333334607,
+          -17000.00000000794,
+          -2149.999999997291
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 102119462.93959935
+      },
+      {
+        "area_mm2": 48108000.0,
+        "bbox": {
+          "max": [
+            50000.0,
+            -16910.0,
+            0.0
+          ],
+          "min": [
+            0.0,
+            -17090.0,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          25000.0,
+          -17000.0,
+          -150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_upper_chord_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2700000000.0
+      },
+      {
+        "area_mm2": 8133559.170550039,
+        "bbox": {
+          "max": [
+            8345.295116675767,
+            -5576.666666666666,
+            -7183.811041552933
+          ],
+          "min": [
+            -11.96178334243318,
+            -5756.666666666666,
+            -8149.5222917804185
+          ]
+        },
+        "center_of_mass": [
+          4166.666666666504,
+          -5666.666666666595,
+          -7666.666666666599
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_007",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3434639
+      },
+      {
+        "area_mm2": 4978400.0,
+        "bbox": {
+          "max": [
+            90.00000000000047,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            -90.0,
+            -5736.666666666666,
+            -8000.0
+          ]
+        },
+        "center_of_mass": [
+          8.846700523249074e-14,
+          -5666.666666666667,
+          -4150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_007",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 194039999.99999997
+      },
+      {
+        "area_mm2": 4820462.75722008,
+        "bbox": {
+          "max": [
+            8378.482110585297,
+            -5626.666666666666,
+            -246.5061880900912
+          ],
+          "min": [
+            -45.14877725196311,
+            -5706.666666666666,
+            -7386.827145243242
+          ]
+        },
+        "center_of_mass": [
+          4166.666666666849,
+          -5666.6666666664105,
+          -3816.6666666668098
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_007",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 122132506.54744078
+      },
+      {
+        "area_mm2": 8133559.170550035,
+        "bbox": {
+          "max": [
+            16678.6284500091,
+            -5576.666666666666,
+            -6517.144374886266
+          ],
+          "min": [
+            8321.371549990901,
+            -5756.666666666666,
+            -7482.855625113752
+          ]
+        },
+        "center_of_mass": [
+          12499.999999999765,
+          -5666.666666666596,
+          -6999.999999999929
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_008",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34346515
+      },
+      {
+        "area_mm2": 4551733.333333333,
+        "bbox": {
+          "max": [
+            8423.333333333334,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            8243.333333333334,
+            -5736.666666666666,
+            -7333.333333333333
+          ]
+        },
+        "center_of_mass": [
+          8333.33333333332,
+          -5666.666666666668,
+          -3816.666666666665
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_008",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 177239999.99999905
+      },
+      {
+        "area_mm2": 4636716.080297142,
+        "bbox": {
+          "max": [
+            16709.163394225197,
+            -5626.666666666666,
+            -244.37601104904388
+          ],
+          "min": [
+            8290.836605774804,
+            -5706.666666666666,
+            -6722.290655617622
+          ]
+        },
+        "center_of_mass": [
+          12500.000000000402,
+          -5666.666666666981,
+          -3483.333333333347
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_008",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 117455318.40753841
+      },
+      {
+        "area_mm2": 8133559.17055005,
+        "bbox": {
+          "max": [
+            25011.961783342435,
+            -5576.666666666666,
+            -5850.477708219599
+          ],
+          "min": [
+            16654.704883324233,
+            -5756.666666666666,
+            -6816.188958447085
+          ]
+        },
+        "center_of_mass": [
+          20833.3333333344,
+          -5666.666666666952,
+          -6333.333333333642
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_009",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34335136
+      },
+      {
+        "area_mm2": 4125066.666666666,
+        "bbox": {
+          "max": [
+            16756.666666666668,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            16576.666666666668,
+            -5736.666666666666,
+            -6666.666666666666
+          ]
+        },
+        "center_of_mass": [
+          16666.66666666486,
+          -5666.666666666078,
+          -3483.333333333361
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_009",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 160440000.00006676
+      },
+      {
+        "area_mm2": 4464753.930569264,
+        "bbox": {
+          "max": [
+            25039.519588655894,
+            -5626.666666666666,
+            -242.22282360249164
+          ],
+          "min": [
+            16627.147078010774,
+            -5706.666666666666,
+            -6057.777176397509
+          ]
+        },
+        "center_of_mass": [
+          20833.333333334842,
+          -5666.666666667426,
+          -3149.999999999509
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_009",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 113078100.05079205
+      },
+      {
+        "area_mm2": 8133559.170550045,
+        "bbox": {
+          "max": [
+            33345.29511667577,
+            -5576.666666666666,
+            -5183.811041552933
+          ],
+          "min": [
+            24988.038216657565,
+            -5756.666666666666,
+            -6149.5222917804185
+          ]
+        },
+        "center_of_mass": [
+          29166.666666667737,
+          -5666.666666666752,
+          -5666.6666666666715
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_010",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3434188
+      },
+      {
+        "area_mm2": 3698399.9999999995,
+        "bbox": {
+          "max": [
+            25090.0,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            24910.0,
+            -5736.666666666666,
+            -6000.0
+          ]
+        },
+        "center_of_mass": [
+          25000.00000000186,
+          -5666.666666667075,
+          -3150.0000000002215
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_010",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 143639999.99995932
+      },
+      {
+        "area_mm2": 4305995.789624547,
+        "bbox": {
+          "max": [
+            33369.52411189423,
+            -5626.666666666666,
+            -240.08149244885547
+          ],
+          "min": [
+            24963.809221439107,
+            -5706.666666666666,
+            -5393.251840884476
+          ]
+        },
+        "center_of_mass": [
+          29166.66666666792,
+          -5666.666666667088,
+          -2816.6666666662695
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_010",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 109036983.73586781
+      },
+      {
+        "area_mm2": 8133559.170550045,
+        "bbox": {
+          "max": [
+            41678.628450009106,
+            -5576.666666666666,
+            -4517.144374886266
+          ],
+          "min": [
+            33321.3715499909,
+            -5756.666666666666,
+            -5482.855625113752
+          ]
+        },
+        "center_of_mass": [
+          37500.00000000227,
+          -5666.666666667005,
+          -5000.000000000337
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_011",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34333104
+      },
+      {
+        "area_mm2": 3271733.3333333326,
+        "bbox": {
+          "max": [
+            33423.333333333336,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            33243.333333333336,
+            -5736.666666666666,
+            -5333.333333333333
+          ]
+        },
+        "center_of_mass": [
+          33333.333333331226,
+          -5666.66666666633,
+          -2816.666666666995
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_011",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 126840000.00003052
+      },
+      {
+        "area_mm2": 4161961.1146861706,
+        "bbox": {
+          "max": [
+            41699.156423335844,
+            -5626.666666666666,
+            -237.99664757791066
+          ],
+          "min": [
+            33300.84357666416,
+            -5706.666666666666,
+            -4728.670019088755
+          ]
+        },
+        "center_of_mass": [
+          37499.99999999961,
+          -5666.666666666596,
+          -2483.3333333334926
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_011",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 105370646.55565389
+      },
+      {
+        "area_mm2": 8133559.170550044,
+        "bbox": {
+          "max": [
+            50011.961783342435,
+            -5576.666666666666,
+            -3850.4777082195756
+          ],
+          "min": [
+            41654.70488332424,
+            -5756.666666666666,
+            -4816.188958447085
+          ]
+        },
+        "center_of_mass": [
+          45833.33333333707,
+          -5666.666666667161,
+          -4333.333333333705
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_012",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3432846
+      },
+      {
+        "area_mm2": 2845066.666666666,
+        "bbox": {
+          "max": [
+            41756.66666666667,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            41576.66666666667,
+            -5736.666666666666,
+            -4666.666666666666
+          ]
+        },
+        "center_of_mass": [
+          41666.66666666941,
+          -5666.666666667037,
+          -2483.333333333023
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_012",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 110039999.99997075
+      },
+      {
+        "area_mm2": 4034236.0440631527,
+        "bbox": {
+          "max": [
+            50028.40594649142,
+            -5626.666666666666,
+            -236.02264303734717
+          ],
+          "min": [
+            41638.260720175254,
+            -5706.666666666666,
+            -4063.9773569626536
+          ]
+        },
+        "center_of_mass": [
+          45833.33333332887,
+          -5666.666666665861,
+          -2150.000000000488
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_012",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 102119462.9398454
+      },
+      {
+        "area_mm2": 48108000.0,
+        "bbox": {
+          "max": [
+            50000.0,
+            -5576.666666666666,
+            0.0
+          ],
+          "min": [
+            0.0,
+            -5756.666666666666,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          24999.999999999985,
+          -5666.666666666663,
+          -150.0000000000002
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_upper_chord_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2700000000.0000052
+      },
+      {
+        "area_mm2": 8133559.170550039,
+        "bbox": {
+          "max": [
+            8345.295116675767,
+            5756.666666666668,
+            -7183.811041552933
+          ],
+          "min": [
+            -11.96178334243318,
+            5576.666666666668,
+            -8149.5222917804185
+          ]
+        },
+        "center_of_mass": [
+          4166.666666666605,
+          5666.6666666665315,
+          -7666.666666666491
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_013",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3434804
+      },
+      {
+        "area_mm2": 4978400.0,
+        "bbox": {
+          "max": [
+            90.00000000000047,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            -90.0,
+            5596.666666666668,
+            -8000.0
+          ]
+        },
+        "center_of_mass": [
+          3.325704085591776e-13,
+          5666.666666666664,
+          -4150.000000000007
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_013",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 194040000.00000027
+      },
+      {
+        "area_mm2": 4820462.75722008,
+        "bbox": {
+          "max": [
+            8378.482110585297,
+            5706.666666666668,
+            -246.5061880900912
+          ],
+          "min": [
+            -45.14877725196311,
+            5626.666666666668,
+            -7386.827145243242
+          ]
+        },
+        "center_of_mass": [
+          4166.666666666799,
+          5666.666666666557,
+          -3816.666666666776
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_013",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 122132506.5474322
+      },
+      {
+        "area_mm2": 8133559.170550035,
+        "bbox": {
+          "max": [
+            16678.6284500091,
+            5756.666666666668,
+            -6517.144374886266
+          ],
+          "min": [
+            8321.371549990901,
+            5576.666666666668,
+            -7482.855625113752
+          ]
+        },
+        "center_of_mass": [
+          12500.000000000176,
+          5666.666666666684,
+          -7000.000000000015
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_014",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34343654
+      },
+      {
+        "area_mm2": 4551733.333333333,
+        "bbox": {
+          "max": [
+            8423.333333333334,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            8243.333333333334,
+            5596.666666666668,
+            -7333.333333333333
+          ]
+        },
+        "center_of_mass": [
+          8333.333333333097,
+          5666.666666666515,
+          -3816.666666666542
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_014",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 177240000.00001875
+      },
+      {
+        "area_mm2": 4636716.080297142,
+        "bbox": {
+          "max": [
+            16709.163394225197,
+            5706.666666666668,
+            -244.37601104904388
+          ],
+          "min": [
+            8290.836605774804,
+            5626.666666666668,
+            -6722.290655617622
+          ]
+        },
+        "center_of_mass": [
+          12499.999999999023,
+          5666.666666666128,
+          -3483.333333333128
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_014",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 117455318.40760803
+      },
+      {
+        "area_mm2": 8133559.17055005,
+        "bbox": {
+          "max": [
+            25011.961783342435,
+            5756.666666666668,
+            -5850.477708219599
+          ],
+          "min": [
+            16654.704883324233,
+            5576.666666666668,
+            -6816.188958447085
+          ]
+        },
+        "center_of_mass": [
+          20833.333333332786,
+          5666.666666666528,
+          -6333.3333333331875
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_015",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3434849
+      },
+      {
+        "area_mm2": 4125066.666666666,
+        "bbox": {
+          "max": [
+            16756.666666666668,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            16576.666666666668,
+            5596.666666666668,
+            -6666.666666666666
+          ]
+        },
+        "center_of_mass": [
+          16666.66666666715,
+          5666.666666666819,
+          -3483.333333333219
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_015",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 160439999.99998283
+      },
+      {
+        "area_mm2": 4464753.930569264,
+        "bbox": {
+          "max": [
+            25039.519588655894,
+            5706.666666666668,
+            -242.22282360249164
+          ],
+          "min": [
+            16627.147078010774,
+            5626.666666666668,
+            -6057.777176397509
+          ]
+        },
+        "center_of_mass": [
+          20833.333333331935,
+          5666.66666666595,
+          -3150.000000000515
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_015",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 113078100.05091159
+      },
+      {
+        "area_mm2": 8133559.170550045,
+        "bbox": {
+          "max": [
+            33345.29511667577,
+            5756.666666666668,
+            -5183.811041552933
+          ],
+          "min": [
+            24988.038216657565,
+            5576.666666666668,
+            -6149.5222917804185
+          ]
+        },
+        "center_of_mass": [
+          29166.666666667672,
+          5666.666666666885,
+          -5666.666666666885
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_016",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3433755
+      },
+      {
+        "area_mm2": 3698399.9999999995,
+        "bbox": {
+          "max": [
+            25090.0,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            24910.0,
+            5596.666666666668,
+            -6000.0
+          ]
+        },
+        "center_of_mass": [
+          24999.999999999854,
+          5666.666666666667,
+          -3150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_016",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 143640000.0
+      },
+      {
+        "area_mm2": 4305995.789624547,
+        "bbox": {
+          "max": [
+            33369.52411189423,
+            5706.666666666668,
+            -240.08149244885547
+          ],
+          "min": [
+            24963.809221439107,
+            5626.666666666668,
+            -5393.251840884476
+          ]
+        },
+        "center_of_mass": [
+          29166.666666669724,
+          5666.666666667461,
+          -2816.6666666665233
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_016",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 109036983.73583858
+      },
+      {
+        "area_mm2": 8133559.170550045,
+        "bbox": {
+          "max": [
+            41678.628450009106,
+            5756.666666666668,
+            -4517.144374886266
+          ],
+          "min": [
+            33321.3715499909,
+            5576.666666666668,
+            -5482.855625113752
+          ]
+        },
+        "center_of_mass": [
+          37499.99999999763,
+          5666.666666666275,
+          -4999.999999999643
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_017",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3435624
+      },
+      {
+        "area_mm2": 3271733.3333333326,
+        "bbox": {
+          "max": [
+            33423.333333333336,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            33243.333333333336,
+            5596.666666666668,
+            -5333.333333333333
+          ]
+        },
+        "center_of_mass": [
+          33333.33333333684,
+          5666.666666667255,
+          -2816.666666666831
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_017",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 126839999.99994914
+      },
+      {
+        "area_mm2": 4161961.1146861706,
+        "bbox": {
+          "max": [
+            41699.156423335844,
+            5706.666666666668,
+            -237.99664757791066
+          ],
+          "min": [
+            33300.84357666416,
+            5626.666666666668,
+            -4728.670019088755
+          ]
+        },
+        "center_of_mass": [
+          37500.0000000038,
+          5666.666666666995,
+          -2483.333333334168
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_017",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 105370646.5556221
+      },
+      {
+        "area_mm2": 8133559.170550044,
+        "bbox": {
+          "max": [
+            50011.961783342435,
+            5756.666666666668,
+            -3850.4777082195756
+          ],
+          "min": [
+            41654.70488332424,
+            5576.666666666668,
+            -4816.188958447085
+          ]
+        },
+        "center_of_mass": [
+          45833.33333333272,
+          5666.666666666618,
+          -4333.333333333304
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_018",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3434556
+      },
+      {
+        "area_mm2": 2845066.666666666,
+        "bbox": {
+          "max": [
+            41756.66666666667,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            41576.66666666667,
+            5596.666666666668,
+            -4666.666666666666
+          ]
+        },
+        "center_of_mass": [
+          41666.66666667308,
+          5666.66666666757,
+          -2483.333333333231
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_018",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 110039999.99993007
+      },
+      {
+        "area_mm2": 4034236.0440631527,
+        "bbox": {
+          "max": [
+            50028.40594649142,
+            5706.666666666668,
+            -236.02264303734717
+          ],
+          "min": [
+            41638.260720175254,
+            5626.666666666668,
+            -4063.9773569626536
+          ]
+        },
+        "center_of_mass": [
+          45833.33333334077,
+          5666.666666667728,
+          -2149.9999999999545
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_018",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 102119462.9397157
+      },
+      {
+        "area_mm2": 48108000.0,
+        "bbox": {
+          "max": [
+            50000.0,
+            5756.666666666668,
+            0.0
+          ],
+          "min": [
+            0.0,
+            5576.666666666668,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          24999.999999999938,
+          5666.666666666653,
+          -149.99999999999955
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_upper_chord_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2700000000.00001
+      },
+      {
+        "area_mm2": 8133559.170550039,
+        "bbox": {
+          "max": [
+            8345.295116675767,
+            17090.0,
+            -7183.811041552933
+          ],
+          "min": [
+            -11.96178334243318,
+            16910.0,
+            -8149.5222917804185
+          ]
+        },
+        "center_of_mass": [
+          4166.666666666774,
+          16999.999999999367,
+          -7666.666666666347
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_019",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3435046
+      },
+      {
+        "area_mm2": 4978400.0,
+        "bbox": {
+          "max": [
+            90.00000000000047,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            -90.0,
+            16930.0,
+            -8000.0
+          ]
+        },
+        "center_of_mass": [
+          5.308020313949405e-13,
+          16999.999999999993,
+          -4149.999999999999
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_019",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 194040000.00000143
+      },
+      {
+        "area_mm2": 4820462.75722008,
+        "bbox": {
+          "max": [
+            8378.482110585297,
+            17040.0,
+            -246.5061880900912
+          ],
+          "min": [
+            -45.14877725196311,
+            16960.0,
+            -7386.827145243242
+          ]
+        },
+        "center_of_mass": [
+          4166.666666666263,
+          17000.000000000986,
+          -3816.666666666396
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_019",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 122132506.54738994
+      },
+      {
+        "area_mm2": 8133559.170550035,
+        "bbox": {
+          "max": [
+            16678.6284500091,
+            17090.0,
+            -6517.144374886266
+          ],
+          "min": [
+            8321.371549990901,
+            16910.0,
+            -7482.855625113752
+          ]
+        },
+        "center_of_mass": [
+          12500.000000000115,
+          17000.000000000244,
+          -7000.000000000135
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_020",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3434188
+      },
+      {
+        "area_mm2": 4551733.333333333,
+        "bbox": {
+          "max": [
+            8423.333333333334,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            8243.333333333334,
+            16930.0,
+            -7333.333333333333
+          ]
+        },
+        "center_of_mass": [
+          8333.333333332448,
+          16999.999999998054,
+          -3816.6666666667898
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_020",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 177240000.0000782
+      },
+      {
+        "area_mm2": 4636716.080297142,
+        "bbox": {
+          "max": [
+            16709.163394225197,
+            17040.0,
+            -244.37601104904388
+          ],
+          "min": [
+            8290.836605774804,
+            16960.0,
+            -6722.290655617622
+          ]
+        },
+        "center_of_mass": [
+          12499.999999998014,
+          16999.999999993706,
+          -3483.333333333982
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_020",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 117455318.40773773
+      },
+      {
+        "area_mm2": 8133559.17055005,
+        "bbox": {
+          "max": [
+            25011.961783342435,
+            17090.0,
+            -5850.477708219599
+          ],
+          "min": [
+            16654.704883324233,
+            16910.0,
+            -6816.188958447085
+          ]
+        },
+        "center_of_mass": [
+          20833.33333333093,
+          16999.999999997493,
+          -6333.333333332317
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_021",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3437106
+      },
+      {
+        "area_mm2": 4125066.666666666,
+        "bbox": {
+          "max": [
+            16756.666666666668,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            16576.666666666668,
+            16930.0,
+            -6666.666666666666
+          ]
+        },
+        "center_of_mass": [
+          16666.666666666253,
+          16999.999999999618,
+          -3483.3333333335513
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_021",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 160440000.00001463
+      },
+      {
+        "area_mm2": 4464753.930569264,
+        "bbox": {
+          "max": [
+            25039.519588655894,
+            17040.0,
+            -242.22282360249164
+          ],
+          "min": [
+            16627.147078010774,
+            16960.0,
+            -6057.777176397509
+          ]
+        },
+        "center_of_mass": [
+          20833.333333335286,
+          17000.000000002234,
+          -3149.999999999758
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_021",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 113078100.05079365
+      },
+      {
+        "area_mm2": 8133559.170550045,
+        "bbox": {
+          "max": [
+            33345.29511667577,
+            17090.0,
+            -5183.811041552933
+          ],
+          "min": [
+            24988.038216657565,
+            16910.0,
+            -6149.5222917804185
+          ]
+        },
+        "center_of_mass": [
+          29166.666666665515,
+          16999.99999999955,
+          -5666.666666666585
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_022",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34348994
+      },
+      {
+        "area_mm2": 3698399.9999999995,
+        "bbox": {
+          "max": [
+            25090.0,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            24910.0,
+            16930.0,
+            -6000.0
+          ]
+        },
+        "center_of_mass": [
+          25000.0,
+          16999.999999999927,
+          -3150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_022",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 143640000.0
+      },
+      {
+        "area_mm2": 4305995.789624547,
+        "bbox": {
+          "max": [
+            33369.52411189423,
+            17040.0,
+            -240.08149244885547
+          ],
+          "min": [
+            24963.809221439107,
+            16960.0,
+            -5393.251840884476
+          ]
+        },
+        "center_of_mass": [
+          29166.66666667068,
+          17000.000000004893,
+          -2816.6666666651086
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_022",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 109036983.735775
+      },
+      {
+        "area_mm2": 8133559.170550045,
+        "bbox": {
+          "max": [
+            41678.628450009106,
+            17090.0,
+            -4517.144374886266
+          ],
+          "min": [
+            33321.3715499909,
+            16910.0,
+            -5482.855625113752
+          ]
+        },
+        "center_of_mass": [
+          37499.99999999289,
+          16999.999999996802,
+          -4999.999999999075
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_023",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3437767
+      },
+      {
+        "area_mm2": 3271733.3333333326,
+        "bbox": {
+          "max": [
+            33423.333333333336,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            33243.333333333336,
+            16930.0,
+            -5333.333333333333
+          ]
+        },
+        "center_of_mass": [
+          33333.33333332522,
+          16999.99999999578,
+          -2816.6666666679853
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_023",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 126840000.00012462
+      },
+      {
+        "area_mm2": 4161961.1146861706,
+        "bbox": {
+          "max": [
+            41699.156423335844,
+            17040.0,
+            -237.99664757791066
+          ],
+          "min": [
+            33300.84357666416,
+            16960.0,
+            -4728.670019088755
+          ]
+        },
+        "center_of_mass": [
+          37499.999999993204,
+          16999.99999999841,
+          -2483.33333333132
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_023",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 105370646.55568631
+      },
+      {
+        "area_mm2": 8133559.170550044,
+        "bbox": {
+          "max": [
+            50011.961783342435,
+            17090.0,
+            -3850.4777082195756
+          ],
+          "min": [
+            41654.70488332424,
+            16910.0,
+            -4816.188958447085
+          ]
+        },
+        "center_of_mass": [
+          45833.33333333851,
+          17000.00000000201,
+          -4333.333333333951
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_024",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3432236
+      },
+      {
+        "area_mm2": 2845066.666666666,
+        "bbox": {
+          "max": [
+            41756.66666666667,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            41576.66666666667,
+            16930.0,
+            -4666.666666666666
+          ]
+        },
+        "center_of_mass": [
+          41666.66666667912,
+          17000.00000000487,
+          -2483.3333333320566
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_024",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 110039999.99987411
+      },
+      {
+        "area_mm2": 4034236.0440631527,
+        "bbox": {
+          "max": [
+            50028.40594649142,
+            17040.0,
+            -236.02264303734717
+          ],
+          "min": [
+            41638.260720175254,
+            16960.0,
+            -4063.9773569626536
+          ]
+        },
+        "center_of_mass": [
+          45833.33333336132,
+          17000.000000013075,
+          -2149.9999999981546
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_024",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 102119462.93947537
+      },
+      {
+        "area_mm2": 48108000.0,
+        "bbox": {
+          "max": [
+            50000.0,
+            17090.0,
+            0.0
+          ],
+          "min": [
+            0.0,
+            16910.0,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          25000.0,
+          17000.0,
+          -150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_upper_chord_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2700000000.0
+      },
+      {
+        "area_mm2": 3450400000.0,
+        "bbox": {
+          "max": [
+            100000.0,
+            17000.0,
+            5.684341886080802e-14
+          ],
+          "min": [
+            50000.0,
+            -17000.000000000004,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          75000.0,
+          -6.535947712418301e-13,
+          -150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "deck_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 510000000000.0
+      },
+      {
+        "area_mm2": 8133559.170550048,
+        "bbox": {
+          "max": [
+            58345.29511667577,
+            -16910.0,
+            -3850.477708219581
+          ],
+          "min": [
+            49988.038216657565,
+            -17090.0,
+            -4816.188958447067
+          ]
+        },
+        "center_of_mass": [
+          54166.666666672005,
+          -17000.000000002117,
+          -4333.333333333835
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_025",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3432229
+      },
+      {
+        "area_mm2": 2418400.0,
+        "bbox": {
+          "max": [
+            50090.0,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            49910.0,
+            -17070.0,
+            -4000.0
+          ]
+        },
+        "center_of_mass": [
+          50000.0,
+          -17000.0,
+          -2150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_025",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 93240000.0
+      },
+      {
+        "area_mm2": 4161961.1146861706,
+        "bbox": {
+          "max": [
+            58365.82309000251,
+            -16960.0,
+            -237.99664757791066
+          ],
+          "min": [
+            49967.51024333083,
+            -17040.0,
+            -4728.670019088755
+          ]
+        },
+        "center_of_mass": [
+          54166.666666695506,
+          -17000.000000009648,
+          -2483.333333333386
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_025",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 105370646.55540466
+      },
+      {
+        "area_mm2": 8133559.170550036,
+        "bbox": {
+          "max": [
+            66678.6284500091,
+            -16910.0,
+            -4517.144374886248
+          ],
+          "min": [
+            58321.3715499909,
+            -17090.0,
+            -5482.855625113734
+          ]
+        },
+        "center_of_mass": [
+          62499.9999999785,
+          -16999.99999999396,
+          -4999.999999998109
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_026",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3440806
+      },
+      {
+        "area_mm2": 2845066.666666667,
+        "bbox": {
+          "max": [
+            58423.333333333336,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            58243.333333333336,
+            -17070.0,
+            -4666.666666666667
+          ]
+        },
+        "center_of_mass": [
+          58333.33333333824,
+          -17000.000000001553,
+          -2483.3333333331157
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_026",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 110039999.9999593
+      },
+      {
+        "area_mm2": 4305995.789624547,
+        "bbox": {
+          "max": [
+            66702.85744522756,
+            -16960.0,
+            -240.08149244885547
+          ],
+          "min": [
+            58297.14255477244,
+            -17040.0,
+            -5393.251840884476
+          ]
+        },
+        "center_of_mass": [
+          62500.00000006368,
+          -17000.000000018823,
+          -2816.6666666656783
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_026",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 109036983.73540623
+      },
+      {
+        "area_mm2": 8133559.17055004,
+        "bbox": {
+          "max": [
+            75011.96178334244,
+            -16910.0,
+            -5183.811041552915
+          ],
+          "min": [
+            66654.70488332424,
+            -17090.0,
+            -6149.522291780424
+          ]
+        },
+        "center_of_mass": [
+          70833.33333335143,
+          -17000.00000000403,
+          -5666.666666668109
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_027",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34301376
+      },
+      {
+        "area_mm2": 3271733.333333334,
+        "bbox": {
+          "max": [
+            66756.66666666667,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            66576.66666666667,
+            -17070.0,
+            -5333.333333333334
+          ]
+        },
+        "center_of_mass": [
+          66666.66666663426,
+          -16999.999999991916,
+          -2816.6666666692113
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_027",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 126840000.00024414
+      },
+      {
+        "area_mm2": 4464753.9305692455,
+        "bbox": {
+          "max": [
+            75039.5195886559,
+            -16960.0,
+            -242.22282360249164
+          ],
+          "min": [
+            66627.14707801078,
+            -17040.0,
+            -6057.777176397511
+          ]
+        },
+        "center_of_mass": [
+          70833.33333331288,
+          -16999.999999995503,
+          -3149.9999999983997
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_027",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 113078100.05098088
+      },
+      {
+        "area_mm2": 8133559.170550066,
+        "bbox": {
+          "max": [
+            83345.29511667578,
+            -16910.0,
+            -5850.477708219581
+          ],
+          "min": [
+            74988.03821665757,
+            -17090.0,
+            -6816.188958447092
+          ]
+        },
+        "center_of_mass": [
+          79166.6666667114,
+          -17000.00000000929,
+          -6333.333333336969
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_028",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3424632
+      },
+      {
+        "area_mm2": 3698399.9999999995,
+        "bbox": {
+          "max": [
+            75090.0,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            74910.0,
+            -17070.0,
+            -6000.0
+          ]
+        },
+        "center_of_mass": [
+          75000.0,
+          -17000.0,
+          -3150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_028",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 143640000.0
+      },
+      {
+        "area_mm2": 4636716.080297236,
+        "bbox": {
+          "max": [
+            83375.83006089187,
+            -16960.0,
+            -244.37601104904405
+          ],
+          "min": [
+            74957.50327244146,
+            -17040.0,
+            -6722.290655617626
+          ]
+        },
+        "center_of_mass": [
+          79166.66666666172,
+          -17000.000000000364,
+          -3483.333333328498
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_028",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 117455318.40756734
+      },
+      {
+        "area_mm2": 8133559.1705500195,
+        "bbox": {
+          "max": [
+            91678.6284500091,
+            -16910.0,
+            -6517.144374886249
+          ],
+          "min": [
+            83321.37154999092,
+            -17090.0,
+            -7482.855625113758
+          ]
+        },
+        "center_of_mass": [
+          87499.99999992755,
+          -16999.9999999855,
+          -6999.999999994196
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_029",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3449707
+      },
+      {
+        "area_mm2": 4125066.6666666674,
+        "bbox": {
+          "max": [
+            83423.33333333334,
+            -16930.0,
+            -300.0
+          ],
+          "min": [
+            83243.33333333334,
+            -17070.0,
+            -6666.666666666668
+          ]
+        },
+        "center_of_mass": [
+          83333.33333336926,
+          -17000.000000007924,
+          -3483.33333333009
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_029",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 160439999.99969482
+      },
+      {
+        "area_mm2": 4820462.757220033,
+        "bbox": {
+          "max": [
+            91711.81544391863,
+            -16960.0,
+            -246.50618809009103
+          ],
+          "min": [
+            83288.18455608138,
+            -17040.0,
+            -7386.827145243245
+          ]
+        },
+        "center_of_mass": [
+          87499.99999976516,
+          -16999.99999995136,
+          -3816.6666666664814
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_029",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 122132506.54880778
+      },
+      {
+        "area_mm2": 8133559.17055004,
+        "bbox": {
+          "max": [
+            100011.96178334244,
+            -16910.0,
+            -7183.811041552915
+          ],
+          "min": [
+            91654.70488332424,
+            -17090.0,
+            -8149.522291780424
+          ]
+        },
+        "center_of_mass": [
+          95833.33333336012,
+          -17000.000000004704,
+          -7666.666666668914
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_030",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3429362
+      },
+      {
+        "area_mm2": 4551733.333333334,
+        "bbox": {
+          "max": [
+            91756.66666666667,
+            -16930.0,
+            -299.9999999999982
+          ],
+          "min": [
+            91576.66666666667,
+            -17070.0,
+            -7333.333333333336
+          ]
+        },
+        "center_of_mass": [
+          91666.66666662281,
+          -16999.99999999225,
+          -3816.6666666702517
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_030",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 177240000.0003357
+      },
+      {
+        "area_mm2": 5014692.9045124445,
+        "bbox": {
+          "max": [
+            100047.50522546176,
+            -16960.0,
+            -248.5874183314292
+          ],
+          "min": [
+            91619.16144120491,
+            -17040.0,
+            -8051.41258166857
+          ]
+        },
+        "center_of_mass": [
+          95833.33333319881,
+          -16999.99999997607,
+          -4149.999999999025
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_030",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 127076546.66105144
+      },
+      {
+        "area_mm2": 48108000.0,
+        "bbox": {
+          "max": [
+            100000.0,
+            -16910.0,
+            0.0
+          ],
+          "min": [
+            50000.0,
+            -17090.0,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          75000.0,
+          -17000.0,
+          -150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_upper_chord_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2700000000.0
+      },
+      {
+        "area_mm2": 8133559.170550048,
+        "bbox": {
+          "max": [
+            58345.29511667577,
+            -5576.666666666666,
+            -3850.477708219581
+          ],
+          "min": [
+            49988.038216657565,
+            -5756.666666666666,
+            -4816.188958447067
+          ]
+        },
+        "center_of_mass": [
+          54166.66666666009,
+          -5666.666666666005,
+          -4333.333333332804
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_031",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3436508
+      },
+      {
+        "area_mm2": 2418400.0,
+        "bbox": {
+          "max": [
+            50090.0,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            49910.0,
+            -5736.666666666666,
+            -4000.0
+          ]
+        },
+        "center_of_mass": [
+          50000.0,
+          -5666.666666666667,
+          -2150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_031",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 93240000.0
+      },
+      {
+        "area_mm2": 4161961.1146861706,
+        "bbox": {
+          "max": [
+            58365.82309000251,
+            -5626.666666666666,
+            -237.99664757791066
+          ],
+          "min": [
+            49967.51024333083,
+            -5706.666666666666,
+            -4728.670019088755
+          ]
+        },
+        "center_of_mass": [
+          54166.666666655336,
+          -5666.666666665246,
+          -2483.333333333535
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_031",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 105370646.55575435
+      },
+      {
+        "area_mm2": 8133559.170550036,
+        "bbox": {
+          "max": [
+            66678.6284500091,
+            -5576.666666666666,
+            -4517.144374886248
+          ],
+          "min": [
+            58321.3715499909,
+            -5756.666666666666,
+            -5482.855625113734
+          ]
+        },
+        "center_of_mass": [
+          62499.99999999689,
+          -5666.666666666365,
+          -4999.999999999726
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_032",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3435338
+      },
+      {
+        "area_mm2": 2845066.666666667,
+        "bbox": {
+          "max": [
+            58423.333333333336,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            58243.333333333336,
+            -5736.666666666666,
+            -4666.666666666667
+          ]
+        },
+        "center_of_mass": [
+          58333.333333351016,
+          -5666.666666668307,
+          -2483.3333333332275
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_032",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 110039999.99986522
+      },
+      {
+        "area_mm2": 4305995.789624547,
+        "bbox": {
+          "max": [
+            66702.85744522756,
+            -5626.666666666666,
+            -240.08149244885547
+          ],
+          "min": [
+            58297.14255477244,
+            -5706.666666666666,
+            -5393.251840884476
+          ]
+        },
+        "center_of_mass": [
+          62499.99999999183,
+          -5666.666666665583,
+          -2816.666666668615
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_032",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 109036983.73598225
+      },
+      {
+        "area_mm2": 8133559.17055004,
+        "bbox": {
+          "max": [
+            75011.96178334244,
+            -5576.666666666666,
+            -5183.811041552915
+          ],
+          "min": [
+            66654.70488332424,
+            -5756.666666666666,
+            -6149.522291780424
+          ]
+        },
+        "center_of_mass": [
+          70833.33333334155,
+          -5666.666666667369,
+          -5666.666666667323
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_033",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3432236
+      },
+      {
+        "area_mm2": 3271733.333333334,
+        "bbox": {
+          "max": [
+            66756.66666666667,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            66576.66666666667,
+            -5736.666666666666,
+            -5333.333333333334
+          ]
+        },
+        "center_of_mass": [
+          66666.66666665826,
+          -5666.666666666025,
+          -2816.6666666672977
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_033",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 126840000.00005849
+      },
+      {
+        "area_mm2": 4464753.9305692455,
+        "bbox": {
+          "max": [
+            75039.5195886559,
+            -5626.666666666666,
+            -242.22282360249164
+          ],
+          "min": [
+            66627.14707801078,
+            -5706.666666666666,
+            -6057.777176397511
+          ]
+        },
+        "center_of_mass": [
+          70833.33333335118,
+          -5666.66666666787,
+          -3150.000000002271
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_033",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 113078100.05076091
+      },
+      {
+        "area_mm2": 8133559.170550066,
+        "bbox": {
+          "max": [
+            83345.29511667578,
+            -5576.666666666666,
+            -5850.477708219581
+          ],
+          "min": [
+            74988.03821665757,
+            -5756.666666666666,
+            -6816.188958447092
+          ]
+        },
+        "center_of_mass": [
+          79166.6666666837,
+          -5666.666666667893,
+          -6333.33333333465
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_034",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3430557
+      },
+      {
+        "area_mm2": 3698399.9999999995,
+        "bbox": {
+          "max": [
+            75090.0,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            74910.0,
+            -5736.666666666666,
+            -6000.0
+          ]
+        },
+        "center_of_mass": [
+          75000.0,
+          -5666.666666666667,
+          -3150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_034",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 143640000.0
+      },
+      {
+        "area_mm2": 4636716.080297236,
+        "bbox": {
+          "max": [
+            83375.83006089187,
+            -5626.666666666666,
+            -244.37601104904405
+          ],
+          "min": [
+            74957.50327244146,
+            -5706.666666666666,
+            -6722.290655617626
+          ]
+        },
+        "center_of_mass": [
+          79166.66666666698,
+          -5666.666666666644,
+          -3483.3333333333185
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_034",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 117455318.4075648
+      },
+      {
+        "area_mm2": 8133559.1705500195,
+        "bbox": {
+          "max": [
+            91678.6284500091,
+            -5576.666666666666,
+            -6517.144374886249
+          ],
+          "min": [
+            83321.37154999092,
+            -5756.666666666666,
+            -7482.855625113758
+          ]
+        },
+        "center_of_mass": [
+          87499.99999997103,
+          -5666.666666664807,
+          -6999.999999997744
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_035",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.344017
+      },
+      {
+        "area_mm2": 4125066.6666666674,
+        "bbox": {
+          "max": [
+            83423.33333333334,
+            -5596.666666666666,
+            -300.0
+          ],
+          "min": [
+            83243.33333333334,
+            -5736.666666666666,
+            -6666.666666666668
+          ]
+        },
+        "center_of_mass": [
+          83333.3333333083,
+          -5666.666666664954,
+          -3483.3333333326887
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_035",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 160440000.0001882
+      },
+      {
+        "area_mm2": 4820462.757220033,
+        "bbox": {
+          "max": [
+            91711.81544391863,
+            -5626.666666666666,
+            -246.50618809009103
+          ],
+          "min": [
+            83288.18455608138,
+            -5706.666666666666,
+            -7386.827145243245
+          ]
+        },
+        "center_of_mass": [
+          87499.99999992712,
+          -5666.666666661678,
+          -3816.666666665946
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_035",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 122132506.54784648
+      },
+      {
+        "area_mm2": 8133559.17055004,
+        "bbox": {
+          "max": [
+            100011.96178334244,
+            -5576.666666666666,
+            -7183.811041552915
+          ],
+          "min": [
+            91654.70488332424,
+            -5756.666666666666,
+            -8149.522291780424
+          ]
+        },
+        "center_of_mass": [
+          95833.3333333162,
+          -5666.666666665456,
+          -7666.666666665215
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_036",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3438263
+      },
+      {
+        "area_mm2": 4551733.333333334,
+        "bbox": {
+          "max": [
+            91756.66666666667,
+            -5596.666666666666,
+            -299.9999999999982
+          ],
+          "min": [
+            91576.66666666667,
+            -5736.666666666666,
+            -7333.333333333336
+          ]
+        },
+        "center_of_mass": [
+          91666.66666670788,
+          -5666.666666669362,
+          -3816.666666665793
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_036",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 177239999.9996694
+      },
+      {
+        "area_mm2": 5014692.9045124445,
+        "bbox": {
+          "max": [
+            100047.50522546176,
+            -5626.666666666666,
+            -248.5874183314292
+          ],
+          "min": [
+            91619.16144120491,
+            -5706.666666666666,
+            -8051.41258166857
+          ]
+        },
+        "center_of_mass": [
+          95833.33333328132,
+          -5666.666666663807,
+          -4149.9999999952115
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_036",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 127076546.66057332
+      },
+      {
+        "area_mm2": 48108000.0,
+        "bbox": {
+          "max": [
+            100000.0,
+            -5576.666666666666,
+            0.0
+          ],
+          "min": [
+            50000.0,
+            -5756.666666666666,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          74999.99999999999,
+          -5666.666666666663,
+          -150.0000000000002
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_upper_chord_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2700000000.0000052
+      },
+      {
+        "area_mm2": 8133559.170550048,
+        "bbox": {
+          "max": [
+            58345.29511667577,
+            5756.666666666668,
+            -3850.477708219581
+          ],
+          "min": [
+            49988.038216657565,
+            5576.666666666668,
+            -4816.188958447067
+          ]
+        },
+        "center_of_mass": [
+          54166.66666666723,
+          5666.666666666812,
+          -4333.33333333338
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_037",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.343394
+      },
+      {
+        "area_mm2": 2418400.0,
+        "bbox": {
+          "max": [
+            50090.0,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            49910.0,
+            5596.666666666668,
+            -4000.0
+          ]
+        },
+        "center_of_mass": [
+          50000.0,
+          5666.666666666667,
+          -2150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_037",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 93240000.0
+      },
+      {
+        "area_mm2": 4161961.1146861706,
+        "bbox": {
+          "max": [
+            58365.82309000251,
+            5706.666666666668,
+            -237.99664757791066
+          ],
+          "min": [
+            49967.51024333083,
+            5626.666666666668,
+            -4728.670019088755
+          ]
+        },
+        "center_of_mass": [
+          54166.666666673904,
+          5666.666666667649,
+          -2483.333333332953
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_037",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 105370646.55557823
+      },
+      {
+        "area_mm2": 8133559.170550036,
+        "bbox": {
+          "max": [
+            66678.6284500091,
+            5756.666666666668,
+            -4517.144374886248
+          ],
+          "min": [
+            58321.3715499909,
+            5576.666666666668,
+            -5482.855625113734
+          ]
+        },
+        "center_of_mass": [
+          62499.99999999675,
+          5666.666666666317,
+          -4999.999999999723
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_038",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34354657
+      },
+      {
+        "area_mm2": 2845066.666666667,
+        "bbox": {
+          "max": [
+            58423.333333333336,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            58243.333333333336,
+            5596.666666666668,
+            -4666.666666666667
+          ]
+        },
+        "center_of_mass": [
+          58333.333333331044,
+          5666.666666666435,
+          -2483.333333334947
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_038",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 110040000.00002289
+      },
+      {
+        "area_mm2": 4305995.789624547,
+        "bbox": {
+          "max": [
+            66702.85744522756,
+            5706.666666666668,
+            -240.08149244885547
+          ],
+          "min": [
+            58297.14255477244,
+            5626.666666666668,
+            -5393.251840884476
+          ]
+        },
+        "center_of_mass": [
+          62500.000000022956,
+          5666.666666668863,
+          -2816.6666666670885
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_038",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 109036983.73572795
+      },
+      {
+        "area_mm2": 8133559.17055004,
+        "bbox": {
+          "max": [
+            75011.96178334244,
+            5756.666666666668,
+            -5183.811041552915
+          ],
+          "min": [
+            66654.70488332424,
+            5576.666666666668,
+            -6149.522291780424
+          ]
+        },
+        "center_of_mass": [
+          70833.33333334172,
+          5666.666666667315,
+          -5666.666666667344
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_039",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34322995
+      },
+      {
+        "area_mm2": 3271733.333333334,
+        "bbox": {
+          "max": [
+            66756.66666666667,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            66576.66666666667,
+            5596.666666666668,
+            -5333.333333333334
+          ]
+        },
+        "center_of_mass": [
+          66666.66666665826,
+          5666.666666666025,
+          -2816.6666666672977
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_039",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 126840000.00005849
+      },
+      {
+        "area_mm2": 4464753.9305692455,
+        "bbox": {
+          "max": [
+            75039.5195886559,
+            5706.666666666668,
+            -242.22282360249164
+          ],
+          "min": [
+            66627.14707801078,
+            5626.666666666668,
+            -6057.777176397511
+          ]
+        },
+        "center_of_mass": [
+          70833.33333336709,
+          5666.666666669605,
+          -3149.9999999986103
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_039",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 113078100.05062611
+      },
+      {
+        "area_mm2": 8133559.170550066,
+        "bbox": {
+          "max": [
+            83345.29511667578,
+            5756.666666666668,
+            -5850.477708219581
+          ],
+          "min": [
+            74988.03821665757,
+            5576.666666666668,
+            -6816.188958447092
+          ]
+        },
+        "center_of_mass": [
+          79166.66666668054,
+          5666.666666667631,
+          -6333.3333333344235
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_040",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34312946
+      },
+      {
+        "area_mm2": 3698399.9999999995,
+        "bbox": {
+          "max": [
+            75090.0,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            74910.0,
+            5596.666666666668,
+            -6000.0
+          ]
+        },
+        "center_of_mass": [
+          75000.0,
+          5666.666666666667,
+          -3150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_040",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 143640000.0
+      },
+      {
+        "area_mm2": 4636716.080297236,
+        "bbox": {
+          "max": [
+            83375.83006089187,
+            5706.666666666668,
+            -244.37601104904405
+          ],
+          "min": [
+            74957.50327244146,
+            5626.666666666668,
+            -6722.290655617626
+          ]
+        },
+        "center_of_mass": [
+          79166.66666670123,
+          5666.66666666878,
+          -3483.3333333365404
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_040",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 117455318.40739186
+      },
+      {
+        "area_mm2": 8133559.1705500195,
+        "bbox": {
+          "max": [
+            91678.6284500091,
+            5756.666666666668,
+            -6517.144374886249
+          ],
+          "min": [
+            83321.37154999092,
+            5576.666666666668,
+            -7482.855625113758
+          ]
+        },
+        "center_of_mass": [
+          87500.00000001318,
+          5666.6666666674255,
+          -7000.0000000009795
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_041",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.343188
+      },
+      {
+        "area_mm2": 4125066.6666666674,
+        "bbox": {
+          "max": [
+            83423.33333333334,
+            5736.666666666668,
+            -300.0
+          ],
+          "min": [
+            83243.33333333334,
+            5596.666666666668,
+            -6666.666666666668
+          ]
+        },
+        "center_of_mass": [
+          83333.3333333305,
+          5666.666666666418,
+          -3483.3333333335604
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_041",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 160440000.00002542
+      },
+      {
+        "area_mm2": 4820462.757220033,
+        "bbox": {
+          "max": [
+            91711.81544391863,
+            5706.666666666668,
+            -246.50618809009103
+          ],
+          "min": [
+            83288.18455608138,
+            5626.666666666668,
+            -7386.827145243245
+          ]
+        },
+        "center_of_mass": [
+          87500.0000000511,
+          5666.666666670081,
+          -3816.6666666676265
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_041",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 122132506.54712677
+      },
+      {
+        "area_mm2": 8133559.17055004,
+        "bbox": {
+          "max": [
+            100011.96178334244,
+            5756.666666666668,
+            -7183.811041552915
+          ],
+          "min": [
+            91654.70488332424,
+            5576.666666666668,
+            -8149.522291780424
+          ]
+        },
+        "center_of_mass": [
+          95833.3333333319,
+          5666.666666666553,
+          -7666.666666666524
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_042",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3434728
+      },
+      {
+        "area_mm2": 4551733.333333334,
+        "bbox": {
+          "max": [
+            91756.66666666667,
+            5736.666666666668,
+            -299.9999999999982
+          ],
+          "min": [
+            91576.66666666667,
+            5596.666666666668,
+            -7333.333333333336
+          ]
+        },
+        "center_of_mass": [
+          91666.66666662095,
+          5666.666666663819,
+          -3816.666666667706
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_042",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 177240000.0003611
+      },
+      {
+        "area_mm2": 5014692.9045124445,
+        "bbox": {
+          "max": [
+            100047.50522546176,
+            5706.666666666668,
+            -248.5874183314292
+          ],
+          "min": [
+            91619.16144120491,
+            5626.666666666668,
+            -8051.41258166857
+          ]
+        },
+        "center_of_mass": [
+          95833.33333335542,
+          5666.666666667904,
+          -4150.000000001518
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_042",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 127076546.66020203
+      },
+      {
+        "area_mm2": 48108000.0,
+        "bbox": {
+          "max": [
+            100000.0,
+            5756.666666666668,
+            0.0
+          ],
+          "min": [
+            50000.0,
+            5576.666666666668,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          74999.99999999991,
+          5666.666666666649,
+          -149.9999999999997
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_upper_chord_007",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2700000000.0000176
+      },
+      {
+        "area_mm2": 8133559.170550048,
+        "bbox": {
+          "max": [
+            58345.29511667577,
+            17090.0,
+            -3850.477708219581
+          ],
+          "min": [
+            49988.038216657565,
+            16910.0,
+            -4816.188958447067
+          ]
+        },
+        "center_of_mass": [
+          54166.66666667412,
+          17000.000000002758,
+          -4333.333333333924
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_043",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34314346
+      },
+      {
+        "area_mm2": 2418400.0,
+        "bbox": {
+          "max": [
+            50090.0,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            49910.0,
+            16930.0,
+            -4000.0
+          ]
+        },
+        "center_of_mass": [
+          50000.0,
+          17000.0,
+          -2150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_043",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 93240000.0
+      },
+      {
+        "area_mm2": 4161961.1146861706,
+        "bbox": {
+          "max": [
+            58365.82309000251,
+            17040.0,
+            -237.99664757791066
+          ],
+          "min": [
+            49967.51024333083,
+            16960.0,
+            -4728.670019088755
+          ]
+        },
+        "center_of_mass": [
+          54166.66666670438,
+          17000.00000001476,
+          -2483.333333330056
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_043",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 105370646.55527432
+      },
+      {
+        "area_mm2": 8133559.170550036,
+        "bbox": {
+          "max": [
+            66678.6284500091,
+            17090.0,
+            -4517.144374886248
+          ],
+          "min": [
+            58321.3715499909,
+            16910.0,
+            -5482.855625113734
+          ]
+        },
+        "center_of_mass": [
+          62499.99999999299,
+          16999.999999997548,
+          -4999.999999999435
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_044",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3436966
+      },
+      {
+        "area_mm2": 2845066.666666667,
+        "bbox": {
+          "max": [
+            58423.333333333336,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            58243.333333333336,
+            16930.0,
+            -4666.666666666667
+          ]
+        },
+        "center_of_mass": [
+          58333.33333333976,
+          17000.000000001743,
+          -2483.333333333163
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_044",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 110039999.9999593
+      },
+      {
+        "area_mm2": 4305995.789624547,
+        "bbox": {
+          "max": [
+            66702.85744522756,
+            17040.0,
+            -240.08149244885547
+          ],
+          "min": [
+            58297.14255477244,
+            16960.0,
+            -5393.251840884476
+          ]
+        },
+        "center_of_mass": [
+          62499.99999999179,
+          16999.99999999915,
+          -2816.666666663615
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_044",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 109036983.73591232
+      },
+      {
+        "area_mm2": 8133559.17055004,
+        "bbox": {
+          "max": [
+            75011.96178334244,
+            17090.0,
+            -5183.811041552915
+          ],
+          "min": [
+            66654.70488332424,
+            16910.0,
+            -6149.522291780424
+          ]
+        },
+        "center_of_mass": [
+          70833.33333332102,
+          16999.999999996286,
+          -5666.666666665655
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_045",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3438365
+      },
+      {
+        "area_mm2": 3271733.333333334,
+        "bbox": {
+          "max": [
+            66756.66666666667,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            66576.66666666667,
+            16930.0,
+            -5333.333333333334
+          ]
+        },
+        "center_of_mass": [
+          66666.66666663559,
+          16999.999999991916,
+          -2816.6666666692113
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_045",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 126840000.00024414
+      },
+      {
+        "area_mm2": 4464753.9305692455,
+        "bbox": {
+          "max": [
+            75039.5195886559,
+            17040.0,
+            -242.22282360249164
+          ],
+          "min": [
+            66627.14707801078,
+            16960.0,
+            -6057.777176397511
+          ]
+        },
+        "center_of_mass": [
+          70833.33333329887,
+          16999.999999992495,
+          -3149.9999999968486
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_045",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 113078100.05105972
+      },
+      {
+        "area_mm2": 8133559.170550066,
+        "bbox": {
+          "max": [
+            83345.29511667578,
+            17090.0,
+            -5850.477708219581
+          ],
+          "min": [
+            74988.03821665757,
+            16910.0,
+            -6816.188958447092
+          ]
+        },
+        "center_of_mass": [
+          79166.6666666646,
+          17000.0000000004,
+          -6333.333333333284
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_046",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3434016
+      },
+      {
+        "area_mm2": 3698399.9999999995,
+        "bbox": {
+          "max": [
+            75090.0,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            74910.0,
+            16930.0,
+            -6000.0
+          ]
+        },
+        "center_of_mass": [
+          75000.0,
+          17000.0,
+          -3150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_046",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 143640000.0
+      },
+      {
+        "area_mm2": 4636716.080297236,
+        "bbox": {
+          "max": [
+            83375.83006089187,
+            17040.0,
+            -244.37601104904405
+          ],
+          "min": [
+            74957.50327244146,
+            16960.0,
+            -6722.290655617626
+          ]
+        },
+        "center_of_mass": [
+          79166.66666682472,
+          17000.000000034415,
+          -3483.3333333370438
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_046",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 117455318.40662129
+      },
+      {
+        "area_mm2": 8133559.1705500195,
+        "bbox": {
+          "max": [
+            91678.6284500091,
+            17090.0,
+            -6517.144374886249
+          ],
+          "min": [
+            83321.37154999092,
+            16910.0,
+            -7482.855625113758
+          ]
+        },
+        "center_of_mass": [
+          87499.99999999904,
+          17000.000000000015,
+          -6999.999999999757
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_047",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.34343463
+      },
+      {
+        "area_mm2": 4125066.6666666674,
+        "bbox": {
+          "max": [
+            83423.33333333334,
+            17070.0,
+            -300.0
+          ],
+          "min": [
+            83243.33333333334,
+            16930.0,
+            -6666.666666666668
+          ]
+        },
+        "center_of_mass": [
+          83333.33333337342,
+          17000.000000007924,
+          -3483.3333333302203
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_047",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 160439999.99969482
+      },
+      {
+        "area_mm2": 4820462.757220033,
+        "bbox": {
+          "max": [
+            91711.81544391863,
+            17040.0,
+            -246.50618809009103
+          ],
+          "min": [
+            83288.18455608138,
+            16960.0,
+            -7386.827145243245
+          ]
+        },
+        "center_of_mass": [
+          87500.0000001535,
+          17000.000000028627,
+          -3816.6666666771066
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_047",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 122132506.54661052
+      },
+      {
+        "area_mm2": 8133559.17055004,
+        "bbox": {
+          "max": [
+            100011.96178334244,
+            17090.0,
+            -7183.811041552915
+          ],
+          "min": [
+            91654.70488332424,
+            16910.0,
+            -8149.522291780424
+          ]
+        },
+        "center_of_mass": [
+          95833.33333336531,
+          17000.000000005417,
+          -7666.666666669112
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_lower_chord_048",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 451437703.3428548
+      },
+      {
+        "area_mm2": 4551733.333333334,
+        "bbox": {
+          "max": [
+            91756.66666666667,
+            17070.0,
+            -299.9999999999982
+          ],
+          "min": [
+            91576.66666666667,
+            16930.0,
+            -7333.333333333336
+          ]
+        },
+        "center_of_mass": [
+          91666.66666662281,
+          16999.99999999225,
+          -3816.6666666700758
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_vertical_048",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 177240000.0003357
+      },
+      {
+        "area_mm2": 5014692.9045124445,
+        "bbox": {
+          "max": [
+            100047.50522546176,
+            17040.0,
+            -248.5874183314292
+          ],
+          "min": [
+            91619.16144120491,
+            16960.0,
+            -8051.41258166857
+          ]
+        },
+        "center_of_mass": [
+          95833.33333333778,
+          16999.999999996566,
+          -4150.000000017087
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_diagonal_048",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 127076546.66040802
+      },
+      {
+        "area_mm2": 48108000.0,
+        "bbox": {
+          "max": [
+            100000.0,
+            17090.0,
+            0.0
+          ],
+          "min": [
+            50000.0,
+            16910.0,
+            -300.0
+          ]
+        },
+        "center_of_mass": [
+          75000.0,
+          17000.0,
+          -150.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "leaf_upper_chord_008",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2700000000.0
+      },
+      {
+        "area_mm2": 545760000.0,
+        "bbox": {
+          "max": [
+            3000.0,
+            20400.0,
+            -350.0
+          ],
+          "min": [
+            -3000.0,
+            -20400.0,
+            -950.0
+          ]
+        },
+        "center_of_mass": [
+          0.0,
+          0.0,
+          -650.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 146880000000.0
+      },
+      {
+        "area_mm2": 176000000.0,
+        "bbox": {
+          "max": [
+            2000.0,
+            -17500.0,
+            9000.0
+          ],
+          "min": [
+            -2000.0,
+            -21500.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          0.0,
+          -19500.0,
+          4500.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bridge_house_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 144000000000.0
+      },
+      {
+        "area_mm2": 176000000.0,
+        "bbox": {
+          "max": [
+            2000.0,
+            21500.0,
+            9000.0
+          ],
+          "min": [
+            -2000.0,
+            17500.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          0.0,
+          19500.0,
+          4500.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bridge_house_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 144000000000.0
+      },
+      {
+        "area_mm2": 545760000.0,
+        "bbox": {
+          "max": [
+            103000.0,
+            20400.0,
+            -350.0
+          ],
+          "min": [
+            97000.0,
+            -20400.0,
+            -950.0
+          ]
+        },
+        "center_of_mass": [
+          100000.0,
+          0.0,
+          -650.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 146880000000.0
+      },
+      {
+        "area_mm2": 176000000.0,
+        "bbox": {
+          "max": [
+            102000.0,
+            -17500.0,
+            9000.0
+          ],
+          "min": [
+            98000.0,
+            -21500.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          100000.0,
+          -19500.0,
+          4500.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bridge_house_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 144000000000.0
+      },
+      {
+        "area_mm2": 176000000.0,
+        "bbox": {
+          "max": [
+            102000.0,
+            21500.0,
+            9000.0
+          ],
+          "min": [
+            98000.0,
+            17500.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          100000.0,
+          19500.0,
+          4500.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bridge_house_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 144000000000.0
+      }
+    ],
+    "measurement_scope": "native member placement vs compiled graph, not independent image perception accuracy"
+  },
+  "reopen_and_edit": {
+    "cold_reopen_success": true,
+    "body_names_preserved": true,
+    "feature_ids_preserved": true,
+    "length_scale": 1.02,
+    "extent_target_error_mm": 0.0,
+    "volume_ratio_error": 6.661338147750939e-16,
+    "edit_scope": "native affine geometry edit; member sections also scale, not a section-preserving span redesign",
+    "movable_span": {
+      "parameter": "leaf_open_angle",
+      "angle_deg": 15,
+      "volume_relative_error": 4.884981308350689e-15,
+      "fixed_supports_preserved": true,
+      "target_centroid_error_mm": 2.1840414306478652e-07,
+      "scope": "schematic rigid-span motion, not verified gear/joint mechanics"
+    }
+  },
+  "independent_brep": {
+    "backend": "CadQuery/OCCT",
+    "cadquery_version": "2.8.0",
+    "valid_solid": true,
+    "solid_count": 160,
+    "volume_mm3": 1945377102241.2637,
+    "surface_area_mm2": 9864432873.35992,
+    "centroid_mm": [
+      49981.43543688115,
+      -1.2850978851965292e-12,
+      1066.550322771998
+    ],
+    "step_sha256": "64c73459706068e09e81bad300521109e3557645c6805d8a158cd4ddf1496878",
+    "quantity_scope": "modeled envelope solids, not surveyed true bridge quantities",
+    "native_volume_relative_error": 1.2549784035122354e-16
+  },
+  "projection_iou": {
+    "status": "unavailable",
+    "reason": "No independent annotated geometry-only drawing masks; visual side-by-side saved"
+  },
+  "engineering_quantity_accuracy": {
+    "status": "unavailable",
+    "reason": "Section/connection details are incomplete or assumed; native quantity is not true-bridge quantity"
+  },
+  "notes": [
+    "General arrangement and rail-detail image belong to the same bridge. Absolute dimension chain remains unconfirmed at the supplied resolution; normalized visualization only."
+  ],
+  "elapsed_seconds": 12.25656879201415,
+  "artifacts_directory": ".",
+  "live_external_llm_calls": 0
+}

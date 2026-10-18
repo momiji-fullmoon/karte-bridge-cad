@@ -1,0 +1,3810 @@
+{
+  "case_id": "CT-0629_Nineveh_Falls",
+  "name": "Nineveh Falls / Hammonasset River bridge",
+  "family": "open_spandrel_arch",
+  "native_generation_success": true,
+  "real_world_scale_known": true,
+  "status": "source_supported_conceptual",
+  "sources": [
+    {
+      "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193029pu.tif",
+      "sha256": "fdb0ad5161af37429fe31e4cf85de021364c086cb269614f7c07eb9f5c8ee5ed",
+      "bytes": 22091748
+    },
+    {
+      "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193030pu.tif",
+      "sha256": "5f164de23bd3b484fec5b3dcea9a563300b7383e63257114976bce24e67a20e4",
+      "bytes": 22693612
+    },
+    {
+      "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193031pu.tif",
+      "sha256": "69e4b434abcb297b44e8c5800d447193b61cf69a588a7b60bf96478ed67b51d2",
+      "bytes": 22885108
+    },
+    {
+      "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193032pu.tif",
+      "sha256": "feca5a22ebbc983e02def3a09a8a24ee30b3140713062c285ed2897a7e00dd55",
+      "bytes": 21717184
+    }
+  ],
+  "dimensions_mm": {
+    "main_length": 70104.0,
+    "width": 10718.8,
+    "height": 8002.524
+  },
+  "dimension_sources": {
+    "length": {
+      "method": "explicit_dimension",
+      "value_mm": 70104.0
+    },
+    "width": {
+      "method": "explicit_dimension",
+      "value_mm": 10718.8
+    },
+    "height": {
+      "method": "derived_from_explicit_dimensions",
+      "value_mm": 8002.524
+    }
+  },
+  "source_dimension_conflicts": [],
+  "native": {
+    "body_count": 101,
+    "feature_count": 134,
+    "feature_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134
+    ],
+    "native_feature_errors": [],
+    "bbox_mm": [
+      [
+        -750.0,
+        -6431.28,
+        -600.0
+      ],
+      [
+        70854.0,
+        6431.28,
+        11214.204
+      ]
+    ],
+    "total_member_volume_mm3": 692603244199.2303,
+    "max_member_endpoint_error_mm": 2.329886857742076e-11,
+    "endpoint_checks": [
+      {
+        "member": "approach_arcade_girder_001",
+        "endpoint_error_mm": 2.000888343900442e-11
+      },
+      {
+        "member": "approach_arcade_girder_002",
+        "endpoint_error_mm": 2.000888343900442e-11
+      },
+      {
+        "member": "approach_arcade_girder_003",
+        "endpoint_error_mm": 2.000888343900442e-11
+      },
+      {
+        "member": "approach_arcade_girder_004",
+        "endpoint_error_mm": 2.329886857742076e-11
+      },
+      {
+        "member": "approach_arcade_girder_005",
+        "endpoint_error_mm": 2.3294497297367093e-11
+      },
+      {
+        "member": "approach_arcade_girder_006",
+        "endpoint_error_mm": 2.329886857742076e-11
+      }
+    ],
+    "bodies": [
+      {
+        "area_mm2": 80368615.94120581,
+        "bbox": {
+          "max": [
+            50292.0,
+            -2748.0,
+            8612.124
+          ],
+          "min": [
+            19812.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          35052.000000000015,
+          -3047.999999999996,
+          5636.481614999963
+        ],
+        "edges": 246,
+        "face_types": {
+          "plane": 84
+        },
+        "faces": 84,
+        "kernel": {
+          "edges": 246,
+          "faces": 84,
+          "shells": 1,
+          "vertices": 164
+        },
+        "name": "arch_rib_001",
+        "vertices": 164,
+        "visible": true,
+        "volume_mm3": 11148364800.000061
+      },
+      {
+        "area_mm2": 15139829.279999997,
+        "bbox": {
+          "max": [
+            19992.0,
+            -2798.0,
+            9202.524
+          ],
+          "min": [
+            19632.0,
+            -3298.0,
+            609.6
+          ]
+        },
+        "center_of_mass": [
+          19812.000000000004,
+          -3047.9999999999945,
+          4906.061999999981
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1546726320.0000055
+      },
+      {
+        "area_mm2": 10394368.819199998,
+        "bbox": {
+          "max": [
+            23040.0,
+            -2798.0,
+            9324.444
+          ],
+          "min": [
+            22680.0,
+            -3298.0,
+            3490.5086400000005
+          ]
+        },
+        "center_of_mass": [
+          22860.000000000033,
+          -3048.0000000000077,
+          6407.476320000008
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1050108364.7999862
+      },
+      {
+        "area_mm2": 6750055.660799998,
+        "bbox": {
+          "max": [
+            26088.0,
+            -2798.0,
+            9446.364
+          ],
+          "min": [
+            25728.0,
+            -3298.0,
+            5731.215360000001
+          ]
+        },
+        "center_of_mass": [
+          25907.999999999993,
+          -3048.000000000005,
+          7588.789679999999
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 668726755.1999931
+      },
+      {
+        "area_mm2": 4206889.8048,
+        "bbox": {
+          "max": [
+            29136.0,
+            -2798.0,
+            9568.284
+          ],
+          "min": [
+            28776.0,
+            -3298.0,
+            7331.72016
+          ]
+        },
+        "center_of_mass": [
+          28955.99999999982,
+          -3048.0000000000014,
+          8450.002079999942
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 402581491.20001286
+      },
+      {
+        "area_mm2": 2764871.2512,
+        "bbox": {
+          "max": [
+            32184.0,
+            -2798.0,
+            9690.204
+          ],
+          "min": [
+            31824.0,
+            -3298.0,
+            8292.02304
+          ]
+        },
+        "center_of_mass": [
+          32003.999999997985,
+          -3047.9999999997895,
+          8991.113519999468
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 251672572.80006632
+      },
+      {
+        "area_mm2": 2424000.0,
+        "bbox": {
+          "max": [
+            35232.0,
+            -2798.0,
+            9812.124
+          ],
+          "min": [
+            34872.0,
+            -3298.0,
+            8612.124
+          ]
+        },
+        "center_of_mass": [
+          35052.00000000004,
+          -3048.0000000000364,
+          9212.12400000004
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 216000000.00000033
+      },
+      {
+        "area_mm2": 3184276.0511999996,
+        "bbox": {
+          "max": [
+            38280.0,
+            -2798.0,
+            9934.044
+          ],
+          "min": [
+            37920.0,
+            -3298.0,
+            8292.02304
+          ]
+        },
+        "center_of_mass": [
+          38099.99999999827,
+          -3047.9999999998945,
+          9113.033519999683
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_007",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 295563772.8000558
+      },
+      {
+        "area_mm2": 5045699.404799998,
+        "bbox": {
+          "max": [
+            41328.0,
+            -2798.0,
+            10055.964
+          ],
+          "min": [
+            40968.0,
+            -3298.0,
+            7331.720160000002
+          ]
+        },
+        "center_of_mass": [
+          41147.99999999955,
+          -3047.9999999999627,
+          8693.842079999951
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_008",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 490363891.20002747
+      },
+      {
+        "area_mm2": 8008270.060799999,
+        "bbox": {
+          "max": [
+            44376.0,
+            -2798.0,
+            10177.884
+          ],
+          "min": [
+            44016.0,
+            -3298.0,
+            5731.21536
+          ]
+        },
+        "center_of_mass": [
+          44196.00000000143,
+          -3048.0000000000955,
+          7954.549680000195
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_009",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 800400355.1998755
+      },
+      {
+        "area_mm2": 12071988.0192,
+        "bbox": {
+          "max": [
+            47424.0,
+            -2798.0,
+            10299.804
+          ],
+          "min": [
+            47064.0,
+            -3298.0,
+            3490.508639999999
+          ]
+        },
+        "center_of_mass": [
+          47244.00000000005,
+          -3047.9999999999923,
+          6895.156320000001
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_010",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1225673164.8000095
+      },
+      {
+        "area_mm2": 17236853.279999997,
+        "bbox": {
+          "max": [
+            50472.0,
+            -2798.0,
+            10421.724
+          ],
+          "min": [
+            50112.0,
+            -3298.0,
+            609.6
+          ]
+        },
+        "center_of_mass": [
+          50292.00000000054,
+          -3048.0000000000323,
+          5515.661999999983
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_011",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1766182319.9999406
+      },
+      {
+        "area_mm2": 80368615.94120581,
+        "bbox": {
+          "max": [
+            50292.0,
+            300.0,
+            8612.124
+          ],
+          "min": [
+            19812.0,
+            -300.0000000000001,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          35051.99999999996,
+          -3.8688642855198326e-13,
+          5636.4816149999915
+        ],
+        "edges": 246,
+        "face_types": {
+          "plane": 84
+        },
+        "faces": 84,
+        "kernel": {
+          "edges": 246,
+          "faces": 84,
+          "shells": 1,
+          "vertices": 164
+        },
+        "name": "arch_rib_002",
+        "vertices": 164,
+        "visible": true,
+        "volume_mm3": 11148364800.000055
+      },
+      {
+        "area_mm2": 15139829.279999994,
+        "bbox": {
+          "max": [
+            19992.0,
+            250.0,
+            9202.524
+          ],
+          "min": [
+            19632.0,
+            -250.0,
+            609.6
+          ]
+        },
+        "center_of_mass": [
+          19812.00000000001,
+          -1.6047417840324032e-12,
+          4906.062000000014
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_012",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1546726319.9999955
+      },
+      {
+        "area_mm2": 10394368.819199998,
+        "bbox": {
+          "max": [
+            23040.0,
+            250.0,
+            9324.444
+          ],
+          "min": [
+            22680.0,
+            -250.0,
+            3490.5086400000005
+          ]
+        },
+        "center_of_mass": [
+          22860.000000000025,
+          3.7779769109882227e-13,
+          6407.476320000007
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_013",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1050108364.8000007
+      },
+      {
+        "area_mm2": 6750055.660799998,
+        "bbox": {
+          "max": [
+            26088.0,
+            250.0,
+            9446.364
+          ],
+          "min": [
+            25728.0,
+            -250.0,
+            5731.215360000001
+          ]
+        },
+        "center_of_mass": [
+          25908.00000000006,
+          3.8409751150941186e-13,
+          7588.78968
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_014",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 668726755.1999992
+      },
+      {
+        "area_mm2": 4206889.8048,
+        "bbox": {
+          "max": [
+            29136.0,
+            250.0,
+            9568.284
+          ],
+          "min": [
+            28776.0,
+            -250.0,
+            7331.72016
+          ]
+        },
+        "center_of_mass": [
+          28955.999999999818,
+          7.5804722253956e-14,
+          8450.002079999944
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_015",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 402581491.2000075
+      },
+      {
+        "area_mm2": 2764871.2512,
+        "bbox": {
+          "max": [
+            32184.0,
+            250.0,
+            9690.204
+          ],
+          "min": [
+            31824.0,
+            -250.0,
+            8292.02304
+          ]
+        },
+        "center_of_mass": [
+          32004.000000000204,
+          -2.420128621758219e-12,
+          8991.113520000037
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_016",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 251672572.7999928
+      },
+      {
+        "area_mm2": 2424000.0,
+        "bbox": {
+          "max": [
+            35232.0,
+            250.0,
+            9812.124
+          ],
+          "min": [
+            34872.0,
+            -250.0,
+            8612.124
+          ]
+        },
+        "center_of_mass": [
+          35051.999999999796,
+          0.0,
+          9212.123999999954
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_017",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 216000000.0000032
+      },
+      {
+        "area_mm2": 3184276.0511999996,
+        "bbox": {
+          "max": [
+            38280.0,
+            250.0,
+            9934.044
+          ],
+          "min": [
+            37920.0,
+            -250.0,
+            8292.02304
+          ]
+        },
+        "center_of_mass": [
+          38099.999999999905,
+          -2.108063563235435e-12,
+          9113.033519999955
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_018",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 295563772.80000323
+      },
+      {
+        "area_mm2": 5045699.404799998,
+        "bbox": {
+          "max": [
+            41328.0,
+            250.0,
+            10055.964
+          ],
+          "min": [
+            40968.0,
+            -250.0,
+            7331.720160000002
+          ]
+        },
+        "center_of_mass": [
+          41148.00000000013,
+          2.748692806932463e-13,
+          8693.84208000008
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_019",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 490363891.19999284
+      },
+      {
+        "area_mm2": 8008270.060799999,
+        "bbox": {
+          "max": [
+            44376.0,
+            250.0,
+            10177.884
+          ],
+          "min": [
+            44016.0,
+            -250.0,
+            5731.21536
+          ]
+        },
+        "center_of_mass": [
+          44195.99999999956,
+          -9.531972945393727e-14,
+          7954.549679999897
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_020",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 800400355.2000074
+      },
+      {
+        "area_mm2": 12071988.0192,
+        "bbox": {
+          "max": [
+            47424.0,
+            250.0,
+            10299.804
+          ],
+          "min": [
+            47064.0,
+            -250.0,
+            3490.508639999999
+          ]
+        },
+        "center_of_mass": [
+          47243.99999999991,
+          1.4109221583271922e-13,
+          6895.156320000023
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_021",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1225673164.799998
+      },
+      {
+        "area_mm2": 17236853.279999997,
+        "bbox": {
+          "max": [
+            50472.0,
+            250.0,
+            10421.724
+          ],
+          "min": [
+            50112.0,
+            -250.0,
+            609.6
+          ]
+        },
+        "center_of_mass": [
+          50292.00000000001,
+          -5.198050421320133e-13,
+          5515.6619999999975
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_022",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1766182319.9999993
+      },
+      {
+        "area_mm2": 80368615.94120581,
+        "bbox": {
+          "max": [
+            50292.0,
+            3348.0,
+            8612.124
+          ],
+          "min": [
+            19812.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          35052.000000000226,
+          3048.000000000016,
+          5636.481615000026
+        ],
+        "edges": 246,
+        "face_types": {
+          "plane": 84
+        },
+        "faces": 84,
+        "kernel": {
+          "edges": 246,
+          "faces": 84,
+          "shells": 1,
+          "vertices": 164
+        },
+        "name": "arch_rib_003",
+        "vertices": 164,
+        "visible": true,
+        "volume_mm3": 11148364799.999784
+      },
+      {
+        "area_mm2": 15139829.279999997,
+        "bbox": {
+          "max": [
+            19992.0,
+            3298.0,
+            9202.524
+          ],
+          "min": [
+            19632.0,
+            2798.0,
+            609.6
+          ]
+        },
+        "center_of_mass": [
+          19811.99999999997,
+          3047.9999999999986,
+          4906.06200000001
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_023",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1546726320.000006
+      },
+      {
+        "area_mm2": 10394368.819199998,
+        "bbox": {
+          "max": [
+            23040.0,
+            3298.0,
+            9324.444
+          ],
+          "min": [
+            22680.0,
+            2798.0,
+            3490.5086400000005
+          ]
+        },
+        "center_of_mass": [
+          22859.99999999968,
+          3047.9999999999714,
+          6407.476319999932
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_024",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1050108364.8000507
+      },
+      {
+        "area_mm2": 6750055.660799998,
+        "bbox": {
+          "max": [
+            26088.0,
+            3298.0,
+            9446.364
+          ],
+          "min": [
+            25728.0,
+            2798.0,
+            5731.215360000001
+          ]
+        },
+        "center_of_mass": [
+          25907.999999999978,
+          3048.000000000008,
+          7588.789679999983
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_025",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 668726755.1999975
+      },
+      {
+        "area_mm2": 4206889.8048,
+        "bbox": {
+          "max": [
+            29136.0,
+            3298.0,
+            9568.284
+          ],
+          "min": [
+            28776.0,
+            2798.0,
+            7331.72016
+          ]
+        },
+        "center_of_mass": [
+          28955.999999999898,
+          3047.9999999999886,
+          8450.002079999893
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_026",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 402581491.2000122
+      },
+      {
+        "area_mm2": 2764871.2512,
+        "bbox": {
+          "max": [
+            32184.0,
+            3298.0,
+            9690.204
+          ],
+          "min": [
+            31824.0,
+            2798.0,
+            8292.02304
+          ]
+        },
+        "center_of_mass": [
+          32004.00000000243,
+          3048.000000000212,
+          8991.11352000067
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_027",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 251672572.79992548
+      },
+      {
+        "area_mm2": 2424000.0,
+        "bbox": {
+          "max": [
+            35232.0,
+            3298.0,
+            9812.124
+          ],
+          "min": [
+            34872.0,
+            2798.0,
+            8612.124
+          ]
+        },
+        "center_of_mass": [
+          35051.99999999982,
+          3048.00000000001,
+          9212.123999999874
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_028",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 216000000.0000038
+      },
+      {
+        "area_mm2": 3184276.0511999996,
+        "bbox": {
+          "max": [
+            38280.0,
+            3298.0,
+            9934.044
+          ],
+          "min": [
+            37920.0,
+            2798.0,
+            8292.02304
+          ]
+        },
+        "center_of_mass": [
+          38100.00000000166,
+          3048.0000000001473,
+          9113.033520000257
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_029",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 295563772.79995185
+      },
+      {
+        "area_mm2": 5045699.404799998,
+        "bbox": {
+          "max": [
+            41328.0,
+            3298.0,
+            10055.964
+          ],
+          "min": [
+            40968.0,
+            2798.0,
+            7331.720160000002
+          ]
+        },
+        "center_of_mass": [
+          41148.0000000018,
+          3048.0000000001187,
+          8693.842080000295
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_030",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 490363891.1999251
+      },
+      {
+        "area_mm2": 8008270.060799999,
+        "bbox": {
+          "max": [
+            44376.0,
+            3298.0,
+            10177.884
+          ],
+          "min": [
+            44016.0,
+            2798.0,
+            5731.21536
+          ]
+        },
+        "center_of_mass": [
+          44195.99999999889,
+          3047.999999999928,
+          7954.5496799998255
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_031",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 800400355.2000834
+      },
+      {
+        "area_mm2": 12071988.0192,
+        "bbox": {
+          "max": [
+            47424.0,
+            3298.0,
+            10299.804
+          ],
+          "min": [
+            47064.0,
+            2798.0,
+            3490.508639999999
+          ]
+        },
+        "center_of_mass": [
+          47244.00000000056,
+          3048.000000000044,
+          6895.156320000025
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_032",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1225673164.7999659
+      },
+      {
+        "area_mm2": 17236853.279999997,
+        "bbox": {
+          "max": [
+            50472.0,
+            3298.0,
+            10421.724
+          ],
+          "min": [
+            50112.0,
+            2798.0,
+            609.6
+          ]
+        },
+        "center_of_mass": [
+          50291.99999999994,
+          3048.000000000008,
+          5515.661999999902
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "spandrel_column_033",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 1766182319.9999924
+      },
+      {
+        "area_mm2": 257253902.96639997,
+        "bbox": {
+          "max": [
+            19812.0,
+            5359.4,
+            9172.044
+          ],
+          "min": [
+            18288.0,
+            -5359.4,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          19050.0,
+          2.4333218017492423e-13,
+          4586.022
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "arch_pier_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 149829477166.25284
+      },
+      {
+        "area_mm2": 288599388.66239995,
+        "bbox": {
+          "max": [
+            51816.0,
+            5359.4,
+            10452.204
+          ],
+          "min": [
+            50292.0,
+            -5359.400000000001,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          51053.99999999991,
+          1.3421851694755955e-12,
+          5226.102000000001
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "arch_pier_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 170741468374.44513
+      },
+      {
+        "area_mm2": 40865774.01553753,
+        "bbox": {
+          "max": [
+            18297.99200958722,
+            -2748.0,
+            9041.364239680468
+          ],
+          "min": [
+            -9.992009587218174,
+            -3348.0,
+            7810.243760319552
+          ]
+        },
+        "center_of_mass": [
+          9143.999999999962,
+          -3047.999999999995,
+          8425.80400000001
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_arcade_girder_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 5490787365.755122
+      },
+      {
+        "area_mm2": 40865774.01553753,
+        "bbox": {
+          "max": [
+            18297.99200958722,
+            300.0,
+            9041.364239680468
+          ],
+          "min": [
+            -9.992009587218174,
+            -300.0,
+            7810.243760319552
+          ]
+        },
+        "center_of_mass": [
+          9143.999999999987,
+          1.185408717530535e-13,
+          8425.804000000006
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_arcade_girder_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 5490787365.755132
+      },
+      {
+        "area_mm2": 40865774.01553753,
+        "bbox": {
+          "max": [
+            18297.99200958722,
+            3348.0,
+            9041.364239680468
+          ],
+          "min": [
+            -9.992009587218174,
+            2748.0,
+            7810.243760319552
+          ]
+        },
+        "center_of_mass": [
+          9144.000000000053,
+          3048.000000000008,
+          8425.804000000035
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_arcade_girder_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 5490787365.755081
+      },
+      {
+        "area_mm2": 17782096.799999997,
+        "bbox": {
+          "max": [
+            250.0,
+            -2748.0,
+            7810.044
+          ],
+          "min": [
+            -250.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          0.0,
+          -3047.9999999999995,
+          3905.0219999999995
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2343013200.0
+      },
+      {
+        "area_mm2": 17782096.799999997,
+        "bbox": {
+          "max": [
+            250.0,
+            300.0,
+            7810.044
+          ],
+          "min": [
+            -250.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          0.0,
+          -1.0854106628236954e-15,
+          3905.0220000000004
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2343013199.9999995
+      },
+      {
+        "area_mm2": 17782096.799999997,
+        "bbox": {
+          "max": [
+            250.0,
+            3348.0,
+            7810.044
+          ],
+          "min": [
+            -250.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          0.0,
+          3048.0,
+          3905.0219999999995
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2343013200.0
+      },
+      {
+        "area_mm2": 18184432.799999997,
+        "bbox": {
+          "max": [
+            4822.0,
+            -2748.0,
+            7992.923999999999
+          ],
+          "min": [
+            4322.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          4572.000000000006,
+          -3048.0000000000036,
+          3996.462000000001
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2397877199.9999948
+      },
+      {
+        "area_mm2": 18184432.799999997,
+        "bbox": {
+          "max": [
+            4822.0,
+            300.0,
+            7992.923999999999
+          ],
+          "min": [
+            4322.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          4572.0,
+          -2.96961338519198e-14,
+          3996.4619999999977
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2397877200.0
+      },
+      {
+        "area_mm2": 18184432.799999997,
+        "bbox": {
+          "max": [
+            4822.0,
+            3348.0,
+            7992.923999999999
+          ],
+          "min": [
+            4322.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          4571.999999999996,
+          3047.9999999999977,
+          3996.461999999997
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2397877200.0000033
+      },
+      {
+        "area_mm2": 18586768.8,
+        "bbox": {
+          "max": [
+            9394.0,
+            -2748.0,
+            8175.804
+          ],
+          "min": [
+            8894.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          9143.99999999998,
+          -3047.9999999999905,
+          4087.902000000006
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_007",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2452741200.000023
+      },
+      {
+        "area_mm2": 18586768.799999997,
+        "bbox": {
+          "max": [
+            9394.0,
+            300.0,
+            8175.804
+          ],
+          "min": [
+            8894.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          9144.0,
+          -5.370897355154445e-13,
+          4087.9020000000023
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_008",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2452741199.9999986
+      },
+      {
+        "area_mm2": 18586768.8,
+        "bbox": {
+          "max": [
+            9394.0,
+            3348.0,
+            8175.804
+          ],
+          "min": [
+            8894.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          9144.000000000022,
+          3048.0000000000073,
+          4087.9020000000055
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_009",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2452741199.9999824
+      },
+      {
+        "area_mm2": 18989104.799999997,
+        "bbox": {
+          "max": [
+            13966.0,
+            -2748.0,
+            8358.684000000001
+          ],
+          "min": [
+            13466.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          13715.999999999996,
+          -3047.9999999999995,
+          4179.341999999997
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_010",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2507605200.0000024
+      },
+      {
+        "area_mm2": 18989104.799999997,
+        "bbox": {
+          "max": [
+            13966.0,
+            300.0,
+            8358.684000000001
+          ],
+          "min": [
+            13466.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          13716.0,
+          -5.6793375840556294e-14,
+          4179.341999999995
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_011",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2507605200.0
+      },
+      {
+        "area_mm2": 18989104.799999997,
+        "bbox": {
+          "max": [
+            13966.0,
+            3348.0,
+            8358.684000000001
+          ],
+          "min": [
+            13466.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          13715.999999999996,
+          3047.999999999999,
+          4179.341999999997
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_012",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2507605200.000003
+      },
+      {
+        "area_mm2": 19391440.8,
+        "bbox": {
+          "max": [
+            18538.0,
+            -2748.0,
+            8541.564
+          ],
+          "min": [
+            18038.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          18287.999999999945,
+          -3047.99999999999,
+          4270.7820000000065
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_013",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2562469200.0000253
+      },
+      {
+        "area_mm2": 19391440.799999997,
+        "bbox": {
+          "max": [
+            18538.0,
+            300.0,
+            8541.564
+          ],
+          "min": [
+            18038.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          18288.000000000007,
+          -1.0916988432322762e-12,
+          4270.781999999994
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_014",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2562469199.9999976
+      },
+      {
+        "area_mm2": 19391440.8,
+        "bbox": {
+          "max": [
+            18538.0,
+            3348.0,
+            8541.564
+          ],
+          "min": [
+            18038.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          18288.00000000004,
+          3048.0000000000064,
+          4270.782000000017
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_015",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2562469199.9999847
+      },
+      {
+        "area_mm2": 40865774.015537545,
+        "bbox": {
+          "max": [
+            70113.99200958722,
+            -2748.0,
+            11114.004239680467
+          ],
+          "min": [
+            51806.007990412785,
+            -3348.0,
+            9882.883760319552
+          ]
+        },
+        "center_of_mass": [
+          60959.99999999959,
+          -3047.9999999999814,
+          10498.443999999941
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_arcade_girder_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 5490787365.755269
+      },
+      {
+        "area_mm2": 40865774.015537545,
+        "bbox": {
+          "max": [
+            70113.99200958722,
+            300.0,
+            11114.004239680467
+          ],
+          "min": [
+            51806.007990412785,
+            -300.0000000000001,
+            9882.883760319552
+          ]
+        },
+        "center_of_mass": [
+          60960.000000000095,
+          -1.8526534291075604e-13,
+          10498.444000000021
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_arcade_girder_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 5490787365.755107
+      },
+      {
+        "area_mm2": 40865774.015537545,
+        "bbox": {
+          "max": [
+            70113.99200958722,
+            3348.0,
+            11114.004239680467
+          ],
+          "min": [
+            51806.007990412785,
+            2748.0,
+            9882.883760319552
+          ]
+        },
+        "center_of_mass": [
+          60959.99999999979,
+          3047.999999999997,
+          10498.44399999998
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_arcade_girder_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 5490787365.755173
+      },
+      {
+        "area_mm2": 22341904.799999997,
+        "bbox": {
+          "max": [
+            52066.0,
+            -2748.0,
+            9882.684
+          ],
+          "min": [
+            51566.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          51815.99999999995,
+          -3047.9999999999964,
+          4941.341999999996
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_016",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2964805200.00001
+      },
+      {
+        "area_mm2": 22341904.799999997,
+        "bbox": {
+          "max": [
+            52066.0,
+            300.0,
+            9882.684
+          ],
+          "min": [
+            51566.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          51816.0,
+          0.0,
+          4941.342000000016
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_017",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2964805200.0
+      },
+      {
+        "area_mm2": 22341904.799999997,
+        "bbox": {
+          "max": [
+            52066.0,
+            3348.0,
+            9882.684
+          ],
+          "min": [
+            51566.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          51815.99999999996,
+          3047.9999999999977,
+          4941.341999999998
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_018",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 2964805200.00001
+      },
+      {
+        "area_mm2": 22744240.800000004,
+        "bbox": {
+          "max": [
+            56638.0,
+            -2748.0,
+            10065.564000000002
+          ],
+          "min": [
+            56138.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          56387.999999999585,
+          -3047.9999999999804,
+          5032.782000000048
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_019",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3019669200.000061
+      },
+      {
+        "area_mm2": 22744240.8,
+        "bbox": {
+          "max": [
+            56638.0,
+            300.0,
+            10065.564000000002
+          ],
+          "min": [
+            56138.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          56388.0,
+          -3.4496052304890437e-12,
+          5032.782000000045
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_020",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3019669200.0
+      },
+      {
+        "area_mm2": 22744240.800000004,
+        "bbox": {
+          "max": [
+            56638.0,
+            3348.0,
+            10065.564000000002
+          ],
+          "min": [
+            56138.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          56388.0,
+          3048.000000000009,
+          5032.7820000000465
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_021",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3019669199.9999795
+      },
+      {
+        "area_mm2": 23146576.799999997,
+        "bbox": {
+          "max": [
+            61210.0,
+            -2748.0,
+            10248.444
+          ],
+          "min": [
+            60710.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          60960.00000000032,
+          -3048.000000000006,
+          5124.221999999972
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_022",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3074533199.9999795
+      },
+      {
+        "area_mm2": 23146576.799999997,
+        "bbox": {
+          "max": [
+            61210.0,
+            300.0,
+            10248.444
+          ],
+          "min": [
+            60710.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          60959.99999999995,
+          2.481480613463525e-13,
+          5124.222000000024
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_023",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3074533200.00001
+      },
+      {
+        "area_mm2": 23146576.799999997,
+        "bbox": {
+          "max": [
+            61210.0,
+            3348.0,
+            10248.444
+          ],
+          "min": [
+            60710.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          60960.0000000001,
+          3048.0000000000045,
+          5124.221999999972
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_024",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3074533199.9999795
+      },
+      {
+        "area_mm2": 23548912.799999997,
+        "bbox": {
+          "max": [
+            65782.0,
+            -2748.0,
+            10431.324
+          ],
+          "min": [
+            65282.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          65532.00000000138,
+          -3048.000000000044,
+          5215.661999999992
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_025",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3129397199.9997764
+      },
+      {
+        "area_mm2": 23548912.799999997,
+        "bbox": {
+          "max": [
+            65782.0,
+            300.0,
+            10431.324
+          ],
+          "min": [
+            65282.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          65532.0,
+          -3.3286495771986587e-12,
+          5215.662000000016
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_026",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3129397200.0
+      },
+      {
+        "area_mm2": 23548912.799999997,
+        "bbox": {
+          "max": [
+            65782.0,
+            3348.0,
+            10431.324
+          ],
+          "min": [
+            65282.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          65531.99999999883,
+          3047.999999999966,
+          5215.661999999979
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_027",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3129397200.000183
+      },
+      {
+        "area_mm2": 23951248.800000004,
+        "bbox": {
+          "max": [
+            70354.0,
+            -2748.0,
+            10614.204000000002
+          ],
+          "min": [
+            69854.0,
+            -3348.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          70104.00000000048,
+          -3048.0000000000095,
+          5307.102000000029
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_028",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3184261199.999929
+      },
+      {
+        "area_mm2": 23951248.800000004,
+        "bbox": {
+          "max": [
+            70354.0,
+            300.0,
+            10614.204000000002
+          ],
+          "min": [
+            69854.0,
+            -300.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          70104.0,
+          4.0891222533293857e-13,
+          5307.10199999999
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_029",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3184261200.0
+      },
+      {
+        "area_mm2": 23951248.800000004,
+        "bbox": {
+          "max": [
+            70354.0,
+            3348.0,
+            10614.204000000002
+          ],
+          "min": [
+            69854.0,
+            2748.0,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          70103.99999999942,
+          3047.999999999985,
+          5307.10200000002
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "approach_column_030",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3184261200.0000916
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            3048.0000000000005,
+            5359.4,
+            8531.964
+          ],
+          "min": [
+            -4.547473508864641e-13,
+            -5359.4,
+            8210.044
+          ]
+        },
+        "center_of_mass": [
+          1523.9999999999973,
+          -1.3949084144877084e-12,
+          8371.004000000024
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.0
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            6096.0,
+            5359.4,
+            8653.884
+          ],
+          "min": [
+            3047.9999999999995,
+            -5359.4,
+            8331.964
+          ]
+        },
+        "center_of_mass": [
+          4571.99999999999,
+          -4.583270504745292e-12,
+          8492.923999999983
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000051
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            9144.0,
+            5359.4,
+            8775.804
+          ],
+          "min": [
+            6096.0,
+            -5359.4,
+            8453.884
+          ]
+        },
+        "center_of_mass": [
+          7619.999999999996,
+          4.981815766027545e-12,
+          8614.844000000006
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180479.99998
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            12192.0,
+            5359.4,
+            8897.724
+          ],
+          "min": [
+            9144.0,
+            -5359.4,
+            8575.804
+          ]
+        },
+        "center_of_mass": [
+          10667.999999999969,
+          -9.465449955452234e-12,
+          8736.763999999966
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.00005
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            15240.0,
+            5359.4,
+            9019.644
+          ],
+          "min": [
+            12192.0,
+            -5359.4,
+            8697.724
+          ]
+        },
+        "center_of_mass": [
+          13716.000000000044,
+          1.285308467635121e-11,
+          8858.684000000016
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180479.9999075
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            18288.0,
+            5359.4,
+            9141.564
+          ],
+          "min": [
+            15240.0,
+            -5359.4,
+            8819.644
+          ]
+        },
+        "center_of_mass": [
+          16764.000000000004,
+          -7.970905225643998e-12,
+          8980.603999999996
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000041
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            21336.0,
+            5359.4,
+            9263.484
+          ],
+          "min": [
+            18288.0,
+            -5359.4,
+            8941.564
+          ]
+        },
+        "center_of_mass": [
+          19812.0,
+          -1.7934536757699108e-12,
+          9102.523999999981
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_007",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.0
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            24384.0,
+            5359.4,
+            9385.404
+          ],
+          "min": [
+            21336.0,
+            -5359.4,
+            9063.484
+          ]
+        },
+        "center_of_mass": [
+          22859.9999999999,
+          -2.3115625154367316e-11,
+          9224.443999999969
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_008",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000119
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            27432.0,
+            5359.4,
+            9507.324
+          ],
+          "min": [
+            24384.0,
+            -5359.4,
+            9185.404
+          ]
+        },
+        "center_of_mass": [
+          25907.99999999978,
+          -5.0615248182837875e-11,
+          9346.363999999914
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_009",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.0002365
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            30480.0,
+            5359.4,
+            9629.244
+          ],
+          "min": [
+            27432.0,
+            -5359.4,
+            9307.324
+          ]
+        },
+        "center_of_mass": [
+          28955.99999999979,
+          -5.021670292155572e-11,
+          9468.283999999947
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_010",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000232
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            33528.0,
+            5359.4,
+            9751.164
+          ],
+          "min": [
+            30480.0,
+            -5359.4,
+            9429.244
+          ]
+        },
+        "center_of_mass": [
+          32004.000000000087,
+          1.7934536757699316e-11,
+          9590.204
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_011",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180479.999924
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            36576.0,
+            5359.4,
+            9873.083999999999
+          ],
+          "min": [
+            33528.0,
+            -5359.4000000000015,
+            9551.164
+          ]
+        },
+        "center_of_mass": [
+          35051.99999999995,
+          -1.55432651900057e-11,
+          9712.123999999969
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_012",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000081
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            39624.0,
+            5359.4,
+            9995.003999999999
+          ],
+          "min": [
+            36576.0,
+            -5359.4,
+            9673.083999999999
+          ]
+        },
+        "center_of_mass": [
+          38099.99999999984,
+          -1.7535991496416687e-11,
+          9834.043999999945
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_013",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000081
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            42672.0,
+            5359.4,
+            10116.923999999999
+          ],
+          "min": [
+            39624.0,
+            -5359.4,
+            9795.003999999999
+          ]
+        },
+        "center_of_mass": [
+          41147.999999999774,
+          -1.713744623513445e-11,
+          9955.963999999978
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_014",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000096
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            45720.0,
+            5359.4,
+            10238.844
+          ],
+          "min": [
+            42672.0,
+            -5359.4,
+            9916.923999999999
+          ]
+        },
+        "center_of_mass": [
+          44195.9999999995,
+          -6.575996811156022e-11,
+          10077.883999999885
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_015",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000316
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            48768.0,
+            5359.4,
+            10360.764
+          ],
+          "min": [
+            45720.0,
+            -5359.4,
+            10038.844
+          ]
+        },
+        "center_of_mass": [
+          47243.99999999964,
+          -3.467343773155074e-11,
+          10199.803999999916
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_016",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000163
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            51816.0,
+            5359.4,
+            10482.684
+          ],
+          "min": [
+            48768.0,
+            -5359.4,
+            10160.764
+          ]
+        },
+        "center_of_mass": [
+          50291.99999999912,
+          -9.68464984915681e-11,
+          10321.723999999806
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_017",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000478
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            54864.0,
+            5359.4,
+            10604.604
+          ],
+          "min": [
+            51816.0,
+            -5359.4,
+            10282.684
+          ]
+        },
+        "center_of_mass": [
+          53340.00000000042,
+          3.188362090257703e-11,
+          10443.64400000008
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_018",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180479.999827
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            57912.0,
+            5359.4,
+            10726.524
+          ],
+          "min": [
+            54864.0,
+            -5359.4,
+            10404.604
+          ]
+        },
+        "center_of_mass": [
+          56387.99999999834,
+          -1.6420064764824718e-10,
+          10565.563999999687
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_019",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000804
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            60960.0,
+            5359.4,
+            10848.444
+          ],
+          "min": [
+            57912.0,
+            -5359.4,
+            10526.524
+          ]
+        },
+        "center_of_mass": [
+          59435.999999999534,
+          -3.427489247026858e-11,
+          10687.483999999922
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_020",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000157
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            64008.0,
+            5359.4,
+            10970.364
+          ],
+          "min": [
+            60960.0,
+            -5359.4,
+            10648.444
+          ]
+        },
+        "center_of_mass": [
+          62484.00000000159,
+          1.315199362231401e-10,
+          10809.404000000237
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_021",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180479.999339
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            67056.0,
+            5359.4,
+            11092.284
+          ],
+          "min": [
+            64008.0,
+            -5359.4,
+            10770.364
+          ]
+        },
+        "center_of_mass": [
+          65531.999999999134,
+          -6.61585133728423e-11,
+          10931.323999999864
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_022",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180480.000325
+      },
+      {
+        "area_mm2": 70900777.35117325,
+        "bbox": {
+          "max": [
+            70104.0,
+            5359.4,
+            11214.204
+          ],
+          "min": [
+            67056.0,
+            -5359.4,
+            10892.284
+          ]
+        },
+        "center_of_mass": [
+          68580.00000000125,
+          9.883922479799358e-11,
+          11053.244000000243
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "graded_deck_023",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 6534180479.999512
+      },
+      {
+        "area_mm2": 55822751.999999985,
+        "bbox": {
+          "max": [
+            750.0,
+            6431.28,
+            0.0
+          ],
+          "min": [
+            -750.0,
+            -6431.28,
+            -600.0
+          ]
+        },
+        "center_of_mass": [
+          0.0,
+          2.2495665859039874e-13,
+          -300.00000000000006
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 11576303999.999998
+      },
+      {
+        "area_mm2": 55822751.999999985,
+        "bbox": {
+          "max": [
+            20562.0,
+            6431.28,
+            0.0
+          ],
+          "min": [
+            19062.0,
+            -6431.28,
+            -600.0
+          ]
+        },
+        "center_of_mass": [
+          19811.999999999993,
+          -5.623916464759967e-12,
+          -300.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 11576304000.0
+      },
+      {
+        "area_mm2": 55822751.999999985,
+        "bbox": {
+          "max": [
+            51042.0,
+            6431.28,
+            0.0
+          ],
+          "min": [
+            49542.0,
+            -6431.28,
+            -600.0
+          ]
+        },
+        "center_of_mass": [
+          50291.99999999991,
+          -1.6309357747803876e-11,
+          -299.99999999999994
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 11576304000.000021
+      },
+      {
+        "area_mm2": 55822751.999999985,
+        "bbox": {
+          "max": [
+            70854.0,
+            6431.28,
+            0.0
+          ],
+          "min": [
+            69354.0,
+            -6431.28,
+            -600.0
+          ]
+        },
+        "center_of_mass": [
+          70104.0,
+          -2.058353426102148e-11,
+          -300.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 11576304000.0
+      }
+    ],
+    "measurement_scope": "native member placement vs compiled graph, not independent image perception accuracy"
+  },
+  "reopen_and_edit": {
+    "cold_reopen_success": true,
+    "body_names_preserved": true,
+    "feature_ids_preserved": true,
+    "length_scale": 1.02,
+    "extent_target_error_mm": 0.0,
+    "volume_ratio_error": 4.218847493575595e-15,
+    "edit_scope": "native affine geometry edit; member sections also scale, not a section-preserving span redesign"
+  },
+  "independent_brep": {
+    "backend": "CadQuery/OCCT",
+    "cadquery_version": "2.8.0",
+    "valid_solid": true,
+    "solid_count": 101,
+    "volume_mm3": 692603244199.2281,
+    "surface_area_mm2": 3773844159.5186357,
+    "centroid_mm": [
+      35937.64203283026,
+      8.530210632930201e-14,
+      5902.492277245964
+    ],
+    "step_sha256": "6f3f61a71e5f85e520bcb66c9ee8de7bad44730efa1abed79e6e9e30ee5843cb",
+    "quantity_scope": "modeled envelope solids, not surveyed true bridge quantities",
+    "native_volume_relative_error": 3.1724737696549887e-15
+  },
+  "projection_iou": {
+    "status": "unavailable",
+    "reason": "No independent annotated geometry-only drawing masks; visual side-by-side saved"
+  },
+  "engineering_quantity_accuracy": {
+    "status": "unavailable",
+    "reason": "Section/connection details are incomplete or assumed; native quantity is not true-bridge quantity"
+  },
+  "notes": [
+    "These TIFFs are engineering-drawing photographs of the Nineveh Falls concrete arch bridge, not a swing bridge.",
+    "Three rib lines and simplified spandrel supports are reconstructed. Rib widths and the deck/arch vertical separation remain explicit model assumptions.",
+    "Small arcade openings and bank profiles are simplified to posts and girders. The 5-foot main pier depth, approach post spacing and post sections are visualization assumptions, not surveyed details."
+  ],
+  "elapsed_seconds": 6.559203334007179,
+  "artifacts_directory": ".",
+  "live_external_llm_calls": 0
+}

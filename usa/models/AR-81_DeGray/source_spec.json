@@ -1,0 +1,1226 @@
+{
+  "id": "AR-81_DeGray",
+  "name": "DeGray Creek Bridge (circa 1915)",
+  "family": "pony_truss",
+  "sources": [
+    {
+      "path": "AR-81_DeGray_Creek_Bridge_11085-1.pdf",
+      "sha256": "3d58c3721c32800850c9b2ff9c1f2d2b6bf4991dc6ea438412916a9b28228960",
+      "bytes": 664363
+    }
+  ],
+  "main_page": 2,
+  "lengths": [
+    "61'-10\""
+  ],
+  "width": "12'-0\"",
+  "height": "7'-6\"",
+  "panels": 4,
+  "profile": "flat",
+  "diagonals": "cross",
+  "panel_chain": [
+    "15'-5\"",
+    "15'-6\"",
+    "15'-6\"",
+    "15'-5\""
+  ],
+  "evidence": [
+    {
+      "field": "span,panels",
+      "page": 2,
+      "bbox": [
+        0.08,
+        0.13,
+        0.59,
+        0.43
+      ],
+      "quote": "15'-5\" + 15'-6\" + 15'-6\" + 15'-5\"; 61'-10\"",
+      "mode": "explicit"
+    },
+    {
+      "field": "width,height",
+      "page": 2,
+      "bbox": [
+        0.63,
+        0.08,
+        0.91,
+        0.46
+      ],
+      "quote": "12'-0\" clear width; 7'-6\" overall height",
+      "mode": "explicit"
+    }
+  ],
+  "notes": [
+    "Source explicitly states abutments were inaccessible and their form illustrative. Foundations are omitted rather than treated as surveyed geometry."
+  ],
+  "lengths_mm": [
+    18846.8
+  ],
+  "length_mm": 18846.8,
+  "width_mm": 3657.6,
+  "height_mm": 2286.0,
+  "between_span_gap_mm": 0.0,
+  "real_world_scale_known": true,
+  "source_evidence_status": "reviewed_readings",
+  "structural_detail_status": "envelope_level",
+  "section_truth_available": false,
+  "source_dimension_conflicts": [],
+  "graph_members": [
+    {
+      "name": "lower_chord_001",
+      "role": "lower_chord",
+      "creation_feature": 1,
+      "p0_mm": [
+        0.0,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        4699.0,
+        -1828.8,
+        0.0
+      ],
+      "width_mm": 120,
+      "depth_mm": 100,
+      "length_mm": 4699.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "upper_chord_001",
+      "role": "upper_chord",
+      "creation_feature": 3,
+      "p0_mm": [
+        0.0,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        4699.0,
+        -1828.8,
+        2286.0
+      ],
+      "width_mm": 160.0,
+      "depth_mm": 220.0,
+      "length_mm": 5225.552315306009,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_chord_002",
+      "role": "lower_chord",
+      "creation_feature": 5,
+      "p0_mm": [
+        4699.0,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        9423.4,
+        -1828.8,
+        0.0
+      ],
+      "width_mm": 120,
+      "depth_mm": 100,
+      "length_mm": 4724.4,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "upper_chord_002",
+      "role": "upper_chord",
+      "creation_feature": 7,
+      "p0_mm": [
+        4699.0,
+        -1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        9423.4,
+        -1828.8,
+        2286.0
+      ],
+      "width_mm": 160.0,
+      "depth_mm": 220.0,
+      "length_mm": 4724.4,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_chord_003",
+      "role": "lower_chord",
+      "creation_feature": 9,
+      "p0_mm": [
+        9423.4,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        14147.8,
+        -1828.8,
+        0.0
+      ],
+      "width_mm": 120,
+      "depth_mm": 100,
+      "length_mm": 4724.4,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "upper_chord_003",
+      "role": "upper_chord",
+      "creation_feature": 11,
+      "p0_mm": [
+        9423.4,
+        -1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        14147.8,
+        -1828.8,
+        2286.0
+      ],
+      "width_mm": 160.0,
+      "depth_mm": 220.0,
+      "length_mm": 4724.4,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_chord_004",
+      "role": "lower_chord",
+      "creation_feature": 13,
+      "p0_mm": [
+        14147.8,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        18846.8,
+        -1828.8,
+        0.0
+      ],
+      "width_mm": 120,
+      "depth_mm": 100,
+      "length_mm": 4699.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "upper_chord_004",
+      "role": "upper_chord",
+      "creation_feature": 15,
+      "p0_mm": [
+        14147.8,
+        -1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        18846.8,
+        -1828.8,
+        0.0
+      ],
+      "width_mm": 160.0,
+      "depth_mm": 220.0,
+      "length_mm": 5225.552315306009,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "vertical_001",
+      "role": "vertical",
+      "creation_feature": 17,
+      "p0_mm": [
+        4699.0,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        4699.0,
+        -1828.8,
+        2286.0
+      ],
+      "width_mm": 130,
+      "depth_mm": 150,
+      "length_mm": 2286.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "vertical_002",
+      "role": "vertical",
+      "creation_feature": 19,
+      "p0_mm": [
+        9423.4,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        9423.4,
+        -1828.8,
+        2286.0
+      ],
+      "width_mm": 130,
+      "depth_mm": 150,
+      "length_mm": 2286.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "vertical_003",
+      "role": "vertical",
+      "creation_feature": 21,
+      "p0_mm": [
+        14147.8,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        14147.8,
+        -1828.8,
+        2286.0
+      ],
+      "width_mm": 130,
+      "depth_mm": 150,
+      "length_mm": 2286.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "diagonal_001",
+      "role": "diagonal",
+      "creation_feature": 23,
+      "p0_mm": [
+        4699.0,
+        -1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        9423.4,
+        -1828.8,
+        0.0
+      ],
+      "width_mm": 50,
+      "depth_mm": 90,
+      "length_mm": 5248.404649033837,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "counterbrace_001",
+      "role": "counterbrace",
+      "creation_feature": 25,
+      "p0_mm": [
+        4699.0,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        9423.4,
+        -1828.8,
+        2286.0
+      ],
+      "width_mm": 35,
+      "depth_mm": 50,
+      "length_mm": 5248.404649033837,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "diagonal_002",
+      "role": "diagonal",
+      "creation_feature": 27,
+      "p0_mm": [
+        9423.4,
+        -1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        14147.8,
+        -1828.8,
+        2286.0
+      ],
+      "width_mm": 50,
+      "depth_mm": 90,
+      "length_mm": 5248.404649033837,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "counterbrace_002",
+      "role": "counterbrace",
+      "creation_feature": 29,
+      "p0_mm": [
+        9423.4,
+        -1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        14147.8,
+        -1828.8,
+        0.0
+      ],
+      "width_mm": 35,
+      "depth_mm": 50,
+      "length_mm": 5248.404649033837,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_chord_005",
+      "role": "lower_chord",
+      "creation_feature": 31,
+      "p0_mm": [
+        0.0,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        4699.0,
+        1828.8,
+        0.0
+      ],
+      "width_mm": 120,
+      "depth_mm": 100,
+      "length_mm": 4699.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "upper_chord_005",
+      "role": "upper_chord",
+      "creation_feature": 33,
+      "p0_mm": [
+        0.0,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        4699.0,
+        1828.8,
+        2286.0
+      ],
+      "width_mm": 160.0,
+      "depth_mm": 220.0,
+      "length_mm": 5225.552315306009,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_chord_006",
+      "role": "lower_chord",
+      "creation_feature": 35,
+      "p0_mm": [
+        4699.0,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        9423.4,
+        1828.8,
+        0.0
+      ],
+      "width_mm": 120,
+      "depth_mm": 100,
+      "length_mm": 4724.4,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "upper_chord_006",
+      "role": "upper_chord",
+      "creation_feature": 37,
+      "p0_mm": [
+        4699.0,
+        1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        9423.4,
+        1828.8,
+        2286.0
+      ],
+      "width_mm": 160.0,
+      "depth_mm": 220.0,
+      "length_mm": 4724.4,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_chord_007",
+      "role": "lower_chord",
+      "creation_feature": 39,
+      "p0_mm": [
+        9423.4,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        14147.8,
+        1828.8,
+        0.0
+      ],
+      "width_mm": 120,
+      "depth_mm": 100,
+      "length_mm": 4724.4,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "upper_chord_007",
+      "role": "upper_chord",
+      "creation_feature": 41,
+      "p0_mm": [
+        9423.4,
+        1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        14147.8,
+        1828.8,
+        2286.0
+      ],
+      "width_mm": 160.0,
+      "depth_mm": 220.0,
+      "length_mm": 4724.4,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_chord_008",
+      "role": "lower_chord",
+      "creation_feature": 43,
+      "p0_mm": [
+        14147.8,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        18846.8,
+        1828.8,
+        0.0
+      ],
+      "width_mm": 120,
+      "depth_mm": 100,
+      "length_mm": 4699.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "upper_chord_008",
+      "role": "upper_chord",
+      "creation_feature": 45,
+      "p0_mm": [
+        14147.8,
+        1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        18846.8,
+        1828.8,
+        0.0
+      ],
+      "width_mm": 160.0,
+      "depth_mm": 220.0,
+      "length_mm": 5225.552315306009,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "vertical_004",
+      "role": "vertical",
+      "creation_feature": 47,
+      "p0_mm": [
+        4699.0,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        4699.0,
+        1828.8,
+        2286.0
+      ],
+      "width_mm": 130,
+      "depth_mm": 150,
+      "length_mm": 2286.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "vertical_005",
+      "role": "vertical",
+      "creation_feature": 49,
+      "p0_mm": [
+        9423.4,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        9423.4,
+        1828.8,
+        2286.0
+      ],
+      "width_mm": 130,
+      "depth_mm": 150,
+      "length_mm": 2286.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "vertical_006",
+      "role": "vertical",
+      "creation_feature": 51,
+      "p0_mm": [
+        14147.8,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        14147.8,
+        1828.8,
+        2286.0
+      ],
+      "width_mm": 130,
+      "depth_mm": 150,
+      "length_mm": 2286.0,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "diagonal_003",
+      "role": "diagonal",
+      "creation_feature": 53,
+      "p0_mm": [
+        4699.0,
+        1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        9423.4,
+        1828.8,
+        0.0
+      ],
+      "width_mm": 50,
+      "depth_mm": 90,
+      "length_mm": 5248.404649033837,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "counterbrace_003",
+      "role": "counterbrace",
+      "creation_feature": 55,
+      "p0_mm": [
+        4699.0,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        9423.4,
+        1828.8,
+        2286.0
+      ],
+      "width_mm": 35,
+      "depth_mm": 50,
+      "length_mm": 5248.404649033837,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "diagonal_004",
+      "role": "diagonal",
+      "creation_feature": 57,
+      "p0_mm": [
+        9423.4,
+        1828.8,
+        0.0
+      ],
+      "p1_mm": [
+        14147.8,
+        1828.8,
+        2286.0
+      ],
+      "width_mm": 50,
+      "depth_mm": 90,
+      "length_mm": 5248.404649033837,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "counterbrace_004",
+      "role": "counterbrace",
+      "creation_feature": 59,
+      "p0_mm": [
+        9423.4,
+        1828.8,
+        2286.0
+      ],
+      "p1_mm": [
+        14147.8,
+        1828.8,
+        0.0
+      ],
+      "width_mm": 35,
+      "depth_mm": 50,
+      "length_mm": 5248.404649033837,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "floor_beam_001",
+      "role": "floor_beam",
+      "creation_feature": 61,
+      "p0_mm": [
+        0.0,
+        -1828.8,
+        -200.0
+      ],
+      "p1_mm": [
+        0.0,
+        1828.8,
+        -200.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 350,
+      "length_mm": 3657.6,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_lateral_001",
+      "role": "lower_lateral",
+      "creation_feature": 63,
+      "p0_mm": [
+        0.0,
+        -1828.8,
+        -350.0
+      ],
+      "p1_mm": [
+        4699.0,
+        1828.8,
+        -350.0
+      ],
+      "width_mm": 35,
+      "depth_mm": 45,
+      "length_mm": 5954.715674152713,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "floor_beam_002",
+      "role": "floor_beam",
+      "creation_feature": 65,
+      "p0_mm": [
+        4699.0,
+        -1828.8,
+        -200.0
+      ],
+      "p1_mm": [
+        4699.0,
+        1828.8,
+        -200.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 350,
+      "length_mm": 3657.6,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_lateral_002",
+      "role": "lower_lateral",
+      "creation_feature": 67,
+      "p0_mm": [
+        4699.0,
+        -1828.8,
+        -350.0
+      ],
+      "p1_mm": [
+        9423.4,
+        1828.8,
+        -350.0
+      ],
+      "width_mm": 35,
+      "depth_mm": 45,
+      "length_mm": 5974.779754936578,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "floor_beam_003",
+      "role": "floor_beam",
+      "creation_feature": 69,
+      "p0_mm": [
+        9423.4,
+        -1828.8,
+        -200.0
+      ],
+      "p1_mm": [
+        9423.4,
+        1828.8,
+        -200.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 350,
+      "length_mm": 3657.6,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_lateral_003",
+      "role": "lower_lateral",
+      "creation_feature": 71,
+      "p0_mm": [
+        9423.4,
+        -1828.8,
+        -350.0
+      ],
+      "p1_mm": [
+        14147.8,
+        1828.8,
+        -350.0
+      ],
+      "width_mm": 35,
+      "depth_mm": 45,
+      "length_mm": 5974.779754936578,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "floor_beam_004",
+      "role": "floor_beam",
+      "creation_feature": 73,
+      "p0_mm": [
+        14147.8,
+        -1828.8,
+        -200.0
+      ],
+      "p1_mm": [
+        14147.8,
+        1828.8,
+        -200.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 350,
+      "length_mm": 3657.6,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "lower_lateral_004",
+      "role": "lower_lateral",
+      "creation_feature": 75,
+      "p0_mm": [
+        14147.8,
+        -1828.8,
+        -350.0
+      ],
+      "p1_mm": [
+        18846.8,
+        1828.8,
+        -350.0
+      ],
+      "width_mm": 35,
+      "depth_mm": 45,
+      "length_mm": 5954.715674152713,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "floor_beam_005",
+      "role": "floor_beam",
+      "creation_feature": 77,
+      "p0_mm": [
+        18846.8,
+        -1828.8,
+        -200.0
+      ],
+      "p1_mm": [
+        18846.8,
+        1828.8,
+        -200.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 350,
+      "length_mm": 3657.6,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "deck_001",
+      "role": "deck",
+      "creation_feature": 79,
+      "corner_mm": [
+        0,
+        -1828.8,
+        -76.2
+      ],
+      "size_mm": [
+        18846.8,
+        3657.6,
+        76.2
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "stringer_001",
+      "role": "stringer",
+      "creation_feature": 80,
+      "p0_mm": [
+        0.0,
+        -1280.1599999999999,
+        -226.2
+      ],
+      "p1_mm": [
+        18846.8,
+        -1280.1599999999999,
+        -226.2
+      ],
+      "width_mm": 100,
+      "depth_mm": 250,
+      "length_mm": 18846.8,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "stringer_002",
+      "role": "stringer",
+      "creation_feature": 82,
+      "p0_mm": [
+        0.0,
+        -426.7199999999999,
+        -226.2
+      ],
+      "p1_mm": [
+        18846.8,
+        -426.7199999999999,
+        -226.2
+      ],
+      "width_mm": 100,
+      "depth_mm": 250,
+      "length_mm": 18846.8,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "stringer_003",
+      "role": "stringer",
+      "creation_feature": 84,
+      "p0_mm": [
+        0.0,
+        426.72,
+        -226.2
+      ],
+      "p1_mm": [
+        18846.8,
+        426.72,
+        -226.2
+      ],
+      "width_mm": 100,
+      "depth_mm": 250,
+      "length_mm": 18846.8,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "stringer_004",
+      "role": "stringer",
+      "creation_feature": 86,
+      "p0_mm": [
+        0.0,
+        1280.1599999999999,
+        -226.2
+      ],
+      "p1_mm": [
+        18846.8,
+        1280.1599999999999,
+        -226.2
+      ],
+      "width_mm": 100,
+      "depth_mm": 250,
+      "length_mm": 18846.8,
+      "assembly": "main",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "bearing_block_001",
+      "role": "bearing_block",
+      "creation_feature": 88,
+      "corner_mm": [
+        -750.0,
+        -2194.56,
+        -950
+      ],
+      "size_mm": [
+        1500,
+        4389.12,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bearing_block_002",
+      "role": "bearing_block",
+      "creation_feature": 89,
+      "corner_mm": [
+        18096.8,
+        -2194.56,
+        -950
+      ],
+      "size_mm": [
+        1500,
+        4389.12,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    }
+  ],
+  "graph_polygons": [],
+  "source_views": [],
+  "dimension_sources": {
+    "length": {
+      "method": "explicit_dimension",
+      "value_mm": 18846.8
+    },
+    "width": {
+      "method": "explicit_dimension",
+      "value_mm": 3657.6
+    },
+    "height": {
+      "method": "explicit_dimension",
+      "value_mm": 2286.0
+    }
+  },
+  "source_evidence": [
+    {
+      "field": "span,panels",
+      "page": 2,
+      "bbox": [
+        0.08,
+        0.13,
+        0.59,
+        0.43
+      ],
+      "quote": "15'-5\" + 15'-6\" + 15'-6\" + 15'-5\"; 61'-10\"",
+      "mode": "explicit",
+      "source_file": "AR-81_DeGray_Creek_Bridge_11085-1.pdf",
+      "source_sha256": "3d58c3721c32800850c9b2ff9c1f2d2b6bf4991dc6ea438412916a9b28228960"
+    },
+    {
+      "field": "width,height",
+      "page": 2,
+      "bbox": [
+        0.63,
+        0.08,
+        0.91,
+        0.46
+      ],
+      "quote": "12'-0\" clear width; 7'-6\" overall height",
+      "mode": "explicit",
+      "source_file": "AR-81_DeGray_Creek_Bridge_11085-1.pdf",
+      "source_sha256": "3d58c3721c32800850c9b2ff9c1f2d2b6bf4991dc6ea438412916a9b28228960"
+    }
+  ],
+  "native_parameters": {
+    "lower_chord_width": {
+      "value": 120.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "lower_chord_depth": {
+      "value": 100.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "upper_chord_width": {
+      "value": 160.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "upper_chord_depth": {
+      "value": 220.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "vertical_width": {
+      "value": 130.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "vertical_depth": {
+      "value": 150.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "diagonal_width": {
+      "value": 50.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "diagonal_depth": {
+      "value": 90.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "counterbrace_width": {
+      "value": 35.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "counterbrace_depth": {
+      "value": 50.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "floor_beam_width": {
+      "value": 180.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "floor_beam_depth": {
+      "value": 350.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "lower_lateral_width": {
+      "value": 35.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "lower_lateral_depth": {
+      "value": 45.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "stringer_width": {
+      "value": 100.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "stringer_depth": {
+      "value": 250.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "design_length_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    },
+    "design_width_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    },
+    "design_height_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    }
+  },
+  "native_server": {
+    "name": "solidcraft",
+    "title": "SolidCraft",
+    "version": "0.9.0"
+  },
+  "artifacts": {
+    "drawing_vs_cad.jpg": {
+      "sha256": "41ebc35113d6413b212df5f5e2772b881840c9d6e08b1547dea54a28ce3e94e4",
+      "bytes": 174858
+    },
+    "AR-81_DeGray.3mf": {
+      "sha256": "b45c33371ae63d8cb441200adac6343916a9882f1b7642daa0a2b81366dc2b3e",
+      "bytes": 4042
+    },
+    "AR-81_DeGray.solidcraft": {
+      "sha256": "954015be1080f17109b471d3309ba1fc3958861f760ddf74c3ea7fc14de9825e",
+      "bytes": 5920
+    },
+    "AR-81_DeGray.step": {
+      "sha256": "6f3c21eafff2eed1319492183a34b6d230315aecd323eb019957ea72094ad118",
+      "bytes": 183587
+    },
+    "top.png": {
+      "sha256": "ad886f969d7dc52255e3fbeca76d1dc75ffde6b1cf6eccd330e52033b72cdb12",
+      "bytes": 53935
+    },
+    "AR-81_DeGray.stl": {
+      "sha256": "d65f0d7d745e4b1ac7fdde9c93192f995971ac4216d9e323760992b163c95ce8",
+      "bytes": 27684
+    },
+    "iso.png": {
+      "sha256": "fabdb395c5461edbf97445604b022bdd266bcb998f48088a024f99890b72a07d",
+      "bytes": 622409
+    },
+    "right.png": {
+      "sha256": "947eeba545347445f08a0356adf897a5fba134b255d11ea1c4ba1c5de6015286",
+      "bytes": 21747
+    },
+    "front.png": {
+      "sha256": "26542e6235eccac36e9f60ca0050cc6c3e1b4d536c93ad5c0cf63a1c1503d87c",
+      "bytes": 47332
+    }
+  },
+  "generation_source_sha256": "d5bf10bb82fbc5759fa52b227ab2f6559414580f441fa759c37b7f81b605df8a",
+  "source_to_cad_method": "reviewed actual drawing readings -> source node graph -> native SolidCraft MCP",
+  "approximations": [
+    "Built-up sections, rivets, connections, bearings and foundations are envelope-level or omitted",
+    "Intermediate node ordinates may be scaled/idealized; original drawing constraints and conflicts retained",
+    "Affine edit changes member sections too; not a section-preserving engineering design edit"
+  ],
+  "publication": {
+    "source_page": "source_page.png",
+    "source_sha256": "3d58c3721c32800850c9b2ff9c1f2d2b6bf4991dc6ea438412916a9b28228960",
+    "source_page_number": 2,
+    "note": "Source file paths are filenames; original PDFs/TIFFs are not bundled. MCP journal omitted."
+  }
+}

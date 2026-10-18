@@ -1,0 +1,16 @@
+{
+  "schema": "usa.drawing2cad_audit/1",
+  "passed": true,
+  "failures": [],
+  "cases": 15,
+  "metric_conceptual_models": 11,
+  "unscaled_review_models": 4,
+  "source_files_checked": 22,
+  "hashed_artifacts_checked": 140,
+  "total_modeled_solids": 2132,
+  "movable_span_cases_checked": 5,
+  "max_member_endpoint_error_mm": 2.9160618472599524e-11,
+  "max_motion_centroid_error_mm": 5.678580939504816e-07,
+  "max_native_step_volume_relative_error": 1.1639563881630949e-14,
+  "scope": "Artifact integrity and recorded native/STEP/edit gates; not independent drawing accuracy or engineering quantities"
+}

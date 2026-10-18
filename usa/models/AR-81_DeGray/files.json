@@ -1,0 +1,62 @@
+{
+  "AR-81_DeGray.3mf": {
+    "sha256": "b45c33371ae63d8cb441200adac6343916a9882f1b7642daa0a2b81366dc2b3e",
+    "bytes": 4042
+  },
+  "AR-81_DeGray.solidcraft": {
+    "sha256": "954015be1080f17109b471d3309ba1fc3958861f760ddf74c3ea7fc14de9825e",
+    "bytes": 5920
+  },
+  "AR-81_DeGray.step": {
+    "sha256": "6f3c21eafff2eed1319492183a34b6d230315aecd323eb019957ea72094ad118",
+    "bytes": 183587
+  },
+  "AR-81_DeGray.stl": {
+    "sha256": "d65f0d7d745e4b1ac7fdde9c93192f995971ac4216d9e323760992b163c95ce8",
+    "bytes": 27684
+  },
+  "bridge.glb": {
+    "sha256": "ef1fc34f4d445158b9af8db8a8d0c98f0a64d25d19493f8905f22438aa8ae285",
+    "bytes": 31188
+  },
+  "drawing_vs_cad.jpg": {
+    "sha256": "41ebc35113d6413b212df5f5e2772b881840c9d6e08b1547dea54a28ce3e94e4",
+    "bytes": 174858
+  },
+  "front.png": {
+    "sha256": "26542e6235eccac36e9f60ca0050cc6c3e1b4d536c93ad5c0cf63a1c1503d87c",
+    "bytes": 47332
+  },
+  "iso.png": {
+    "sha256": "fabdb395c5461edbf97445604b022bdd266bcb998f48088a024f99890b72a07d",
+    "bytes": 622409
+  },
+  "right.png": {
+    "sha256": "947eeba545347445f08a0356adf897a5fba134b255d11ea1c4ba1c5de6015286",
+    "bytes": 21747
+  },
+  "source_page.png": {
+    "sha256": "4bdb5525bbd9ea3a0a23e5e3d744d1b1db06fabb1fc694efffe753ff4b6efa41",
+    "bytes": 1602675
+  },
+  "source_spec.json": {
+    "sha256": "ab768c8f8be8770a4202805fa58b4d8933ae56b72a101c14f5d9e449670e97e6",
+    "bytes": 28392
+  },
+  "top.png": {
+    "sha256": "ad886f969d7dc52255e3fbeca76d1dc75ffde6b1cf6eccd330e52033b72cdb12",
+    "bytes": 53935
+  },
+  "validation.json": {
+    "sha256": "e5c8d2e968284af2f2b3426afa38a00c4a7427cdd5c346b1c176d6235012c928",
+    "bytes": 42435
+  },
+  "viewer.html": {
+    "sha256": "0e701b199562102a6dba626da4658f2929212dbd1a0a1b3d936adb3b1488b0a3",
+    "bytes": 90342
+  },
+  "web_mesh_validation.json": {
+    "sha256": "3ee6a935821f07a328d4dc1f66f79f321864c5a3579d40380e35bb7dfdca8151",
+    "bytes": 371
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "AR-64_Fryers_Ford.3mf": {
+    "sha256": "99b236a24725c8c94a63617249f4b0afd16d21b842b477d3c79c787e62143ac7",
+    "bytes": 6702
+  },
+  "AR-64_Fryers_Ford.solidcraft": {
+    "sha256": "3d394f81b9befe646e558097bd55c493c2ef354725eddec34386405cbe4fb113",
+    "bytes": 10470
+  },
+  "AR-64_Fryers_Ford.step": {
+    "sha256": "f79cf51b899917ce3c5764023b0069078c169b46a782859fa7790583cad0e4b5",
+    "bytes": 356284
+  },
+  "AR-64_Fryers_Ford.stl": {
+    "sha256": "ffe88038d2fba7664d9a5ed728f8468b1947b75641dfd342dc0d3ff98b9ade31",
+    "bytes": 54084
+  },
+  "bridge.glb": {
+    "sha256": "8762a373cd9515d4a803cf037cbb5cdaf8590ba4c9ed244518c3663b20447176",
+    "bytes": 59308
+  },
+  "drawing_vs_cad.jpg": {
+    "sha256": "94c497fb4ec9ff5a86a0e6a7baaf2dba557ca3ab58c934aa0d5cd94c52830160",
+    "bytes": 175086
+  },
+  "front.png": {
+    "sha256": "84a79d6cf1f007b6a92afd4c80ef2d323cd662a1d8d1583f625a509fb7702c8a",
+    "bytes": 57733
+  },
+  "iso.png": {
+    "sha256": "800ad704e4f75597bb238c2e72eff40bd9b6ec79eb4aba263b02b65d10322f0c",
+    "bytes": 639665
+  },
+  "right.png": {
+    "sha256": "77e229ae3f02289df9d5454286f3139e1b2371e74785b83be134fa0c888fe96e",
+    "bytes": 21845
+  },
+  "source_page.png": {
+    "sha256": "dd752a8e171ae799daca5b1c32e9afa7e86493c33514ca6d067f67c792484253",
+    "bytes": 688914
+  },
+  "source_spec.json": {
+    "sha256": "a62dd6f771a897f98a64005ffaf30fb00c49e048bf299ba5e3dd5de71cef3eec",
+    "bytes": 50590
+  },
+  "top.png": {
+    "sha256": "8124d50f10984cab5cc728d5f29be4b3d3e8e5ce6b082ceb64317fcc3994d2ef",
+    "bytes": 74292
+  },
+  "validation.json": {
+    "sha256": "1cb9647128012ed73753b17db34c1c8a032bd7e3ec77b2f760e7e7d9e2995e45",
+    "bytes": 81726
+  },
+  "viewer.html": {
+    "sha256": "8f6a64e384938213ea01e48d272ec231e4a5e8009a5171ad0f0d888d4fe9fbb4",
+    "bytes": 176781
+  },
+  "web_mesh_validation.json": {
+    "sha256": "b19297e144921e19767004606d5928c2e1191254adf3682a7a42226ecb155e71",
+    "bytes": 373
+  }
+}

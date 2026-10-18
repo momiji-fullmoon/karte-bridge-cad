@@ -1,0 +1,62 @@
+{
+  "AR-27_South_Fork.3mf": {
+    "sha256": "722920f4249d425310e7b6fd65859f3f544237cb5d61dbb73c8a0bfb1449a46c",
+    "bytes": 3856
+  },
+  "AR-27_South_Fork.solidcraft": {
+    "sha256": "55a7b1b04e3d3c77c61ce38521a1489efa67a5868540ae4c08774625cf39ad16",
+    "bytes": 3784
+  },
+  "AR-27_South_Fork.step": {
+    "sha256": "c792c220216aea726ded08a4795a9c2c74aae5f028d6a005c1a9d18871082b9c",
+    "bytes": 152172
+  },
+  "AR-27_South_Fork.stl": {
+    "sha256": "da42392bbc818d8ce9b9fa52693db6bf800a01c7827d48c63fd608358483e96d",
+    "bytes": 29684
+  },
+  "bridge.glb": {
+    "sha256": "ddc77f4260a917d68cf0211a46cc943a00a34b114a709f89f74db5204f554149",
+    "bytes": 11056
+  },
+  "drawing_vs_cad.jpg": {
+    "sha256": "7e9c764e508d08c55793bfb6d12c4f407f59df73bedf4a6b57e2ba71674eef15",
+    "bytes": 139576
+  },
+  "front.png": {
+    "sha256": "b531e0e47476b8b8c0935678dd0f6f113b6ba4880c429ec2a17fa77a560a37e3",
+    "bytes": 29855
+  },
+  "iso.png": {
+    "sha256": "3a8de55568a224610885e1fae0951339b4bc1a93153bf4dea95cff5219180bf1",
+    "bytes": 478327
+  },
+  "right.png": {
+    "sha256": "f02a5a749a34a6a092851cf8d9ce63ed0789cde60997bb97a33606439964ecab",
+    "bytes": 21988
+  },
+  "source_page.png": {
+    "sha256": "c7748d877793a9734df44b87597a3c1c50347166bd622f1fe58272804e9106f4",
+    "bytes": 2199382
+  },
+  "source_spec.json": {
+    "sha256": "d16b70f2249bdd34d2d010730bf8ad258c06e19f1bdf3ff6786febb0a38c4b9c",
+    "bytes": 18170
+  },
+  "top.png": {
+    "sha256": "fee17c7421403bf76cc249e13e7b1ab74d59b374e3a040afd5f5a2c130eb2db5",
+    "bytes": 45570
+  },
+  "validation.json": {
+    "sha256": "3972419781eb9228089a8f5437b14f4a2a58349353e47932e92e17d3024f32d3",
+    "bytes": 9520
+  },
+  "viewer.html": {
+    "sha256": "96767a7a4a67fc917fb16ecc9a38e973e800b5b1ee9e097cb89c709190e2d24d",
+    "bytes": 97683
+  },
+  "web_mesh_validation.json": {
+    "sha256": "85e3f013e3b6debd97d1f61f7f20c51bdac18e1a99320581030cb6ccf93f106e",
+    "bytes": 373
+  }
+}

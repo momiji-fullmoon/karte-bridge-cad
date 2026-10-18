@@ -1,0 +1,3538 @@
+{
+  "id": "Chicago_Columbus_Drive",
+  "name": "Columbus Drive bascule bridge (UNSCALED REVIEW MODEL)",
+  "family": "bascule",
+  "sources": [
+    {
+      "path": "colplnelv.jpg",
+      "sha256": "24e4fbc60b6d6271b17f620143314ad05a4855f99dc59a2c85c2f7d475604313",
+      "bytes": 204577
+    }
+  ],
+  "main_page": 1,
+  "unscaled": true,
+  "normalization_length_mm": 100000,
+  "width_ratio": 0.32,
+  "depth_ratio": 0.07,
+  "evidence": [
+    {
+      "field": "bridge_form",
+      "page": 1,
+      "bbox": [
+        0.02,
+        0.02,
+        0.72,
+        0.95
+      ],
+      "quote": "Double leaf trunnion bascule; general arrangements",
+      "mode": "visual_topology"
+    }
+  ],
+  "notes": [
+    "900-pixel source is too low resolution to confirm the main dimension chain. This model is normalized to 100000mm, NOT a real-world dimensioned reconstruction."
+  ],
+  "lengths_mm": [
+    100000.0
+  ],
+  "length_mm": 100000.0,
+  "width_mm": 32000.0,
+  "height_mm": 7000.000000000001,
+  "between_span_gap_mm": 0.0,
+  "real_world_scale_known": false,
+  "source_evidence_status": "reviewed_readings",
+  "structural_detail_status": "envelope_level",
+  "section_truth_available": false,
+  "source_dimension_conflicts": [],
+  "graph_members": [
+    {
+      "name": "deck_001",
+      "role": "deck",
+      "creation_feature": 1,
+      "corner_mm": [
+        0,
+        -16000.0,
+        -300
+      ],
+      "size_mm": [
+        50000.0,
+        32000.0,
+        300
+      ],
+      "assembly": "left_leaf",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "leaf_lower_chord_001",
+      "role": "leaf_lower_chord",
+      "creation_feature": 2,
+      "p0_mm": [
+        0.0,
+        -16000.0,
+        -7000.000000000001
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        -16000.0,
+        -6416.666666666667
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.72505067184,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_001",
+      "role": "leaf_vertical",
+      "creation_feature": 4,
+      "p0_mm": [
+        0.0,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        0.0,
+        -16000.0,
+        -7000.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6700.000000000001,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_001",
+      "role": "leaf_diagonal",
+      "creation_feature": 6,
+      "p0_mm": [
+        0.0,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        -16000.0,
+        -6416.666666666667
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10337.217012114796,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_002",
+      "role": "leaf_lower_chord",
+      "creation_feature": 8,
+      "p0_mm": [
+        8333.333333333334,
+        -16000.0,
+        -6416.666666666667
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        -16000.0,
+        -5833.333333333334
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.72505067184,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_002",
+      "role": "leaf_vertical",
+      "creation_feature": 10,
+      "p0_mm": [
+        8333.333333333334,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        -16000.0,
+        -6416.666666666667
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6116.666666666667,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_002",
+      "role": "leaf_diagonal",
+      "creation_feature": 12,
+      "p0_mm": [
+        8333.333333333334,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        -16000.0,
+        -5833.333333333334
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10003.110627310998,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_003",
+      "role": "leaf_lower_chord",
+      "creation_feature": 14,
+      "p0_mm": [
+        16666.666666666668,
+        -16000.0,
+        -5833.333333333334
+      ],
+      "p1_mm": [
+        25000.0,
+        -16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671837,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_003",
+      "role": "leaf_vertical",
+      "creation_feature": 16,
+      "p0_mm": [
+        16666.666666666668,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        -16000.0,
+        -5833.333333333334
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 5533.333333333334,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_003",
+      "role": "leaf_diagonal",
+      "creation_feature": 18,
+      "p0_mm": [
+        16666.666666666668,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        25000.0,
+        -16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9692.623197279692,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_004",
+      "role": "leaf_lower_chord",
+      "creation_feature": 20,
+      "p0_mm": [
+        25000.0,
+        -16000.0,
+        -5250.000000000001
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        -16000.0,
+        -4666.666666666667
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_004",
+      "role": "leaf_vertical",
+      "creation_feature": 22,
+      "p0_mm": [
+        25000.0,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        25000.0,
+        -16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4950.000000000001,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_004",
+      "role": "leaf_diagonal",
+      "creation_feature": 24,
+      "p0_mm": [
+        25000.0,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        -16000.0,
+        -4666.666666666667
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9408.093442468684,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_005",
+      "role": "leaf_lower_chord",
+      "creation_feature": 26,
+      "p0_mm": [
+        33333.333333333336,
+        -16000.0,
+        -4666.666666666667
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        -16000.0,
+        -4083.3333333333335
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_005",
+      "role": "leaf_vertical",
+      "creation_feature": 28,
+      "p0_mm": [
+        33333.333333333336,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        -16000.0,
+        -4666.666666666667
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4366.666666666667,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_005",
+      "role": "leaf_diagonal",
+      "creation_feature": 30,
+      "p0_mm": [
+        33333.333333333336,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        -16000.0,
+        -4083.3333333333335
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9151.942720294723,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_006",
+      "role": "leaf_lower_chord",
+      "creation_feature": 32,
+      "p0_mm": [
+        41666.66666666667,
+        -16000.0,
+        -4083.3333333333335
+      ],
+      "p1_mm": [
+        50000.0,
+        -16000.0,
+        -3500.0000000000005
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_006",
+      "role": "leaf_vertical",
+      "creation_feature": 34,
+      "p0_mm": [
+        41666.66666666667,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        -16000.0,
+        -4083.3333333333335
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3783.3333333333335,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_006",
+      "role": "leaf_diagonal",
+      "creation_feature": 36,
+      "p0_mm": [
+        41666.66666666667,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        50000.0,
+        -16000.0,
+        -3500.0000000000005
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 8926.614388694314,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_upper_chord_001",
+      "role": "leaf_upper_chord",
+      "creation_feature": 38,
+      "p0_mm": [
+        0.0,
+        -16000.0,
+        -150.0
+      ],
+      "p1_mm": [
+        50000.0,
+        -16000.0,
+        -150.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 50000.0,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_007",
+      "role": "leaf_lower_chord",
+      "creation_feature": 40,
+      "p0_mm": [
+        0.0,
+        -5333.333333333334,
+        -7000.000000000001
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        -5333.333333333334,
+        -6416.666666666667
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.72505067184,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_007",
+      "role": "leaf_vertical",
+      "creation_feature": 42,
+      "p0_mm": [
+        0.0,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        0.0,
+        -5333.333333333334,
+        -7000.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6700.000000000001,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_007",
+      "role": "leaf_diagonal",
+      "creation_feature": 44,
+      "p0_mm": [
+        0.0,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        -5333.333333333334,
+        -6416.666666666667
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10337.217012114796,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_008",
+      "role": "leaf_lower_chord",
+      "creation_feature": 46,
+      "p0_mm": [
+        8333.333333333334,
+        -5333.333333333334,
+        -6416.666666666667
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        -5333.333333333334,
+        -5833.333333333334
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.72505067184,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_008",
+      "role": "leaf_vertical",
+      "creation_feature": 48,
+      "p0_mm": [
+        8333.333333333334,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        -5333.333333333334,
+        -6416.666666666667
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6116.666666666667,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_008",
+      "role": "leaf_diagonal",
+      "creation_feature": 50,
+      "p0_mm": [
+        8333.333333333334,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        -5333.333333333334,
+        -5833.333333333334
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10003.110627310998,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_009",
+      "role": "leaf_lower_chord",
+      "creation_feature": 52,
+      "p0_mm": [
+        16666.666666666668,
+        -5333.333333333334,
+        -5833.333333333334
+      ],
+      "p1_mm": [
+        25000.0,
+        -5333.333333333334,
+        -5250.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671837,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_009",
+      "role": "leaf_vertical",
+      "creation_feature": 54,
+      "p0_mm": [
+        16666.666666666668,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        -5333.333333333334,
+        -5833.333333333334
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 5533.333333333334,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_009",
+      "role": "leaf_diagonal",
+      "creation_feature": 56,
+      "p0_mm": [
+        16666.666666666668,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        25000.0,
+        -5333.333333333334,
+        -5250.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9692.623197279692,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_010",
+      "role": "leaf_lower_chord",
+      "creation_feature": 58,
+      "p0_mm": [
+        25000.0,
+        -5333.333333333334,
+        -5250.000000000001
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        -5333.333333333334,
+        -4666.666666666667
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_010",
+      "role": "leaf_vertical",
+      "creation_feature": 60,
+      "p0_mm": [
+        25000.0,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        25000.0,
+        -5333.333333333334,
+        -5250.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4950.000000000001,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_010",
+      "role": "leaf_diagonal",
+      "creation_feature": 62,
+      "p0_mm": [
+        25000.0,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        -5333.333333333334,
+        -4666.666666666667
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9408.093442468684,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_011",
+      "role": "leaf_lower_chord",
+      "creation_feature": 64,
+      "p0_mm": [
+        33333.333333333336,
+        -5333.333333333334,
+        -4666.666666666667
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        -5333.333333333334,
+        -4083.3333333333335
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_011",
+      "role": "leaf_vertical",
+      "creation_feature": 66,
+      "p0_mm": [
+        33333.333333333336,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        -5333.333333333334,
+        -4666.666666666667
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4366.666666666667,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_011",
+      "role": "leaf_diagonal",
+      "creation_feature": 68,
+      "p0_mm": [
+        33333.333333333336,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        -5333.333333333334,
+        -4083.3333333333335
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9151.942720294723,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_012",
+      "role": "leaf_lower_chord",
+      "creation_feature": 70,
+      "p0_mm": [
+        41666.66666666667,
+        -5333.333333333334,
+        -4083.3333333333335
+      ],
+      "p1_mm": [
+        50000.0,
+        -5333.333333333334,
+        -3500.0000000000005
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_012",
+      "role": "leaf_vertical",
+      "creation_feature": 72,
+      "p0_mm": [
+        41666.66666666667,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        -5333.333333333334,
+        -4083.3333333333335
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3783.3333333333335,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_012",
+      "role": "leaf_diagonal",
+      "creation_feature": 74,
+      "p0_mm": [
+        41666.66666666667,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        50000.0,
+        -5333.333333333334,
+        -3500.0000000000005
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 8926.614388694314,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_upper_chord_002",
+      "role": "leaf_upper_chord",
+      "creation_feature": 76,
+      "p0_mm": [
+        0.0,
+        -5333.333333333334,
+        -150.0
+      ],
+      "p1_mm": [
+        50000.0,
+        -5333.333333333334,
+        -150.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 50000.0,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_013",
+      "role": "leaf_lower_chord",
+      "creation_feature": 78,
+      "p0_mm": [
+        0.0,
+        5333.333333333332,
+        -7000.000000000001
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        5333.333333333332,
+        -6416.666666666667
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.72505067184,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_013",
+      "role": "leaf_vertical",
+      "creation_feature": 80,
+      "p0_mm": [
+        0.0,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        0.0,
+        5333.333333333332,
+        -7000.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6700.000000000001,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_013",
+      "role": "leaf_diagonal",
+      "creation_feature": 82,
+      "p0_mm": [
+        0.0,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        5333.333333333332,
+        -6416.666666666667
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10337.217012114796,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_014",
+      "role": "leaf_lower_chord",
+      "creation_feature": 84,
+      "p0_mm": [
+        8333.333333333334,
+        5333.333333333332,
+        -6416.666666666667
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        5333.333333333332,
+        -5833.333333333334
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.72505067184,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_014",
+      "role": "leaf_vertical",
+      "creation_feature": 86,
+      "p0_mm": [
+        8333.333333333334,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        5333.333333333332,
+        -6416.666666666667
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6116.666666666667,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_014",
+      "role": "leaf_diagonal",
+      "creation_feature": 88,
+      "p0_mm": [
+        8333.333333333334,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        5333.333333333332,
+        -5833.333333333334
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10003.110627310998,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_015",
+      "role": "leaf_lower_chord",
+      "creation_feature": 90,
+      "p0_mm": [
+        16666.666666666668,
+        5333.333333333332,
+        -5833.333333333334
+      ],
+      "p1_mm": [
+        25000.0,
+        5333.333333333332,
+        -5250.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671837,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_015",
+      "role": "leaf_vertical",
+      "creation_feature": 92,
+      "p0_mm": [
+        16666.666666666668,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        5333.333333333332,
+        -5833.333333333334
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 5533.333333333334,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_015",
+      "role": "leaf_diagonal",
+      "creation_feature": 94,
+      "p0_mm": [
+        16666.666666666668,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        25000.0,
+        5333.333333333332,
+        -5250.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9692.623197279692,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_016",
+      "role": "leaf_lower_chord",
+      "creation_feature": 96,
+      "p0_mm": [
+        25000.0,
+        5333.333333333332,
+        -5250.000000000001
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        5333.333333333332,
+        -4666.666666666667
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_016",
+      "role": "leaf_vertical",
+      "creation_feature": 98,
+      "p0_mm": [
+        25000.0,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        25000.0,
+        5333.333333333332,
+        -5250.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4950.000000000001,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_016",
+      "role": "leaf_diagonal",
+      "creation_feature": 100,
+      "p0_mm": [
+        25000.0,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        5333.333333333332,
+        -4666.666666666667
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9408.093442468684,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_017",
+      "role": "leaf_lower_chord",
+      "creation_feature": 102,
+      "p0_mm": [
+        33333.333333333336,
+        5333.333333333332,
+        -4666.666666666667
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        5333.333333333332,
+        -4083.3333333333335
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_017",
+      "role": "leaf_vertical",
+      "creation_feature": 104,
+      "p0_mm": [
+        33333.333333333336,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        5333.333333333332,
+        -4666.666666666667
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4366.666666666667,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_017",
+      "role": "leaf_diagonal",
+      "creation_feature": 106,
+      "p0_mm": [
+        33333.333333333336,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        5333.333333333332,
+        -4083.3333333333335
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9151.942720294723,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_018",
+      "role": "leaf_lower_chord",
+      "creation_feature": 108,
+      "p0_mm": [
+        41666.66666666667,
+        5333.333333333332,
+        -4083.3333333333335
+      ],
+      "p1_mm": [
+        50000.0,
+        5333.333333333332,
+        -3500.0000000000005
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_018",
+      "role": "leaf_vertical",
+      "creation_feature": 110,
+      "p0_mm": [
+        41666.66666666667,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        5333.333333333332,
+        -4083.3333333333335
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3783.3333333333335,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_018",
+      "role": "leaf_diagonal",
+      "creation_feature": 112,
+      "p0_mm": [
+        41666.66666666667,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        50000.0,
+        5333.333333333332,
+        -3500.0000000000005
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 8926.614388694314,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_upper_chord_003",
+      "role": "leaf_upper_chord",
+      "creation_feature": 114,
+      "p0_mm": [
+        0.0,
+        5333.333333333332,
+        -150.0
+      ],
+      "p1_mm": [
+        50000.0,
+        5333.333333333332,
+        -150.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 50000.0,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_019",
+      "role": "leaf_lower_chord",
+      "creation_feature": 116,
+      "p0_mm": [
+        0.0,
+        16000.0,
+        -7000.000000000001
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        16000.0,
+        -6416.666666666667
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.72505067184,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_019",
+      "role": "leaf_vertical",
+      "creation_feature": 118,
+      "p0_mm": [
+        0.0,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        0.0,
+        16000.0,
+        -7000.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6700.000000000001,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_019",
+      "role": "leaf_diagonal",
+      "creation_feature": 120,
+      "p0_mm": [
+        0.0,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        16000.0,
+        -6416.666666666667
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10337.217012114796,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_020",
+      "role": "leaf_lower_chord",
+      "creation_feature": 122,
+      "p0_mm": [
+        8333.333333333334,
+        16000.0,
+        -6416.666666666667
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        16000.0,
+        -5833.333333333334
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.72505067184,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_020",
+      "role": "leaf_vertical",
+      "creation_feature": 124,
+      "p0_mm": [
+        8333.333333333334,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        8333.333333333334,
+        16000.0,
+        -6416.666666666667
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6116.666666666667,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_020",
+      "role": "leaf_diagonal",
+      "creation_feature": 126,
+      "p0_mm": [
+        8333.333333333334,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        16000.0,
+        -5833.333333333334
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10003.110627310998,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_021",
+      "role": "leaf_lower_chord",
+      "creation_feature": 128,
+      "p0_mm": [
+        16666.666666666668,
+        16000.0,
+        -5833.333333333334
+      ],
+      "p1_mm": [
+        25000.0,
+        16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671837,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_021",
+      "role": "leaf_vertical",
+      "creation_feature": 130,
+      "p0_mm": [
+        16666.666666666668,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        16666.666666666668,
+        16000.0,
+        -5833.333333333334
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 5533.333333333334,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_021",
+      "role": "leaf_diagonal",
+      "creation_feature": 132,
+      "p0_mm": [
+        16666.666666666668,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        25000.0,
+        16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9692.623197279692,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_022",
+      "role": "leaf_lower_chord",
+      "creation_feature": 134,
+      "p0_mm": [
+        25000.0,
+        16000.0,
+        -5250.000000000001
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        16000.0,
+        -4666.666666666667
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_022",
+      "role": "leaf_vertical",
+      "creation_feature": 136,
+      "p0_mm": [
+        25000.0,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        25000.0,
+        16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4950.000000000001,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_022",
+      "role": "leaf_diagonal",
+      "creation_feature": 138,
+      "p0_mm": [
+        25000.0,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        16000.0,
+        -4666.666666666667
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9408.093442468684,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_023",
+      "role": "leaf_lower_chord",
+      "creation_feature": 140,
+      "p0_mm": [
+        33333.333333333336,
+        16000.0,
+        -4666.666666666667
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        16000.0,
+        -4083.3333333333335
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_023",
+      "role": "leaf_vertical",
+      "creation_feature": 142,
+      "p0_mm": [
+        33333.333333333336,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        33333.333333333336,
+        16000.0,
+        -4666.666666666667
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4366.666666666667,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_023",
+      "role": "leaf_diagonal",
+      "creation_feature": 144,
+      "p0_mm": [
+        33333.333333333336,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        16000.0,
+        -4083.3333333333335
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9151.942720294723,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_024",
+      "role": "leaf_lower_chord",
+      "creation_feature": 146,
+      "p0_mm": [
+        41666.66666666667,
+        16000.0,
+        -4083.3333333333335
+      ],
+      "p1_mm": [
+        50000.0,
+        16000.0,
+        -3500.0000000000005
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_024",
+      "role": "leaf_vertical",
+      "creation_feature": 148,
+      "p0_mm": [
+        41666.66666666667,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        41666.66666666667,
+        16000.0,
+        -4083.3333333333335
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3783.3333333333335,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_024",
+      "role": "leaf_diagonal",
+      "creation_feature": 150,
+      "p0_mm": [
+        41666.66666666667,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        50000.0,
+        16000.0,
+        -3500.0000000000005
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 8926.614388694314,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_upper_chord_004",
+      "role": "leaf_upper_chord",
+      "creation_feature": 152,
+      "p0_mm": [
+        0.0,
+        16000.0,
+        -150.0
+      ],
+      "p1_mm": [
+        50000.0,
+        16000.0,
+        -150.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 50000.0,
+      "assembly": "left_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "deck_002",
+      "role": "deck",
+      "creation_feature": 154,
+      "corner_mm": [
+        50000.0,
+        -16000.0,
+        -300
+      ],
+      "size_mm": [
+        50000.0,
+        32000.0,
+        300
+      ],
+      "assembly": "right_leaf",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "leaf_lower_chord_025",
+      "role": "leaf_lower_chord",
+      "creation_feature": 155,
+      "p0_mm": [
+        50000.0,
+        -16000.0,
+        -3500.0000000000005
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        -16000.0,
+        -4083.3333333333344
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_025",
+      "role": "leaf_vertical",
+      "creation_feature": 157,
+      "p0_mm": [
+        50000.0,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        50000.0,
+        -16000.0,
+        -3500.0000000000005
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3200.0000000000005,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_025",
+      "role": "leaf_diagonal",
+      "creation_feature": 159,
+      "p0_mm": [
+        50000.0,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        -16000.0,
+        -4083.3333333333344
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9151.942720294724,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_026",
+      "role": "leaf_lower_chord",
+      "creation_feature": 161,
+      "p0_mm": [
+        58333.333333333336,
+        -16000.0,
+        -4083.3333333333344
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        -16000.0,
+        -4666.666666666668
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_026",
+      "role": "leaf_vertical",
+      "creation_feature": 163,
+      "p0_mm": [
+        58333.333333333336,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        -16000.0,
+        -4083.3333333333344
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3783.3333333333344,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_026",
+      "role": "leaf_diagonal",
+      "creation_feature": 165,
+      "p0_mm": [
+        58333.333333333336,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        -16000.0,
+        -4666.666666666668
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9408.093442468686,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_027",
+      "role": "leaf_lower_chord",
+      "creation_feature": 167,
+      "p0_mm": [
+        66666.66666666667,
+        -16000.0,
+        -4666.666666666668
+      ],
+      "p1_mm": [
+        75000.0,
+        -16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_027",
+      "role": "leaf_vertical",
+      "creation_feature": 169,
+      "p0_mm": [
+        66666.66666666667,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        -16000.0,
+        -4666.666666666668
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4366.666666666668,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_027",
+      "role": "leaf_diagonal",
+      "creation_feature": 171,
+      "p0_mm": [
+        66666.66666666667,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        75000.0,
+        -16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9692.62319727969,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_028",
+      "role": "leaf_lower_chord",
+      "creation_feature": 173,
+      "p0_mm": [
+        75000.0,
+        -16000.0,
+        -5250.000000000001
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        -16000.0,
+        -5833.333333333335
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671848,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_028",
+      "role": "leaf_vertical",
+      "creation_feature": 175,
+      "p0_mm": [
+        75000.0,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        75000.0,
+        -16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4950.000000000001,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_028",
+      "role": "leaf_diagonal",
+      "creation_feature": 177,
+      "p0_mm": [
+        75000.0,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        -16000.0,
+        -5833.333333333335
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10003.110627311007,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_029",
+      "role": "leaf_lower_chord",
+      "creation_feature": 179,
+      "p0_mm": [
+        83333.33333333334,
+        -16000.0,
+        -5833.333333333335
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        -16000.0,
+        -6416.666666666668
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_029",
+      "role": "leaf_vertical",
+      "creation_feature": 181,
+      "p0_mm": [
+        83333.33333333334,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        -16000.0,
+        -5833.333333333335
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 5533.333333333335,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_029",
+      "role": "leaf_diagonal",
+      "creation_feature": 183,
+      "p0_mm": [
+        83333.33333333334,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        -16000.0,
+        -6416.666666666668
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10337.217012114794,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_030",
+      "role": "leaf_lower_chord",
+      "creation_feature": 185,
+      "p0_mm": [
+        91666.66666666667,
+        -16000.0,
+        -6416.666666666668
+      ],
+      "p1_mm": [
+        100000.0,
+        -16000.0,
+        -7000.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_030",
+      "role": "leaf_vertical",
+      "creation_feature": 187,
+      "p0_mm": [
+        91666.66666666667,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        -16000.0,
+        -6416.666666666668
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6116.666666666668,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_030",
+      "role": "leaf_diagonal",
+      "creation_feature": 189,
+      "p0_mm": [
+        91666.66666666667,
+        -16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        100000.0,
+        -16000.0,
+        -7000.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10692.728578077926,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_upper_chord_005",
+      "role": "leaf_upper_chord",
+      "creation_feature": 191,
+      "p0_mm": [
+        50000.0,
+        -16000.0,
+        -150.0
+      ],
+      "p1_mm": [
+        100000.0,
+        -16000.0,
+        -150.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 50000.0,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_031",
+      "role": "leaf_lower_chord",
+      "creation_feature": 193,
+      "p0_mm": [
+        50000.0,
+        -5333.333333333334,
+        -3500.0000000000005
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        -5333.333333333334,
+        -4083.3333333333344
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_031",
+      "role": "leaf_vertical",
+      "creation_feature": 195,
+      "p0_mm": [
+        50000.0,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        50000.0,
+        -5333.333333333334,
+        -3500.0000000000005
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3200.0000000000005,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_031",
+      "role": "leaf_diagonal",
+      "creation_feature": 197,
+      "p0_mm": [
+        50000.0,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        -5333.333333333334,
+        -4083.3333333333344
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9151.942720294724,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_032",
+      "role": "leaf_lower_chord",
+      "creation_feature": 199,
+      "p0_mm": [
+        58333.333333333336,
+        -5333.333333333334,
+        -4083.3333333333344
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        -5333.333333333334,
+        -4666.666666666668
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_032",
+      "role": "leaf_vertical",
+      "creation_feature": 201,
+      "p0_mm": [
+        58333.333333333336,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        -5333.333333333334,
+        -4083.3333333333344
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3783.3333333333344,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_032",
+      "role": "leaf_diagonal",
+      "creation_feature": 203,
+      "p0_mm": [
+        58333.333333333336,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        -5333.333333333334,
+        -4666.666666666668
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9408.093442468686,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_033",
+      "role": "leaf_lower_chord",
+      "creation_feature": 205,
+      "p0_mm": [
+        66666.66666666667,
+        -5333.333333333334,
+        -4666.666666666668
+      ],
+      "p1_mm": [
+        75000.0,
+        -5333.333333333334,
+        -5250.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_033",
+      "role": "leaf_vertical",
+      "creation_feature": 207,
+      "p0_mm": [
+        66666.66666666667,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        -5333.333333333334,
+        -4666.666666666668
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4366.666666666668,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_033",
+      "role": "leaf_diagonal",
+      "creation_feature": 209,
+      "p0_mm": [
+        66666.66666666667,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        75000.0,
+        -5333.333333333334,
+        -5250.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9692.62319727969,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_034",
+      "role": "leaf_lower_chord",
+      "creation_feature": 211,
+      "p0_mm": [
+        75000.0,
+        -5333.333333333334,
+        -5250.000000000001
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        -5333.333333333334,
+        -5833.333333333335
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671848,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_034",
+      "role": "leaf_vertical",
+      "creation_feature": 213,
+      "p0_mm": [
+        75000.0,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        75000.0,
+        -5333.333333333334,
+        -5250.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4950.000000000001,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_034",
+      "role": "leaf_diagonal",
+      "creation_feature": 215,
+      "p0_mm": [
+        75000.0,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        -5333.333333333334,
+        -5833.333333333335
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10003.110627311007,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_035",
+      "role": "leaf_lower_chord",
+      "creation_feature": 217,
+      "p0_mm": [
+        83333.33333333334,
+        -5333.333333333334,
+        -5833.333333333335
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        -5333.333333333334,
+        -6416.666666666668
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_035",
+      "role": "leaf_vertical",
+      "creation_feature": 219,
+      "p0_mm": [
+        83333.33333333334,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        -5333.333333333334,
+        -5833.333333333335
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 5533.333333333335,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_035",
+      "role": "leaf_diagonal",
+      "creation_feature": 221,
+      "p0_mm": [
+        83333.33333333334,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        -5333.333333333334,
+        -6416.666666666668
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10337.217012114794,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_036",
+      "role": "leaf_lower_chord",
+      "creation_feature": 223,
+      "p0_mm": [
+        91666.66666666667,
+        -5333.333333333334,
+        -6416.666666666668
+      ],
+      "p1_mm": [
+        100000.0,
+        -5333.333333333334,
+        -7000.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_036",
+      "role": "leaf_vertical",
+      "creation_feature": 225,
+      "p0_mm": [
+        91666.66666666667,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        -5333.333333333334,
+        -6416.666666666668
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6116.666666666668,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_036",
+      "role": "leaf_diagonal",
+      "creation_feature": 227,
+      "p0_mm": [
+        91666.66666666667,
+        -5333.333333333334,
+        -300.0
+      ],
+      "p1_mm": [
+        100000.0,
+        -5333.333333333334,
+        -7000.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10692.728578077926,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_upper_chord_006",
+      "role": "leaf_upper_chord",
+      "creation_feature": 229,
+      "p0_mm": [
+        50000.0,
+        -5333.333333333334,
+        -150.0
+      ],
+      "p1_mm": [
+        100000.0,
+        -5333.333333333334,
+        -150.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 50000.0,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_037",
+      "role": "leaf_lower_chord",
+      "creation_feature": 231,
+      "p0_mm": [
+        50000.0,
+        5333.333333333332,
+        -3500.0000000000005
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        5333.333333333332,
+        -4083.3333333333344
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_037",
+      "role": "leaf_vertical",
+      "creation_feature": 233,
+      "p0_mm": [
+        50000.0,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        50000.0,
+        5333.333333333332,
+        -3500.0000000000005
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3200.0000000000005,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_037",
+      "role": "leaf_diagonal",
+      "creation_feature": 235,
+      "p0_mm": [
+        50000.0,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        5333.333333333332,
+        -4083.3333333333344
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9151.942720294724,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_038",
+      "role": "leaf_lower_chord",
+      "creation_feature": 237,
+      "p0_mm": [
+        58333.333333333336,
+        5333.333333333332,
+        -4083.3333333333344
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        5333.333333333332,
+        -4666.666666666668
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_038",
+      "role": "leaf_vertical",
+      "creation_feature": 239,
+      "p0_mm": [
+        58333.333333333336,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        5333.333333333332,
+        -4083.3333333333344
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3783.3333333333344,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_038",
+      "role": "leaf_diagonal",
+      "creation_feature": 241,
+      "p0_mm": [
+        58333.333333333336,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        5333.333333333332,
+        -4666.666666666668
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9408.093442468686,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_039",
+      "role": "leaf_lower_chord",
+      "creation_feature": 243,
+      "p0_mm": [
+        66666.66666666667,
+        5333.333333333332,
+        -4666.666666666668
+      ],
+      "p1_mm": [
+        75000.0,
+        5333.333333333332,
+        -5250.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_039",
+      "role": "leaf_vertical",
+      "creation_feature": 245,
+      "p0_mm": [
+        66666.66666666667,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        5333.333333333332,
+        -4666.666666666668
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4366.666666666668,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_039",
+      "role": "leaf_diagonal",
+      "creation_feature": 247,
+      "p0_mm": [
+        66666.66666666667,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        75000.0,
+        5333.333333333332,
+        -5250.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9692.62319727969,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_040",
+      "role": "leaf_lower_chord",
+      "creation_feature": 249,
+      "p0_mm": [
+        75000.0,
+        5333.333333333332,
+        -5250.000000000001
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        5333.333333333332,
+        -5833.333333333335
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671848,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_040",
+      "role": "leaf_vertical",
+      "creation_feature": 251,
+      "p0_mm": [
+        75000.0,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        75000.0,
+        5333.333333333332,
+        -5250.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4950.000000000001,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_040",
+      "role": "leaf_diagonal",
+      "creation_feature": 253,
+      "p0_mm": [
+        75000.0,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        5333.333333333332,
+        -5833.333333333335
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10003.110627311007,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_041",
+      "role": "leaf_lower_chord",
+      "creation_feature": 255,
+      "p0_mm": [
+        83333.33333333334,
+        5333.333333333332,
+        -5833.333333333335
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        5333.333333333332,
+        -6416.666666666668
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_041",
+      "role": "leaf_vertical",
+      "creation_feature": 257,
+      "p0_mm": [
+        83333.33333333334,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        5333.333333333332,
+        -5833.333333333335
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 5533.333333333335,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_041",
+      "role": "leaf_diagonal",
+      "creation_feature": 259,
+      "p0_mm": [
+        83333.33333333334,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        5333.333333333332,
+        -6416.666666666668
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10337.217012114794,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_042",
+      "role": "leaf_lower_chord",
+      "creation_feature": 261,
+      "p0_mm": [
+        91666.66666666667,
+        5333.333333333332,
+        -6416.666666666668
+      ],
+      "p1_mm": [
+        100000.0,
+        5333.333333333332,
+        -7000.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_042",
+      "role": "leaf_vertical",
+      "creation_feature": 263,
+      "p0_mm": [
+        91666.66666666667,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        5333.333333333332,
+        -6416.666666666668
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6116.666666666668,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_042",
+      "role": "leaf_diagonal",
+      "creation_feature": 265,
+      "p0_mm": [
+        91666.66666666667,
+        5333.333333333332,
+        -300.0
+      ],
+      "p1_mm": [
+        100000.0,
+        5333.333333333332,
+        -7000.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10692.728578077926,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_upper_chord_007",
+      "role": "leaf_upper_chord",
+      "creation_feature": 267,
+      "p0_mm": [
+        50000.0,
+        5333.333333333332,
+        -150.0
+      ],
+      "p1_mm": [
+        100000.0,
+        5333.333333333332,
+        -150.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 50000.0,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_043",
+      "role": "leaf_lower_chord",
+      "creation_feature": 269,
+      "p0_mm": [
+        50000.0,
+        16000.0,
+        -3500.0000000000005
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        16000.0,
+        -4083.3333333333344
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_043",
+      "role": "leaf_vertical",
+      "creation_feature": 271,
+      "p0_mm": [
+        50000.0,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        50000.0,
+        16000.0,
+        -3500.0000000000005
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3200.0000000000005,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_043",
+      "role": "leaf_diagonal",
+      "creation_feature": 273,
+      "p0_mm": [
+        50000.0,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        16000.0,
+        -4083.3333333333344
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9151.942720294724,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_044",
+      "role": "leaf_lower_chord",
+      "creation_feature": 275,
+      "p0_mm": [
+        58333.333333333336,
+        16000.0,
+        -4083.3333333333344
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        16000.0,
+        -4666.666666666668
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671841,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_044",
+      "role": "leaf_vertical",
+      "creation_feature": 277,
+      "p0_mm": [
+        58333.333333333336,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        58333.333333333336,
+        16000.0,
+        -4083.3333333333344
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 3783.3333333333344,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_044",
+      "role": "leaf_diagonal",
+      "creation_feature": 279,
+      "p0_mm": [
+        58333.333333333336,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        16000.0,
+        -4666.666666666668
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9408.093442468686,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_045",
+      "role": "leaf_lower_chord",
+      "creation_feature": 281,
+      "p0_mm": [
+        66666.66666666667,
+        16000.0,
+        -4666.666666666668
+      ],
+      "p1_mm": [
+        75000.0,
+        16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_045",
+      "role": "leaf_vertical",
+      "creation_feature": 283,
+      "p0_mm": [
+        66666.66666666667,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        66666.66666666667,
+        16000.0,
+        -4666.666666666668
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4366.666666666668,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_045",
+      "role": "leaf_diagonal",
+      "creation_feature": 285,
+      "p0_mm": [
+        66666.66666666667,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        75000.0,
+        16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 9692.62319727969,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_046",
+      "role": "leaf_lower_chord",
+      "creation_feature": 287,
+      "p0_mm": [
+        75000.0,
+        16000.0,
+        -5250.000000000001
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        16000.0,
+        -5833.333333333335
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671848,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_046",
+      "role": "leaf_vertical",
+      "creation_feature": 289,
+      "p0_mm": [
+        75000.0,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        75000.0,
+        16000.0,
+        -5250.000000000001
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 4950.000000000001,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_046",
+      "role": "leaf_diagonal",
+      "creation_feature": 291,
+      "p0_mm": [
+        75000.0,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        16000.0,
+        -5833.333333333335
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10003.110627311007,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_047",
+      "role": "leaf_lower_chord",
+      "creation_feature": 293,
+      "p0_mm": [
+        83333.33333333334,
+        16000.0,
+        -5833.333333333335
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        16000.0,
+        -6416.666666666668
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_047",
+      "role": "leaf_vertical",
+      "creation_feature": 295,
+      "p0_mm": [
+        83333.33333333334,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        83333.33333333334,
+        16000.0,
+        -5833.333333333335
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 5533.333333333335,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_047",
+      "role": "leaf_diagonal",
+      "creation_feature": 297,
+      "p0_mm": [
+        83333.33333333334,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        16000.0,
+        -6416.666666666668
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10337.217012114794,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_lower_chord_048",
+      "role": "leaf_lower_chord",
+      "creation_feature": 299,
+      "p0_mm": [
+        91666.66666666667,
+        16000.0,
+        -6416.666666666668
+      ],
+      "p1_mm": [
+        100000.0,
+        16000.0,
+        -7000.000000000001
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 8353.725050671834,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_vertical_048",
+      "role": "leaf_vertical",
+      "creation_feature": 301,
+      "p0_mm": [
+        91666.66666666667,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        91666.66666666667,
+        16000.0,
+        -6416.666666666668
+      ],
+      "width_mm": 140,
+      "depth_mm": 180,
+      "length_mm": 6116.666666666668,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_diagonal_048",
+      "role": "leaf_diagonal",
+      "creation_feature": 303,
+      "p0_mm": [
+        91666.66666666667,
+        16000.0,
+        -300.0
+      ],
+      "p1_mm": [
+        100000.0,
+        16000.0,
+        -7000.000000000001
+      ],
+      "width_mm": 80,
+      "depth_mm": 140,
+      "length_mm": 10692.728578077926,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "leaf_upper_chord_008",
+      "role": "leaf_upper_chord",
+      "creation_feature": 305,
+      "p0_mm": [
+        50000.0,
+        16000.0,
+        -150.0
+      ],
+      "p1_mm": [
+        100000.0,
+        16000.0,
+        -150.0
+      ],
+      "width_mm": 180,
+      "depth_mm": 300,
+      "length_mm": 50000.0,
+      "assembly": "right_leaf",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "bearing_block_001",
+      "role": "bearing_block",
+      "creation_feature": 307,
+      "corner_mm": [
+        -3000.0,
+        -19200.0,
+        -950
+      ],
+      "size_mm": [
+        6000,
+        38400.0,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bridge_house_001",
+      "role": "bridge_house",
+      "creation_feature": 308,
+      "corner_mm": [
+        -2000,
+        -20500.0,
+        0
+      ],
+      "size_mm": [
+        4000,
+        4000,
+        9000
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bridge_house_002",
+      "role": "bridge_house",
+      "creation_feature": 309,
+      "corner_mm": [
+        -2000,
+        16500.0,
+        0
+      ],
+      "size_mm": [
+        4000,
+        4000,
+        9000
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bearing_block_002",
+      "role": "bearing_block",
+      "creation_feature": 310,
+      "corner_mm": [
+        97000.0,
+        -19200.0,
+        -950
+      ],
+      "size_mm": [
+        6000,
+        38400.0,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bridge_house_003",
+      "role": "bridge_house",
+      "creation_feature": 311,
+      "corner_mm": [
+        98000.0,
+        -20500.0,
+        0
+      ],
+      "size_mm": [
+        4000,
+        4000,
+        9000
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bridge_house_004",
+      "role": "bridge_house",
+      "creation_feature": 312,
+      "corner_mm": [
+        98000.0,
+        16500.0,
+        0
+      ],
+      "size_mm": [
+        4000,
+        4000,
+        9000
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    }
+  ],
+  "graph_polygons": [],
+  "source_views": [],
+  "dimension_sources": {
+    "length": {
+      "method": "normalization",
+      "value_mm": 100000.0
+    },
+    "width": {
+      "method": "normalization",
+      "value_mm": 32000.0
+    },
+    "height": {
+      "method": "normalization",
+      "value_mm": 7000.000000000001
+    }
+  },
+  "source_evidence": [
+    {
+      "field": "bridge_form",
+      "page": 1,
+      "bbox": [
+        0.02,
+        0.02,
+        0.72,
+        0.95
+      ],
+      "quote": "Double leaf trunnion bascule; general arrangements",
+      "mode": "visual_topology",
+      "source_file": "colplnelv.jpg",
+      "source_sha256": "24e4fbc60b6d6271b17f620143314ad05a4855f99dc59a2c85c2f7d475604313"
+    }
+  ],
+  "native_parameters": {
+    "leaf_lower_chord_width": {
+      "value": 180.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "leaf_lower_chord_depth": {
+      "value": 300.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "leaf_vertical_width": {
+      "value": 140.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "leaf_vertical_depth": {
+      "value": 180.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "leaf_diagonal_width": {
+      "value": 80.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "leaf_diagonal_depth": {
+      "value": 140.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "leaf_upper_chord_width": {
+      "value": 180.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "leaf_upper_chord_depth": {
+      "value": 300.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "leaf_open_angle": {
+      "value": 0.0,
+      "unit": "deg",
+      "comment": "Schematic rigid-leaf motion; gearing not modeled"
+    },
+    "design_length_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    },
+    "design_width_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    },
+    "design_height_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    }
+  },
+  "native_server": {
+    "name": "solidcraft",
+    "title": "SolidCraft",
+    "version": "0.9.0"
+  },
+  "artifacts": {
+    "drawing_vs_cad.jpg": {
+      "sha256": "70b025d2b6c224292b8b0c37bf2faf300d92e8ed903b1eeafbca8d7e670d2e8a",
+      "bytes": 185927
+    },
+    "Chicago_Columbus_Drive.solidcraft": {
+      "sha256": "bf67a39f2c7a90421a93e7eff371d7b9ec8649b7722d1f0a477a9a4ab8bc197b",
+      "bytes": 19559
+    },
+    "Chicago_Columbus_Drive.3mf": {
+      "sha256": "8a32a794139cc05d3549c7e9c258caa3aebef6debe55ebcc9491cb4baac4b732",
+      "bytes": 11052
+    },
+    "motion_15deg.png": {
+      "sha256": "52052d694f72e1c6f404dd3ca39b37869ff9b013ace7242632d3cbed5756c06d",
+      "bytes": 617647
+    },
+    "top.png": {
+      "sha256": "52f41af1fcb5ffbb01556281b41f74644c9b262f3d322239a4f83f2dbd5727e1",
+      "bytes": 52739
+    },
+    "Chicago_Columbus_Drive.stl": {
+      "sha256": "5bc78709d62ec80c8504d78a7e258c902f53768067c637295fe822e6c6e6e2b3",
+      "bytes": 96084
+    },
+    "Chicago_Columbus_Drive.step": {
+      "sha256": "77da68532ef6c56f4e8c8063f7bd3bbb3d6c8269741fb2f385b2c344ee111eae",
+      "bytes": 661924
+    },
+    "iso.png": {
+      "sha256": "f5789e6b07ee364b13806274222e1873595da7493e91d66b71e3701be5635643",
+      "bytes": 646515
+    },
+    "right.png": {
+      "sha256": "829bd46fe47a48b4efea904c3a3c679f89d4b3ce6c8f65e833306f5eedc0c87b",
+      "bytes": 22203
+    },
+    "front.png": {
+      "sha256": "5147f5813e5a665298ad9d73f6b587ef0c73f070c179b7071c946cc54b83161d",
+      "bytes": 41796
+    }
+  },
+  "generation_source_sha256": "d5bf10bb82fbc5759fa52b227ab2f6559414580f441fa759c37b7f81b605df8a",
+  "source_to_cad_method": "reviewed actual drawing readings -> source node graph -> native SolidCraft MCP",
+  "approximations": [
+    "Built-up sections, rivets, connections, bearings and foundations are envelope-level or omitted",
+    "Intermediate node ordinates may be scaled/idealized; original drawing constraints and conflicts retained",
+    "Affine edit changes member sections too; not a section-preserving engineering design edit"
+  ],
+  "publication": {
+    "source_page": "source_page.png",
+    "source_sha256": "24e4fbc60b6d6271b17f620143314ad05a4855f99dc59a2c85c2f7d475604313",
+    "source_page_number": 1,
+    "note": "Source file paths are filenames; original PDFs/TIFFs are not bundled. MCP journal omitted."
+  }
+}

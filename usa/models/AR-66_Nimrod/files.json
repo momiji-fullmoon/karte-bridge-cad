@@ -1,0 +1,62 @@
+{
+  "AR-66_Nimrod.3mf": {
+    "sha256": "4d119c4960ca156ce5bd824d87e15028238818e438da62976e138df05d4481ac",
+    "bytes": 10369
+  },
+  "AR-66_Nimrod.solidcraft": {
+    "sha256": "aa0be731e8917eb03382fe9e52e9a9465c17555d74c8d60b4aa4d897f2e04813",
+    "bytes": 15437
+  },
+  "AR-66_Nimrod.step": {
+    "sha256": "adcc9cb888cc165a9d7a2f31d536a60605fb3e81a8e44781fc567911ca2b2ff1",
+    "bytes": 564087
+  },
+  "AR-66_Nimrod.stl": {
+    "sha256": "a574ccb1ac8bd5f81b51dc8c73ca92653a7d592e6d2482e74b1cbb75cbe89196",
+    "bytes": 81084
+  },
+  "bridge.glb": {
+    "sha256": "40f1977a2f399979785b975edaec9d624c0729bb5c18c3485c43d7a796e93c56",
+    "bytes": 90632
+  },
+  "drawing_vs_cad.jpg": {
+    "sha256": "83a50a55c47130ef280d4eed8d4ca114fe1b4eabaf3bfbd67197130fd2251d80",
+    "bytes": 179275
+  },
+  "front.png": {
+    "sha256": "6b286c1fa8be75a50f88bb3e8af27719e52f5b9f91eb3350283be2257aa0f018",
+    "bytes": 58727
+  },
+  "iso.png": {
+    "sha256": "068a013c19b60bf3d6134becf348a9b94677271ad386e17c96262c29c688a4da",
+    "bytes": 803017
+  },
+  "right.png": {
+    "sha256": "438808482d56d0d05bf76148ec63ee7fc79fa7d811b5c902d8ad43b707f1b378",
+    "bytes": 24557
+  },
+  "source_page.png": {
+    "sha256": "b545ae221af51be5a1603ff3e2d8a7538a24a9125cc7cbb999c936af7dd5ee2e",
+    "bytes": 758102
+  },
+  "source_spec.json": {
+    "sha256": "c8ca3d9a1c992fa74f4751c648507666d85c2313ca0a453cda15d9dc5db9eacd",
+    "bytes": 72939
+  },
+  "top.png": {
+    "sha256": "e9475ba11e84c5f53ff77ca808a45cd96d8e5992d471589d4a8f4ab01f20db88",
+    "bytes": 93198
+  },
+  "validation.json": {
+    "sha256": "7165f098bdb7fe34f830c08ff641a03df6b034c833c6e1e3a41a75efa57662a0",
+    "bytes": 123390
+  },
+  "viewer.html": {
+    "sha256": "e913a1b663ed989c9237d6f41d23bf79cd495a640a5111eab6264e419f8d9f4d",
+    "bytes": 269057
+  },
+  "web_mesh_validation.json": {
+    "sha256": "c2b1e735cfabeb0181e1551b28cfdcc5086e08c740e069eca2ae9423d8e4f266",
+    "bytes": 374
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "Chicago_La_Salle_Street.3mf": {
+    "sha256": "848d63e195d741dc41f8e379d008ba91196c4a2c5a8a6fc22996893ba9d5d0be",
+    "bytes": 10919
+  },
+  "Chicago_La_Salle_Street.solidcraft": {
+    "sha256": "369c6f701b54cff0eb1e6c9fea302854be3592a7239f492ca83737a5adffe659",
+    "bytes": 19445
+  },
+  "Chicago_La_Salle_Street.step": {
+    "sha256": "0b4a9ae8d69b6d89e9bc9bb875c6af442676d921b48a9d9f1a745cd90d919618",
+    "bytes": 659215
+  },
+  "Chicago_La_Salle_Street.stl": {
+    "sha256": "cdf1c627213ee9deeff5ed23077a2ff3cfa3f9437818c01fcafa5afe3172421b",
+    "bytes": 96084
+  },
+  "bridge.glb": {
+    "sha256": "077fa22764cbefa6ddbd159741836bf11fccb187e02fa66efca58e8f7c8511e1",
+    "bytes": 103664
+  },
+  "drawing_vs_cad.jpg": {
+    "sha256": "1776757a3b5e8a7cbda15e5af8b59f9ce1628699f201afc242756c7d18bedaa4",
+    "bytes": 153102
+  },
+  "front.png": {
+    "sha256": "b30d5c72c9d7f5c7bc7dc86c0a342fa402ca9fb3e5301801023715cae26d396b",
+    "bytes": 44141
+  },
+  "iso.png": {
+    "sha256": "bc8e371364904bac526eb7f201c2e4f6fbe62b42bcef0125f40327363b0b2b70",
+    "bytes": 668414
+  },
+  "motion_15deg.png": {
+    "sha256": "6d912499cc3a29af7306b8edb4c1af5157c79377edd58702b550c0bb0a0699bc",
+    "bytes": 626203
+  },
+  "right.png": {
+    "sha256": "d415cbb8f9f851de15aaab3c45c65dbd76ddad2bd9571c031ec00236b51b8af9",
+    "bytes": 22836
+  },
+  "source_page.png": {
+    "sha256": "dfa08cc3a44f32a9c99d3524eafbea9a56ef6a12641ede720b8fd4587c20f787",
+    "bytes": 287083
+  },
+  "source_spec.json": {
+    "sha256": "da36a5a7d335fcc4f2ff4bff64f3af1b65d9022139009a8417149e1415b3fc8d",
+    "bytes": 86067
+  },
+  "top.png": {
+    "sha256": "3c5c42cb5ebe1eecc68722ccf022afd41bfe69b464a6368ee19ea161fd8f7067",
+    "bytes": 58090
+  },
+  "validation.json": {
+    "sha256": "f42463c18233378ae15f4dd2c3eda6df63aba608e541caed4f243a74bc5089f0",
+    "bytes": 147106
+  },
+  "viewer.html": {
+    "sha256": "c17af507597315d609ac5a2c75743efe6bad2f49916b309b747af00c94e9b1d1",
+    "bytes": 313163
+  },
+  "web_mesh_validation.json": {
+    "sha256": "dc2768aa5a8e19ca993634d4d03eee90dee1b387e779f21511b4827347decf01",
+    "bytes": 373
+  }
+}

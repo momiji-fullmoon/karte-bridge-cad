@@ -1,0 +1,3309 @@
+{
+  "id": "CT-0629_Nineveh_Falls",
+  "name": "Nineveh Falls / Hammonasset River bridge",
+  "family": "open_spandrel_arch",
+  "sources": [
+    {
+      "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193029pu.tif",
+      "sha256": "fdb0ad5161af37429fe31e4cf85de021364c086cb269614f7c07eb9f5c8ee5ed",
+      "bytes": 22091748
+    },
+    {
+      "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193030pu.tif",
+      "sha256": "5f164de23bd3b484fec5b3dcea9a563300b7383e63257114976bce24e67a20e4",
+      "bytes": 22693612
+    },
+    {
+      "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193031pu.tif",
+      "sha256": "69e4b434abcb297b44e8c5800d447193b61cf69a588a7b60bf96478ed67b51d2",
+      "bytes": 22885108
+    },
+    {
+      "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193032pu.tif",
+      "sha256": "feca5a22ebbc983e02def3a09a8a24ee30b3140713062c285ed2897a7e00dd55",
+      "bytes": 21717184
+    }
+  ],
+  "main_page": 1,
+  "lengths": [
+    "230'-0\""
+  ],
+  "main_clear_span": "100'-0\"",
+  "width": "35'-2\"",
+  "roadway_width": "30'-0\"",
+  "height_scaled_mm": 8002.524,
+  "arch_thickness": "2'-0\"",
+  "grade": 0.04,
+  "dimension_methods": {
+    "height": "derived_from_explicit_dimensions"
+  },
+  "evidence": [
+    {
+      "field": "overall,clear_span,width",
+      "page": 1,
+      "bbox": [
+        0.2,
+        0.23,
+        0.9,
+        0.75
+      ],
+      "quote": "230'-0\" overall; 100'-0\" clear span; 35'-2\" cross section; 30'-0\" roadway",
+      "mode": "explicit"
+    },
+    {
+      "field": "arch_rise",
+      "page": 1,
+      "bbox": [
+        0.27,
+        0.36,
+        0.85,
+        0.68
+      ],
+      "quote": "EL.246.500 crown - EL.220.245 springing = 26.255 ft",
+      "mode": "inferred_from_dimensions"
+    }
+  ],
+  "notes": [
+    "These TIFFs are engineering-drawing photographs of the Nineveh Falls concrete arch bridge, not a swing bridge.",
+    "Three rib lines and simplified spandrel supports are reconstructed. Rib widths and the deck/arch vertical separation remain explicit model assumptions.",
+    "Small arcade openings and bank profiles are simplified to posts and girders. The 5-foot main pier depth, approach post spacing and post sections are visualization assumptions, not surveyed details."
+  ],
+  "lengths_mm": [
+    70104.0
+  ],
+  "length_mm": 70104.0,
+  "width_mm": 10718.8,
+  "height_mm": 8002.524,
+  "between_span_gap_mm": 0.0,
+  "real_world_scale_known": true,
+  "source_evidence_status": "reviewed_readings",
+  "structural_detail_status": "envelope_level",
+  "section_truth_available": false,
+  "source_dimension_conflicts": [],
+  "graph_members": [
+    {
+      "name": "arch_rib_001",
+      "role": "arch_rib",
+      "creation_feature": 2,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "spandrel_column_001",
+      "role": "spandrel_column",
+      "creation_feature": 3,
+      "corner_mm": [
+        19632.0,
+        -3298,
+        609.6
+      ],
+      "size_mm": [
+        360,
+        500,
+        8592.923999999999
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_002",
+      "role": "spandrel_column",
+      "creation_feature": 4,
+      "corner_mm": [
+        22680.0,
+        -3298,
+        3490.5086400000005
+      ],
+      "size_mm": [
+        360,
+        500,
+        5833.9353599999995
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_003",
+      "role": "spandrel_column",
+      "creation_feature": 5,
+      "corner_mm": [
+        25728.0,
+        -3298,
+        5731.215360000001
+      ],
+      "size_mm": [
+        360,
+        500,
+        3715.1486399999985
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_004",
+      "role": "spandrel_column",
+      "creation_feature": 6,
+      "corner_mm": [
+        28776.0,
+        -3298,
+        7331.72016
+      ],
+      "size_mm": [
+        360,
+        500,
+        2236.56384
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_005",
+      "role": "spandrel_column",
+      "creation_feature": 7,
+      "corner_mm": [
+        31824.0,
+        -3298,
+        8292.02304
+      ],
+      "size_mm": [
+        360,
+        500,
+        1398.1809599999997
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_006",
+      "role": "spandrel_column",
+      "creation_feature": 8,
+      "corner_mm": [
+        34872.0,
+        -3298,
+        8612.124
+      ],
+      "size_mm": [
+        360,
+        500,
+        1200.0
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_007",
+      "role": "spandrel_column",
+      "creation_feature": 9,
+      "corner_mm": [
+        37920.0,
+        -3298,
+        8292.02304
+      ],
+      "size_mm": [
+        360,
+        500,
+        1642.0209599999998
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_008",
+      "role": "spandrel_column",
+      "creation_feature": 10,
+      "corner_mm": [
+        40968.0,
+        -3298,
+        7331.720160000002
+      ],
+      "size_mm": [
+        360,
+        500,
+        2724.2438399999983
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_009",
+      "role": "spandrel_column",
+      "creation_feature": 11,
+      "corner_mm": [
+        44016.0,
+        -3298,
+        5731.21536
+      ],
+      "size_mm": [
+        360,
+        500,
+        4446.66864
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_010",
+      "role": "spandrel_column",
+      "creation_feature": 12,
+      "corner_mm": [
+        47064.0,
+        -3298,
+        3490.508639999999
+      ],
+      "size_mm": [
+        360,
+        500,
+        6809.295360000001
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_011",
+      "role": "spandrel_column",
+      "creation_feature": 13,
+      "corner_mm": [
+        50112.0,
+        -3298,
+        609.6
+      ],
+      "size_mm": [
+        360,
+        500,
+        9812.124
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "arch_rib_002",
+      "role": "arch_rib",
+      "creation_feature": 15,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "spandrel_column_012",
+      "role": "spandrel_column",
+      "creation_feature": 16,
+      "corner_mm": [
+        19632.0,
+        -250,
+        609.6
+      ],
+      "size_mm": [
+        360,
+        500,
+        8592.923999999999
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_013",
+      "role": "spandrel_column",
+      "creation_feature": 17,
+      "corner_mm": [
+        22680.0,
+        -250,
+        3490.5086400000005
+      ],
+      "size_mm": [
+        360,
+        500,
+        5833.9353599999995
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_014",
+      "role": "spandrel_column",
+      "creation_feature": 18,
+      "corner_mm": [
+        25728.0,
+        -250,
+        5731.215360000001
+      ],
+      "size_mm": [
+        360,
+        500,
+        3715.1486399999985
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_015",
+      "role": "spandrel_column",
+      "creation_feature": 19,
+      "corner_mm": [
+        28776.0,
+        -250,
+        7331.72016
+      ],
+      "size_mm": [
+        360,
+        500,
+        2236.56384
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_016",
+      "role": "spandrel_column",
+      "creation_feature": 20,
+      "corner_mm": [
+        31824.0,
+        -250,
+        8292.02304
+      ],
+      "size_mm": [
+        360,
+        500,
+        1398.1809599999997
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_017",
+      "role": "spandrel_column",
+      "creation_feature": 21,
+      "corner_mm": [
+        34872.0,
+        -250,
+        8612.124
+      ],
+      "size_mm": [
+        360,
+        500,
+        1200.0
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_018",
+      "role": "spandrel_column",
+      "creation_feature": 22,
+      "corner_mm": [
+        37920.0,
+        -250,
+        8292.02304
+      ],
+      "size_mm": [
+        360,
+        500,
+        1642.0209599999998
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_019",
+      "role": "spandrel_column",
+      "creation_feature": 23,
+      "corner_mm": [
+        40968.0,
+        -250,
+        7331.720160000002
+      ],
+      "size_mm": [
+        360,
+        500,
+        2724.2438399999983
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_020",
+      "role": "spandrel_column",
+      "creation_feature": 24,
+      "corner_mm": [
+        44016.0,
+        -250,
+        5731.21536
+      ],
+      "size_mm": [
+        360,
+        500,
+        4446.66864
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_021",
+      "role": "spandrel_column",
+      "creation_feature": 25,
+      "corner_mm": [
+        47064.0,
+        -250,
+        3490.508639999999
+      ],
+      "size_mm": [
+        360,
+        500,
+        6809.295360000001
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_022",
+      "role": "spandrel_column",
+      "creation_feature": 26,
+      "corner_mm": [
+        50112.0,
+        -250,
+        609.6
+      ],
+      "size_mm": [
+        360,
+        500,
+        9812.124
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "arch_rib_003",
+      "role": "arch_rib",
+      "creation_feature": 28,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "spandrel_column_023",
+      "role": "spandrel_column",
+      "creation_feature": 29,
+      "corner_mm": [
+        19632.0,
+        2798,
+        609.6
+      ],
+      "size_mm": [
+        360,
+        500,
+        8592.923999999999
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_024",
+      "role": "spandrel_column",
+      "creation_feature": 30,
+      "corner_mm": [
+        22680.0,
+        2798,
+        3490.5086400000005
+      ],
+      "size_mm": [
+        360,
+        500,
+        5833.9353599999995
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_025",
+      "role": "spandrel_column",
+      "creation_feature": 31,
+      "corner_mm": [
+        25728.0,
+        2798,
+        5731.215360000001
+      ],
+      "size_mm": [
+        360,
+        500,
+        3715.1486399999985
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_026",
+      "role": "spandrel_column",
+      "creation_feature": 32,
+      "corner_mm": [
+        28776.0,
+        2798,
+        7331.72016
+      ],
+      "size_mm": [
+        360,
+        500,
+        2236.56384
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_027",
+      "role": "spandrel_column",
+      "creation_feature": 33,
+      "corner_mm": [
+        31824.0,
+        2798,
+        8292.02304
+      ],
+      "size_mm": [
+        360,
+        500,
+        1398.1809599999997
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_028",
+      "role": "spandrel_column",
+      "creation_feature": 34,
+      "corner_mm": [
+        34872.0,
+        2798,
+        8612.124
+      ],
+      "size_mm": [
+        360,
+        500,
+        1200.0
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_029",
+      "role": "spandrel_column",
+      "creation_feature": 35,
+      "corner_mm": [
+        37920.0,
+        2798,
+        8292.02304
+      ],
+      "size_mm": [
+        360,
+        500,
+        1642.0209599999998
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_030",
+      "role": "spandrel_column",
+      "creation_feature": 36,
+      "corner_mm": [
+        40968.0,
+        2798,
+        7331.720160000002
+      ],
+      "size_mm": [
+        360,
+        500,
+        2724.2438399999983
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_031",
+      "role": "spandrel_column",
+      "creation_feature": 37,
+      "corner_mm": [
+        44016.0,
+        2798,
+        5731.21536
+      ],
+      "size_mm": [
+        360,
+        500,
+        4446.66864
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_032",
+      "role": "spandrel_column",
+      "creation_feature": 38,
+      "corner_mm": [
+        47064.0,
+        2798,
+        3490.508639999999
+      ],
+      "size_mm": [
+        360,
+        500,
+        6809.295360000001
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "spandrel_column_033",
+      "role": "spandrel_column",
+      "creation_feature": 39,
+      "corner_mm": [
+        50112.0,
+        2798,
+        609.6
+      ],
+      "size_mm": [
+        360,
+        500,
+        9812.124
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "arch_pier_001",
+      "role": "arch_pier",
+      "creation_feature": 40,
+      "corner_mm": [
+        18288.0,
+        -5359.4,
+        0
+      ],
+      "size_mm": [
+        1524.0,
+        10718.8,
+        9172.044
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "arch_pier_002",
+      "role": "arch_pier",
+      "creation_feature": 41,
+      "corner_mm": [
+        50292.0,
+        -5359.4,
+        0
+      ],
+      "size_mm": [
+        1524.0,
+        10718.8,
+        10452.204
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_arcade_girder_001",
+      "role": "approach_arcade_girder",
+      "creation_feature": 42,
+      "p0_mm": [
+        0.0,
+        -3048.0,
+        8060.044
+      ],
+      "p1_mm": [
+        18288.0,
+        -3048.0,
+        8791.564
+      ],
+      "width_mm": 600,
+      "depth_mm": 500,
+      "length_mm": 18302.624552517053,
+      "assembly": "approach",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "approach_arcade_girder_002",
+      "role": "approach_arcade_girder",
+      "creation_feature": 44,
+      "p0_mm": [
+        0.0,
+        0.0,
+        8060.044
+      ],
+      "p1_mm": [
+        18288.0,
+        0.0,
+        8791.564
+      ],
+      "width_mm": 600,
+      "depth_mm": 500,
+      "length_mm": 18302.624552517053,
+      "assembly": "approach",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "approach_arcade_girder_003",
+      "role": "approach_arcade_girder",
+      "creation_feature": 46,
+      "p0_mm": [
+        0.0,
+        3048.0,
+        8060.044
+      ],
+      "p1_mm": [
+        18288.0,
+        3048.0,
+        8791.564
+      ],
+      "width_mm": 600,
+      "depth_mm": 500,
+      "length_mm": 18302.624552517053,
+      "assembly": "approach",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "approach_column_001",
+      "role": "approach_column",
+      "creation_feature": 48,
+      "corner_mm": [
+        -250.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        7810.044
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_002",
+      "role": "approach_column",
+      "creation_feature": 49,
+      "corner_mm": [
+        -250.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        7810.044
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_003",
+      "role": "approach_column",
+      "creation_feature": 50,
+      "corner_mm": [
+        -250.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        7810.044
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_004",
+      "role": "approach_column",
+      "creation_feature": 51,
+      "corner_mm": [
+        4322.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        7992.923999999999
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_005",
+      "role": "approach_column",
+      "creation_feature": 52,
+      "corner_mm": [
+        4322.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        7992.923999999999
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_006",
+      "role": "approach_column",
+      "creation_feature": 53,
+      "corner_mm": [
+        4322.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        7992.923999999999
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_007",
+      "role": "approach_column",
+      "creation_feature": 54,
+      "corner_mm": [
+        8894.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        8175.804
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_008",
+      "role": "approach_column",
+      "creation_feature": 55,
+      "corner_mm": [
+        8894.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        8175.804
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_009",
+      "role": "approach_column",
+      "creation_feature": 56,
+      "corner_mm": [
+        8894.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        8175.804
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_010",
+      "role": "approach_column",
+      "creation_feature": 57,
+      "corner_mm": [
+        13466.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        8358.684
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_011",
+      "role": "approach_column",
+      "creation_feature": 58,
+      "corner_mm": [
+        13466.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        8358.684
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_012",
+      "role": "approach_column",
+      "creation_feature": 59,
+      "corner_mm": [
+        13466.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        8358.684
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_013",
+      "role": "approach_column",
+      "creation_feature": 60,
+      "corner_mm": [
+        18038.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        8541.564
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_014",
+      "role": "approach_column",
+      "creation_feature": 61,
+      "corner_mm": [
+        18038.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        8541.564
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_015",
+      "role": "approach_column",
+      "creation_feature": 62,
+      "corner_mm": [
+        18038.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        8541.564
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_arcade_girder_004",
+      "role": "approach_arcade_girder",
+      "creation_feature": 63,
+      "p0_mm": [
+        51816.0,
+        -3048.0,
+        10132.684
+      ],
+      "p1_mm": [
+        70104.0,
+        -3048.0,
+        10864.204
+      ],
+      "width_mm": 600,
+      "depth_mm": 500,
+      "length_mm": 18302.624552517053,
+      "assembly": "approach",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "approach_arcade_girder_005",
+      "role": "approach_arcade_girder",
+      "creation_feature": 65,
+      "p0_mm": [
+        51816.0,
+        0.0,
+        10132.684
+      ],
+      "p1_mm": [
+        70104.0,
+        0.0,
+        10864.204
+      ],
+      "width_mm": 600,
+      "depth_mm": 500,
+      "length_mm": 18302.624552517053,
+      "assembly": "approach",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "approach_arcade_girder_006",
+      "role": "approach_arcade_girder",
+      "creation_feature": 67,
+      "p0_mm": [
+        51816.0,
+        3048.0,
+        10132.684
+      ],
+      "p1_mm": [
+        70104.0,
+        3048.0,
+        10864.204
+      ],
+      "width_mm": 600,
+      "depth_mm": 500,
+      "length_mm": 18302.624552517053,
+      "assembly": "approach",
+      "representation": "rectangular section envelope",
+      "dimension_status": "assumed_or_envelope"
+    },
+    {
+      "name": "approach_column_016",
+      "role": "approach_column",
+      "creation_feature": 69,
+      "corner_mm": [
+        51566.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        9882.684
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_017",
+      "role": "approach_column",
+      "creation_feature": 70,
+      "corner_mm": [
+        51566.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        9882.684
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_018",
+      "role": "approach_column",
+      "creation_feature": 71,
+      "corner_mm": [
+        51566.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        9882.684
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_019",
+      "role": "approach_column",
+      "creation_feature": 72,
+      "corner_mm": [
+        56138.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10065.564
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_020",
+      "role": "approach_column",
+      "creation_feature": 73,
+      "corner_mm": [
+        56138.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10065.564
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_021",
+      "role": "approach_column",
+      "creation_feature": 74,
+      "corner_mm": [
+        56138.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10065.564
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_022",
+      "role": "approach_column",
+      "creation_feature": 75,
+      "corner_mm": [
+        60710.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10248.444
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_023",
+      "role": "approach_column",
+      "creation_feature": 76,
+      "corner_mm": [
+        60710.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10248.444
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_024",
+      "role": "approach_column",
+      "creation_feature": 77,
+      "corner_mm": [
+        60710.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10248.444
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_025",
+      "role": "approach_column",
+      "creation_feature": 78,
+      "corner_mm": [
+        65282.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10431.324
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_026",
+      "role": "approach_column",
+      "creation_feature": 79,
+      "corner_mm": [
+        65282.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10431.324
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_027",
+      "role": "approach_column",
+      "creation_feature": 80,
+      "corner_mm": [
+        65282.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10431.324
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_028",
+      "role": "approach_column",
+      "creation_feature": 81,
+      "corner_mm": [
+        69854.0,
+        -3348,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10614.204
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_029",
+      "role": "approach_column",
+      "creation_feature": 82,
+      "corner_mm": [
+        69854.0,
+        -300,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10614.204
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "approach_column_030",
+      "role": "approach_column",
+      "creation_feature": 83,
+      "corner_mm": [
+        69854.0,
+        2748,
+        0
+      ],
+      "size_mm": [
+        500,
+        600,
+        10614.204
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "graded_deck_001",
+      "role": "graded_deck",
+      "creation_feature": 85,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_002",
+      "role": "graded_deck",
+      "creation_feature": 87,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_003",
+      "role": "graded_deck",
+      "creation_feature": 89,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_004",
+      "role": "graded_deck",
+      "creation_feature": 91,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_005",
+      "role": "graded_deck",
+      "creation_feature": 93,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_006",
+      "role": "graded_deck",
+      "creation_feature": 95,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_007",
+      "role": "graded_deck",
+      "creation_feature": 97,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_008",
+      "role": "graded_deck",
+      "creation_feature": 99,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_009",
+      "role": "graded_deck",
+      "creation_feature": 101,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_010",
+      "role": "graded_deck",
+      "creation_feature": 103,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_011",
+      "role": "graded_deck",
+      "creation_feature": 105,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_012",
+      "role": "graded_deck",
+      "creation_feature": 107,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_013",
+      "role": "graded_deck",
+      "creation_feature": 109,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_014",
+      "role": "graded_deck",
+      "creation_feature": 111,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_015",
+      "role": "graded_deck",
+      "creation_feature": 113,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_016",
+      "role": "graded_deck",
+      "creation_feature": 115,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_017",
+      "role": "graded_deck",
+      "creation_feature": 117,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_018",
+      "role": "graded_deck",
+      "creation_feature": 119,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_019",
+      "role": "graded_deck",
+      "creation_feature": 121,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_020",
+      "role": "graded_deck",
+      "creation_feature": 123,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_021",
+      "role": "graded_deck",
+      "creation_feature": 125,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_022",
+      "role": "graded_deck",
+      "creation_feature": 127,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "graded_deck_023",
+      "role": "graded_deck",
+      "creation_feature": 129,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "bearing_block_001",
+      "role": "bearing_block",
+      "creation_feature": 130,
+      "corner_mm": [
+        -750.0,
+        -6431.28,
+        -600
+      ],
+      "size_mm": [
+        1500,
+        12862.56,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bearing_block_002",
+      "role": "bearing_block",
+      "creation_feature": 131,
+      "corner_mm": [
+        19062.0,
+        -6431.28,
+        -600
+      ],
+      "size_mm": [
+        1500,
+        12862.56,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bearing_block_003",
+      "role": "bearing_block",
+      "creation_feature": 132,
+      "corner_mm": [
+        49542.0,
+        -6431.28,
+        -600
+      ],
+      "size_mm": [
+        1500,
+        12862.56,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bearing_block_004",
+      "role": "bearing_block",
+      "creation_feature": 133,
+      "corner_mm": [
+        69354.0,
+        -6431.28,
+        -600
+      ],
+      "size_mm": [
+        1500,
+        12862.56,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    }
+  ],
+  "graph_polygons": [
+    {
+      "name": "arch_rib_001",
+      "role": "arch_rib",
+      "points_xz_mm": [
+        [
+          19812.0,
+          609.6
+        ],
+        [
+          20574.0,
+          1389.84609
+        ],
+        [
+          21336.0,
+          2130.07956
+        ],
+        [
+          22098.0,
+          2830.30041
+        ],
+        [
+          22860.0,
+          3490.5086400000005
+        ],
+        [
+          23622.0,
+          4110.704250000001
+        ],
+        [
+          24384.0,
+          4690.88724
+        ],
+        [
+          25146.0,
+          5231.057610000001
+        ],
+        [
+          25908.0,
+          5731.215360000001
+        ],
+        [
+          26670.0,
+          6191.360490000001
+        ],
+        [
+          27432.0,
+          6611.493
+        ],
+        [
+          28194.0,
+          6991.61289
+        ],
+        [
+          28956.0,
+          7331.72016
+        ],
+        [
+          29718.0,
+          7631.814810000002
+        ],
+        [
+          30480.0,
+          7891.896840000001
+        ],
+        [
+          31242.0,
+          8111.96625
+        ],
+        [
+          32004.0,
+          8292.02304
+        ],
+        [
+          32766.0,
+          8432.06721
+        ],
+        [
+          33528.0,
+          8532.09876
+        ],
+        [
+          34290.0,
+          8592.11769
+        ],
+        [
+          35052.0,
+          8612.124
+        ],
+        [
+          35814.0,
+          8592.11769
+        ],
+        [
+          36576.0,
+          8532.098759999999
+        ],
+        [
+          37338.0,
+          8432.067210000001
+        ],
+        [
+          38100.0,
+          8292.02304
+        ],
+        [
+          38862.0,
+          8111.966250000001
+        ],
+        [
+          39624.0,
+          7891.89684
+        ],
+        [
+          40386.0,
+          7631.814810000001
+        ],
+        [
+          41148.0,
+          7331.720160000002
+        ],
+        [
+          41910.0,
+          6991.61289
+        ],
+        [
+          42672.0,
+          6611.493
+        ],
+        [
+          43434.0,
+          6191.36049
+        ],
+        [
+          44196.0,
+          5731.21536
+        ],
+        [
+          44958.0,
+          5231.057610000002
+        ],
+        [
+          45720.0,
+          4690.887240000001
+        ],
+        [
+          46482.0,
+          4110.704250000001
+        ],
+        [
+          47244.0,
+          3490.508639999999
+        ],
+        [
+          48006.0,
+          2830.300409999999
+        ],
+        [
+          48768.0,
+          2130.0795600000015
+        ],
+        [
+          49530.0,
+          1389.8460900000007
+        ],
+        [
+          50292.0,
+          609.6
+        ],
+        [
+          50292.0,
+          0.0
+        ],
+        [
+          49530.0,
+          780.2460900000007
+        ],
+        [
+          48768.0,
+          1520.4795600000014
+        ],
+        [
+          48006.0,
+          2220.700409999999
+        ],
+        [
+          47244.0,
+          2880.908639999999
+        ],
+        [
+          46482.0,
+          3501.1042500000003
+        ],
+        [
+          45720.0,
+          4081.287240000001
+        ],
+        [
+          44958.0,
+          4621.457610000001
+        ],
+        [
+          44196.0,
+          5121.61536
+        ],
+        [
+          43434.0,
+          5581.76049
+        ],
+        [
+          42672.0,
+          6001.893
+        ],
+        [
+          41910.0,
+          6382.01289
+        ],
+        [
+          41148.0,
+          6722.120160000001
+        ],
+        [
+          40386.0,
+          7022.21481
+        ],
+        [
+          39624.0,
+          7282.29684
+        ],
+        [
+          38862.0,
+          7502.366250000001
+        ],
+        [
+          38100.0,
+          7682.423040000001
+        ],
+        [
+          37338.0,
+          7822.467210000001
+        ],
+        [
+          36576.0,
+          7922.4987599999995
+        ],
+        [
+          35814.0,
+          7982.51769
+        ],
+        [
+          35052.0,
+          8002.524
+        ],
+        [
+          34290.0,
+          7982.51769
+        ],
+        [
+          33528.0,
+          7922.49876
+        ],
+        [
+          32766.0,
+          7822.46721
+        ],
+        [
+          32004.0,
+          7682.423040000001
+        ],
+        [
+          31242.0,
+          7502.36625
+        ],
+        [
+          30480.0,
+          7282.296840000001
+        ],
+        [
+          29718.0,
+          7022.214810000001
+        ],
+        [
+          28956.0,
+          6722.1201599999995
+        ],
+        [
+          28194.0,
+          6382.01289
+        ],
+        [
+          27432.0,
+          6001.893
+        ],
+        [
+          26670.0,
+          5581.760490000001
+        ],
+        [
+          25908.0,
+          5121.615360000001
+        ],
+        [
+          25146.0,
+          4621.45761
+        ],
+        [
+          24384.0,
+          4081.28724
+        ],
+        [
+          23622.0,
+          3501.1042500000003
+        ],
+        [
+          22860.0,
+          2880.9086400000006
+        ],
+        [
+          22098.0,
+          2220.70041
+        ],
+        [
+          21336.0,
+          1520.47956
+        ],
+        [
+          20574.0,
+          780.2460900000001
+        ],
+        [
+          19812.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "arch_rib_002",
+      "role": "arch_rib",
+      "points_xz_mm": [
+        [
+          19812.0,
+          609.6
+        ],
+        [
+          20574.0,
+          1389.84609
+        ],
+        [
+          21336.0,
+          2130.07956
+        ],
+        [
+          22098.0,
+          2830.30041
+        ],
+        [
+          22860.0,
+          3490.5086400000005
+        ],
+        [
+          23622.0,
+          4110.704250000001
+        ],
+        [
+          24384.0,
+          4690.88724
+        ],
+        [
+          25146.0,
+          5231.057610000001
+        ],
+        [
+          25908.0,
+          5731.215360000001
+        ],
+        [
+          26670.0,
+          6191.360490000001
+        ],
+        [
+          27432.0,
+          6611.493
+        ],
+        [
+          28194.0,
+          6991.61289
+        ],
+        [
+          28956.0,
+          7331.72016
+        ],
+        [
+          29718.0,
+          7631.814810000002
+        ],
+        [
+          30480.0,
+          7891.896840000001
+        ],
+        [
+          31242.0,
+          8111.96625
+        ],
+        [
+          32004.0,
+          8292.02304
+        ],
+        [
+          32766.0,
+          8432.06721
+        ],
+        [
+          33528.0,
+          8532.09876
+        ],
+        [
+          34290.0,
+          8592.11769
+        ],
+        [
+          35052.0,
+          8612.124
+        ],
+        [
+          35814.0,
+          8592.11769
+        ],
+        [
+          36576.0,
+          8532.098759999999
+        ],
+        [
+          37338.0,
+          8432.067210000001
+        ],
+        [
+          38100.0,
+          8292.02304
+        ],
+        [
+          38862.0,
+          8111.966250000001
+        ],
+        [
+          39624.0,
+          7891.89684
+        ],
+        [
+          40386.0,
+          7631.814810000001
+        ],
+        [
+          41148.0,
+          7331.720160000002
+        ],
+        [
+          41910.0,
+          6991.61289
+        ],
+        [
+          42672.0,
+          6611.493
+        ],
+        [
+          43434.0,
+          6191.36049
+        ],
+        [
+          44196.0,
+          5731.21536
+        ],
+        [
+          44958.0,
+          5231.057610000002
+        ],
+        [
+          45720.0,
+          4690.887240000001
+        ],
+        [
+          46482.0,
+          4110.704250000001
+        ],
+        [
+          47244.0,
+          3490.508639999999
+        ],
+        [
+          48006.0,
+          2830.300409999999
+        ],
+        [
+          48768.0,
+          2130.0795600000015
+        ],
+        [
+          49530.0,
+          1389.8460900000007
+        ],
+        [
+          50292.0,
+          609.6
+        ],
+        [
+          50292.0,
+          0.0
+        ],
+        [
+          49530.0,
+          780.2460900000007
+        ],
+        [
+          48768.0,
+          1520.4795600000014
+        ],
+        [
+          48006.0,
+          2220.700409999999
+        ],
+        [
+          47244.0,
+          2880.908639999999
+        ],
+        [
+          46482.0,
+          3501.1042500000003
+        ],
+        [
+          45720.0,
+          4081.287240000001
+        ],
+        [
+          44958.0,
+          4621.457610000001
+        ],
+        [
+          44196.0,
+          5121.61536
+        ],
+        [
+          43434.0,
+          5581.76049
+        ],
+        [
+          42672.0,
+          6001.893
+        ],
+        [
+          41910.0,
+          6382.01289
+        ],
+        [
+          41148.0,
+          6722.120160000001
+        ],
+        [
+          40386.0,
+          7022.21481
+        ],
+        [
+          39624.0,
+          7282.29684
+        ],
+        [
+          38862.0,
+          7502.366250000001
+        ],
+        [
+          38100.0,
+          7682.423040000001
+        ],
+        [
+          37338.0,
+          7822.467210000001
+        ],
+        [
+          36576.0,
+          7922.4987599999995
+        ],
+        [
+          35814.0,
+          7982.51769
+        ],
+        [
+          35052.0,
+          8002.524
+        ],
+        [
+          34290.0,
+          7982.51769
+        ],
+        [
+          33528.0,
+          7922.49876
+        ],
+        [
+          32766.0,
+          7822.46721
+        ],
+        [
+          32004.0,
+          7682.423040000001
+        ],
+        [
+          31242.0,
+          7502.36625
+        ],
+        [
+          30480.0,
+          7282.296840000001
+        ],
+        [
+          29718.0,
+          7022.214810000001
+        ],
+        [
+          28956.0,
+          6722.1201599999995
+        ],
+        [
+          28194.0,
+          6382.01289
+        ],
+        [
+          27432.0,
+          6001.893
+        ],
+        [
+          26670.0,
+          5581.760490000001
+        ],
+        [
+          25908.0,
+          5121.615360000001
+        ],
+        [
+          25146.0,
+          4621.45761
+        ],
+        [
+          24384.0,
+          4081.28724
+        ],
+        [
+          23622.0,
+          3501.1042500000003
+        ],
+        [
+          22860.0,
+          2880.9086400000006
+        ],
+        [
+          22098.0,
+          2220.70041
+        ],
+        [
+          21336.0,
+          1520.47956
+        ],
+        [
+          20574.0,
+          780.2460900000001
+        ],
+        [
+          19812.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "arch_rib_003",
+      "role": "arch_rib",
+      "points_xz_mm": [
+        [
+          19812.0,
+          609.6
+        ],
+        [
+          20574.0,
+          1389.84609
+        ],
+        [
+          21336.0,
+          2130.07956
+        ],
+        [
+          22098.0,
+          2830.30041
+        ],
+        [
+          22860.0,
+          3490.5086400000005
+        ],
+        [
+          23622.0,
+          4110.704250000001
+        ],
+        [
+          24384.0,
+          4690.88724
+        ],
+        [
+          25146.0,
+          5231.057610000001
+        ],
+        [
+          25908.0,
+          5731.215360000001
+        ],
+        [
+          26670.0,
+          6191.360490000001
+        ],
+        [
+          27432.0,
+          6611.493
+        ],
+        [
+          28194.0,
+          6991.61289
+        ],
+        [
+          28956.0,
+          7331.72016
+        ],
+        [
+          29718.0,
+          7631.814810000002
+        ],
+        [
+          30480.0,
+          7891.896840000001
+        ],
+        [
+          31242.0,
+          8111.96625
+        ],
+        [
+          32004.0,
+          8292.02304
+        ],
+        [
+          32766.0,
+          8432.06721
+        ],
+        [
+          33528.0,
+          8532.09876
+        ],
+        [
+          34290.0,
+          8592.11769
+        ],
+        [
+          35052.0,
+          8612.124
+        ],
+        [
+          35814.0,
+          8592.11769
+        ],
+        [
+          36576.0,
+          8532.098759999999
+        ],
+        [
+          37338.0,
+          8432.067210000001
+        ],
+        [
+          38100.0,
+          8292.02304
+        ],
+        [
+          38862.0,
+          8111.966250000001
+        ],
+        [
+          39624.0,
+          7891.89684
+        ],
+        [
+          40386.0,
+          7631.814810000001
+        ],
+        [
+          41148.0,
+          7331.720160000002
+        ],
+        [
+          41910.0,
+          6991.61289
+        ],
+        [
+          42672.0,
+          6611.493
+        ],
+        [
+          43434.0,
+          6191.36049
+        ],
+        [
+          44196.0,
+          5731.21536
+        ],
+        [
+          44958.0,
+          5231.057610000002
+        ],
+        [
+          45720.0,
+          4690.887240000001
+        ],
+        [
+          46482.0,
+          4110.704250000001
+        ],
+        [
+          47244.0,
+          3490.508639999999
+        ],
+        [
+          48006.0,
+          2830.300409999999
+        ],
+        [
+          48768.0,
+          2130.0795600000015
+        ],
+        [
+          49530.0,
+          1389.8460900000007
+        ],
+        [
+          50292.0,
+          609.6
+        ],
+        [
+          50292.0,
+          0.0
+        ],
+        [
+          49530.0,
+          780.2460900000007
+        ],
+        [
+          48768.0,
+          1520.4795600000014
+        ],
+        [
+          48006.0,
+          2220.700409999999
+        ],
+        [
+          47244.0,
+          2880.908639999999
+        ],
+        [
+          46482.0,
+          3501.1042500000003
+        ],
+        [
+          45720.0,
+          4081.287240000001
+        ],
+        [
+          44958.0,
+          4621.457610000001
+        ],
+        [
+          44196.0,
+          5121.61536
+        ],
+        [
+          43434.0,
+          5581.76049
+        ],
+        [
+          42672.0,
+          6001.893
+        ],
+        [
+          41910.0,
+          6382.01289
+        ],
+        [
+          41148.0,
+          6722.120160000001
+        ],
+        [
+          40386.0,
+          7022.21481
+        ],
+        [
+          39624.0,
+          7282.29684
+        ],
+        [
+          38862.0,
+          7502.366250000001
+        ],
+        [
+          38100.0,
+          7682.423040000001
+        ],
+        [
+          37338.0,
+          7822.467210000001
+        ],
+        [
+          36576.0,
+          7922.4987599999995
+        ],
+        [
+          35814.0,
+          7982.51769
+        ],
+        [
+          35052.0,
+          8002.524
+        ],
+        [
+          34290.0,
+          7982.51769
+        ],
+        [
+          33528.0,
+          7922.49876
+        ],
+        [
+          32766.0,
+          7822.46721
+        ],
+        [
+          32004.0,
+          7682.423040000001
+        ],
+        [
+          31242.0,
+          7502.36625
+        ],
+        [
+          30480.0,
+          7282.296840000001
+        ],
+        [
+          29718.0,
+          7022.214810000001
+        ],
+        [
+          28956.0,
+          6722.1201599999995
+        ],
+        [
+          28194.0,
+          6382.01289
+        ],
+        [
+          27432.0,
+          6001.893
+        ],
+        [
+          26670.0,
+          5581.760490000001
+        ],
+        [
+          25908.0,
+          5121.615360000001
+        ],
+        [
+          25146.0,
+          4621.45761
+        ],
+        [
+          24384.0,
+          4081.28724
+        ],
+        [
+          23622.0,
+          3501.1042500000003
+        ],
+        [
+          22860.0,
+          2880.9086400000006
+        ],
+        [
+          22098.0,
+          2220.70041
+        ],
+        [
+          21336.0,
+          1520.47956
+        ],
+        [
+          20574.0,
+          780.2460900000001
+        ],
+        [
+          19812.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_001",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          0.0,
+          8410.044
+        ],
+        [
+          3048.0,
+          8531.964
+        ],
+        [
+          3048.0,
+          8331.964
+        ],
+        [
+          0.0,
+          8210.044
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_002",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          3048.0,
+          8531.964
+        ],
+        [
+          6096.0,
+          8653.884
+        ],
+        [
+          6096.0,
+          8453.884
+        ],
+        [
+          3048.0,
+          8331.964
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_003",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          6096.0,
+          8653.884
+        ],
+        [
+          9144.0,
+          8775.804
+        ],
+        [
+          9144.0,
+          8575.804
+        ],
+        [
+          6096.0,
+          8453.884
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_004",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          9144.0,
+          8775.804
+        ],
+        [
+          12192.0,
+          8897.724
+        ],
+        [
+          12192.0,
+          8697.724
+        ],
+        [
+          9144.0,
+          8575.804
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_005",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          12192.0,
+          8897.724
+        ],
+        [
+          15240.0,
+          9019.644
+        ],
+        [
+          15240.0,
+          8819.644
+        ],
+        [
+          12192.0,
+          8697.724
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_006",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          15240.0,
+          9019.644
+        ],
+        [
+          18288.0,
+          9141.564
+        ],
+        [
+          18288.0,
+          8941.564
+        ],
+        [
+          15240.0,
+          8819.644
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_007",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          18288.0,
+          9141.564
+        ],
+        [
+          21336.0,
+          9263.484
+        ],
+        [
+          21336.0,
+          9063.484
+        ],
+        [
+          18288.0,
+          8941.564
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_008",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          21336.0,
+          9263.484
+        ],
+        [
+          24384.0,
+          9385.404
+        ],
+        [
+          24384.0,
+          9185.404
+        ],
+        [
+          21336.0,
+          9063.484
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_009",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          24384.0,
+          9385.404
+        ],
+        [
+          27432.0,
+          9507.324
+        ],
+        [
+          27432.0,
+          9307.324
+        ],
+        [
+          24384.0,
+          9185.404
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_010",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          27432.0,
+          9507.324
+        ],
+        [
+          30480.0,
+          9629.244
+        ],
+        [
+          30480.0,
+          9429.244
+        ],
+        [
+          27432.0,
+          9307.324
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_011",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          30480.0,
+          9629.244
+        ],
+        [
+          33528.0,
+          9751.164
+        ],
+        [
+          33528.0,
+          9551.164
+        ],
+        [
+          30480.0,
+          9429.244
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_012",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          33528.0,
+          9751.164
+        ],
+        [
+          36576.0,
+          9873.083999999999
+        ],
+        [
+          36576.0,
+          9673.083999999999
+        ],
+        [
+          33528.0,
+          9551.164
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_013",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          36576.0,
+          9873.083999999999
+        ],
+        [
+          39624.0,
+          9995.003999999999
+        ],
+        [
+          39624.0,
+          9795.003999999999
+        ],
+        [
+          36576.0,
+          9673.083999999999
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_014",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          39624.0,
+          9995.003999999999
+        ],
+        [
+          42672.0,
+          10116.923999999999
+        ],
+        [
+          42672.0,
+          9916.923999999999
+        ],
+        [
+          39624.0,
+          9795.003999999999
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_015",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          42672.0,
+          10116.923999999999
+        ],
+        [
+          45720.0,
+          10238.844
+        ],
+        [
+          45720.0,
+          10038.844
+        ],
+        [
+          42672.0,
+          9916.923999999999
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_016",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          45720.0,
+          10238.844
+        ],
+        [
+          48768.0,
+          10360.764
+        ],
+        [
+          48768.0,
+          10160.764
+        ],
+        [
+          45720.0,
+          10038.844
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_017",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          48768.0,
+          10360.764
+        ],
+        [
+          51816.0,
+          10482.684
+        ],
+        [
+          51816.0,
+          10282.684
+        ],
+        [
+          48768.0,
+          10160.764
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_018",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          51816.0,
+          10482.684
+        ],
+        [
+          54864.0,
+          10604.604
+        ],
+        [
+          54864.0,
+          10404.604
+        ],
+        [
+          51816.0,
+          10282.684
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_019",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          54864.0,
+          10604.604
+        ],
+        [
+          57912.0,
+          10726.524
+        ],
+        [
+          57912.0,
+          10526.524
+        ],
+        [
+          54864.0,
+          10404.604
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_020",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          57912.0,
+          10726.524
+        ],
+        [
+          60960.0,
+          10848.444
+        ],
+        [
+          60960.0,
+          10648.444
+        ],
+        [
+          57912.0,
+          10526.524
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_021",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          60960.0,
+          10848.444
+        ],
+        [
+          64008.0,
+          10970.364
+        ],
+        [
+          64008.0,
+          10770.364
+        ],
+        [
+          60960.0,
+          10648.444
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_022",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          64008.0,
+          10970.364
+        ],
+        [
+          67056.0,
+          11092.284
+        ],
+        [
+          67056.0,
+          10892.284
+        ],
+        [
+          64008.0,
+          10770.364
+        ]
+      ]
+    },
+    {
+      "name": "graded_deck_023",
+      "role": "graded_deck",
+      "points_xz_mm": [
+        [
+          67056.0,
+          11092.284
+        ],
+        [
+          70104.0,
+          11214.204
+        ],
+        [
+          70104.0,
+          11014.204
+        ],
+        [
+          67056.0,
+          10892.284
+        ]
+      ]
+    }
+  ],
+  "source_views": [],
+  "dimension_sources": {
+    "length": {
+      "method": "explicit_dimension",
+      "value_mm": 70104.0
+    },
+    "width": {
+      "method": "explicit_dimension",
+      "value_mm": 10718.8
+    },
+    "height": {
+      "method": "derived_from_explicit_dimensions",
+      "value_mm": 8002.524
+    }
+  },
+  "source_evidence": [
+    {
+      "field": "overall,clear_span,width",
+      "page": 1,
+      "bbox": [
+        0.2,
+        0.23,
+        0.9,
+        0.75
+      ],
+      "quote": "230'-0\" overall; 100'-0\" clear span; 35'-2\" cross section; 30'-0\" roadway",
+      "mode": "explicit",
+      "source_file": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193029pu.tif",
+      "source_sha256": "fdb0ad5161af37429fe31e4cf85de021364c086cb269614f7c07eb9f5c8ee5ed"
+    },
+    {
+      "field": "arch_rise",
+      "page": 1,
+      "bbox": [
+        0.27,
+        0.36,
+        0.85,
+        0.68
+      ],
+      "quote": "EL.246.500 crown - EL.220.245 springing = 26.255 ft",
+      "mode": "inferred_from_dimensions",
+      "source_file": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193029pu.tif",
+      "source_sha256": "fdb0ad5161af37429fe31e4cf85de021364c086cb269614f7c07eb9f5c8ee5ed"
+    }
+  ],
+  "native_parameters": {
+    "arch_rib_thickness": {
+      "value": 600.0,
+      "unit": "mm",
+      "comment": "Transverse extrusion thickness; unconfirmed unless in evidence"
+    },
+    "approach_arcade_girder_width": {
+      "value": 600.0,
+      "unit": "mm",
+      "comment": "Section envelope; actual built-up details unconfirmed"
+    },
+    "approach_arcade_girder_depth": {
+      "value": 500.0,
+      "unit": "mm",
+      "comment": "Section envelope, not verified engineering section"
+    },
+    "graded_deck_thickness": {
+      "value": 10718.8,
+      "unit": "mm",
+      "comment": "Transverse extrusion thickness; unconfirmed unless in evidence"
+    },
+    "design_length_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    },
+    "design_width_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    },
+    "design_height_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    }
+  },
+  "native_server": {
+    "name": "solidcraft",
+    "title": "SolidCraft",
+    "version": "0.9.0"
+  },
+  "artifacts": {
+    "drawing_vs_cad.jpg": {
+      "sha256": "cc59bfe50157990069d2231269c78a84a1b166762a3a90b2434befba71406678",
+      "bytes": 180243
+    },
+    "CT-0629_Nineveh_Falls.3mf": {
+      "sha256": "a977a49239cdfe65d26987a9acf09ca961cb91bed6c1571d62c3289bd0d155d6",
+      "bytes": 16152
+    },
+    "CT-0629_Nineveh_Falls.stl": {
+      "sha256": "509fb98707d45331f1054a7a4d128abe257e2c0029be1682791cccbe6892a0d1",
+      "bytes": 107484
+    },
+    "top.png": {
+      "sha256": "1957ac1b526be18a266350f3298f983fa663b7734223f034704e637460064e73",
+      "bytes": 102038
+    },
+    "CT-0629_Nineveh_Falls.solidcraft": {
+      "sha256": "f86c2305fbaa180d00b1cd646a29c766f1a6c37215617913936fb7f164343a67",
+      "bytes": 11432
+    },
+    "CT-0629_Nineveh_Falls.step": {
+      "sha256": "6f3f61a71e5f85e520bcb66c9ee8de7bad44730efa1abed79e6e9e30ee5843cb",
+      "bytes": 606473
+    },
+    "iso.png": {
+      "sha256": "31498ac259e36c54a0e65a7c4492d33445a13ca4b25ff22ebc4e2646bedc3f3c",
+      "bytes": 917253
+    },
+    "right.png": {
+      "sha256": "242b2e590a5cfd4a61dfbe97f3281dee36ee638bed769dad72220aa6a276d79d",
+      "bytes": 22192
+    },
+    "front.png": {
+      "sha256": "372d1dd92fc681d07d6b195110969d00b72e23d08826ad946d35335702d8f3bf",
+      "bytes": 39698
+    }
+  },
+  "generation_source_sha256": "d5bf10bb82fbc5759fa52b227ab2f6559414580f441fa759c37b7f81b605df8a",
+  "source_to_cad_method": "reviewed actual drawing readings -> source node graph -> native SolidCraft MCP",
+  "approximations": [
+    "Built-up sections, rivets, connections, bearings and foundations are envelope-level or omitted",
+    "Intermediate node ordinates may be scaled/idealized; original drawing constraints and conflicts retained",
+    "Affine edit changes member sections too; not a section-preserving engineering design edit"
+  ],
+  "publication": {
+    "source_page": "source_page.png",
+    "source_sha256": "fdb0ad5161af37429fe31e4cf85de021364c086cb269614f7c07eb9f5c8ee5ed",
+    "source_page_number": 1,
+    "note": "Source file paths are filenames; original PDFs/TIFFs are not bundled. MCP journal omitted."
+  }
+}

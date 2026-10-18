@@ -1,0 +1,867 @@
+{
+  "id": "AR-27_South_Fork",
+  "name": "South Fork Bridge (1928)",
+  "family": "closed_spandrel_arch",
+  "sources": [
+    {
+      "path": "AR-27-South-Fork-Bridge-M3722-1.pdf",
+      "sha256": "b3c875b120b56b6da95b2e130312626302f5a55b54f46c2f3f06ed828990d619",
+      "bytes": 2088623
+    }
+  ],
+  "main_page": 1,
+  "lengths": [
+    "57'-2\"",
+    "57'-0\""
+  ],
+  "overall_check": "114'-2\"",
+  "printed_metric_overall_mm": 34200,
+  "width_scaled": {
+    "length_pixels": 1476,
+    "width_pixels": 232
+  },
+  "arch_rise_scaled": {
+    "length_pixels": 726,
+    "rise_pixels": 107
+  },
+  "evidence": [
+    {
+      "field": "spans",
+      "page": 1,
+      "bbox": [
+        0.17,
+        0.52,
+        0.76,
+        0.57
+      ],
+      "quote": "57'-2\" + 57'-0\"; 114'-2\" (34.2M)",
+      "mode": "explicit"
+    }
+  ],
+  "notes": [
+    "Imperial dimensions take precedence over the conflicting printed 34.2M conversion.",
+    "Width and intrados rise are scaled from the plan/elevation; parapet decoration and internal fill are not resolved."
+  ],
+  "lengths_mm": [
+    17424.4,
+    17373.6
+  ],
+  "length_mm": 34798.0,
+  "width_mm": 5469.6043360433605,
+  "height_mm": 2568.0589531680444,
+  "between_span_gap_mm": 0.0,
+  "real_world_scale_known": true,
+  "source_evidence_status": "reviewed_readings",
+  "structural_detail_status": "envelope_level",
+  "section_truth_available": false,
+  "source_dimension_conflicts": [
+    {
+      "field": "printed_metric_overall_length",
+      "expected_mm": 34200,
+      "modeled_mm": 34798.0,
+      "residual_mm": 598.0,
+      "reason": "Imperial dimension chain retained over conflicting printed metric conversion"
+    }
+  ],
+  "graph_members": [
+    {
+      "name": "arch_wall_001",
+      "role": "arch_wall",
+      "creation_feature": 2,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "arch_wall_002",
+      "role": "arch_wall",
+      "creation_feature": 4,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "bearing_block_001",
+      "role": "bearing_block",
+      "creation_feature": 5,
+      "corner_mm": [
+        -450.0,
+        -3281.762601626016,
+        -600
+      ],
+      "size_mm": [
+        900,
+        6563.525203252032,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "arch_wall_003",
+      "role": "arch_wall",
+      "creation_feature": 7,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "arch_wall_004",
+      "role": "arch_wall",
+      "creation_feature": 9,
+      "assembly": "main",
+      "representation": "source-profile extrusion",
+      "dimension_status": "profile_scaled"
+    },
+    {
+      "name": "bearing_block_002",
+      "role": "bearing_block",
+      "creation_feature": 10,
+      "corner_mm": [
+        16974.4,
+        -3281.762601626016,
+        -600
+      ],
+      "size_mm": [
+        900,
+        6563.525203252032,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "bearing_block_003",
+      "role": "bearing_block",
+      "creation_feature": 11,
+      "corner_mm": [
+        34348.0,
+        -3281.762601626016,
+        -600
+      ],
+      "size_mm": [
+        900,
+        6563.525203252032,
+        600
+      ],
+      "assembly": "support",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    },
+    {
+      "name": "deck_001",
+      "role": "deck",
+      "creation_feature": 12,
+      "corner_mm": [
+        0,
+        -2734.8021680216802,
+        3068.0589531680444
+      ],
+      "size_mm": [
+        34798.0,
+        5469.6043360433605,
+        150
+      ],
+      "assembly": "main",
+      "representation": "conceptual solid",
+      "dimension_status": "assumed_or_scaled"
+    }
+  ],
+  "graph_polygons": [
+    {
+      "name": "arch_wall_001",
+      "role": "arch_wall",
+      "points_xz_mm": [
+        [
+          0,
+          3068.0589531680444
+        ],
+        [
+          17424.4,
+          3068.0589531680444
+        ],
+        [
+          17424.4,
+          0.0
+        ],
+        [
+          16879.8875,
+          310.97588886019287
+        ],
+        [
+          16335.375000000002,
+          601.8888171487604
+        ],
+        [
+          15790.862500000001,
+          872.7387848657025
+        ],
+        [
+          15246.350000000002,
+          1123.5257920110193
+        ],
+        [
+          14701.837500000001,
+          1354.2498385847107
+        ],
+        [
+          14157.325,
+          1564.910924586777
+        ],
+        [
+          13612.812500000002,
+          1755.5090500172178
+        ],
+        [
+          13068.300000000001,
+          1926.0442148760333
+        ],
+        [
+          12523.7875,
+          2076.5164191632234
+        ],
+        [
+          11979.275000000001,
+          2206.925662878788
+        ],
+        [
+          11434.7625,
+          2317.271946022727
+        ],
+        [
+          10890.25,
+          2407.5552685950415
+        ],
+        [
+          10345.737500000001,
+          2477.7756305957305
+        ],
+        [
+          9801.225,
+          2527.9330320247936
+        ],
+        [
+          9256.712500000001,
+          2558.027472882232
+        ],
+        [
+          8712.2,
+          2568.0589531680444
+        ],
+        [
+          8167.687500000001,
+          2558.0274728822315
+        ],
+        [
+          7623.175000000001,
+          2527.9330320247936
+        ],
+        [
+          7078.6625,
+          2477.77563059573
+        ],
+        [
+          6534.150000000001,
+          2407.5552685950415
+        ],
+        [
+          5989.637500000001,
+          2317.2719460227277
+        ],
+        [
+          5445.125,
+          2206.9256628787884
+        ],
+        [
+          4900.6125,
+          2076.5164191632234
+        ],
+        [
+          4356.1,
+          1926.0442148760333
+        ],
+        [
+          3811.5875000000005,
+          1755.5090500172178
+        ],
+        [
+          3267.0750000000003,
+          1564.9109245867771
+        ],
+        [
+          2722.5625,
+          1354.249838584711
+        ],
+        [
+          2178.05,
+          1123.5257920110193
+        ],
+        [
+          1633.5375000000001,
+          872.7387848657025
+        ],
+        [
+          1089.025,
+          601.8888171487604
+        ],
+        [
+          544.5125,
+          310.97588886019287
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "arch_wall_002",
+      "role": "arch_wall",
+      "points_xz_mm": [
+        [
+          0,
+          3068.0589531680444
+        ],
+        [
+          17424.4,
+          3068.0589531680444
+        ],
+        [
+          17424.4,
+          0.0
+        ],
+        [
+          16879.8875,
+          310.97588886019287
+        ],
+        [
+          16335.375000000002,
+          601.8888171487604
+        ],
+        [
+          15790.862500000001,
+          872.7387848657025
+        ],
+        [
+          15246.350000000002,
+          1123.5257920110193
+        ],
+        [
+          14701.837500000001,
+          1354.2498385847107
+        ],
+        [
+          14157.325,
+          1564.910924586777
+        ],
+        [
+          13612.812500000002,
+          1755.5090500172178
+        ],
+        [
+          13068.300000000001,
+          1926.0442148760333
+        ],
+        [
+          12523.7875,
+          2076.5164191632234
+        ],
+        [
+          11979.275000000001,
+          2206.925662878788
+        ],
+        [
+          11434.7625,
+          2317.271946022727
+        ],
+        [
+          10890.25,
+          2407.5552685950415
+        ],
+        [
+          10345.737500000001,
+          2477.7756305957305
+        ],
+        [
+          9801.225,
+          2527.9330320247936
+        ],
+        [
+          9256.712500000001,
+          2558.027472882232
+        ],
+        [
+          8712.2,
+          2568.0589531680444
+        ],
+        [
+          8167.687500000001,
+          2558.0274728822315
+        ],
+        [
+          7623.175000000001,
+          2527.9330320247936
+        ],
+        [
+          7078.6625,
+          2477.77563059573
+        ],
+        [
+          6534.150000000001,
+          2407.5552685950415
+        ],
+        [
+          5989.637500000001,
+          2317.2719460227277
+        ],
+        [
+          5445.125,
+          2206.9256628787884
+        ],
+        [
+          4900.6125,
+          2076.5164191632234
+        ],
+        [
+          4356.1,
+          1926.0442148760333
+        ],
+        [
+          3811.5875000000005,
+          1755.5090500172178
+        ],
+        [
+          3267.0750000000003,
+          1564.9109245867771
+        ],
+        [
+          2722.5625,
+          1354.249838584711
+        ],
+        [
+          2178.05,
+          1123.5257920110193
+        ],
+        [
+          1633.5375000000001,
+          872.7387848657025
+        ],
+        [
+          1089.025,
+          601.8888171487604
+        ],
+        [
+          544.5125,
+          310.97588886019287
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "arch_wall_003",
+      "role": "arch_wall",
+      "points_xz_mm": [
+        [
+          17424.4,
+          3068.0589531680444
+        ],
+        [
+          34798.0,
+          3068.0589531680444
+        ],
+        [
+          34798.0,
+          0.0
+        ],
+        [
+          34255.075,
+          310.975888860195
+        ],
+        [
+          33712.15,
+          601.8888171487595
+        ],
+        [
+          33169.225,
+          872.7387848657036
+        ],
+        [
+          32626.3,
+          1123.5257920110193
+        ],
+        [
+          32083.375,
+          1354.2498385847107
+        ],
+        [
+          31540.45,
+          1564.910924586777
+        ],
+        [
+          30997.525,
+          1755.509050017217
+        ],
+        [
+          30454.6,
+          1926.044214876034
+        ],
+        [
+          29911.675000000003,
+          2076.516419163223
+        ],
+        [
+          29368.75,
+          2206.925662878788
+        ],
+        [
+          28825.825,
+          2317.271946022727
+        ],
+        [
+          28282.9,
+          2407.5552685950415
+        ],
+        [
+          27739.975,
+          2477.7756305957305
+        ],
+        [
+          27197.050000000003,
+          2527.9330320247936
+        ],
+        [
+          26654.125,
+          2558.027472882232
+        ],
+        [
+          26111.2,
+          2568.0589531680444
+        ],
+        [
+          25568.275,
+          2558.027472882232
+        ],
+        [
+          25025.35,
+          2527.9330320247936
+        ],
+        [
+          24482.425000000003,
+          2477.7756305957305
+        ],
+        [
+          23939.5,
+          2407.5552685950415
+        ],
+        [
+          23396.575,
+          2317.2719460227277
+        ],
+        [
+          22853.65,
+          2206.9256628787884
+        ],
+        [
+          22310.725000000002,
+          2076.516419163224
+        ],
+        [
+          21767.800000000003,
+          1926.044214876034
+        ],
+        [
+          21224.875,
+          1755.5090500172173
+        ],
+        [
+          20681.95,
+          1564.910924586777
+        ],
+        [
+          20139.025,
+          1354.249838584711
+        ],
+        [
+          19596.100000000002,
+          1123.52579201102
+        ],
+        [
+          19053.175000000003,
+          872.7387848657033
+        ],
+        [
+          18510.25,
+          601.8888171487597
+        ],
+        [
+          17967.325,
+          310.97588886019247
+        ],
+        [
+          17424.4,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "arch_wall_004",
+      "role": "arch_wall",
+      "points_xz_mm": [
+        [
+          17424.4,
+          3068.0589531680444
+        ],
+        [
+          34798.0,
+          3068.0589531680444
+        ],
+        [
+          34798.0,
+          0.0
+        ],
+        [
+          34255.075,
+          310.975888860195
+        ],
+        [
+          33712.15,
+          601.8888171487595
+        ],
+        [
+          33169.225,
+          872.7387848657036
+        ],
+        [
+          32626.3,
+          1123.5257920110193
+        ],
+        [
+          32083.375,
+          1354.2498385847107
+        ],
+        [
+          31540.45,
+          1564.910924586777
+        ],
+        [
+          30997.525,
+          1755.509050017217
+        ],
+        [
+          30454.6,
+          1926.044214876034
+        ],
+        [
+          29911.675000000003,
+          2076.516419163223
+        ],
+        [
+          29368.75,
+          2206.925662878788
+        ],
+        [
+          28825.825,
+          2317.271946022727
+        ],
+        [
+          28282.9,
+          2407.5552685950415
+        ],
+        [
+          27739.975,
+          2477.7756305957305
+        ],
+        [
+          27197.050000000003,
+          2527.9330320247936
+        ],
+        [
+          26654.125,
+          2558.027472882232
+        ],
+        [
+          26111.2,
+          2568.0589531680444
+        ],
+        [
+          25568.275,
+          2558.027472882232
+        ],
+        [
+          25025.35,
+          2527.9330320247936
+        ],
+        [
+          24482.425000000003,
+          2477.7756305957305
+        ],
+        [
+          23939.5,
+          2407.5552685950415
+        ],
+        [
+          23396.575,
+          2317.2719460227277
+        ],
+        [
+          22853.65,
+          2206.9256628787884
+        ],
+        [
+          22310.725000000002,
+          2076.516419163224
+        ],
+        [
+          21767.800000000003,
+          1926.044214876034
+        ],
+        [
+          21224.875,
+          1755.5090500172173
+        ],
+        [
+          20681.95,
+          1564.910924586777
+        ],
+        [
+          20139.025,
+          1354.249838584711
+        ],
+        [
+          19596.100000000002,
+          1123.52579201102
+        ],
+        [
+          19053.175000000003,
+          872.7387848657033
+        ],
+        [
+          18510.25,
+          601.8888171487597
+        ],
+        [
+          17967.325,
+          310.97588886019247
+        ],
+        [
+          17424.4,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "source_views": [],
+  "dimension_sources": {
+    "length": {
+      "method": "explicit_dimension",
+      "value_mm": 34798.0
+    },
+    "width": {
+      "method": "scaled_geometry",
+      "value_mm": 5469.6043360433605
+    },
+    "height": {
+      "method": "scaled_or_derived",
+      "value_mm": 2568.0589531680444
+    }
+  },
+  "source_evidence": [
+    {
+      "field": "spans",
+      "page": 1,
+      "bbox": [
+        0.17,
+        0.52,
+        0.76,
+        0.57
+      ],
+      "quote": "57'-2\" + 57'-0\"; 114'-2\" (34.2M)",
+      "mode": "explicit",
+      "source_file": "AR-27-South-Fork-Bridge-M3722-1.pdf",
+      "source_sha256": "b3c875b120b56b6da95b2e130312626302f5a55b54f46c2f3f06ed828990d619"
+    }
+  ],
+  "native_parameters": {
+    "arch_wall_thickness": {
+      "value": 400.0,
+      "unit": "mm",
+      "comment": "Transverse extrusion thickness; unconfirmed unless in evidence"
+    },
+    "design_length_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    },
+    "design_width_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    },
+    "design_height_scale": {
+      "value": 1.0,
+      "unit": "",
+      "comment": "Affine geometry edit; section envelopes also deform"
+    }
+  },
+  "native_server": {
+    "name": "solidcraft",
+    "title": "SolidCraft",
+    "version": "0.9.0"
+  },
+  "artifacts": {
+    "drawing_vs_cad.jpg": {
+      "sha256": "7e9c764e508d08c55793bfb6d12c4f407f59df73bedf4a6b57e2ba71674eef15",
+      "bytes": 139576
+    },
+    "AR-27_South_Fork.solidcraft": {
+      "sha256": "55a7b1b04e3d3c77c61ce38521a1489efa67a5868540ae4c08774625cf39ad16",
+      "bytes": 3784
+    },
+    "AR-27_South_Fork.stl": {
+      "sha256": "da42392bbc818d8ce9b9fa52693db6bf800a01c7827d48c63fd608358483e96d",
+      "bytes": 29684
+    },
+    "AR-27_South_Fork.step": {
+      "sha256": "c792c220216aea726ded08a4795a9c2c74aae5f028d6a005c1a9d18871082b9c",
+      "bytes": 152172
+    },
+    "top.png": {
+      "sha256": "fee17c7421403bf76cc249e13e7b1ab74d59b374e3a040afd5f5a2c130eb2db5",
+      "bytes": 45570
+    },
+    "AR-27_South_Fork.3mf": {
+      "sha256": "722920f4249d425310e7b6fd65859f3f544237cb5d61dbb73c8a0bfb1449a46c",
+      "bytes": 3856
+    },
+    "iso.png": {
+      "sha256": "3a8de55568a224610885e1fae0951339b4bc1a93153bf4dea95cff5219180bf1",
+      "bytes": 478327
+    },
+    "right.png": {
+      "sha256": "f02a5a749a34a6a092851cf8d9ce63ed0789cde60997bb97a33606439964ecab",
+      "bytes": 21988
+    },
+    "front.png": {
+      "sha256": "b531e0e47476b8b8c0935678dd0f6f113b6ba4880c429ec2a17fa77a560a37e3",
+      "bytes": 29855
+    }
+  },
+  "generation_source_sha256": "d5bf10bb82fbc5759fa52b227ab2f6559414580f441fa759c37b7f81b605df8a",
+  "source_to_cad_method": "reviewed actual drawing readings -> source node graph -> native SolidCraft MCP",
+  "approximations": [
+    "Built-up sections, rivets, connections, bearings and foundations are envelope-level or omitted",
+    "Intermediate node ordinates may be scaled/idealized; original drawing constraints and conflicts retained",
+    "Affine edit changes member sections too; not a section-preserving engineering design edit"
+  ],
+  "publication": {
+    "source_page": "source_page.png",
+    "source_sha256": "b3c875b120b56b6da95b2e130312626302f5a55b54f46c2f3f06ed828990d619",
+    "source_page_number": 1,
+    "note": "Source file paths are filenames; original PDFs/TIFFs are not bundled. MCP journal omitted."
+  }
+}

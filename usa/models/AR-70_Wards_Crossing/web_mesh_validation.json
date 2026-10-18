@@ -1,0 +1,13 @@
+{
+  "mesh_source": "audited native 3MF export",
+  "member_count": 120,
+  "triangle_count": 1440,
+  "all_meshes_watertight": true,
+  "max_native_bbox_error_mm": 0.002322688786080107,
+  "max_native_member_volume_relative_error": 4.6743301326035436e-05,
+  "glb_round_trip_passed": true,
+  "viewer_units": "m",
+  "viewer_up_axis": "Z",
+  "glb_units": "m",
+  "glb_up_axis": "Y"
+}

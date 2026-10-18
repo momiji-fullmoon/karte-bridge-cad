@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "case_count": 15,
+  "source_scaled_models": 11,
+  "unscaled_models": 4,
+  "hashed_case_files_checked": 230,
+  "relative_links_checked": 294,
+  "native_matched_parts": 2132,
+  "maximum_file_bytes": 5360862,
+  "total_publication_bytes": 62945930,
+  "scope": "Public artifact integrity, native/web member correspondence and working local links; not deployment confirmation"
+}

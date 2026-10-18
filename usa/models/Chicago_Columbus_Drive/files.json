@@ -1,0 +1,66 @@
+{
+  "Chicago_Columbus_Drive.3mf": {
+    "sha256": "8a32a794139cc05d3549c7e9c258caa3aebef6debe55ebcc9491cb4baac4b732",
+    "bytes": 11052
+  },
+  "Chicago_Columbus_Drive.solidcraft": {
+    "sha256": "bf67a39f2c7a90421a93e7eff371d7b9ec8649b7722d1f0a477a9a4ab8bc197b",
+    "bytes": 19559
+  },
+  "Chicago_Columbus_Drive.step": {
+    "sha256": "77da68532ef6c56f4e8c8063f7bd3bbb3d6c8269741fb2f385b2c344ee111eae",
+    "bytes": 661924
+  },
+  "Chicago_Columbus_Drive.stl": {
+    "sha256": "5bc78709d62ec80c8504d78a7e258c902f53768067c637295fe822e6c6e6e2b3",
+    "bytes": 96084
+  },
+  "bridge.glb": {
+    "sha256": "45d7dad7ac775263aa28b8da66d06b8736b630ea2c2b5745b99d7d05ad049347",
+    "bytes": 103832
+  },
+  "drawing_vs_cad.jpg": {
+    "sha256": "70b025d2b6c224292b8b0c37bf2faf300d92e8ed903b1eeafbca8d7e670d2e8a",
+    "bytes": 185927
+  },
+  "front.png": {
+    "sha256": "5147f5813e5a665298ad9d73f6b587ef0c73f070c179b7071c946cc54b83161d",
+    "bytes": 41796
+  },
+  "iso.png": {
+    "sha256": "f5789e6b07ee364b13806274222e1873595da7493e91d66b71e3701be5635643",
+    "bytes": 646515
+  },
+  "motion_15deg.png": {
+    "sha256": "52052d694f72e1c6f404dd3ca39b37869ff9b013ace7242632d3cbed5756c06d",
+    "bytes": 617647
+  },
+  "right.png": {
+    "sha256": "829bd46fe47a48b4efea904c3a3c679f89d4b3ce6c8f65e833306f5eedc0c87b",
+    "bytes": 22203
+  },
+  "source_page.png": {
+    "sha256": "f946b5e29c9490dba6df270ba26fcc3993f048d1ad474f67d4c06f509ee9c75d",
+    "bytes": 360474
+  },
+  "source_spec.json": {
+    "sha256": "0cfb9477d12a9d29a7d894529cb49a726eebb52dc152bf8ec0921097ff06218e",
+    "bytes": 88093
+  },
+  "top.png": {
+    "sha256": "52f41af1fcb5ffbb01556281b41f74644c9b262f3d322239a4f83f2dbd5727e1",
+    "bytes": 52739
+  },
+  "validation.json": {
+    "sha256": "ec17935e104b086b0fb1df98b1f9ffbe5f2c119ffd0eb0bd24e9b6051f2a596d",
+    "bytes": 148239
+  },
+  "viewer.html": {
+    "sha256": "fe04f538705be03a0f4b2ebbeabb2efc3b36c3767e64e95a225d8b2606045bb8",
+    "bytes": 314141
+  },
+  "web_mesh_validation.json": {
+    "sha256": "fa2f2c53c44c9b10c8b54ddf79fc0005fd19db01c846cb95947660fa6caa3470",
+    "bytes": 374
+  }
+}

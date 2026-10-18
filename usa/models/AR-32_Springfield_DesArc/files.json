@@ -1,0 +1,62 @@
+{
+  "AR-32_Springfield_DesArc.3mf": {
+    "sha256": "188f194cbca55aa14eb4803a18ef509e814eb4fcb3854538bc68734fd6f91927",
+    "bytes": 18744
+  },
+  "AR-32_Springfield_DesArc.solidcraft": {
+    "sha256": "95600848b6729ca0996767d3eb2b82358947560cc0984d471c10182f83f4e450",
+    "bytes": 27090
+  },
+  "AR-32_Springfield_DesArc.step": {
+    "sha256": "3e2e14cd76aa5af4e0d4991fd8ab2d30a783e9b6a6d6bd2fb1941f6ce6bd5b1c",
+    "bytes": 1020042
+  },
+  "AR-32_Springfield_DesArc.stl": {
+    "sha256": "11fcb16ffecfe64f6782812204dd517f9e9dbec77089036b0547c56d0660c644",
+    "bytes": 139884
+  },
+  "bridge.glb": {
+    "sha256": "8856d814c7f714a39bd04dab60b895ed9d648f748349539d3c27f41fb4edb5b9",
+    "bytes": 155560
+  },
+  "drawing_vs_cad.jpg": {
+    "sha256": "aca0d95c17f93f381bc9d6469e054f6383b2f90092557bc88fa8e7e15c1010e4",
+    "bytes": 196152
+  },
+  "front.png": {
+    "sha256": "154e87ee8fb0bd1246801f3d1641b411587f0415f164ee9a4c8fb3a935501f1c",
+    "bytes": 70953
+  },
+  "iso.png": {
+    "sha256": "2a18798400916e2bc9a692c8309039829adf038b8a944ed990ccd3d44b2f5495",
+    "bytes": 697187
+  },
+  "right.png": {
+    "sha256": "98be9385e44401034bf286a1954f1bd986fb40e3a255ef40b87d2becfe831aaf",
+    "bytes": 26002
+  },
+  "source_page.png": {
+    "sha256": "b9bdbbaeb1f16bd85bfc7a56c96204db29eb0c2b6538fe8cf9e36e06d6e68744",
+    "bytes": 3198054
+  },
+  "source_spec.json": {
+    "sha256": "4446fbbd7e5de407b67687c7a92cb5717939e66be910905b689647a4491c9923",
+    "bytes": 119592
+  },
+  "top.png": {
+    "sha256": "29babb006339e360df63e51fc977617f9f0ee7d733aaf6296f828e10e06fd3ec",
+    "bytes": 87341
+  },
+  "validation.json": {
+    "sha256": "e30b284a3240732556a3d6ac9ad1f7b160a42cbffe6f0845172b69ab3ea1a6e5",
+    "bytes": 211158
+  },
+  "viewer.html": {
+    "sha256": "aeb054210f82fa20963db08d28d5d1947e68f6593c2d6b4cdd0b837716c3fda5",
+    "bytes": 458801
+  },
+  "web_mesh_validation.json": {
+    "sha256": "df40f5fa8f004e0d0aeed6920a2f71906fdb69b41ea295154d6c1eb894f34640",
+    "bytes": 374
+  }
+}

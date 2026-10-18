@@ -1,0 +1,401 @@
+{
+  "case_id": "AR-27_South_Fork",
+  "name": "South Fork Bridge (1928)",
+  "family": "closed_spandrel_arch",
+  "native_generation_success": true,
+  "real_world_scale_known": true,
+  "status": "source_supported_conceptual",
+  "sources": [
+    {
+      "path": "AR-27-South-Fork-Bridge-M3722-1.pdf",
+      "sha256": "b3c875b120b56b6da95b2e130312626302f5a55b54f46c2f3f06ed828990d619",
+      "bytes": 2088623
+    }
+  ],
+  "dimensions_mm": {
+    "main_length": 34798.0,
+    "width": 5469.6043360433605,
+    "height": 2568.0589531680444
+  },
+  "dimension_sources": {
+    "length": {
+      "method": "explicit_dimension",
+      "value_mm": 34798.0
+    },
+    "width": {
+      "method": "scaled_geometry",
+      "value_mm": 5469.6043360433605
+    },
+    "height": {
+      "method": "scaled_or_derived",
+      "value_mm": 2568.0589531680444
+    }
+  },
+  "source_dimension_conflicts": [
+    {
+      "field": "printed_metric_overall_length",
+      "expected_mm": 34200,
+      "modeled_mm": 34798.0,
+      "residual_mm": 598.0,
+      "reason": "Imperial dimension chain retained over conflicting printed metric conversion"
+    }
+  ],
+  "native": {
+    "body_count": 8,
+    "feature_count": 13,
+    "feature_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "native_feature_errors": [],
+    "bbox_mm": [
+      [
+        -450.0,
+        -3281.762601626016,
+        -600.0
+      ],
+      [
+        35248.0,
+        3281.762601626016,
+        3218.0589531680444
+      ]
+    ],
+    "total_member_volume_mm3": 76978565429.5364,
+    "max_member_endpoint_error_mm": 0,
+    "endpoint_checks": [],
+    "bodies": [
+      {
+        "area_mm2": 64092466.25611833,
+        "bbox": {
+          "max": [
+            17424.4,
+            -2334.8021680216802,
+            3068.0589531680444
+          ],
+          "min": [
+            0.0,
+            -2734.8021680216802,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          8712.200000000019,
+          -2534.802168021681,
+          2173.3264516491076
+        ],
+        "edges": 105,
+        "face_types": {
+          "plane": 37
+        },
+        "faces": 37,
+        "kernel": {
+          "edges": 105,
+          "faces": 37,
+          "shells": 1,
+          "vertices": 70
+        },
+        "name": "arch_wall_001",
+        "vertices": 70,
+        "visible": true,
+        "volume_mm3": 9462784358.150331
+      },
+      {
+        "area_mm2": 64092466.25611833,
+        "bbox": {
+          "max": [
+            17424.4,
+            2734.8021680216802,
+            3068.0589531680444
+          ],
+          "min": [
+            0.0,
+            2334.8021680216802,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          8712.200000000008,
+          2534.8021680216834,
+          2173.326451649111
+        ],
+        "edges": 105,
+        "face_types": {
+          "plane": 37
+        },
+        "faces": 37,
+        "kernel": {
+          "edges": 105,
+          "faces": 37,
+          "shells": 1,
+          "vertices": 70
+        },
+        "name": "arch_wall_002",
+        "vertices": 70,
+        "visible": true,
+        "volume_mm3": 9462784358.150322
+      },
+      {
+        "area_mm2": 20770575.609756097,
+        "bbox": {
+          "max": [
+            450.0,
+            3281.762601626016,
+            0.0
+          ],
+          "min": [
+            -450.0,
+            -3281.762601626016,
+            -600.0
+          ]
+        },
+        "center_of_mass": [
+          0.0,
+          0.0,
+          -300.00000000000006
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3544303609.7560973
+      },
+      {
+        "area_mm2": 63914910.5133878,
+        "bbox": {
+          "max": [
+            34798.0,
+            -2334.8021680216802,
+            3068.0589531680444
+          ],
+          "min": [
+            17424.4,
+            -2734.8021680216802,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          26111.199999999986,
+          -2534.8021680216766,
+          2173.3264516491035
+        ],
+        "edges": 105,
+        "face_types": {
+          "plane": 37
+        },
+        "faces": 37,
+        "kernel": {
+          "edges": 105,
+          "faces": 37,
+          "shells": 1,
+          "vertices": 70
+        },
+        "name": "arch_wall_003",
+        "vertices": 70,
+        "visible": true,
+        "volume_mm3": 9435196065.561003
+      },
+      {
+        "area_mm2": 63914910.5133878,
+        "bbox": {
+          "max": [
+            34798.0,
+            2734.8021680216802,
+            3068.0589531680444
+          ],
+          "min": [
+            17424.4,
+            2334.8021680216802,
+            0.0
+          ]
+        },
+        "center_of_mass": [
+          26111.200000000015,
+          2534.80216802168,
+          2173.3264516491054
+        ],
+        "edges": 105,
+        "face_types": {
+          "plane": 37
+        },
+        "faces": 37,
+        "kernel": {
+          "edges": 105,
+          "faces": 37,
+          "shells": 1,
+          "vertices": 70
+        },
+        "name": "arch_wall_004",
+        "vertices": 70,
+        "visible": true,
+        "volume_mm3": 9435196065.560999
+      },
+      {
+        "area_mm2": 20770575.609756097,
+        "bbox": {
+          "max": [
+            17874.4,
+            3281.762601626016,
+            0.0
+          ],
+          "min": [
+            16974.4,
+            -3281.762601626016,
+            -600.0
+          ]
+        },
+        "center_of_mass": [
+          17424.4,
+          7.806687541431428e-13,
+          -300.00000000000057
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3544303609.7560935
+      },
+      {
+        "area_mm2": 20770575.609756097,
+        "bbox": {
+          "max": [
+            35248.0,
+            3281.762601626016,
+            0.0
+          ],
+          "min": [
+            34348.0,
+            -3281.762601626016,
+            -600.0
+          ]
+        },
+        "center_of_mass": [
+          34797.999999999985,
+          1.8368676568073922e-13,
+          -299.99999999999994
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3544303609.7560983
+      },
+      {
+        "area_mm2": 392742864.67208666,
+        "bbox": {
+          "max": [
+            34798.0,
+            2734.8021680216802,
+            3218.0589531680444
+          ],
+          "min": [
+            0.0,
+            -2734.8021680216802,
+            3068.058953168044
+          ]
+        },
+        "center_of_mass": [
+          17398.999999999996,
+          1.231405503132449e-12,
+          3143.058953168046
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "deck_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 28549693752.84546
+      }
+    ],
+    "measurement_scope": "native member placement vs compiled graph, not independent image perception accuracy"
+  },
+  "reopen_and_edit": {
+    "cold_reopen_success": true,
+    "body_names_preserved": true,
+    "feature_ids_preserved": true,
+    "length_scale": 1.02,
+    "extent_target_error_mm": 0.0,
+    "volume_ratio_error": 8.881784197001252e-16,
+    "edit_scope": "native affine geometry edit; member sections also scale, not a section-preserving span redesign"
+  },
+  "independent_brep": {
+    "backend": "CadQuery/OCCT",
+    "cadquery_version": "2.8.0",
+    "valid_solid": true,
+    "solid_count": 8,
+    "volume_mm3": 76978565429.53633,
+    "surface_area_mm2": 711069345.0403671,
+    "centroid_mm": [
+      17400.169485442955,
+      -6.216245641707196e-14,
+      2191.3432375004954
+    ],
+    "step_sha256": "c792c220216aea726ded08a4795a9c2c74aae5f028d6a005c1a9d18871082b9c",
+    "quantity_scope": "modeled envelope solids, not surveyed true bridge quantities",
+    "native_volume_relative_error": 9.911063539153245e-16
+  },
+  "projection_iou": {
+    "status": "unavailable",
+    "reason": "No independent annotated geometry-only drawing masks; visual side-by-side saved"
+  },
+  "engineering_quantity_accuracy": {
+    "status": "unavailable",
+    "reason": "Section/connection details are incomplete or assumed; native quantity is not true-bridge quantity"
+  },
+  "notes": [
+    "Imperial dimensions take precedence over the conflicting printed 34.2M conversion.",
+    "Width and intrados rise are scaled from the plan/elevation; parapet decoration and internal fill are not resolved."
+  ],
+  "elapsed_seconds": 6.151521374995355,
+  "artifacts_directory": ".",
+  "live_external_llm_calls": 0
+}

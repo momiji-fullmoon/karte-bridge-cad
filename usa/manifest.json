@@ -1,0 +1,455 @@
+{
+  "schema": "usa.web_publication/1",
+  "cases": [
+    {
+      "id": "AR-27_South_Fork",
+      "name": "South Fork Bridge (1928)",
+      "family": "closed_spandrel_arch",
+      "unscaled": false,
+      "member_count": 8,
+      "viewer": "models/AR-27_South_Fork/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 8,
+        "triangle_count": 592,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.00015316804456233513,
+        "max_native_member_volume_relative_error": 1.3097122286698237e-07,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-27-South-Fork-Bridge-M3722-1.pdf",
+          "sha256": "b3c875b120b56b6da95b2e130312626302f5a55b54f46c2f3f06ed828990d619",
+          "bytes": 2088623
+        }
+      ]
+    },
+    {
+      "id": "AR-32_Springfield_DesArc",
+      "name": "Springfield–Des Arc Bridge (1871–1874)",
+      "family": "bowstring",
+      "unscaled": false,
+      "member_count": 233,
+      "viewer": "models/AR-32_Springfield_DesArc/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 233,
+        "triangle_count": 2796,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.0033270181811531074,
+        "max_native_member_volume_relative_error": 3.310332418049455e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-32-Springfield-DesArc-Bridge-13045-1.pdf",
+          "sha256": "1d03d2640a885e0407412d12124fa8f8245353dad41e0e21d7454481bb09dfb6",
+          "bytes": 2809779
+        }
+      ]
+    },
+    {
+      "id": "AR-38_Wyman",
+      "name": "Wyman Bridge (1906)",
+      "family": "parker",
+      "unscaled": false,
+      "member_count": 145,
+      "viewer": "models/AR-38_Wyman/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 145,
+        "triangle_count": 1740,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.0031339246197603643,
+        "max_native_member_volume_relative_error": 4.273049212955016e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-38-Wyman-Bridge-18337-1.pdf",
+          "sha256": "15bffa61eabc4e8c6387d7adbf0677da7000a59ac8535fe383b93eb1ddecc449",
+          "bytes": 364740
+        }
+      ]
+    },
+    {
+      "id": "AR-46_Old_River",
+      "name": "Old River Bridge (1891)",
+      "family": "pratt",
+      "unscaled": false,
+      "member_count": 158,
+      "viewer": "models/AR-46_Old_River/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 158,
+        "triangle_count": 1896,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.005368092635762878,
+        "max_native_member_volume_relative_error": 7.013904903030443e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-46-Old-River-Bridge-1.pdf",
+          "sha256": "f2299d8609ec11b08789301adb422070d40a150875ae19bf0842cdf9470db77f",
+          "bytes": 4045657
+        }
+      ]
+    },
+    {
+      "id": "AR-51_Judsonia",
+      "name": "Judsonia swing bridge (1923)",
+      "family": "swing_truss",
+      "unscaled": false,
+      "member_count": 246,
+      "viewer": "models/AR-51_Judsonia/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 246,
+        "triangle_count": 2952,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.006099319027271122,
+        "max_native_member_volume_relative_error": 4.972496952659888e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-51-Judsonia-Bridge-17484-1.pdf",
+          "sha256": "d781651e2e4acb4caecb4d783097ffe6ffced95ace3c53cb9983e9c1e175d8f2",
+          "bytes": 2478640
+        }
+      ]
+    },
+    {
+      "id": "AR-63_Woolsey",
+      "name": "Woolsey Creek Bridge (1947)",
+      "family": "parker",
+      "unscaled": false,
+      "member_count": 210,
+      "viewer": "models/AR-63_Woolsey/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 210,
+        "triangle_count": 2520,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.0037035891582490876,
+        "max_native_member_volume_relative_error": 4.28627583077823e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-63-Woolsey-Creek-17320.pdf",
+          "sha256": "212799ea9fb462daf0c803a2681e80dec0a4fbae8cdae5d4df0d2eb798ae34c0",
+          "bytes": 2560088
+        }
+      ]
+    },
+    {
+      "id": "AR-64_Fryers_Ford",
+      "name": "Fryer's Ford Bridge (1890–1891)",
+      "family": "pratt",
+      "unscaled": false,
+      "member_count": 90,
+      "viewer": "models/AR-64_Fryers_Ford/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 90,
+        "triangle_count": 1080,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.0031178144199657254,
+        "max_native_member_volume_relative_error": 1.850528955460451e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-64-Fryers-Ford-Bridge-Solgohachia-Bridge-17862-1.pdf",
+          "sha256": "54ab7ee1f4bb79d763420d3c5f2a3146130713442bc6b504cc5f4b9b368bf8f4",
+          "bytes": 1037542
+        }
+      ]
+    },
+    {
+      "id": "AR-66_Nimrod",
+      "name": "Nimrod / Wallace Bridge (1908)",
+      "family": "camelback",
+      "unscaled": false,
+      "member_count": 135,
+      "viewer": "models/AR-66_Nimrod/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 135,
+        "triangle_count": 1620,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.0026821701976587065,
+        "max_native_member_volume_relative_error": 4.225794158152496e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-66-Nimrod-Bridge-Wallace-Bridge-15731-1.pdf",
+          "sha256": "e6047932d71f9fad675c9d8ae2a0644f8000d75a82be8afdce5d12a5862d16aa",
+          "bytes": 1143861
+        }
+      ]
+    },
+    {
+      "id": "AR-70_Wards_Crossing",
+      "name": "Ward's Crossing Bridge (1905)",
+      "family": "camelback",
+      "unscaled": false,
+      "member_count": 120,
+      "viewer": "models/AR-70_Wards_Crossing/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 120,
+        "triangle_count": 1440,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.002322688786080107,
+        "max_native_member_volume_relative_error": 4.6743301326035436e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-70-Wards-Crossing-Bridge-17693-1.pdf",
+          "sha256": "40613bf62bdebbb3886e86cf61457283b17d3b6f5e5e48f1f9150640b9918725",
+          "bytes": 1043788
+        },
+        {
+          "path": "AR-70-Wards-Crossing-Bridge-Laser-Scan.pdf",
+          "sha256": "0bf11f872470a448ab54cfcbf8cfc17bda142b0390f37cc2dc39acd27d581502",
+          "bytes": 4259961
+        }
+      ]
+    },
+    {
+      "id": "AR-81_DeGray",
+      "name": "DeGray Creek Bridge (circa 1915)",
+      "family": "pony_truss",
+      "unscaled": false,
+      "member_count": 46,
+      "viewer": "models/AR-81_DeGray/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 46,
+        "triangle_count": 552,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.0007709265773883089,
+        "max_native_member_volume_relative_error": 4.21505139891476e-06,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "AR-81_DeGray_Creek_Bridge_11085-1.pdf",
+          "sha256": "3d58c3721c32800850c9b2ff9c1f2d2b6bf4991dc6ea438412916a9b28228960",
+          "bytes": 664363
+        }
+      ]
+    },
+    {
+      "id": "CT-0629_Nineveh_Falls",
+      "name": "Nineveh Falls / Hammonasset River bridge",
+      "family": "open_spandrel_arch",
+      "unscaled": false,
+      "member_count": 101,
+      "viewer": "models/CT-0629_Nineveh_Falls/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 101,
+        "triangle_count": 2148,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.0020095872168894857,
+        "max_native_member_volume_relative_error": 3.3942791066721156e-07,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193029pu.tif",
+          "sha256": "fdb0ad5161af37429fe31e4cf85de021364c086cb269614f7c07eb9f5c8ee5ed",
+          "bytes": 22091748
+        },
+        {
+          "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193030pu.tif",
+          "sha256": "5f164de23bd3b484fec5b3dcea9a563300b7383e63257114976bce24e67a20e4",
+          "bytes": 22693612
+        },
+        {
+          "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193031pu.tif",
+          "sha256": "69e4b434abcb297b44e8c5800d447193b61cf69a588a7b60bf96478ed67b51d2",
+          "bytes": 22885108
+        },
+        {
+          "path": "master-pnp-habshaer-ct-ct0600-ct0629-photos-193032pu.tif",
+          "sha256": "feca5a22ebbc983e02def3a09a8a24ee30b3140713062c285ed2897a7e00dd55",
+          "bytes": 21717184
+        }
+      ]
+    },
+    {
+      "id": "Chicago_Columbus_Drive",
+      "name": "Columbus Drive bascule bridge (UNSCALED REVIEW MODEL)",
+      "family": "bascule",
+      "unscaled": true,
+      "member_count": 160,
+      "viewer": "models/Chicago_Columbus_Drive/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 160,
+        "triangle_count": 1920,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.005630845014820807,
+        "max_native_member_volume_relative_error": 1.6329434009976218e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "colplnelv.jpg",
+          "sha256": "24e4fbc60b6d6271b17f620143314ad05a4855f99dc59a2c85c2f7d475604313",
+          "bytes": 204577
+        }
+      ]
+    },
+    {
+      "id": "Chicago_Lake_Shore_Drive",
+      "name": "Lake Shore Drive bascule bridge (UNSCALED REVIEW MODEL)",
+      "family": "bascule",
+      "unscaled": true,
+      "member_count": 160,
+      "viewer": "models/Chicago_Lake_Shore_Drive/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 160,
+        "triangle_count": 1920,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.005443918635137379,
+        "max_native_member_volume_relative_error": 1.7027500721522593e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "LSDplelevdrwg.jpg",
+          "sha256": "9fff42e780359c6b26b448ece186f544e730921d6531c1dcdf9b6153a6b42b72",
+          "bytes": 142563
+        },
+        {
+          "path": "LSDraildrwg.jpg",
+          "sha256": "b0d35cdfe1b21d8ae62618eab792d1268b116149f9be448d0e09b7618c8573f8",
+          "bytes": 246029
+        }
+      ]
+    },
+    {
+      "id": "Chicago_La_Salle_Street",
+      "name": "La Salle Street bascule bridge (UNSCALED REVIEW MODEL)",
+      "family": "bascule",
+      "unscaled": true,
+      "member_count": 160,
+      "viewer": "models/Chicago_La_Salle_Street/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 160,
+        "triangle_count": 1920,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.005424309929367155,
+        "max_native_member_volume_relative_error": 2.171014311813657e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "laslplanelevdrwg.jpg",
+          "sha256": "e8ce4089c2a88b55d4a08c200db8a4b2ddb52326c2af8ec333f9cb5f41624007",
+          "bytes": 165453
+        }
+      ]
+    },
+    {
+      "id": "Chicago_West_Van_Buren",
+      "name": "West Van Buren Street bascule bridge (UNSCALED REVIEW MODEL)",
+      "family": "bascule",
+      "unscaled": true,
+      "member_count": 160,
+      "viewer": "models/Chicago_West_Van_Buren/viewer.html",
+      "web_mesh_validation": {
+        "mesh_source": "audited native 3MF export",
+        "member_count": 160,
+        "triangle_count": 1920,
+        "all_meshes_watertight": true,
+        "max_native_bbox_error_mm": 0.005443918635137379,
+        "max_native_member_volume_relative_error": 1.702749743148768e-05,
+        "glb_round_trip_passed": true,
+        "viewer_units": "m",
+        "viewer_up_axis": "Z",
+        "glb_units": "m",
+        "glb_up_axis": "Y"
+      },
+      "source_files": [
+        {
+          "path": "vbplnele.jpg",
+          "sha256": "983fea41a260d95ffc9a64c9bc37933289c5a7915fcb4890bb8738a714ebb263",
+          "bytes": 184057
+        }
+      ]
+    }
+  ],
+  "case_count": 15,
+  "metric_conceptual_models": 11,
+  "unscaled_review_models": 4,
+  "source_readings_sha256": "1daabe329a0904949f8fa3f53022fcc11a0f0c2c732294c9265b7c6767441609",
+  "scope": "Conceptual source-linked models; four cases unscaled; no independently measured recognition/quantity accuracy"
+}

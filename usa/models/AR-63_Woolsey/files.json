@@ -1,0 +1,62 @@
+{
+  "AR-63_Woolsey.3mf": {
+    "sha256": "c6f3e0c92a7c51af9cbed49261807b837a50e7fe3f245bf3fe5cbf343edc81dc",
+    "bytes": 14883
+  },
+  "AR-63_Woolsey.solidcraft": {
+    "sha256": "f70fd817b96d01e1bbd7579bed6cefa5bece2ded0679dabe786e81498c8a375a",
+    "bytes": 23839
+  },
+  "AR-63_Woolsey.step": {
+    "sha256": "bcc6634b50da2e796cd9d48737aed741095313a6c48a65f7a222b546201fea0f",
+    "bytes": 881721
+  },
+  "AR-63_Woolsey.stl": {
+    "sha256": "8155e22e2d1a5c1a167e0d842fc8e48b5c6c16d354347bacd726cb57554b802b",
+    "bytes": 126084
+  },
+  "bridge.glb": {
+    "sha256": "59933bc37ef1a875a5e7b33be6daeb3f471881a4e2cb6c9631246bdda79e8355",
+    "bytes": 138112
+  },
+  "drawing_vs_cad.jpg": {
+    "sha256": "a81a612d3ed310c8bd570eae6d39bbff39dd448f480c699e10d0fcfef0f1a53f",
+    "bytes": 149059
+  },
+  "front.png": {
+    "sha256": "a06bcbd157f4878a1eeb44f6d5eb2909f9e34ab8b3bee7ac67892797d1ac7984",
+    "bytes": 54080
+  },
+  "iso.png": {
+    "sha256": "9e33a9a09569f956f5ad41c3a561c05551e1968804befa285c37a857628ab1f9",
+    "bytes": 577848
+  },
+  "right.png": {
+    "sha256": "5f9c8093c151c15a80442cb665675586ae0e513ca0414371ccc2475579cace85",
+    "bytes": 22229
+  },
+  "source_page.png": {
+    "sha256": "cb80fbfb7c7757641cbab90e1e1917ee5d4047cb10546b968d85aa6199148baa",
+    "bytes": 1276913
+  },
+  "source_spec.json": {
+    "sha256": "68915ef860ed258a3c39f9eca1864980e27ffa54bef9bda848dfe1e871055192",
+    "bytes": 105901
+  },
+  "top.png": {
+    "sha256": "0b26da7fabc91a393b3b605bb7ee925dde6e15435ad47d62a87af16c14d2e8f9",
+    "bytes": 68613
+  },
+  "validation.json": {
+    "sha256": "a176b56e841cfe0ef698d0b41d65813b0caaaf12ce54a66c826943ca79bae4ec",
+    "bytes": 187999
+  },
+  "viewer.html": {
+    "sha256": "7ec3969fac0d5a269ce0d0ebaa6a3b3c84aa7a282a0fc58df831c4dfccde85f3",
+    "bytes": 399219
+  },
+  "web_mesh_validation.json": {
+    "sha256": "b9e1fd8cea1e77f0a9594cb3096047289f86bed5335182a89e27f084d7bc0d15",
+    "bytes": 373
+  }
+}

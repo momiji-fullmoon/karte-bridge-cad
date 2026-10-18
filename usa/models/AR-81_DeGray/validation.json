@@ -1,0 +1,1972 @@
+{
+  "case_id": "AR-81_DeGray",
+  "name": "DeGray Creek Bridge (circa 1915)",
+  "family": "pony_truss",
+  "native_generation_success": true,
+  "real_world_scale_known": true,
+  "status": "source_supported_conceptual",
+  "sources": [
+    {
+      "path": "AR-81_DeGray_Creek_Bridge_11085-1.pdf",
+      "sha256": "3d58c3721c32800850c9b2ff9c1f2d2b6bf4991dc6ea438412916a9b28228960",
+      "bytes": 664363
+    }
+  ],
+  "dimensions_mm": {
+    "main_length": 18846.8,
+    "width": 3657.6,
+    "height": 2286.0
+  },
+  "dimension_sources": {
+    "length": {
+      "method": "explicit_dimension",
+      "value_mm": 18846.8
+    },
+    "width": {
+      "method": "explicit_dimension",
+      "value_mm": 3657.6
+    },
+    "height": {
+      "method": "explicit_dimension",
+      "value_mm": 2286.0
+    }
+  },
+  "source_dimension_conflicts": [],
+  "native": {
+    "body_count": 46,
+    "feature_count": 90,
+    "feature_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+    ],
+    "native_feature_errors": [],
+    "bbox_mm": [
+      [
+        -750.0000000000002,
+        -2194.56,
+        -950.0
+      ],
+      [
+        19596.8,
+        2194.56,
+        2396.0
+      ]
+    ],
+    "total_member_volume_mm3": 18479541555.63858,
+    "max_member_endpoint_error_mm": 3.6450773090749405e-12,
+    "endpoint_checks": [
+      {
+        "member": "lower_chord_001",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "upper_chord_001",
+        "endpoint_error_mm": 1.306162322757252e-12
+      },
+      {
+        "member": "lower_chord_002",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "upper_chord_002",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "lower_chord_003",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "upper_chord_003",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "lower_chord_004",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "upper_chord_004",
+        "endpoint_error_mm": 9.09494701772934e-13
+      },
+      {
+        "member": "vertical_001",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "vertical_002",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "vertical_003",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "diagonal_001",
+        "endpoint_error_mm": 1.3826613549380684e-12
+      },
+      {
+        "member": "counterbrace_001",
+        "endpoint_error_mm": 1.3642420526593924e-12
+      },
+      {
+        "member": "diagonal_002",
+        "endpoint_error_mm": 1.3830600733622803e-12
+      },
+      {
+        "member": "counterbrace_002",
+        "endpoint_error_mm": 1.364242052659412e-12
+      },
+      {
+        "member": "lower_chord_005",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "upper_chord_005",
+        "endpoint_error_mm": 1.306162322757252e-12
+      },
+      {
+        "member": "lower_chord_006",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "upper_chord_006",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "lower_chord_007",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "upper_chord_007",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "lower_chord_008",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "upper_chord_008",
+        "endpoint_error_mm": 9.09494701772934e-13
+      },
+      {
+        "member": "vertical_004",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "vertical_005",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "vertical_006",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "diagonal_003",
+        "endpoint_error_mm": 1.3826613549380684e-12
+      },
+      {
+        "member": "counterbrace_003",
+        "endpoint_error_mm": 1.3642420526593924e-12
+      },
+      {
+        "member": "diagonal_004",
+        "endpoint_error_mm": 1.3830600733622803e-12
+      },
+      {
+        "member": "counterbrace_004",
+        "endpoint_error_mm": 1.364242052659412e-12
+      },
+      {
+        "member": "floor_beam_001",
+        "endpoint_error_mm": 3.228027252968837e-13
+      },
+      {
+        "member": "lower_lateral_001",
+        "endpoint_error_mm": 2.3437782246012074e-13
+      },
+      {
+        "member": "floor_beam_002",
+        "endpoint_error_mm": 2.2737367544323206e-13
+      },
+      {
+        "member": "lower_lateral_002",
+        "endpoint_error_mm": 9.112693272687351e-13
+      },
+      {
+        "member": "floor_beam_003",
+        "endpoint_error_mm": 1.8331451766013172e-12
+      },
+      {
+        "member": "lower_lateral_003",
+        "endpoint_error_mm": 1.8198773652309366e-12
+      },
+      {
+        "member": "floor_beam_004",
+        "endpoint_error_mm": 1.8331451766013172e-12
+      },
+      {
+        "member": "lower_lateral_004",
+        "endpoint_error_mm": 1.8189894035458565e-12
+      },
+      {
+        "member": "floor_beam_005",
+        "endpoint_error_mm": 3.6450773090749405e-12
+      },
+      {
+        "member": "stringer_001",
+        "endpoint_error_mm": 2.2737367544323206e-13
+      },
+      {
+        "member": "stringer_002",
+        "endpoint_error_mm": 1.1368683772161603e-13
+      },
+      {
+        "member": "stringer_003",
+        "endpoint_error_mm": 0.0
+      },
+      {
+        "member": "stringer_004",
+        "endpoint_error_mm": 2.2737367544323206e-13
+      }
+    ],
+    "bodies": [
+      {
+        "area_mm2": 2091560.0,
+        "bbox": {
+          "max": [
+            4699.0,
+            -1768.8,
+            50.0
+          ],
+          "min": [
+            0.0,
+            -1888.8,
+            -50.0
+          ]
+        },
+        "center_of_mass": [
+          2349.4999999999986,
+          -1828.8000000000002,
+          0.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_chord_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 56387999.99999998
+      },
+      {
+        "area_mm2": 4041819.75963257,
+        "bbox": {
+          "max": [
+            4747.121229073424,
+            -1748.8,
+            2384.915859762037
+          ],
+          "min": [
+            -48.12122907342382,
+            -1908.8,
+            -98.9158597620376
+          ]
+        },
+        "center_of_mass": [
+          2349.500000000002,
+          -1828.8000000000015,
+          1143.0000000000016
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "upper_chord_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 183939441.49877116
+      },
+      {
+        "area_mm2": 2102735.9999999995,
+        "bbox": {
+          "max": [
+            9423.4,
+            -1768.8,
+            50.0
+          ],
+          "min": [
+            4699.0,
+            -1888.8,
+            -50.0
+          ]
+        },
+        "center_of_mass": [
+          7061.199999999993,
+          -1828.8000000000002,
+          0.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_chord_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 56692800.00000004
+      },
+      {
+        "area_mm2": 3660943.999999999,
+        "bbox": {
+          "max": [
+            9423.4,
+            -1748.8,
+            2396.0
+          ],
+          "min": [
+            4699.0,
+            -1908.8,
+            2176.0
+          ]
+        },
+        "center_of_mass": [
+          7061.199999999997,
+          -1828.7999999999988,
+          2285.999999999999
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "upper_chord_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 166298880.00000015
+      },
+      {
+        "area_mm2": 2102735.9999999995,
+        "bbox": {
+          "max": [
+            14147.8,
+            -1768.8,
+            50.0
+          ],
+          "min": [
+            9423.4,
+            -1888.8,
+            -50.0
+          ]
+        },
+        "center_of_mass": [
+          11785.599999999991,
+          -1828.7999999999988,
+          0.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_chord_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 56692799.99999996
+      },
+      {
+        "area_mm2": 3660943.999999999,
+        "bbox": {
+          "max": [
+            14147.8,
+            -1748.8,
+            2396.0
+          ],
+          "min": [
+            9423.4,
+            -1908.8,
+            2176.0
+          ]
+        },
+        "center_of_mass": [
+          11785.600000000006,
+          -1828.8000000000009,
+          2286.000000000001
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "upper_chord_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 166298879.99999952
+      },
+      {
+        "area_mm2": 2091560.0,
+        "bbox": {
+          "max": [
+            18846.8,
+            -1768.8,
+            50.0
+          ],
+          "min": [
+            14147.8,
+            -1888.8,
+            -50.0
+          ]
+        },
+        "center_of_mass": [
+          16497.3,
+          -1828.8000000000002,
+          0.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_chord_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 56387999.99999998
+      },
+      {
+        "area_mm2": 4041819.759632559,
+        "bbox": {
+          "max": [
+            18894.92122907342,
+            -1748.8,
+            2384.9158597620376
+          ],
+          "min": [
+            14099.678770926575,
+            -1908.8,
+            -98.91585976203669
+          ]
+        },
+        "center_of_mass": [
+          16497.29999999984,
+          -1828.799999999988,
+          1143.000000000009
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "upper_chord_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 183939441.4987742
+      },
+      {
+        "area_mm2": 1319160.0,
+        "bbox": {
+          "max": [
+            4774.0,
+            -1763.8,
+            2286.0
+          ],
+          "min": [
+            4624.0,
+            -1893.8,
+            -4.592425496802574e-15
+          ]
+        },
+        "center_of_mass": [
+          4698.999999999995,
+          -1828.7999999999997,
+          1143.000000000001
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "vertical_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 44577000.00000032
+      },
+      {
+        "area_mm2": 1319160.0,
+        "bbox": {
+          "max": [
+            9498.4,
+            -1763.8,
+            2286.0
+          ],
+          "min": [
+            9348.4,
+            -1893.8,
+            -4.592425496802574e-15
+          ]
+        },
+        "center_of_mass": [
+          9423.4,
+          -1828.7999999999963,
+          1143.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "vertical_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 44577000.0
+      },
+      {
+        "area_mm2": 1319160.0,
+        "bbox": {
+          "max": [
+            14222.8,
+            -1763.8,
+            2286.0
+          ],
+          "min": [
+            14072.8,
+            -1893.8,
+            -4.592425496802574e-15
+          ]
+        },
+        "center_of_mass": [
+          14147.8,
+          -1828.8,
+          1143.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "vertical_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 44577000.0
+      },
+      {
+        "area_mm2": 1478553.3017294738,
+        "bbox": {
+          "max": [
+            9443.000241764692,
+            -1803.8,
+            2326.5071663136982
+          ],
+          "min": [
+            4679.399758235308,
+            -1853.8,
+            -40.50716631369687
+          ]
+        },
+        "center_of_mass": [
+          7061.200000000021,
+          -1828.799999999999,
+          1142.999999999992
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "diagonal_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 23617820.92065211
+      },
+      {
+        "area_mm2": 895728.7903357574,
+        "bbox": {
+          "max": [
+            9434.289023202607,
+            -1811.3,
+            2308.5039812853865
+          ],
+          "min": [
+            4688.110976797393,
+            -1846.3,
+            -22.503981285388228
+          ]
+        },
+        "center_of_mass": [
+          7061.200000000145,
+          -1828.7999999999593,
+          1143.0000000001066
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "counterbrace_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 9184708.135810038
+      },
+      {
+        "area_mm2": 1478553.3017294721,
+        "bbox": {
+          "max": [
+            14167.400241764692,
+            -1803.8,
+            2326.507166313697
+          ],
+          "min": [
+            9403.799758235307,
+            -1853.8,
+            -40.507166313698235
+          ]
+        },
+        "center_of_mass": [
+          11785.599999999735,
+          -1828.799999999945,
+          1143.0000000000193
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "diagonal_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 23617820.920655567
+      },
+      {
+        "area_mm2": 895728.7903357532,
+        "bbox": {
+          "max": [
+            14158.689023202605,
+            -1811.3,
+            2308.503981285388
+          ],
+          "min": [
+            9412.510976797392,
+            -1846.3,
+            -22.503981285386544
+          ]
+        },
+        "center_of_mass": [
+          11785.600000000146,
+          -1828.8000000000557,
+          1143.0000000000834
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "counterbrace_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 9184708.13580823
+      },
+      {
+        "area_mm2": 2091560.0,
+        "bbox": {
+          "max": [
+            4699.0,
+            1888.8,
+            50.0
+          ],
+          "min": [
+            0.0,
+            1768.8,
+            -50.0
+          ]
+        },
+        "center_of_mass": [
+          2349.4999999999986,
+          1828.8,
+          0.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_chord_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 56388000.0
+      },
+      {
+        "area_mm2": 4041819.75963257,
+        "bbox": {
+          "max": [
+            4747.121229073424,
+            1908.8,
+            2384.915859762037
+          ],
+          "min": [
+            -48.12122907342382,
+            1748.8,
+            -98.9158597620376
+          ]
+        },
+        "center_of_mass": [
+          2349.499999999996,
+          1828.8000000000015,
+          1142.9999999999966
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "upper_chord_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 183939441.4987708
+      },
+      {
+        "area_mm2": 2102735.9999999995,
+        "bbox": {
+          "max": [
+            9423.4,
+            1888.8,
+            50.0
+          ],
+          "min": [
+            4699.0,
+            1768.8,
+            -50.0
+          ]
+        },
+        "center_of_mass": [
+          7061.199999999991,
+          1828.799999999999,
+          0.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_chord_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 56692800.00000012
+      },
+      {
+        "area_mm2": 3660943.999999999,
+        "bbox": {
+          "max": [
+            9423.4,
+            1908.8,
+            2396.0
+          ],
+          "min": [
+            4699.0,
+            1748.8,
+            2176.0
+          ]
+        },
+        "center_of_mass": [
+          7061.199999999967,
+          1828.7999999999918,
+          2285.999999999991
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "upper_chord_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 166298880.00000262
+      },
+      {
+        "area_mm2": 2102735.9999999995,
+        "bbox": {
+          "max": [
+            14147.8,
+            1888.8,
+            50.0
+          ],
+          "min": [
+            9423.4,
+            1768.8,
+            -50.0
+          ]
+        },
+        "center_of_mass": [
+          11785.599999999995,
+          1828.7999999999993,
+          0.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_chord_007",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 56692800.00000008
+      },
+      {
+        "area_mm2": 3660943.999999999,
+        "bbox": {
+          "max": [
+            14147.8,
+            1908.8,
+            2396.0
+          ],
+          "min": [
+            9423.4,
+            1748.8,
+            2176.0
+          ]
+        },
+        "center_of_mass": [
+          11785.599999999982,
+          1828.7999999999972,
+          2285.9999999999964
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "upper_chord_007",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 166298880.0000012
+      },
+      {
+        "area_mm2": 2091560.0,
+        "bbox": {
+          "max": [
+            18846.8,
+            1888.8,
+            50.0
+          ],
+          "min": [
+            14147.8,
+            1768.8,
+            -50.0
+          ]
+        },
+        "center_of_mass": [
+          16497.3,
+          1828.8000000000009,
+          0.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_chord_008",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 56388000.00000002
+      },
+      {
+        "area_mm2": 4041819.759632559,
+        "bbox": {
+          "max": [
+            18894.92122907342,
+            1908.8,
+            2384.9158597620376
+          ],
+          "min": [
+            14099.678770926575,
+            1748.8,
+            -98.91585976203669
+          ]
+        },
+        "center_of_mass": [
+          16497.29999999998,
+          1828.800000000003,
+          1142.999999999999
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "upper_chord_008",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 183939441.4987704
+      },
+      {
+        "area_mm2": 1319160.0,
+        "bbox": {
+          "max": [
+            4774.0,
+            1893.8,
+            2286.0
+          ],
+          "min": [
+            4624.0,
+            1763.8,
+            -4.592425496802574e-15
+          ]
+        },
+        "center_of_mass": [
+          4699.000000000005,
+          1828.800000000002,
+          1142.9999999999936
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "vertical_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 44576999.99999968
+      },
+      {
+        "area_mm2": 1319160.0,
+        "bbox": {
+          "max": [
+            9498.4,
+            1893.8,
+            2286.0
+          ],
+          "min": [
+            9348.4,
+            1763.8,
+            -4.592425496802574e-15
+          ]
+        },
+        "center_of_mass": [
+          9423.4,
+          1828.8,
+          1143.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "vertical_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 44577000.0
+      },
+      {
+        "area_mm2": 1319160.0,
+        "bbox": {
+          "max": [
+            14222.8,
+            1893.8,
+            2286.0
+          ],
+          "min": [
+            14072.8,
+            1763.8,
+            -4.592425496802574e-15
+          ]
+        },
+        "center_of_mass": [
+          14147.8,
+          1828.8,
+          1143.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "vertical_006",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 44577000.0
+      },
+      {
+        "area_mm2": 1478553.3017294738,
+        "bbox": {
+          "max": [
+            9443.000241764692,
+            1853.8,
+            2326.5071663136982
+          ],
+          "min": [
+            4679.399758235308,
+            1803.8,
+            -40.50716631369687
+          ]
+        },
+        "center_of_mass": [
+          7061.199999999589,
+          1828.7999999999288,
+          1143.0000000000032
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "diagonal_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 23617820.920656044
+      },
+      {
+        "area_mm2": 895728.7903357574,
+        "bbox": {
+          "max": [
+            9434.289023202607,
+            1846.3,
+            2308.5039812853865
+          ],
+          "min": [
+            4688.110976797393,
+            1811.3,
+            -22.503981285388228
+          ]
+        },
+        "center_of_mass": [
+          7061.199999999761,
+          1828.7999999998708,
+          1143.0000000000439
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "counterbrace_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 9184708.135811806
+      },
+      {
+        "area_mm2": 1478553.3017294721,
+        "bbox": {
+          "max": [
+            14167.400241764692,
+            1853.8,
+            2326.507166313697
+          ],
+          "min": [
+            9403.799758235307,
+            1803.8,
+            -40.507166313698235
+          ]
+        },
+        "center_of_mass": [
+          11785.600000000024,
+          1828.8000000000122,
+          1142.9999999999804
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "diagonal_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 23617820.920651674
+      },
+      {
+        "area_mm2": 895728.7903357532,
+        "bbox": {
+          "max": [
+            14158.689023202605,
+            1846.3,
+            2308.503981285388
+          ],
+          "min": [
+            9412.510976797392,
+            1811.3,
+            -22.503981285386544
+          ]
+        },
+        "center_of_mass": [
+          11785.599999998529,
+          1828.7999999997949,
+          1142.9999999998984
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "counterbrace_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 9184708.135813633
+      },
+      {
+        "area_mm2": 4003056.0,
+        "bbox": {
+          "max": [
+            90.00000000000023,
+            1828.8,
+            -25.0
+          ],
+          "min": [
+            -90.0,
+            -1828.8,
+            -375.0
+          ]
+        },
+        "center_of_mass": [
+          1.1109806990719161e-13,
+          -6.897823509953689e-16,
+          -200.0
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "floor_beam_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 230428800.0
+      },
+      {
+        "area_mm2": 955904.5078644312,
+        "bbox": {
+          "max": [
+            4709.749127834572,
+            1842.6096433985829,
+            -327.5
+          ],
+          "min": [
+            -10.7491278345733,
+            -1842.6096433985826,
+            -372.5
+          ]
+        },
+        "center_of_mass": [
+          2349.4999999999727,
+          -2.7404208840185316e-11,
+          -350.0000000000002
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_lateral_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 9378677.186790347
+      },
+      {
+        "area_mm2": 4003056.0,
+        "bbox": {
+          "max": [
+            4789.0,
+            1828.8,
+            -25.0
+          ],
+          "min": [
+            4609.0,
+            -1828.8,
+            -375.0
+          ]
+        },
+        "center_of_mass": [
+          4699.000000000001,
+          0.0,
+          -199.99999999999991
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "floor_beam_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 230428799.99999967
+      },
+      {
+        "area_mm2": 959114.7607898524,
+        "bbox": {
+          "max": [
+            9434.11303087735,
+            1842.6376648832427,
+            -327.5
+          ],
+          "min": [
+            4688.28696912265,
+            -1842.6376648832434,
+            -372.5
+          ]
+        },
+        "center_of_mass": [
+          7061.200000000082,
+          4.364544107577092e-11,
+          -350.00000000000176
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_lateral_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 9410278.114024928
+      },
+      {
+        "area_mm2": 4003056.0,
+        "bbox": {
+          "max": [
+            9513.4,
+            1828.8,
+            -25.0
+          ],
+          "min": [
+            9333.4,
+            -1828.8,
+            -375.0
+          ]
+        },
+        "center_of_mass": [
+          9423.400000000003,
+          0.0,
+          -199.9999999999998
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "floor_beam_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 230428799.9999994
+      },
+      {
+        "area_mm2": 959114.7607898507,
+        "bbox": {
+          "max": [
+            14158.513030877348,
+            1842.6376648832427,
+            -327.5
+          ],
+          "min": [
+            9412.68696912265,
+            -1842.6376648832434,
+            -372.5
+          ]
+        },
+        "center_of_mass": [
+          11785.600000000186,
+          5.93199648057678e-11,
+          -349.9999999999985
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_lateral_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 9410278.11402514
+      },
+      {
+        "area_mm2": 4003056.0,
+        "bbox": {
+          "max": [
+            14237.8,
+            1828.8,
+            -25.0
+          ],
+          "min": [
+            14057.8,
+            -1828.8,
+            -375.0
+          ]
+        },
+        "center_of_mass": [
+          14147.80000000003,
+          0.0,
+          -199.99999999999963
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "floor_beam_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 230428799.9999988
+      },
+      {
+        "area_mm2": 955904.507864447,
+        "bbox": {
+          "max": [
+            18857.549127834573,
+            1842.6096433985829,
+            -327.5
+          ],
+          "min": [
+            14137.050872165426,
+            -1842.6096433985826,
+            -372.5
+          ]
+        },
+        "center_of_mass": [
+          16497.29999999973,
+          -7.355242199529409e-11,
+          -349.99999999999096
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "lower_lateral_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 9378677.18679143
+      },
+      {
+        "area_mm2": 4003056.0,
+        "bbox": {
+          "max": [
+            18936.8,
+            1828.8,
+            -25.0
+          ],
+          "min": [
+            18756.8,
+            -1828.8,
+            -375.0
+          ]
+        },
+        "center_of_mass": [
+          18846.800000000014,
+          0.0,
+          -199.99999999999963
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "floor_beam_005",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 230428799.9999988
+      },
+      {
+        "area_mm2": 141297781.92,
+        "bbox": {
+          "max": [
+            18846.8,
+            1828.8,
+            0.0
+          ],
+          "min": [
+            0.0,
+            -1828.8,
+            -76.2
+          ]
+        },
+        "center_of_mass": [
+          9423.399999999998,
+          0.0,
+          -38.1
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "deck_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 5252775042.816001
+      },
+      {
+        "area_mm2": 13242760.0,
+        "bbox": {
+          "max": [
+            18846.8,
+            -1230.1599999999999,
+            -101.19999999999999
+          ],
+          "min": [
+            0.0,
+            -1330.1599999999999,
+            -351.2
+          ]
+        },
+        "center_of_mass": [
+          9423.399999999998,
+          -1280.16,
+          -226.1999999999999
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "stringer_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 471170000.0
+      },
+      {
+        "area_mm2": 13242760.0,
+        "bbox": {
+          "max": [
+            18846.8,
+            -376.7199999999999,
+            -101.19999999999999
+          ],
+          "min": [
+            0.0,
+            -476.7199999999999,
+            -351.2
+          ]
+        },
+        "center_of_mass": [
+          9423.400000000001,
+          -426.7199999999998,
+          -226.19999999999987
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "stringer_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 471169999.99999994
+      },
+      {
+        "area_mm2": 13242760.0,
+        "bbox": {
+          "max": [
+            18846.8,
+            476.72,
+            -101.19999999999999
+          ],
+          "min": [
+            0.0,
+            376.72,
+            -351.2
+          ]
+        },
+        "center_of_mass": [
+          9423.4,
+          426.7200000000001,
+          -226.2
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "stringer_003",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 471169999.9999998
+      },
+      {
+        "area_mm2": 13242760.0,
+        "bbox": {
+          "max": [
+            18846.8,
+            1330.1599999999999,
+            -101.19999999999999
+          ],
+          "min": [
+            0.0,
+            1230.1599999999999,
+            -351.2
+          ]
+        },
+        "center_of_mass": [
+          9423.400000000003,
+          1280.16,
+          -226.1999999999999
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "stringer_004",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 471169999.9999997
+      },
+      {
+        "area_mm2": 20234303.999999996,
+        "bbox": {
+          "max": [
+            750.0,
+            2194.56,
+            -349.9999999999999
+          ],
+          "min": [
+            -750.0000000000002,
+            -2194.56,
+            -950.0
+          ]
+        },
+        "center_of_mass": [
+          -2.575187443716044e-15,
+          1.0300749774864176e-14,
+          -649.9999999999999
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_001",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3950208000.0
+      },
+      {
+        "area_mm2": 20234303.999999996,
+        "bbox": {
+          "max": [
+            19596.8,
+            2194.56,
+            -349.9999999999999
+          ],
+          "min": [
+            18096.8,
+            -2194.56,
+            -950.0
+          ]
+        },
+        "center_of_mass": [
+          18846.8,
+          2.266164950470118e-13,
+          -649.9999999999997
+        ],
+        "edges": 12,
+        "face_types": {
+          "plane": 6
+        },
+        "faces": 6,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "bearing_block_002",
+        "vertices": 8,
+        "visible": true,
+        "volume_mm3": 3950208000.0000014
+      }
+    ],
+    "measurement_scope": "native member placement vs compiled graph, not independent image perception accuracy"
+  },
+  "reopen_and_edit": {
+    "cold_reopen_success": true,
+    "body_names_preserved": true,
+    "feature_ids_preserved": true,
+    "length_scale": 1.02,
+    "extent_target_error_mm": 0.0,
+    "volume_ratio_error": 1.5543122344752192e-15,
+    "edit_scope": "native affine geometry edit; member sections also scale, not a section-preserving span redesign"
+  },
+  "independent_brep": {
+    "backend": "CadQuery/OCCT",
+    "cadquery_version": "2.8.0",
+    "valid_solid": true,
+    "solid_count": 46,
+    "volume_mm3": 18479541555.638565,
+    "surface_area_mm2": 323583075.8640998,
+    "centroid_mm": [
+      9423.400000000005,
+      -3.6017584258339045e-13,
+      -172.5154539221024
+    ],
+    "step_sha256": "6f3c21eafff2eed1319492183a34b6d230315aecd323eb019957ea72094ad118",
+    "quantity_scope": "modeled envelope solids, not surveyed true bridge quantities",
+    "native_volume_relative_error": 8.257125327789404e-16
+  },
+  "projection_iou": {
+    "status": "unavailable",
+    "reason": "No independent annotated geometry-only drawing masks; visual side-by-side saved"
+  },
+  "engineering_quantity_accuracy": {
+    "status": "unavailable",
+    "reason": "Section/connection details are incomplete or assumed; native quantity is not true-bridge quantity"
+  },
+  "notes": [
+    "Source explicitly states abutments were inaccessible and their form illustrative. Foundations are omitted rather than treated as surveyed geometry."
+  ],
+  "elapsed_seconds": 5.344032083987258,
+  "artifacts_directory": ".",
+  "live_external_llm_calls": 0
+}

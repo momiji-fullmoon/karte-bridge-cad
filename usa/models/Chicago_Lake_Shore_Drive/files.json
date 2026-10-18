@@ -1,0 +1,66 @@
+{
+  "Chicago_Lake_Shore_Drive.3mf": {
+    "sha256": "0c465d0818a369db79a645ac60d389a5f18bc40388b41d49ae45fe106589f14e",
+    "bytes": 10947
+  },
+  "Chicago_Lake_Shore_Drive.solidcraft": {
+    "sha256": "2acd858413389e44c0680a27ad25636364e23ea7c5a9ad67a93e77eb31d67bf3",
+    "bytes": 19553
+  },
+  "Chicago_Lake_Shore_Drive.step": {
+    "sha256": "64c73459706068e09e81bad300521109e3557645c6805d8a158cd4ddf1496878",
+    "bytes": 661145
+  },
+  "Chicago_Lake_Shore_Drive.stl": {
+    "sha256": "a3c0ffe73de441da2b2c783417eb5350844176c51da686c36a1cc27bb44a77d1",
+    "bytes": 96084
+  },
+  "bridge.glb": {
+    "sha256": "37f62b52db4a92507fa112ea784f34c97d99e80a10becf3e649321f9a6d27a5b",
+    "bytes": 104064
+  },
+  "drawing_vs_cad.jpg": {
+    "sha256": "37ab4af29d2058782b686f1e4902ea32cdee4567981a9cf7343b45600f548712",
+    "bytes": 142270
+  },
+  "front.png": {
+    "sha256": "d08749a58662e77c56275af6de9500b6a3233290852e32490327793e85b2f311",
+    "bytes": 42223
+  },
+  "iso.png": {
+    "sha256": "9ccad9a1c5681d3fd06fd9f226c010b70612a5b872a6126e1ab2922ed59db206",
+    "bytes": 660682
+  },
+  "motion_15deg.png": {
+    "sha256": "61fc444cd25199bf729631a3c73bc55839ac277ed864890b21f53b4e86b819aa",
+    "bytes": 623322
+  },
+  "right.png": {
+    "sha256": "96729d0aea40f8ec2ff601bab4809c9ed90f628fb252b4d79f1eeedb52f6e7c4",
+    "bytes": 22076
+  },
+  "source_page.png": {
+    "sha256": "4f337a8e6909e70a061e51943dec66bf3474d978b91e08cf6c4712f7d96468a5",
+    "bytes": 240058
+  },
+  "source_spec.json": {
+    "sha256": "69aa55b9439aaced421de37add53866c21373e0fa6e44be05ba8bbb049b6003b",
+    "bytes": 87347
+  },
+  "top.png": {
+    "sha256": "5bec06e30f36277bfcb0fb20a23bf531784aad05637b78b60dd0a298cdea4ce3",
+    "bytes": 57422
+  },
+  "validation.json": {
+    "sha256": "ca2221cb8821cb08f3767010b72a4589f1b98d5f4c0c54ce77aff58ec7adbb00",
+    "bytes": 147928
+  },
+  "viewer.html": {
+    "sha256": "171ed5c0bc5903e7251af296e73e4e1688d4784fd51633d8d1a4989beaf05f36",
+    "bytes": 315085
+  },
+  "web_mesh_validation.json": {
+    "sha256": "55e80ce4ad1b3456f87f2ca072401c993e9f3f2c41f11b6569a8d79d7953601b",
+    "bytes": 374
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "browser": "Google Chrome / WebGL2 SwiftShader",
+  "cases_checked": [
+    "AR-27_South_Fork",
+    "AR-32_Springfield_DesArc",
+    "AR-38_Wyman",
+    "AR-46_Old_River",
+    "AR-51_Judsonia",
+    "AR-63_Woolsey",
+    "AR-64_Fryers_Ford",
+    "AR-66_Nimrod",
+    "AR-70_Wards_Crossing",
+    "AR-81_DeGray",
+    "CT-0629_Nineveh_Falls",
+    "Chicago_Columbus_Drive",
+    "Chicago_Lake_Shore_Drive",
+    "Chicago_La_Salle_Street",
+    "Chicago_West_Van_Buren"
+  ],
+  "javascript_errors": [],
+  "failed_responses": [],
+  "external_requests": [],
+  "checks": [
+    "existing 106 domestic cards",
+    "USA search",
+    "all 15 preview images",
+    "all 15 real WebGL models",
+    "nonempty rendered pixels",
+    "view controls",
+    "part visibility",
+    "part selection",
+    "explode",
+    "rotation",
+    "pan",
+    "zoom",
+    "PNG capture",
+    "native CAD download hash",
+    "mobile layout",
+    "offline file viewer"
+  ]
+}
