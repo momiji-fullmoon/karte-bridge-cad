@@ -1,0 +1,118 @@
+{
+  "schema": "karte.structural_screening/1",
+  "bridge_id": "8335004216",
+  "name": "利根川橋(上り)",
+  "classification": "諸元ベースの概略三次元CAD",
+  "analysis_scope": " screening indicators with stated assumptions; not design verification",
+  "assumptions": [
+    "簡易スクリーニング用の指標値であり、設計照査・耐荷力検証ではない（TL-20などの設計活荷重とは別基準の簡易活荷重 5 kPa を使用）",
+    "断面はCADモデルと同一の包絡断面（girder_profile・箱桁外形・中空床版の縦方向の孔）から計算。合成効果・PC鋼材緊張力・局部断面・座屈・疲労は評価しない",
+    "主桁の鉛直支持・水平拘束は橋軸直角方向断面内の割付をせず、床版・舗装・活荷重を主桁本数で均等分担とする（縁石・歩道・高欄・対傾構の重量は未考慮）",
+    "梁は連続梁の曲げ(EI一定)で解析し、E: 鋼200GPa、コンクリート25GPa、密度: 鋼7850・コンクリート2400・舗装2300 kg/m3 と仮定",
+    "トラスはCADモデルと同じパネル割(約6m)の2面トラスを独立に扱い、各面が床版線荷重の半分を負担。節点はピン接合、横構・節点モーメントを除外",
+    "斜角45度未満・縦断勾配・平面曲線の幾何効果は理想化に反映しない（CADの形状とは異なる直線断面）"
+  ],
+  "structures": [
+    {
+      "tag": "S01",
+      "form": "11径間連続鋼非合成箱桁橋",
+      "spans_m": [
+        77.0,
+        62.1,
+        62.1,
+        62.1,
+        62.1,
+        62.1,
+        62.1,
+        62.1,
+        62.1,
+        62.1,
+        62.1
+      ],
+      "girder_count": 2,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "steel_box_girder_envelope",
+        "rectangles_m": [
+          [
+            5.3295,
+            0.0,
+            0.025
+          ],
+          [
+            5.3295,
+            2.475,
+            2.5
+          ],
+          [
+            0.02,
+            0.025,
+            2.475
+          ],
+          [
+            0.02,
+            0.025,
+            2.475
+          ]
+        ],
+        "area_m2": 0.36447499999999955,
+        "I_m4": 0.4571157760416659,
+        "z_centroid_m": 1.2499999999999984,
+        "c_top_m": 1.2500000000000016,
+        "c_bottom_m": 1.2499999999999984,
+        "height_m": 2.5
+      },
+      "loads": {
+        "tributary_width_m": 6.375,
+        "deck_dead_N_per_m": 50701.60633125,
+        "live_N_per_m": 31875.0,
+        "self_weight_N_per_m": 28058.088256187464,
+        "total_line_N_per_m": 110634.69458743745
+      },
+      "results": {
+        "max_sagging_kNm": 53555.62697378067,
+        "max_sagging_x_m": 30.8,
+        "sagging_stress_MPa": 146.4498431817937,
+        "max_hogging_kNm": -62896.863828223286,
+        "max_hogging_x_m": 77.0,
+        "hogging_stress_MPa": 171.993800927389,
+        "max_deflection_mm": 138.64123174602366,
+        "deflection_ratio": 555.3903339596405,
+        "reactions_kN_per_girder": [
+          3442.6,
+          9069.8,
+          6162.6,
+          7060.0,
+          6819.9,
+          6882.8,
+          6871.5,
+          6853.7,
+          6936.2,
+          6623.8,
+          7790.9,
+          2709.3
+        ]
+      },
+      "main_span_m": 77.0,
+      "masses_kg": {
+        "girder_total": 3995509.0767999953,
+        "deck_concrete": 6194052.0,
+        "pavement": 1023442.5
+      }
+    }
+  ],
+  "summary": {
+    "structure_count": 1,
+    "statuses": [
+      "analyzed_girder_bending"
+    ],
+    "max_stress_MPa": 171.993800927389,
+    "worst_structure": "正曲げ σ 146 MPa · 支点負曲げ σ 172 MPa · たわみ 138.6 mm (1/555)",
+    "min_deflection_ratio": 555.3903339596405
+  },
+  "masses_kg": {
+    "steel_girders_truss": 3995509.0767999953,
+    "deck_concrete": 6194052.0,
+    "pavement": 1023442.5
+  }
+}

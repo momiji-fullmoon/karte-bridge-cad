@@ -1,0 +1,202 @@
+{
+  "schema": "karte.structural_screening/1",
+  "bridge_id": "8335004169",
+  "name": "平出第２跨道橋下り",
+  "classification": "諸元ベースの概略三次元CAD",
+  "analysis_scope": " screening indicators with stated assumptions; not design verification",
+  "assumptions": [
+    "簡易スクリーニング用の指標値であり、設計照査・耐荷力検証ではない（TL-20などの設計活荷重とは別基準の簡易活荷重 5 kPa を使用）",
+    "断面はCADモデルと同一の包絡断面（girder_profile・箱桁外形・中空床版の縦方向の孔）から計算。合成効果・PC鋼材緊張力・局部断面・座屈・疲労は評価しない",
+    "主桁の鉛直支持・水平拘束は橋軸直角方向断面内の割付をせず、床版・舗装・活荷重を主桁本数で均等分担とする（縁石・歩道・高欄・対傾構の重量は未考慮）",
+    "梁は連続梁の曲げ(EI一定)で解析し、E: 鋼200GPa、コンクリート25GPa、密度: 鋼7850・コンクリート2400・舗装2300 kg/m3 と仮定",
+    "トラスはCADモデルと同じパネル割(約6m)の2面トラスを独立に扱い、各面が床版線荷重の半分を負担。節点はピン接合、横構・節点モーメントを除外",
+    "斜角45度未満・縦断勾配・平面曲線の幾何効果は理想化に反映しない（CADの形状とは異なる直線断面）"
+  ],
+  "structures": [
+    {
+      "tag": "S01",
+      "form": "単純PCポステンT桁橋",
+      "spans_m": [
+        22.73
+      ],
+      "girder_count": 5,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "pc_rc_girder",
+        "rectangles_m": [
+          [
+            0.32,
+            0.0,
+            1.02
+          ],
+          [
+            1.5278,
+            1.02,
+            1.2
+          ]
+        ],
+        "area_m2": 0.6014021999999999,
+        "I_m4": 0.08277224776391748,
+        "z_centroid_m": 0.7843610183002324,
+        "c_top_m": 0.41563898169976754,
+        "c_bottom_m": 0.7843610183002324,
+        "height_m": 1.2
+      },
+      "loads": {
+        "tributary_width_m": 1.8699999999999999,
+        "deck_dead_N_per_m": 10911.369122499998,
+        "live_N_per_m": 9350.0,
+        "self_weight_N_per_m": 14154.578123111996,
+        "total_line_N_per_m": 34415.947245612
+      },
+      "results": {
+        "max_sagging_kNm": 2222.6373688365566,
+        "max_sagging_x_m": 11.365,
+        "sagging_stress_MPa": 21.062012413933278,
+        "max_hogging_kNm": 0.0,
+        "max_hogging_x_m": null,
+        "hogging_stress_MPa": 0.0,
+        "max_deflection_mm": 4.784716842740736,
+        "deflection_ratio": 4750.542351212578,
+        "reactions_kN_per_girder": [
+          391.1,
+          391.1
+        ]
+      },
+      "main_span_m": 22.73,
+      "masses_kg": {
+        "girder_total": 165770.50240799994,
+        "deck_concrete": 102012.23999999999,
+        "pavement": 24440.4325
+      }
+    },
+    {
+      "tag": "S02",
+      "form": "単純PCポステンT桁橋",
+      "spans_m": [
+        22.0
+      ],
+      "girder_count": 5,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "pc_rc_girder",
+        "rectangles_m": [
+          [
+            0.32,
+            0.0,
+            1.02
+          ],
+          [
+            1.5278,
+            1.02,
+            1.2
+          ]
+        ],
+        "area_m2": 0.6014021999999999,
+        "I_m4": 0.08277224776391748,
+        "z_centroid_m": 0.7843610183002324,
+        "c_top_m": 0.41563898169976754,
+        "c_bottom_m": 0.7843610183002324,
+        "height_m": 1.2
+      },
+      "loads": {
+        "tributary_width_m": 1.8699999999999999,
+        "deck_dead_N_per_m": 10911.369122499998,
+        "live_N_per_m": 9350.0,
+        "self_weight_N_per_m": 14154.578123111996,
+        "total_line_N_per_m": 34415.947245612
+      },
+      "results": {
+        "max_sagging_kNm": 2082.1648083595264,
+        "max_sagging_x_m": 11.0,
+        "sagging_stress_MPa": 19.730875425926587,
+        "max_hogging_kNm": 0.0,
+        "max_hogging_x_m": null,
+        "hogging_stress_MPa": 0.0,
+        "max_deflection_mm": 4.199032363525045,
+        "deflection_ratio": 5239.3023190541035,
+        "reactions_kN_per_girder": [
+          378.6,
+          378.6
+        ]
+      },
+      "main_span_m": 22.0,
+      "masses_kg": {
+        "girder_total": 160502.21913599994,
+        "deck_concrete": 98736.0,
+        "pavement": 23655.5
+      }
+    },
+    {
+      "tag": "S03",
+      "form": "単純PCポステンT桁橋",
+      "spans_m": [
+        22.0
+      ],
+      "girder_count": 5,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "pc_rc_girder",
+        "rectangles_m": [
+          [
+            0.32,
+            0.0,
+            1.02
+          ],
+          [
+            1.5278,
+            1.02,
+            1.2
+          ]
+        ],
+        "area_m2": 0.6014021999999999,
+        "I_m4": 0.08277224776391748,
+        "z_centroid_m": 0.7843610183002324,
+        "c_top_m": 0.41563898169976754,
+        "c_bottom_m": 0.7843610183002324,
+        "height_m": 1.2
+      },
+      "loads": {
+        "tributary_width_m": 1.8699999999999999,
+        "deck_dead_N_per_m": 10911.369122499998,
+        "live_N_per_m": 9350.0,
+        "self_weight_N_per_m": 14154.578123111996,
+        "total_line_N_per_m": 34415.947245612
+      },
+      "results": {
+        "max_sagging_kNm": 2082.1648083595264,
+        "max_sagging_x_m": 11.0,
+        "sagging_stress_MPa": 19.730875425926587,
+        "max_hogging_kNm": 0.0,
+        "max_hogging_x_m": null,
+        "hogging_stress_MPa": 0.0,
+        "max_deflection_mm": 4.199032363525045,
+        "deflection_ratio": 5239.3023190541035,
+        "reactions_kN_per_girder": [
+          378.6,
+          378.6
+        ]
+      },
+      "main_span_m": 22.0,
+      "masses_kg": {
+        "girder_total": 160502.21913599994,
+        "deck_concrete": 98736.0,
+        "pavement": 23655.5
+      }
+    }
+  ],
+  "summary": {
+    "structure_count": 3,
+    "statuses": [
+      "analyzed_girder_bending"
+    ],
+    "max_stress_MPa": 21.062012413933278,
+    "worst_structure": "正曲げ σ 21 MPa · 支点負曲げ σ 0 MPa · たわみ 4.8 mm (1/4,751)",
+    "min_deflection_ratio": 4750.542351212578
+  },
+  "masses_kg": {
+    "steel_girders_truss": 486774.94067999977,
+    "deck_concrete": 299484.24,
+    "pavement": 71751.4325
+  }
+}

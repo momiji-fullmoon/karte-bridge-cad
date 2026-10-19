@@ -1,0 +1,16 @@
+{
+  "schema": "karte.structural_screening_verification/1",
+  "generated_at": "2026-10-19T14:40:37+0200",
+  "mode": "local",
+  "base_url": null,
+  "counts": {
+    "models": 106,
+    "structural": 106,
+    "viewers_patched": 106,
+    "summary_cases": 106,
+    "cards": 106
+  },
+  "live_files_checked": [],
+  "problems": [],
+  "status": "passed"
+}

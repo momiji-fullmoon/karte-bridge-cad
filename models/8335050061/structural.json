@@ -1,0 +1,227 @@
+{
+  "schema": "karte.structural_screening/1",
+  "bridge_id": "8335050061",
+  "name": "小山高架ランプ(下り)",
+  "classification": "諸元ベースの概略三次元CAD",
+  "analysis_scope": " screening indicators with stated assumptions; not design verification",
+  "assumptions": [
+    "簡易スクリーニング用の指標値であり、設計照査・耐荷力検証ではない（TL-20などの設計活荷重とは別基準の簡易活荷重 5 kPa を使用）",
+    "断面はCADモデルと同一の包絡断面（girder_profile・箱桁外形・中空床版の縦方向の孔）から計算。合成効果・PC鋼材緊張力・局部断面・座屈・疲労は評価しない",
+    "主桁の鉛直支持・水平拘束は橋軸直角方向断面内の割付をせず、床版・舗装・活荷重を主桁本数で均等分担とする（縁石・歩道・高欄・対傾構の重量は未考慮）",
+    "梁は連続梁の曲げ(EI一定)で解析し、E: 鋼200GPa、コンクリート25GPa、密度: 鋼7850・コンクリート2400・舗装2300 kg/m3 と仮定",
+    "トラスはCADモデルと同じパネル割(約6m)の2面トラスを独立に扱い、各面が床版線荷重の半分を負担。節点はピン接合、横構・節点モーメントを除外",
+    "斜角45度未満・縦断勾配・平面曲線の幾何効果は理想化に反映しない（CADの形状とは異なる直線断面）"
+  ],
+  "structures": [
+    {
+      "tag": "S01",
+      "form": "2径間連続鋼合成鈑桁橋",
+      "spans_m": [
+        23.4,
+        23.4
+      ],
+      "girder_count": 3,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "steel_plate_girder",
+        "rectangles_m": [
+          [
+            0.49,
+            0.0,
+            0.025
+          ],
+          [
+            0.014,
+            0.025,
+            1.375
+          ],
+          [
+            0.49,
+            1.375,
+            1.4
+          ]
+        ],
+        "area_m2": 0.04339999999999995,
+        "I_m4": 0.014451791666666646,
+        "z_centroid_m": 0.6999999999999993,
+        "c_top_m": 0.7000000000000006,
+        "c_bottom_m": 0.6999999999999993,
+        "height_m": 1.4
+      },
+      "loads": {
+        "tributary_width_m": 2.1999999999999997,
+        "deck_dead_N_per_m": 13872.487089999999,
+        "live_N_per_m": 10999.999999999998,
+        "self_weight_N_per_m": 3341.027588499996,
+        "total_line_N_per_m": 28213.514678499992
+      },
+      "results": {
+        "max_sagging_kNm": 1086.2291318455866,
+        "max_sagging_x_m": 8.774999999999999,
+        "sagging_stress_MPa": 52.613572754836916,
+        "max_hogging_kNm": -1931.074012169932,
+        "max_hogging_x_m": 23.4,
+        "hogging_stress_MPa": 93.5352404530434,
+        "max_deflection_mm": 0.2290581431907902,
+        "deflection_ratio": 102157.46829183608,
+        "reactions_kN_per_girder": [
+          247.6,
+          825.2,
+          247.6
+        ]
+      },
+      "main_span_m": 23.4,
+      "masses_kg": {
+        "girder_total": 48078.17279999994,
+        "deck_concrete": 163088.63999999996,
+        "pavement": 35521.2
+      }
+    },
+    {
+      "tag": "S02",
+      "form": "3径間連続鋼鋼床版鈑桁橋",
+      "spans_m": [
+        19.608,
+        24.448,
+        19.644
+      ],
+      "girder_count": 4,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "steel_plate_girder",
+        "rectangles_m": [
+          [
+            0.3325,
+            0.0,
+            0.025
+          ],
+          [
+            0.014,
+            0.025,
+            0.925
+          ],
+          [
+            0.3325,
+            0.925,
+            0.95
+          ]
+        ],
+        "area_m2": 0.029225,
+        "I_m4": 0.004407557291666668,
+        "z_centroid_m": 0.47500000000000014,
+        "c_top_m": 0.4749999999999998,
+        "c_bottom_m": 0.47500000000000014,
+        "height_m": 0.95
+      },
+      "loads": {
+        "tributary_width_m": 1.65,
+        "deck_dead_N_per_m": 2326.8238455,
+        "live_N_per_m": 8250.0,
+        "self_weight_N_per_m": 2249.8048680625,
+        "total_line_N_per_m": 12826.628713562499
+      },
+      "results": {
+        "max_sagging_kNm": 342.9816573637838,
+        "max_sagging_x_m": 56.3335,
+        "sagging_stress_MPa": 36.96294261581621,
+        "max_hogging_kNm": -632.1403370800698,
+        "max_hogging_x_m": 44.056,
+        "hogging_stress_MPa": 68.12541284051939,
+        "max_deflection_mm": 0.05021513948922068,
+        "deflection_ratio": 391196.76256633387,
+        "reactions_kN_per_girder": [
+          93.6,
+          314.7,
+          315.0,
+          93.8
+        ]
+      },
+      "main_span_m": 24.448,
+      "masses_kg": {
+        "girder_total": 58675.500100000005,
+        "deck_concrete": 12108.096000000001,
+        "pavement": 48348.3
+      }
+    },
+    {
+      "tag": "S03",
+      "form": "3径間連続鋼合成鈑桁橋",
+      "spans_m": [
+        23.6,
+        23.6,
+        23.6
+      ],
+      "girder_count": 3,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "steel_plate_girder",
+        "rectangles_m": [
+          [
+            0.49,
+            0.0,
+            0.025
+          ],
+          [
+            0.014,
+            0.025,
+            1.375
+          ],
+          [
+            0.49,
+            1.375,
+            1.4
+          ]
+        ],
+        "area_m2": 0.04339999999999995,
+        "I_m4": 0.014451791666666646,
+        "z_centroid_m": 0.6999999999999993,
+        "c_top_m": 0.7000000000000006,
+        "c_bottom_m": 0.6999999999999993,
+        "height_m": 1.4
+      },
+      "loads": {
+        "tributary_width_m": 2.1999999999999997,
+        "deck_dead_N_per_m": 13872.487089999999,
+        "live_N_per_m": 10999.999999999998,
+        "self_weight_N_per_m": 3341.027588499996,
+        "total_line_N_per_m": 28213.514678499992
+      },
+      "results": {
+        "max_sagging_kNm": 1257.1039308269894,
+        "max_sagging_x_m": 61.36000000000001,
+        "sagging_stress_MPa": 60.89021845011568,
+        "max_hogging_kNm": -1571.379913533736,
+        "max_hogging_x_m": 23.6,
+        "hogging_stress_MPa": 76.11277306264455,
+        "max_deflection_mm": 0.30122460202228346,
+        "deflection_ratio": 78346.85427936647,
+        "reactions_kN_per_girder": [
+          266.3,
+          732.4,
+          732.4,
+          266.3
+        ]
+      },
+      "main_span_m": 23.6,
+      "masses_kg": {
+        "girder_total": 72607.85279999994,
+        "deck_concrete": 246723.84000000003,
+        "pavement": 53737.20000000001
+      }
+    }
+  ],
+  "summary": {
+    "structure_count": 3,
+    "statuses": [
+      "analyzed_girder_bending"
+    ],
+    "max_stress_MPa": 93.5352404530434,
+    "worst_structure": "正曲げ σ 53 MPa · 支点負曲げ σ 94 MPa · たわみ 0.2 mm (1/102,157)",
+    "min_deflection_ratio": 78346.85427936647
+  },
+  "masses_kg": {
+    "steel_girders_truss": 179361.52569999988,
+    "deck_concrete": 421920.576,
+    "pavement": 137606.7
+  }
+}

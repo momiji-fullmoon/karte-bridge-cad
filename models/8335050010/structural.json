@@ -1,0 +1,214 @@
+{
+  "schema": "karte.structural_screening/1",
+  "bridge_id": "8335050010",
+  "name": "八木高架橋(下り)",
+  "classification": "諸元ベースの概略三次元CAD",
+  "analysis_scope": " screening indicators with stated assumptions; not design verification",
+  "assumptions": [
+    "簡易スクリーニング用の指標値であり、設計照査・耐荷力検証ではない（TL-20などの設計活荷重とは別基準の簡易活荷重 5 kPa を使用）",
+    "断面はCADモデルと同一の包絡断面（girder_profile・箱桁外形・中空床版の縦方向の孔）から計算。合成効果・PC鋼材緊張力・局部断面・座屈・疲労は評価しない",
+    "主桁の鉛直支持・水平拘束は橋軸直角方向断面内の割付をせず、床版・舗装・活荷重を主桁本数で均等分担とする（縁石・歩道・高欄・対傾構の重量は未考慮）",
+    "梁は連続梁の曲げ(EI一定)で解析し、E: 鋼200GPa、コンクリート25GPa、密度: 鋼7850・コンクリート2400・舗装2300 kg/m3 と仮定",
+    "トラスはCADモデルと同じパネル割(約6m)の2面トラスを独立に扱い、各面が床版線荷重の半分を負担。節点はピン接合、横構・節点モーメントを除外",
+    "斜角45度未満・縦断勾配・平面曲線の幾何効果は理想化に反映しない（CADの形状とは異なる直線断面）"
+  ],
+  "structures": [
+    {
+      "tag": "S01",
+      "form": "4径間連結PCポステンT桁橋",
+      "spans_m": [
+        24.935,
+        24.87,
+        24.87,
+        24.935
+      ],
+      "girder_count": 5,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "pc_rc_girder",
+        "rectangles_m": [
+          [
+            0.32,
+            0.0,
+            1.22
+          ],
+          [
+            1.5278,
+            1.22,
+            1.4
+          ]
+        ],
+        "area_m2": 0.6654021999999999,
+        "I_m4": 0.12822530400250914,
+        "z_centroid_m": 0.8993010272584009,
+        "c_top_m": 0.500698972741599,
+        "c_bottom_m": 0.8993010272584009,
+        "height_m": 1.4
+      },
+      "loads": {
+        "tributary_width_m": 1.8699999999999999,
+        "deck_dead_N_per_m": 10911.369122499998,
+        "live_N_per_m": 9350.0,
+        "self_weight_N_per_m": 15660.879563111997,
+        "total_line_N_per_m": 35922.248685611994
+      },
+      "results": {
+        "max_sagging_kNm": 1724.39197942675,
+        "max_sagging_x_m": 89.636,
+        "sagging_stress_MPa": 12.093927096201528,
+        "max_hogging_kNm": -2389.4630189671125,
+        "max_hogging_x_m": 24.935,
+        "hogging_stress_MPa": 16.75836578645222,
+        "max_deflection_mm": 3.591602640782464,
+        "deflection_ratio": 6942.583156851582,
+        "reactions_kN_per_girder": [
+          352.0,
+          1022.8,
+          828.5,
+          1022.8,
+          352.0
+        ]
+      },
+      "main_span_m": 24.935,
+      "masses_kg": {
+        "girder_total": 797284.9160399999,
+        "deck_concrete": 447049.68,
+        "pavement": 107105.6525
+      }
+    },
+    {
+      "tag": "S02",
+      "form": "単純PCポステンT桁橋",
+      "spans_m": [
+        37.0
+      ],
+      "girder_count": 7,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "pc_rc_girder",
+        "rectangles_m": [
+          [
+            0.3079,
+            0.0,
+            1.22
+          ],
+          [
+            1.0185,
+            1.22,
+            1.4
+          ]
+        ],
+        "area_m2": 0.5590053333333331,
+        "I_m4": 0.10746220061054612,
+        "z_centroid_m": 0.8395762711864407,
+        "c_top_m": 0.5604237288135592,
+        "c_bottom_m": 0.8395762711864407,
+        "height_m": 1.4
+      },
+      "loads": {
+        "tributary_width_m": 1.3357142857142856,
+        "deck_dead_N_per_m": 7793.835087499999,
+        "live_N_per_m": 6678.571428571428,
+        "self_weight_N_per_m": 13156.727165119994,
+        "total_line_N_per_m": 27629.133681191423
+      },
+      "results": {
+        "max_sagging_kNm": 4728.035501193882,
+        "max_sagging_x_m": 18.5,
+        "sagging_stress_MPa": 36.93900174737266,
+        "max_hogging_kNm": 0.0,
+        "max_hogging_x_m": null,
+        "hogging_stress_MPa": 0.0,
+        "max_deflection_mm": 26.96950250472677,
+        "deflection_ratio": 1371.9200045872278,
+        "reactions_kN_per_girder": [
+          511.1,
+          511.1
+        ]
+      },
+      "main_span_m": 37.0,
+      "masses_kg": {
+        "girder_total": 349731.6247039999,
+        "deck_concrete": 166056.0,
+        "pavement": 39784.25
+      }
+    },
+    {
+      "tag": "S03",
+      "form": "4径間連結PCポステンT桁橋",
+      "spans_m": [
+        24.935,
+        24.87,
+        24.87,
+        24.935
+      ],
+      "girder_count": 5,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "pc_rc_girder",
+        "rectangles_m": [
+          [
+            0.32,
+            0.0,
+            1.22
+          ],
+          [
+            1.5278,
+            1.22,
+            1.4
+          ]
+        ],
+        "area_m2": 0.6654021999999999,
+        "I_m4": 0.12822530400250914,
+        "z_centroid_m": 0.8993010272584009,
+        "c_top_m": 0.500698972741599,
+        "c_bottom_m": 0.8993010272584009,
+        "height_m": 1.4
+      },
+      "loads": {
+        "tributary_width_m": 1.8699999999999999,
+        "deck_dead_N_per_m": 10911.369122499998,
+        "live_N_per_m": 9350.0,
+        "self_weight_N_per_m": 15660.879563111997,
+        "total_line_N_per_m": 35922.248685611994
+      },
+      "results": {
+        "max_sagging_kNm": 1724.39197942675,
+        "max_sagging_x_m": 89.636,
+        "sagging_stress_MPa": 12.093927096201528,
+        "max_hogging_kNm": -2389.4630189671125,
+        "max_hogging_x_m": 24.935,
+        "hogging_stress_MPa": 16.75836578645222,
+        "max_deflection_mm": 3.591602640782464,
+        "deflection_ratio": 6942.583156851582,
+        "reactions_kN_per_girder": [
+          352.0,
+          1022.8,
+          828.5,
+          1022.8,
+          352.0
+        ]
+      },
+      "main_span_m": 24.935,
+      "masses_kg": {
+        "girder_total": 797284.9160399999,
+        "deck_concrete": 447049.68,
+        "pavement": 107105.6525
+      }
+    }
+  ],
+  "summary": {
+    "structure_count": 3,
+    "statuses": [
+      "analyzed_girder_bending"
+    ],
+    "max_stress_MPa": 36.93900174737266,
+    "worst_structure": "正曲げ σ 37 MPa · 支点負曲げ σ 0 MPa · たわみ 27.0 mm (1/1,372)",
+    "min_deflection_ratio": 1371.9200045872278
+  },
+  "masses_kg": {
+    "steel_girders_truss": 1944301.4567839997,
+    "deck_concrete": 1060155.3599999999,
+    "pavement": 253995.555
+  }
+}

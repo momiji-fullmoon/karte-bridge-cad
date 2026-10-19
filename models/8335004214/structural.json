@@ -1,0 +1,99 @@
+{
+  "schema": "karte.structural_screening/1",
+  "bridge_id": "8335004214",
+  "name": "新荒川橋(下り)",
+  "classification": "諸元ベースの概略三次元CAD",
+  "analysis_scope": " screening indicators with stated assumptions; not design verification",
+  "assumptions": [
+    "簡易スクリーニング用の指標値であり、設計照査・耐荷力検証ではない（TL-20などの設計活荷重とは別基準の簡易活荷重 5 kPa を使用）",
+    "断面はCADモデルと同一の包絡断面（girder_profile・箱桁外形・中空床版の縦方向の孔）から計算。合成効果・PC鋼材緊張力・局部断面・座屈・疲労は評価しない",
+    "主桁の鉛直支持・水平拘束は橋軸直角方向断面内の割付をせず、床版・舗装・活荷重を主桁本数で均等分担とする（縁石・歩道・高欄・対傾構の重量は未考慮）",
+    "梁は連続梁の曲げ(EI一定)で解析し、E: 鋼200GPa、コンクリート25GPa、密度: 鋼7850・コンクリート2400・舗装2300 kg/m3 と仮定",
+    "トラスはCADモデルと同じパネル割(約6m)の2面トラスを独立に扱い、各面が床版線荷重の半分を負担。節点はピン接合、横構・節点モーメントを除外",
+    "斜角45度未満・縦断勾配・平面曲線の幾何効果は理想化に反映しない（CADの形状とは異なる直線断面）"
+  ],
+  "structures": [
+    {
+      "tag": "S01",
+      "form": "4径間連続鋼非合成鈑桁橋",
+      "spans_m": [
+        34.0,
+        34.0,
+        34.0,
+        34.0
+      ],
+      "girder_count": 3,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "steel_plate_girder",
+        "rectangles_m": [
+          [
+            0.77,
+            0.0,
+            0.025
+          ],
+          [
+            0.014,
+            0.025,
+            2.175
+          ],
+          [
+            0.77,
+            2.175,
+            2.2
+          ]
+        ],
+        "area_m2": 0.06859999999999994,
+        "I_m4": 0.0571290416666666,
+        "z_centroid_m": 1.099999999999999,
+        "c_top_m": 1.1000000000000012,
+        "c_bottom_m": 1.099999999999999,
+        "height_m": 2.2
+      },
+      "loads": {
+        "tributary_width_m": 4.0,
+        "deck_dead_N_per_m": 27105.580599999998,
+        "live_N_per_m": 20000.0,
+        "self_weight_N_per_m": 5280.979091499995,
+        "total_line_N_per_m": 52386.5596915
+      },
+      "results": {
+        "max_sagging_kNm": 4671.683717403137,
+        "max_sagging_x_m": 13.6,
+        "sagging_stress_MPa": 89.95165924762662,
+        "max_hogging_kNm": -6488.449607504356,
+        "max_hogging_x_m": 34.0,
+        "hogging_stress_MPa": 124.93286006614805,
+        "max_deflection_mm": 2.2599217264284617,
+        "deflection_ratio": 15044.76885300491,
+        "reactions_kN_per_girder": [
+          699.7,
+          2035.6,
+          1653.9,
+          2035.6,
+          699.7
+        ]
+      },
+      "main_span_m": 34.0,
+      "masses_kg": {
+        "girder_total": 220099.80719999984,
+        "deck_concrete": 940032.0,
+        "pavement": 187680.00000000003
+      }
+    }
+  ],
+  "summary": {
+    "structure_count": 1,
+    "statuses": [
+      "analyzed_girder_bending"
+    ],
+    "max_stress_MPa": 124.93286006614805,
+    "worst_structure": "正曲げ σ 90 MPa · 支点負曲げ σ 125 MPa · たわみ 2.3 mm (1/15,045)",
+    "min_deflection_ratio": 15044.76885300491
+  },
+  "masses_kg": {
+    "steel_girders_truss": 220099.80719999984,
+    "deck_concrete": 940032.0,
+    "pavement": 187680.00000000003
+  }
+}

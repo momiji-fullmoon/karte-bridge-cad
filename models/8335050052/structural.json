@@ -1,0 +1,97 @@
+{
+  "schema": "karte.structural_screening/1",
+  "bridge_id": "8335050052",
+  "name": "下河原田跨道橋(下り)",
+  "classification": "諸元ベースの概略三次元CAD",
+  "analysis_scope": " screening indicators with stated assumptions; not design verification",
+  "assumptions": [
+    "簡易スクリーニング用の指標値であり、設計照査・耐荷力検証ではない（TL-20などの設計活荷重とは別基準の簡易活荷重 5 kPa を使用）",
+    "断面はCADモデルと同一の包絡断面（girder_profile・箱桁外形・中空床版の縦方向の孔）から計算。合成効果・PC鋼材緊張力・局部断面・座屈・疲労は評価しない",
+    "主桁の鉛直支持・水平拘束は橋軸直角方向断面内の割付をせず、床版・舗装・活荷重を主桁本数で均等分担とする（縁石・歩道・高欄・対傾構の重量は未考慮）",
+    "梁は連続梁の曲げ(EI一定)で解析し、E: 鋼200GPa、コンクリート25GPa、密度: 鋼7850・コンクリート2400・舗装2300 kg/m3 と仮定",
+    "トラスはCADモデルと同じパネル割(約6m)の2面トラスを独立に扱い、各面が床版線荷重の半分を負担。節点はピン接合、横構・節点モーメントを除外",
+    "斜角45度未満・縦断勾配・平面曲線の幾何効果は理想化に反映しない（CADの形状とは異なる直線断面）"
+  ],
+  "structures": [
+    {
+      "tag": "S01",
+      "form": "3径間連続鋼鈑桁橋",
+      "spans_m": [
+        15.6,
+        25.0,
+        15.6
+      ],
+      "girder_count": 5,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "steel_plate_girder",
+        "rectangles_m": [
+          [
+            0.3325,
+            0.0,
+            0.025
+          ],
+          [
+            0.014,
+            0.025,
+            0.925
+          ],
+          [
+            0.3325,
+            0.925,
+            0.95
+          ]
+        ],
+        "area_m2": 0.029225,
+        "I_m4": 0.004407557291666668,
+        "z_centroid_m": 0.47500000000000014,
+        "c_top_m": 0.4749999999999998,
+        "c_bottom_m": 0.47500000000000014,
+        "height_m": 0.95
+      },
+      "loads": {
+        "tributary_width_m": 2.04,
+        "deck_dead_N_per_m": 12383.445354,
+        "live_N_per_m": 10200.0,
+        "self_weight_N_per_m": 2249.8048680625,
+        "total_line_N_per_m": 24833.2502220625
+      },
+      "results": {
+        "max_sagging_kNm": 804.7471952681991,
+        "max_sagging_x_m": 28.1,
+        "sagging_stress_MPa": 86.72715802812613,
+        "max_hogging_kNm": -1135.3504783304338,
+        "max_hogging_x_m": 15.6,
+        "hogging_stress_MPa": 122.35609012424868,
+        "max_deflection_mm": 0.18804593086006266,
+        "deflection_ratio": 132946.24289745544,
+        "reactions_kN_per_girder": [
+          120.9,
+          576.9,
+          576.9,
+          120.9
+        ]
+      },
+      "main_span_m": 25.0,
+      "masses_kg": {
+        "girder_total": 64741.26575000001,
+        "deck_concrete": 288912.95999999996,
+        "pavement": 65922.6
+      }
+    }
+  ],
+  "summary": {
+    "structure_count": 1,
+    "statuses": [
+      "analyzed_girder_bending"
+    ],
+    "max_stress_MPa": 122.35609012424868,
+    "worst_structure": "正曲げ σ 87 MPa · 支点負曲げ σ 122 MPa · たわみ 0.2 mm (1/132,946)",
+    "min_deflection_ratio": 132946.24289745544
+  },
+  "masses_kg": {
+    "steel_girders_truss": 64741.26575000001,
+    "deck_concrete": 288912.95999999996,
+    "pavement": 65922.6
+  }
+}

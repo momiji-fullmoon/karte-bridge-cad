@@ -64,6 +64,35 @@
 - [`output/verification_summary.json`](output/verification_summary.json)：網羅性・ファイル整合の集計
 - [`output/browser_verification.json`](output/browser_verification.json)：ブラウザ操作の検証
 
+## 簡易構造スクリーニング
+
+- [`structural_summary.json`](structural_summary.json)：106橋のサマリ
+- [`structural_verification.json`](structural_verification.json)：公開物の整合検証
+
+各橋のモデル化ユニット（上部構造）を二次元の簡易解析に通しています。桁と床版はCADと同じ包絡断面（鋼I桁のフランジ・ウェブ、箱桁外形、中空床版の孔）を持つEI一定のオイラー・ベルヌーイ連続梁、トラスは断面を踏襲した2面の標準プラットトラスです。カルテとCADだけでは節点配置・部材数が確定しないため、トラスは形式・支間・桁高の諸元から標準形を仮定し、その旨を`assumptions`に記録しています。活荷重は床版全面に5 kPaの等分布（TL-20等の設計活荷重とは別の簡易値）。載荷は自重・舗装・この活荷重の和です。
+
+結果の見方：
+
+- 桁・床版は断面縁の曲げ応力（正曲げ／支点負曲げ）、トラスは弦材の最大引張・圧縮と各面の材軸応力。
+- たわみは支間中央の最大たわみで、支間との比（たわみ目安）を併記。
+- 値は**橋梁間の相対比較用のスクリーニング指標**です。合成効果・PC緊張力・局部断面・座屈・疲労・耐荷力を評価しておらず、設計照査ではありません。
+
+1橋あたりの詳細は `models/<橋梁番号>/structural.json`、viewer先頭の「簡易構造解析（スクリーニング）」節にも要点が入っています。
+
+再生成・公開：
+
+```bash
+# 全106橋を解析して structural.json と structural_summary.json を生成
+.venv-cad/bin/python karte_cad/gh_pages/tools/karte_structural_screening.py
+
+# viewer.html と index.html に解析節・カード要件を挿入（冪等）
+.venv-cad/bin/python karte_cad/gh_pages/tools/karte_structural_publish.py
+
+# 公開物の整合検証（--live で実配信のSHA-256・描画も確認）
+.venv-cad/bin/python karte_cad/gh_pages/tools/verify_karte_site.py
+.venv-cad/bin/python karte_cad/gh_pages/tools/verify_karte_site.py --live
+```
+
 ## 図面との対応とモデルの精度
 
 橋長、記載支間長、桁高、桁本数、幅員構成、床版厚、下部構造高を諸元から抽出しています。複数ページに分かれた表、改行された支間列、鋼桁／PC桁／箱桁／中空床版／トラス等を扱います。重複資料は帳票更新年月日が最新のものを選び、採用PDFのSHA-256を記録しています。
@@ -160,4 +189,4 @@ python3.13 -m venv .venv-cad
 
 全橋で、正の体積を持つ有効なBRepソリッド、STEPの再読込・ソリッド数・包絡寸法・体積、BRepの再読込、USDの部材数・単位・包絡寸法、GLBの部材数・座標変換・包絡寸法、閉じたメッシュ、BRepとのメッシュ体積差を検証しています。
 
-幾何・ファイル往復の検証に加えて、入力106橋との網羅性、ZIP内橋梁番号、原典PDFと出力ファイルのSHA-256、図面画像の参照を確認しています。これらの検証結果と、原図への詳細な適合確認・構造計算は別の項目です。
+幾何・ファイル往復の検証に加えて、入力106橋との網羅性、ZIP内橋梁番号、原典PDFと出力ファイルのSHA-256、図面画像の参照を確認しています。これらの検証結果と、原図への詳細な適合確認・構造計算は別の項目です。簡易構造スクリーニング（上記）も構造計算の代替ではなく、公開物の整合（viewer・index・サマリの一致とSHA-256、実配信の描画）は `tools/verify_karte_site.py` が `structural_verification.json` に記録しています。

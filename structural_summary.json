@@ -1,0 +1,1394 @@
+{
+  "schema": "karte.structural_screening_summary/1",
+  "case_count": 106,
+  "cases": [
+    {
+      "id": "8335004001",
+      "name": "利根川新橋(下り)",
+      "length_m": 654.0,
+      "width_m": 11.45,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 178.66291850784953,
+      "min_deflection_ratio": 885.9736942884858,
+      "worst_structure": "正曲げ σ 128 MPa · 支点負曲げ σ 179 MPa · たわみ 17.3 mm (1/3,560)"
+    },
+    {
+      "id": "8335004026",
+      "name": "新田川橋",
+      "length_m": 66.62,
+      "width_m": 10.1,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 69.99291279969746,
+      "min_deflection_ratio": 152236.70608672433,
+      "worst_structure": "正曲げ σ 37 MPa · 支点負曲げ σ 70 MPa · たわみ 0.2 mm (1/152,237)"
+    },
+    {
+      "id": "8335004027",
+      "name": "新田川橋側道橋(下り)",
+      "length_m": 70.3,
+      "width_m": 3.1,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 126.62205110806546,
+      "min_deflection_ratio": 55839.700532572286,
+      "worst_structure": "正曲げ σ 127 MPa · 支点負曲げ σ 0 MPa · たわみ 0.4 mm (1/55,840)"
+    },
+    {
+      "id": "8335004028",
+      "name": "新田川側道橋(上り)",
+      "length_m": 70.5,
+      "width_m": 3.1,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 177.41379454807577,
+      "min_deflection_ratio": 67397.5077061597,
+      "worst_structure": "正曲げ σ 177 MPa · 支点負曲げ σ 0 MPa · たわみ 0.4 mm (1/67,398)"
+    },
+    {
+      "id": "8335004043",
+      "name": "新鬼怒川橋",
+      "length_m": 460.9,
+      "width_m": 11.5,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending",
+        "analyzed_plane_truss"
+      ],
+      "max_stress_MPa": 173.02722314119106,
+      "min_deflection_ratio": 946.2720923201239,
+      "worst_structure": "正曲げ σ 138 MPa · 支点負曲げ σ 173 MPa · たわみ 19.5 mm (1/3,187)"
+    },
+    {
+      "id": "8335004044",
+      "name": "鬼怒川橋",
+      "length_m": 467.73,
+      "width_m": 11.25,
+      "structure_count": 5,
+      "statuses": [
+        "analyzed_girder_bending",
+        "analyzed_plane_truss"
+      ],
+      "max_stress_MPa": 84.45738946165604,
+      "min_deflection_ratio": 860.157760714919,
+      "worst_structure": "最大引張 S05_lower_chord_16_0 8,979 kN (83 MPa) · 最大圧縮 S05_upper_chord_15_0 -9,121 kN (84 MPa) · たわみ目安 109.2 mm (1/860)"
+    },
+    {
+      "id": "8335004062",
+      "name": "江川橋",
+      "length_m": 54.36,
+      "width_m": 12.2,
+      "structure_count": 2,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 171.0855943805413,
+      "min_deflection_ratio": 15157.324879686259,
+      "worst_structure": "正曲げ σ 171 MPa · 支点負曲げ σ 0 MPa · たわみ 0.6 mm (1/39,824)"
+    },
+    {
+      "id": "8335004064",
+      "name": "内川橋",
+      "length_m": 74.46,
+      "width_m": 12.2,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 78.2177815441349,
+      "min_deflection_ratio": 101625.42863331646,
+      "worst_structure": "正曲げ σ 46 MPa · 支点負曲げ σ 78 MPa · たわみ 0.2 mm (1/101,625)"
+    },
+    {
+      "id": "8335004067",
+      "name": "野崎橋",
+      "length_m": 260.8,
+      "width_m": 13.0,
+      "structure_count": 2,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 155.325417117434,
+      "min_deflection_ratio": 11062.931711810108,
+      "worst_structure": "正曲げ σ 111 MPa · 支点負曲げ σ 155 MPa · たわみ 3.8 mm (1/11,516)"
+    },
+    {
+      "id": "8335004078",
+      "name": "那須野橋",
+      "length_m": 203.0,
+      "width_m": 12.5,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 5.799771607769753,
+      "min_deflection_ratio": 9463.510796533177,
+      "worst_structure": "床版並曲げ σ 4 MPa · 支点側 σ 6 MPa · たわみ 2.7 mm (1/9,464)"
+    },
+    {
+      "id": "8335004088",
+      "name": "新晩翆橋",
+      "length_m": 174.1,
+      "width_m": 11.35,
+      "structure_count": 2,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 134.13751833640356,
+      "min_deflection_ratio": 517.3389477313312,
+      "worst_structure": "正曲げ σ 76 MPa · 支点負曲げ σ 134 MPa · たわみ 147.1 mm (1/517)"
+    },
+    {
+      "id": "8335004117",
+      "name": "五霞高架橋(下り)",
+      "length_m": 352.05,
+      "width_m": 10.7,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 142.49871171964642,
+      "min_deflection_ratio": 1282.7475799502572,
+      "worst_structure": "正曲げ σ 105 MPa · 支点負曲げ σ 142 MPa · たわみ 2.4 mm (1/16,135)"
+    },
+    {
+      "id": "8335004118",
+      "name": "新利根川橋(下り)",
+      "length_m": 751.1,
+      "width_m": 13.75,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 107.82044873183426,
+      "min_deflection_ratio": 675.0245537766991,
+      "worst_structure": "正曲げ σ 86 MPa · 支点負曲げ σ 108 MPa · たわみ 123.0 mm (1/675)"
+    },
+    {
+      "id": "8335004119",
+      "name": "総和高架橋(下り)",
+      "length_m": 354.8,
+      "width_m": 10.7,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 131.36484994956723,
+      "min_deflection_ratio": 1445.8653124540704,
+      "worst_structure": "正曲げ σ 74 MPa · 支点負曲げ σ 131 MPa · たわみ 1.1 mm (1/31,133)"
+    },
+    {
+      "id": "8335004152",
+      "name": "上蒲生高架橋(下り)",
+      "length_m": 191.85,
+      "width_m": 9.25,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 108.92522680007511,
+      "min_deflection_ratio": 28016.897449549582,
+      "worst_structure": "正曲げ σ 61 MPa · 支点負曲げ σ 109 MPa · たわみ 1.1 mm (1/31,041)"
+    },
+    {
+      "id": "8335004164",
+      "name": "石井高架橋(上り)",
+      "length_m": 241.3,
+      "width_m": 9.35,
+      "structure_count": 10,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 89.01429664497385,
+      "min_deflection_ratio": 2360.9918980396446,
+      "worst_structure": "正曲げ σ 89 MPa · 支点負曲げ σ 0 MPa · たわみ 19.1 mm (1/2,361)"
+    },
+    {
+      "id": "8335004165",
+      "name": "石井高架橋(下り)",
+      "length_m": 241.3,
+      "width_m": 9.35,
+      "structure_count": 10,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 89.01429664497385,
+      "min_deflection_ratio": 2360.9918980396446,
+      "worst_structure": "正曲げ σ 89 MPa · 支点負曲げ σ 0 MPa · たわみ 19.1 mm (1/2,361)"
+    },
+    {
+      "id": "8335004166",
+      "name": "とちの実橋(上り)",
+      "length_m": 100.85,
+      "width_m": 9.35,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 89.31212152286022,
+      "min_deflection_ratio": 39073.598436315435,
+      "worst_structure": "正曲げ σ 50 MPa · 支点負曲げ σ 89 MPa · たわみ 0.8 mm (1/39,074)"
+    },
+    {
+      "id": "8335004167",
+      "name": "とちの実橋(下り)",
+      "length_m": 100.85,
+      "width_m": 9.35,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 89.31212152286022,
+      "min_deflection_ratio": 39073.598436315435,
+      "worst_structure": "正曲げ σ 50 MPa · 支点負曲げ σ 89 MPa · たわみ 0.8 mm (1/39,074)"
+    },
+    {
+      "id": "8335004168",
+      "name": "平出第２跨道橋上り",
+      "length_m": 68.34,
+      "width_m": 9.35,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 19.730875425926587,
+      "min_deflection_ratio": 5239.3023190541035,
+      "worst_structure": "正曲げ σ 20 MPa · 支点負曲げ σ 0 MPa · たわみ 4.2 mm (1/5,239)"
+    },
+    {
+      "id": "8335004169",
+      "name": "平出第２跨道橋下り",
+      "length_m": 68.28,
+      "width_m": 9.35,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 21.062012413933278,
+      "min_deflection_ratio": 4750.542351212578,
+      "worst_structure": "正曲げ σ 21 MPa · 支点負曲げ σ 0 MPa · たわみ 4.8 mm (1/4,751)"
+    },
+    {
+      "id": "8335004170",
+      "name": "上蒲生高架橋(上り)",
+      "length_m": 191.85,
+      "width_m": 9.25,
+      "structure_count": 8,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 135.67894361855653,
+      "min_deflection_ratio": 9286.978250915325,
+      "worst_structure": "正曲げ σ 136 MPa · 支点負曲げ σ 0 MPa · たわみ 4.0 mm (1/9,287)"
+    },
+    {
+      "id": "8335004171",
+      "name": "磯岡跨道橋(上り)",
+      "length_m": 79.6,
+      "width_m": 9.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 89.72766206978946,
+      "min_deflection_ratio": 60985.060017059724,
+      "worst_structure": "正曲げ σ 54 MPa · 支点負曲げ σ 90 MPa · たわみ 0.5 mm (1/60,985)"
+    },
+    {
+      "id": "8335004172",
+      "name": "磯岡跨道橋(下り)",
+      "length_m": 79.6,
+      "width_m": 9.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 89.72766206978946,
+      "min_deflection_ratio": 60985.060017059724,
+      "worst_structure": "正曲げ σ 54 MPa · 支点負曲げ σ 90 MPa · たわみ 0.5 mm (1/60,985)"
+    },
+    {
+      "id": "8335004173",
+      "name": "砂田高架橋（上り）",
+      "length_m": 1042.6,
+      "width_m": 9.45,
+      "structure_count": 7,
+      "statuses": [
+        "analyzed_girder_bending",
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 106.46551656404188,
+      "min_deflection_ratio": 2431.9010738690663,
+      "worst_structure": "正曲げ σ 74 MPa · 支点負曲げ σ 106 MPa · たわみ 22.8 mm (1/2,432)"
+    },
+    {
+      "id": "8335004174",
+      "name": "砂田高架橋（下り）",
+      "length_m": 1042.6,
+      "width_m": 9.45,
+      "structure_count": 7,
+      "statuses": [
+        "analyzed_girder_bending",
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 106.46551656404188,
+      "min_deflection_ratio": 2431.9010738690663,
+      "worst_structure": "正曲げ σ 74 MPa · 支点負曲げ σ 106 MPa · たわみ 22.8 mm (1/2,432)"
+    },
+    {
+      "id": "8335004175",
+      "name": "五霞跨道橋",
+      "length_m": 118.0,
+      "width_m": 12.75,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 115.15468773215885,
+      "min_deflection_ratio": 19297.18616583246,
+      "worst_structure": "正曲げ σ 65 MPa · 支点負曲げ σ 115 MPa · たわみ 2.4 mm (1/19,297)"
+    },
+    {
+      "id": "8335004178",
+      "name": "下栗跨道橋",
+      "length_m": 103.0,
+      "width_m": 19.5,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 118.94821837378174,
+      "min_deflection_ratio": 33176.28953680566,
+      "worst_structure": "正曲げ σ 66 MPa · 支点負曲げ σ 119 MPa · たわみ 1.2 mm (1/33,176)"
+    },
+    {
+      "id": "8335004179",
+      "name": "坪山高架橋(下り)",
+      "length_m": 275.0,
+      "width_m": 9.45,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 153.55304421998352,
+      "min_deflection_ratio": 2051.697458266276,
+      "worst_structure": "正曲げ σ 104 MPa · 支点負曲げ σ 154 MPa · たわみ 29.0 mm (1/2,052)"
+    },
+    {
+      "id": "8335004180",
+      "name": "薬師寺第一跨道橋(下り)",
+      "length_m": 80.0,
+      "width_m": 9.45,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 6.258810512185358,
+      "min_deflection_ratio": 11883.400667985146,
+      "worst_structure": "床版並曲げ σ 4 MPa · 支点側 σ 6 MPa · たわみ 2.1 mm (1/11,883)"
+    },
+    {
+      "id": "8335004182",
+      "name": "鉢形第2跨道橋(下り)",
+      "length_m": 139.5,
+      "width_m": 9.45,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 159.76829041199204,
+      "min_deflection_ratio": 9469.2425331962,
+      "worst_structure": "正曲げ σ 126 MPa · 支点負曲げ σ 160 MPa · たわみ 4.8 mm (1/9,469)"
+    },
+    {
+      "id": "8335004183",
+      "name": "久部高架橋(上り)",
+      "length_m": 376.0,
+      "width_m": 9.45,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending",
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 57.52334556859544,
+      "min_deflection_ratio": 20858.144497517467,
+      "worst_structure": "正曲げ σ 32 MPa · 支点負曲げ σ 58 MPa · たわみ 1.4 mm (1/20,858)"
+    },
+    {
+      "id": "8335004184",
+      "name": "久部高架橋(下り)",
+      "length_m": 376.0,
+      "width_m": 9.45,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending",
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 57.52334556859544,
+      "min_deflection_ratio": 20858.144497517467,
+      "worst_structure": "正曲げ σ 32 MPa · 支点負曲げ σ 58 MPa · たわみ 1.4 mm (1/20,858)"
+    },
+    {
+      "id": "8335004186",
+      "name": "柳橋跨道橋(上り)",
+      "length_m": 114.0,
+      "width_m": 12.95,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 126.84386362164302,
+      "min_deflection_ratio": 24535.87102934334,
+      "worst_structure": "正曲げ σ 71 MPa · 支点負曲げ σ 127 MPa · たわみ 1.4 mm (1/24,536)"
+    },
+    {
+      "id": "8335004189",
+      "name": "小田林跨道橋（上り）",
+      "length_m": 73.5,
+      "width_m": 10.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 5.633156496316498,
+      "min_deflection_ratio": 11396.664562126069,
+      "worst_structure": "床版並曲げ σ 3 MPa · 支点側 σ 6 MPa · たわみ 2.6 mm (1/11,397)"
+    },
+    {
+      "id": "8335004201",
+      "name": "三和跨道橋(上り)",
+      "length_m": 81.0,
+      "width_m": 13.75,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 137.65801449825605,
+      "min_deflection_ratio": 64587.40614109894,
+      "worst_structure": "正曲げ σ 74 MPa · 支点負曲げ σ 138 MPa · たわみ 0.5 mm (1/64,587)"
+    },
+    {
+      "id": "8335004203",
+      "name": "結城跨道橋(下り)",
+      "length_m": 97.5,
+      "width_m": 10.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 114.51044490635633,
+      "min_deflection_ratio": 28027.760595217234,
+      "worst_structure": "正曲げ σ 70 MPa · 支点負曲げ σ 115 MPa · たわみ 1.4 mm (1/28,028)"
+    },
+    {
+      "id": "8335004204",
+      "name": "小田林跨道橋(下り)",
+      "length_m": 73.5,
+      "width_m": 10.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 5.580458796107275,
+      "min_deflection_ratio": 11087.775373344102,
+      "worst_structure": "床版並曲げ σ 3 MPa · 支点側 σ 6 MPa · たわみ 2.7 mm (1/11,088)"
+    },
+    {
+      "id": "8335004207",
+      "name": "鉢形第2跨道橋(上り)",
+      "length_m": 147.0,
+      "width_m": 9.45,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 187.6213216204946,
+      "min_deflection_ratio": 11172.789655611867,
+      "worst_structure": "正曲げ σ 115 MPa · 支点負曲げ σ 188 MPa · たわみ 4.1 mm (1/11,173)"
+    },
+    {
+      "id": "8335004208",
+      "name": "坪山高架橋(上り)",
+      "length_m": 275.0,
+      "width_m": 9.45,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 112.83878797569747,
+      "min_deflection_ratio": 2015.4379580800012,
+      "worst_structure": "正曲げ σ 76 MPa · 支点負曲げ σ 113 MPa · たわみ 29.4 mm (1/2,015)"
+    },
+    {
+      "id": "8335004209",
+      "name": "柳橋跨道橋(下り)",
+      "length_m": 114.0,
+      "width_m": 12.75,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 125.15106297411417,
+      "min_deflection_ratio": 24867.744665724254,
+      "worst_structure": "正曲げ σ 70 MPa · 支点負曲げ σ 125 MPa · たわみ 1.4 mm (1/24,868)"
+    },
+    {
+      "id": "8335004210",
+      "name": "薬師寺第一跨道橋(上り)",
+      "length_m": 80.2,
+      "width_m": 9.45,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 6.258810512185358,
+      "min_deflection_ratio": 11883.400667985146,
+      "worst_structure": "床版並曲げ σ 4 MPa · 支点側 σ 6 MPa · たわみ 2.1 mm (1/11,883)"
+    },
+    {
+      "id": "8335004212",
+      "name": "瑞穂野跨道橋(下り)",
+      "length_m": 60.0,
+      "width_m": 9.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 135.70657692139739,
+      "min_deflection_ratio": 1070.4525502183083,
+      "worst_structure": "正曲げ σ 136 MPa · 支点負曲げ σ 0 MPa · たわみ 54.7 mm (1/1,070)"
+    },
+    {
+      "id": "8335004213",
+      "name": "瑞穂野跨道橋(上り)",
+      "length_m": 60.0,
+      "width_m": 9.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 143.9931238678255,
+      "min_deflection_ratio": 1008.8499189742633,
+      "worst_structure": "正曲げ σ 144 MPa · 支点負曲げ σ 0 MPa · たわみ 58.1 mm (1/1,009)"
+    },
+    {
+      "id": "8335004214",
+      "name": "新荒川橋(下り)",
+      "length_m": 137.6,
+      "width_m": 12.0,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 124.93286006614805,
+      "min_deflection_ratio": 15044.76885300491,
+      "worst_structure": "正曲げ σ 90 MPa · 支点負曲げ σ 125 MPa · たわみ 2.3 mm (1/15,045)"
+    },
+    {
+      "id": "8335004215",
+      "name": "問屋町跨道橋",
+      "length_m": 142.0,
+      "width_m": 19.5,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 68.7374210587594,
+      "min_deflection_ratio": 2250.3340300970526,
+      "worst_structure": "正曲げ σ 48 MPa · 支点負曲げ σ 69 MPa · たわみ 27.6 mm (1/2,250)"
+    },
+    {
+      "id": "8335004216",
+      "name": "利根川橋(上り)",
+      "length_m": 658.8,
+      "width_m": 12.75,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 171.993800927389,
+      "min_deflection_ratio": 555.3903339596405,
+      "worst_structure": "正曲げ σ 146 MPa · 支点負曲げ σ 172 MPa · たわみ 138.6 mm (1/555)"
+    },
+    {
+      "id": "8335004217",
+      "name": "新荒川橋(上り）",
+      "length_m": 137.6,
+      "width_m": 12.0,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 124.93286006614805,
+      "min_deflection_ratio": 15044.76885300491,
+      "worst_structure": "正曲げ σ 90 MPa · 支点負曲げ σ 125 MPa · たわみ 2.3 mm (1/15,045)"
+    },
+    {
+      "id": "8335004219",
+      "name": "亀鶴橋",
+      "length_m": 95.56,
+      "width_m": 5.2,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 6.040440978566505,
+      "min_deflection_ratio": 64414.358031409516,
+      "worst_structure": "床版並曲げ σ 3 MPa · 支点側 σ 6 MPa · たわみ 0.3 mm (1/64,414)"
+    },
+    {
+      "id": "8335004224",
+      "name": "栄橋ランプ(下り)",
+      "length_m": 60.5,
+      "width_m": 11.0,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 107.41978748308186,
+      "min_deflection_ratio": 871.4567837495827,
+      "worst_structure": "正曲げ σ 107 MPa · 支点負曲げ σ 0 MPa · たわみ 67.1 mm (1/871)"
+    },
+    {
+      "id": "8335004225",
+      "name": "五霞高架橋(上り)",
+      "length_m": 351.5,
+      "width_m": 10.0,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 186.76322654344696,
+      "min_deflection_ratio": 2873.5849760364354,
+      "worst_structure": "正曲げ σ 137 MPa · 支点負曲げ σ 187 MPa · たわみ 2.3 mm (1/16,655)"
+    },
+    {
+      "id": "8335004226",
+      "name": "総和高架橋(上り)",
+      "length_m": 354.25,
+      "width_m": 10.0,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 163.5580868952293,
+      "min_deflection_ratio": 3261.270755133136,
+      "worst_structure": "正曲げ σ 164 MPa · 支点負曲げ σ 0 MPa · たわみ 17.1 mm (1/3,261)"
+    },
+    {
+      "id": "8335004230",
+      "name": "栄橋(上り)",
+      "length_m": 60.6,
+      "width_m": 13.75,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 118.48729675051185,
+      "min_deflection_ratio": 38131.748707229686,
+      "worst_structure": "正曲げ σ 67 MPa · 支点負曲げ σ 118 MPa · たわみ 0.8 mm (1/38,132)"
+    },
+    {
+      "id": "8335004231",
+      "name": "栄橋(下り)",
+      "length_m": 60.6,
+      "width_m": 13.75,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 118.48729675051185,
+      "min_deflection_ratio": 38131.748707229686,
+      "worst_structure": "正曲げ σ 67 MPa · 支点負曲げ σ 118 MPa · たわみ 0.8 mm (1/38,132)"
+    },
+    {
+      "id": "8335004232",
+      "name": "新利根川橋(上り)",
+      "length_m": 752.2,
+      "width_m": 12.5,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 111.62543825849774,
+      "min_deflection_ratio": 736.9500280217405,
+      "worst_structure": "正曲げ σ 89 MPa · 支点負曲げ σ 112 MPa · たわみ 112.6 mm (1/737)"
+    },
+    {
+      "id": "8335004235",
+      "name": "幸主橋(上り)",
+      "length_m": 50.2,
+      "width_m": 20.65,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 83.96166718332924,
+      "min_deflection_ratio": 893.7374598986261,
+      "worst_structure": "正曲げ σ 84 MPa · 支点負曲げ σ 0 MPa · たわみ 52.7 mm (1/894)"
+    },
+    {
+      "id": "8335004236",
+      "name": "高久跨道橋(上り)",
+      "length_m": 60.1,
+      "width_m": 9.0,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 122.90970773536688,
+      "min_deflection_ratio": 26298.72339757988,
+      "worst_structure": "正曲げ σ 97 MPa · 支点負曲げ σ 123 MPa · たわみ 1.3 mm (1/26,299)"
+    },
+    {
+      "id": "8335004237",
+      "name": "五霞跨道橋(下り)",
+      "length_m": 108.0,
+      "width_m": 12.79,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 1473.49724417809,
+      "min_deflection_ratio": 557.538847829434,
+      "worst_structure": "正曲げ σ 1473 MPa · 支点負曲げ σ 0 MPa · たわみ 80.7 mm (1/558)"
+    },
+    {
+      "id": "8335050001",
+      "name": "足利陸橋(上り)",
+      "length_m": 477.48,
+      "width_m": 8.9,
+      "structure_count": 21,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 130.4897900550583,
+      "min_deflection_ratio": 5180.895679772124,
+      "worst_structure": "正曲げ σ 130 MPa · 支点負曲げ σ 0 MPa · たわみ 1.4 mm (1/23,848)"
+    },
+    {
+      "id": "8335050002",
+      "name": "足利陸橋(下り)",
+      "length_m": 477.48,
+      "width_m": 9.1,
+      "structure_count": 20,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 130.5182205209843,
+      "min_deflection_ratio": 5091.992025973081,
+      "worst_structure": "正曲げ σ 131 MPa · 支点負曲げ σ 0 MPa · たわみ 1.4 mm (1/23,843)"
+    },
+    {
+      "id": "8335050003",
+      "name": "足利陸橋ランプ(上り)",
+      "length_m": 69.6,
+      "width_m": 6.5,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 20.32826702728312,
+      "min_deflection_ratio": 5489.4422460031,
+      "worst_structure": "正曲げ σ 20 MPa · 支点負曲げ σ 0 MPa · たわみ 4.1 mm (1/5,489)"
+    },
+    {
+      "id": "8335050004",
+      "name": "足利陸橋ランプ(下り)",
+      "length_m": 69.6,
+      "width_m": 6.5,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 20.32826702728312,
+      "min_deflection_ratio": 5489.4422460031,
+      "worst_structure": "正曲げ σ 20 MPa · 支点負曲げ σ 0 MPa · たわみ 4.1 mm (1/5,489)"
+    },
+    {
+      "id": "8335050007",
+      "name": "堀込高架橋（上り線）",
+      "length_m": 554.16,
+      "width_m": 9.35,
+      "structure_count": 5,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 126.85520285808693,
+      "min_deflection_ratio": 4378.263994504266,
+      "worst_structure": "正曲げ σ 74 MPa · 支点負曲げ σ 127 MPa · たわみ 2.6 mm (1/16,617)"
+    },
+    {
+      "id": "8335050008",
+      "name": "堀込高架橋（下り線）",
+      "length_m": 554.16,
+      "width_m": 9.35,
+      "structure_count": 5,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 126.85520285808693,
+      "min_deflection_ratio": 4378.263994504266,
+      "worst_structure": "正曲げ σ 74 MPa · 支点負曲げ σ 127 MPa · たわみ 2.6 mm (1/16,617)"
+    },
+    {
+      "id": "8335050009",
+      "name": "八木高架橋(上り)",
+      "length_m": 243.72,
+      "width_m": 9.35,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 41.142040315046756,
+      "min_deflection_ratio": 1231.7657330224586,
+      "worst_structure": "正曲げ σ 41 MPa · 支点負曲げ σ 0 MPa · たわみ 30.0 mm (1/1,232)"
+    },
+    {
+      "id": "8335050010",
+      "name": "八木高架橋(下り)",
+      "length_m": 243.72,
+      "width_m": 9.35,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 36.93900174737266,
+      "min_deflection_ratio": 1371.9200045872278,
+      "worst_structure": "正曲げ σ 37 MPa · 支点負曲げ σ 0 MPa · たわみ 27.0 mm (1/1,372)"
+    },
+    {
+      "id": "8335050011",
+      "name": "福居陸橋(上り)",
+      "length_m": 641.59,
+      "width_m": 9.25,
+      "structure_count": 27,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 21.22412363848329,
+      "min_deflection_ratio": 4129.202128560794,
+      "worst_structure": "正曲げ σ 21 MPa · 支点負曲げ σ 0 MPa · たわみ 5.8 mm (1/4,129)"
+    },
+    {
+      "id": "8335050012",
+      "name": "福居陸橋(下り)",
+      "length_m": 635.9,
+      "width_m": 9.25,
+      "structure_count": 27,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 21.77361649035935,
+      "min_deflection_ratio": 4024.9949540383564,
+      "worst_structure": "正曲げ σ 22 MPa · 支点負曲げ σ 0 MPa · たわみ 6.0 mm (1/4,025)"
+    },
+    {
+      "id": "8335050013",
+      "name": "福居側道橋",
+      "length_m": 98.3,
+      "width_m": 3.2,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending",
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 19.0519421473565,
+      "min_deflection_ratio": 14890.040128439228,
+      "worst_structure": "正曲げ σ 11 MPa · 支点負曲げ σ 19 MPa · たわみ 0.3 mm (1/38,882)"
+    },
+    {
+      "id": "8335050018",
+      "name": "渡良瀬川大橋(上り)",
+      "length_m": 347.05,
+      "width_m": 11.9,
+      "structure_count": 2,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 133.91326711427038,
+      "min_deflection_ratio": 3873.5573172977597,
+      "worst_structure": "正曲げ σ 107 MPa · 支点負曲げ σ 134 MPa · たわみ 14.8 mm (1/3,874)"
+    },
+    {
+      "id": "8335050019",
+      "name": "渡良瀬川大橋(下り)",
+      "length_m": 347.05,
+      "width_m": 11.9,
+      "structure_count": 2,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 133.91326711427038,
+      "min_deflection_ratio": 3873.5573172977597,
+      "worst_structure": "正曲げ σ 107 MPa · 支点負曲げ σ 134 MPa · たわみ 14.8 mm (1/3,874)"
+    },
+    {
+      "id": "8335050024",
+      "name": "高橋跨道橋(上り)",
+      "length_m": 86.3,
+      "width_m": 10.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 121.69891203763494,
+      "min_deflection_ratio": 62635.69154030943,
+      "worst_structure": "正曲げ σ 65 MPa · 支点負曲げ σ 122 MPa · たわみ 0.5 mm (1/62,636)"
+    },
+    {
+      "id": "8335050025",
+      "name": "高橋跨道橋(下り)",
+      "length_m": 86.3,
+      "width_m": 10.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 121.69891203763494,
+      "min_deflection_ratio": 62635.69154030943,
+      "worst_structure": "正曲げ σ 65 MPa · 支点負曲げ σ 122 MPa · たわみ 0.5 mm (1/62,636)"
+    },
+    {
+      "id": "8335050026",
+      "name": "才川橋(上り)",
+      "length_m": 89.5,
+      "width_m": 11.75,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 111.58695676320055,
+      "min_deflection_ratio": 17071.444488120975,
+      "worst_structure": "正曲げ σ 112 MPa · 支点負曲げ σ 0 MPa · たわみ 1.7 mm (1/17,071)"
+    },
+    {
+      "id": "8335050027",
+      "name": "才川橋(下り)",
+      "length_m": 89.5,
+      "width_m": 11.75,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 120.12603172791,
+      "min_deflection_ratio": 15857.932794251616,
+      "worst_structure": "正曲げ σ 120 MPa · 支点負曲げ σ 0 MPa · たわみ 1.8 mm (1/15,858)"
+    },
+    {
+      "id": "8335050028",
+      "name": "田島高架側道橋",
+      "length_m": 131.61,
+      "width_m": 2.6,
+      "structure_count": 9,
+      "statuses": [
+        "analyzed_girder_bending",
+        "analyzed_slab_bending"
+      ],
+      "max_stress_MPa": 72.37965766361394,
+      "min_deflection_ratio": 40152.35971748242,
+      "worst_structure": "正曲げ σ 72 MPa · 支点負曲げ σ 0 MPa · たわみ 0.8 mm (1/40,152)"
+    },
+    {
+      "id": "8335050029",
+      "name": "田島高架橋（下り）",
+      "length_m": 86.5,
+      "width_m": 12.75,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 117.62699620594688,
+      "min_deflection_ratio": 19879.73532426856,
+      "worst_structure": "正曲げ σ 118 MPa · 支点負曲げ σ 0 MPa · たわみ 0.6 mm (1/36,250)"
+    },
+    {
+      "id": "8335050030",
+      "name": "田島高架橋（上り）",
+      "length_m": 86.5,
+      "width_m": 12.75,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 159.34317048516863,
+      "min_deflection_ratio": 21336.90426815745,
+      "worst_structure": "正曲げ σ 159 MPa · 支点負曲げ σ 0 MPa · たわみ 0.2 mm (1/104,839)"
+    },
+    {
+      "id": "8335050031",
+      "name": "秋山川橋(上り)",
+      "length_m": 57.36,
+      "width_m": 11.85,
+      "structure_count": 2,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 24.83357173042747,
+      "min_deflection_ratio": 2414.7702263182014,
+      "worst_structure": "正曲げ σ 25 MPa · 支点負曲げ σ 0 MPa · たわみ 11.6 mm (1/2,415)"
+    },
+    {
+      "id": "8335050032",
+      "name": "秋山川橋(下り)",
+      "length_m": 57.36,
+      "width_m": 11.85,
+      "structure_count": 2,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 25.470978802757283,
+      "min_deflection_ratio": 2354.3409969499103,
+      "worst_structure": "正曲げ σ 25 MPa · 支点負曲げ σ 0 MPa · たわみ 11.9 mm (1/2,354)"
+    },
+    {
+      "id": "8335050035",
+      "name": "三杉川橋(上り)",
+      "length_m": 57.2,
+      "width_m": 12.95,
+      "structure_count": 2,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 148.61600469808624,
+      "min_deflection_ratio": 16933.207303838866,
+      "worst_structure": "正曲げ σ 149 MPa · 支点負曲げ σ 0 MPa · たわみ 1.8 mm (1/16,933)"
+    },
+    {
+      "id": "8335050036",
+      "name": "三杉川橋(下り)",
+      "length_m": 57.2,
+      "width_m": 12.95,
+      "structure_count": 2,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 148.61600469808624,
+      "min_deflection_ratio": 16933.207303838866,
+      "worst_structure": "正曲げ σ 149 MPa · 支点負曲げ σ 0 MPa · たわみ 1.8 mm (1/16,933)"
+    },
+    {
+      "id": "8335050037",
+      "name": "みかもの橋(上り)",
+      "length_m": 100.0,
+      "width_m": 9.35,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 126.69587857705086,
+      "min_deflection_ratio": 31186.645503709296,
+      "worst_structure": "正曲げ σ 75 MPa · 支点負曲げ σ 127 MPa · たわみ 1.3 mm (1/31,187)"
+    },
+    {
+      "id": "8335050038",
+      "name": "みかもの橋(下り)",
+      "length_m": 100.0,
+      "width_m": 9.35,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 124.45073123540874,
+      "min_deflection_ratio": 31749.26665950581,
+      "worst_structure": "正曲げ σ 74 MPa · 支点負曲げ σ 124 MPa · たわみ 1.3 mm (1/31,749)"
+    },
+    {
+      "id": "8335050039",
+      "name": "赤塚高架橋(上り)",
+      "length_m": 275.0,
+      "width_m": 9.45,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 131.9195807364208,
+      "min_deflection_ratio": 3322.82250795224,
+      "worst_structure": "正曲げ σ 75 MPa · 支点負曲げ σ 132 MPa · たわみ 0.7 mm (1/41,705)"
+    },
+    {
+      "id": "8335050040",
+      "name": "赤塚高架橋(下り)",
+      "length_m": 275.0,
+      "width_m": 13.3,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 179.80118479213408,
+      "min_deflection_ratio": 3639.1900023021362,
+      "worst_structure": "正曲げ σ 101 MPa · 支点負曲げ σ 180 MPa · たわみ 1.0 mm (1/30,816)"
+    },
+    {
+      "id": "8335050045",
+      "name": "大平高架橋(上り)",
+      "length_m": 986.765,
+      "width_m": 12.35,
+      "structure_count": 25,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 188.44755178833216,
+      "min_deflection_ratio": 2599.2960492577627,
+      "worst_structure": "正曲げ σ 188 MPa · 支点負曲げ σ 0 MPa · たわみ 2.8 mm (1/11,659)"
+    },
+    {
+      "id": "8335050046",
+      "name": "大平高架ランプ(上り)",
+      "length_m": 83.13,
+      "width_m": 9.6,
+      "structure_count": 4,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 147.85659668341006,
+      "min_deflection_ratio": 3690.1910076233403,
+      "worst_structure": "正曲げ σ 148 MPa · 支点負曲げ σ 0 MPa · たわみ 2.2 mm (1/14,860)"
+    },
+    {
+      "id": "8335050047",
+      "name": "大平高架ランプ(下り)",
+      "length_m": 83.13,
+      "width_m": 9.6,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 142.46126697208896,
+      "min_deflection_ratio": 3690.1910076233403,
+      "worst_structure": "正曲げ σ 142 MPa · 支点負曲げ σ 0 MPa · たわみ 2.1 mm (1/15,423)"
+    },
+    {
+      "id": "8335050050",
+      "name": "新巴波川橋(上り)",
+      "length_m": 57.3,
+      "width_m": 17.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 92.05778644877073,
+      "min_deflection_ratio": 57889.61446973375,
+      "worst_structure": "正曲げ σ 52 MPa · 支点負曲げ σ 92 MPa · たわみ 0.5 mm (1/57,890)"
+    },
+    {
+      "id": "8335050051",
+      "name": "新巴波川橋(下り)",
+      "length_m": 57.3,
+      "width_m": 17.25,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 92.05778644877073,
+      "min_deflection_ratio": 57889.61446973375,
+      "worst_structure": "正曲げ σ 52 MPa · 支点負曲げ σ 92 MPa · たわみ 0.5 mm (1/57,890)"
+    },
+    {
+      "id": "8335050052",
+      "name": "下河原田跨道橋(下り)",
+      "length_m": 57.0,
+      "width_m": 10.2,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 122.35609012424868,
+      "min_deflection_ratio": 132946.24289745544,
+      "worst_structure": "正曲げ σ 87 MPa · 支点負曲げ σ 122 MPa · たわみ 0.2 mm (1/132,946)"
+    },
+    {
+      "id": "8335050053",
+      "name": "下河原田跨道橋(上り)",
+      "length_m": 57.0,
+      "width_m": 10.1,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 121.26519737931017,
+      "min_deflection_ratio": 134142.21746376093,
+      "worst_structure": "正曲げ σ 86 MPa · 支点負曲げ σ 121 MPa · たわみ 0.2 mm (1/134,142)"
+    },
+    {
+      "id": "8335050056",
+      "name": "小山大橋(下り)",
+      "length_m": 541.0,
+      "width_m": 11.25,
+      "structure_count": 7,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 156.14113260366605,
+      "min_deflection_ratio": 4008.1328157221647,
+      "worst_structure": "正曲げ σ 92 MPa · 支点負曲げ σ 156 MPa · たわみ 6.5 mm (1/7,639)"
+    },
+    {
+      "id": "8335050057",
+      "name": "小山大橋(上り)",
+      "length_m": 541.78,
+      "width_m": 11.0,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 87.71128953436312,
+      "min_deflection_ratio": 3074.872335696583,
+      "worst_structure": "正曲げ σ 63 MPa · 支点負曲げ σ 88 MPa · たわみ 14.7 mm (1/3,231)"
+    },
+    {
+      "id": "8335050058",
+      "name": "小山高架橋(上り)",
+      "length_m": 854.05,
+      "width_m": 9.59,
+      "structure_count": 11,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 209.9907713088953,
+      "min_deflection_ratio": 5107.154673928712,
+      "worst_structure": "正曲げ σ 118 MPa · 支点負曲げ σ 210 MPa · たわみ 1.2 mm (1/28,638)"
+    },
+    {
+      "id": "8335050059",
+      "name": "小山高架橋(下り)",
+      "length_m": 854.05,
+      "width_m": 9.25,
+      "structure_count": 11,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 199.70261545573402,
+      "min_deflection_ratio": 5361.448007899284,
+      "worst_structure": "正曲げ σ 112 MPa · 支点負曲げ σ 200 MPa · たわみ 1.1 mm (1/30,113)"
+    },
+    {
+      "id": "8335050060",
+      "name": "小山高架ランプ(上り)",
+      "length_m": 184.2,
+      "width_m": 6.6,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 86.3373131957161,
+      "min_deflection_ratio": 58341.17296185316,
+      "worst_structure": "正曲げ σ 69 MPa · 支点負曲げ σ 86 MPa · たわみ 0.4 mm (1/58,341)"
+    },
+    {
+      "id": "8335050061",
+      "name": "小山高架ランプ(下り)",
+      "length_m": 183.9,
+      "width_m": 6.6,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 93.5352404530434,
+      "min_deflection_ratio": 78346.85427936647,
+      "worst_structure": "正曲げ σ 53 MPa · 支点負曲げ σ 94 MPa · たわみ 0.2 mm (1/102,157)"
+    },
+    {
+      "id": "8335050062",
+      "name": "小山側道橋(上り)",
+      "length_m": 94.2,
+      "width_m": 2.6,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 62.66101889989807,
+      "min_deflection_ratio": 196271.3922317842,
+      "worst_structure": "正曲げ σ 33 MPa · 支点負曲げ σ 63 MPa · たわみ 0.1 mm (1/196,271)"
+    },
+    {
+      "id": "8335050063",
+      "name": "小山側道橋(下り)",
+      "length_m": 94.4,
+      "width_m": 2.6,
+      "structure_count": 3,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 88.15196407591728,
+      "min_deflection_ratio": 198016.22406132452,
+      "worst_structure": "正曲げ σ 79 MPa · 支点負曲げ σ 88 MPa · たわみ 0.0 mm (1/453,667)"
+    },
+    {
+      "id": "8335050066",
+      "name": "新永野川橋(上り)",
+      "length_m": 76.6,
+      "width_m": 13.0,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 135.14526077021,
+      "min_deflection_ratio": 19099.898613100755,
+      "worst_structure": "正曲げ σ 76 MPa · 支点負曲げ σ 135 MPa · たわみ 2.0 mm (1/19,100)"
+    },
+    {
+      "id": "8335050067",
+      "name": "新永野川橋(下り)",
+      "length_m": 76.6,
+      "width_m": 13.0,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 135.14526077021,
+      "min_deflection_ratio": 19099.898613100755,
+      "worst_structure": "正曲げ σ 76 MPa · 支点負曲げ σ 135 MPa · たわみ 2.0 mm (1/19,100)"
+    },
+    {
+      "id": "8335050071",
+      "name": "大平高架橋(下り)",
+      "length_m": 986.77,
+      "width_m": 12.35,
+      "structure_count": 10,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 174.03250192785293,
+      "min_deflection_ratio": 4285.912870894663,
+      "worst_structure": "正曲げ σ 114 MPa · 支点負曲げ σ 174 MPa · たわみ 2.2 mm (1/20,230)"
+    },
+    {
+      "id": "8335050072",
+      "name": "三杉川橋側道橋(上り)",
+      "length_m": 57.6,
+      "width_m": 3.3,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 134.61485106961604,
+      "min_deflection_ratio": 2538.306598397416,
+      "worst_structure": "正曲げ σ 135 MPa · 支点負曲げ σ 0 MPa · たわみ 22.3 mm (1/2,538)"
+    },
+    {
+      "id": "8335050073",
+      "name": "三杉川橋側道橋(下り)",
+      "length_m": 57.6,
+      "width_m": 3.3,
+      "structure_count": 1,
+      "statuses": [
+        "analyzed_girder_bending"
+      ],
+      "max_stress_MPa": 134.61485106961604,
+      "min_deflection_ratio": 2538.306598397416,
+      "worst_structure": "正曲げ σ 135 MPa · 支点負曲げ σ 0 MPa · たわみ 22.3 mm (1/2,538)"
+    }
+  ],
+  "method": "CAD包絡断面による連続梁/中空床版帯/2面トラスの簡妥スクリーニング。仮定は各structural.jsonのassumptionsを参照",
+  "scope": "Screening indicators, not design verification"
+}

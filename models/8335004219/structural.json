@@ -1,0 +1,142 @@
+{
+  "schema": "karte.structural_screening/1",
+  "bridge_id": "8335004219",
+  "name": "亀鶴橋",
+  "classification": "諸元ベースの概略三次元CAD",
+  "analysis_scope": " screening indicators with stated assumptions; not design verification",
+  "assumptions": [
+    "簡易スクリーニング用の指標値であり、設計照査・耐荷力検証ではない（TL-20などの設計活荷重とは別基準の簡易活荷重 5 kPa を使用）",
+    "断面はCADモデルと同一の包絡断面（girder_profile・箱桁外形・中空床版の縦方向の孔）から計算。合成効果・PC鋼材緊張力・局部断面・座屈・疲労は評価しない",
+    "主桁の鉛直支持・水平拘束は橋軸直角方向断面内の割付をせず、床版・舗装・活荷重を主桁本数で均等分担とする（縁石・歩道・高欄・対傾構の重量は未考慮）",
+    "梁は連続梁の曲げ(EI一定)で解析し、E: 鋼200GPa、コンクリート25GPa、密度: 鋼7850・コンクリート2400・舗装2300 kg/m3 と仮定",
+    "トラスはCADモデルと同じパネル割(約6m)の2面トラスを独立に扱い、各面が床版線荷重の半分を負担。節点はピン接合、横構・節点モーメントを除外",
+    "斜角45度未満・縦断勾配・平面曲線の幾何効果は理想化に反映しない（CADの形状とは異なる直線断面）"
+  ],
+  "structures": [
+    {
+      "tag": "S01",
+      "form": "2径間連続PCポステン中空床版橋",
+      "spans_m": [
+        16.15,
+        16.15
+      ],
+      "status": "analyzed_slab_bending",
+      "section": {
+        "strip_area_m2_per_m": 0.4625,
+        "strip_I_m4_per_m": 0.02123502604166667,
+        "thickness_m": 0.65,
+        "hollow_void_present": true
+      },
+      "loads": {
+        "strip_dead_N_per_m": 12013.14625,
+        "strip_live_N_per_m": 5000.0
+      },
+      "results": {
+        "max_sagging_kNm_per_m": 312.00548468840327,
+        "sagging_stress_MPa": 3.397748050443659,
+        "max_hogging_kNm_per_m": -554.676417223828,
+        "hogging_stress_MPa": 6.040440978566505,
+        "max_deflection_mm": 0.2507204991800895,
+        "deflection_ratio": 64414.358031409516,
+        "reactions_kN_per_m": [
+          103.0,
+          343.5,
+          103.0
+        ]
+      },
+      "main_span_m": 16.15,
+      "masses_kg": {
+        "slab_concrete": 186435.6,
+        "pavement": 19315.399999999998
+      }
+    },
+    {
+      "tag": "S02",
+      "form": "2径間連続PCポステン中空床版橋",
+      "spans_m": [
+        14.43,
+        14.43
+      ],
+      "status": "analyzed_slab_bending",
+      "section": {
+        "strip_area_m2_per_m": 0.4625,
+        "strip_I_m4_per_m": 0.02123502604166667,
+        "thickness_m": 0.65,
+        "hollow_void_present": true
+      },
+      "loads": {
+        "strip_dead_N_per_m": 12013.14625,
+        "strip_live_N_per_m": 5000.0
+      },
+      "results": {
+        "max_sagging_kNm_per_m": 249.08629757284874,
+        "sagging_stress_MPa": 2.712556424498754,
+        "max_hogging_kNm_per_m": -442.8200845739532,
+        "hogging_stress_MPa": 4.822322532442228,
+        "max_deflection_mm": 0.15979569004890942,
+        "deflection_ratio": 90302.81101814038,
+        "reactions_kN_per_m": [
+          92.1,
+          306.9,
+          92.1
+        ]
+      },
+      "main_span_m": 14.43,
+      "masses_kg": {
+        "slab_concrete": 166579.92,
+        "pavement": 17258.280000000002
+      }
+    },
+    {
+      "tag": "S03",
+      "form": "2径間連続PCポステン中空床版橋",
+      "spans_m": [
+        16.15,
+        16.15
+      ],
+      "status": "analyzed_slab_bending",
+      "section": {
+        "strip_area_m2_per_m": 0.4625,
+        "strip_I_m4_per_m": 0.02123502604166667,
+        "thickness_m": 0.65,
+        "hollow_void_present": true
+      },
+      "loads": {
+        "strip_dead_N_per_m": 12013.14625,
+        "strip_live_N_per_m": 5000.0
+      },
+      "results": {
+        "max_sagging_kNm_per_m": 312.00548468840327,
+        "sagging_stress_MPa": 3.397748050443659,
+        "max_hogging_kNm_per_m": -554.676417223828,
+        "hogging_stress_MPa": 6.040440978566505,
+        "max_deflection_mm": 0.2507204991800895,
+        "deflection_ratio": 64414.358031409516,
+        "reactions_kN_per_m": [
+          103.0,
+          343.5,
+          103.0
+        ]
+      },
+      "main_span_m": 16.15,
+      "masses_kg": {
+        "slab_concrete": 186435.6,
+        "pavement": 19315.399999999998
+      }
+    }
+  ],
+  "summary": {
+    "structure_count": 3,
+    "statuses": [
+      "analyzed_slab_bending"
+    ],
+    "max_stress_MPa": 6.040440978566505,
+    "worst_structure": "床版並曲げ σ 3 MPa · 支点側 σ 6 MPa · たわみ 0.3 mm (1/64,414)",
+    "min_deflection_ratio": 64414.358031409516
+  },
+  "masses_kg": {
+    "steel_girders_truss": 0.0,
+    "deck_concrete": 539451.12,
+    "pavement": 55889.08
+  }
+}

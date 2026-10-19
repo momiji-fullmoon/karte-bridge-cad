@@ -1,0 +1,395 @@
+{
+  "schema": "karte.structural_screening/1",
+  "bridge_id": "8335004174",
+  "name": "砂田高架橋（下り）",
+  "classification": "諸元ベースの概略三次元CAD",
+  "analysis_scope": " screening indicators with stated assumptions; not design verification",
+  "assumptions": [
+    "簡易スクリーニング用の指標値であり、設計照査・耐荷力検証ではない（TL-20などの設計活荷重とは別基準の簡易活荷重 5 kPa を使用）",
+    "断面はCADモデルと同一の包絡断面（girder_profile・箱桁外形・中空床版の縦方向の孔）から計算。合成効果・PC鋼材緊張力・局部断面・座屈・疲労は評価しない",
+    "主桁の鉛直支持・水平拘束は橋軸直角方向断面内の割付をせず、床版・舗装・活荷重を主桁本数で均等分担とする（縁石・歩道・高欄・対傾構の重量は未考慮）",
+    "梁は連続梁の曲げ(EI一定)で解析し、E: 鋼200GPa、コンクリート25GPa、密度: 鋼7850・コンクリート2400・舗装2300 kg/m3 と仮定",
+    "トラスはCADモデルと同じパネル割(約6m)の2面トラスを独立に扱い、各面が床版線荷重の半分を負担。節点はピン接合、横構・節点モーメントを除外",
+    "斜角45度未満・縦断勾配・平面曲線の幾何効果は理想化に反映しない（CADの形状とは異なる直線断面）"
+  ],
+  "structures": [
+    {
+      "tag": "S01",
+      "form": "4径間連続PCポステン中空床版橋",
+      "spans_m": [
+        25.0,
+        26.0,
+        26.0,
+        25.0
+      ],
+      "status": "analyzed_slab_bending",
+      "section": {
+        "strip_area_m2_per_m": 0.8862433862433863,
+        "strip_I_m4_per_m": 0.15091938106261021,
+        "thickness_m": 1.25,
+        "hollow_void_present": true
+      },
+      "loads": {
+        "strip_dead_N_per_m": 21986.35363888889,
+        "strip_live_N_per_m": 5000.0
+      },
+      "results": {
+        "max_sagging_kNm_per_m": 1283.731746078246,
+        "sagging_stress_MPa": 3.7692268602683163,
+        "max_hogging_kNm_per_m": -1850.6119420960517,
+        "hogging_stress_MPa": 5.4336712178313515,
+        "max_deflection_mm": 2.657508582728377,
+        "deflection_ratio": 9407.307341349513,
+        "reactions_kN_per_m": [
+          263.3,
+          781.2,
+          663.5,
+          781.2,
+          263.3
+        ]
+      },
+      "main_span_m": 26.0,
+      "masses_kg": {
+        "slab_concrete": 2050200.0,
+        "pavement": 110848.5
+      }
+    },
+    {
+      "tag": "S02",
+      "form": "3径間連続鋼非合成箱桁橋",
+      "spans_m": [
+        55.5,
+        58.0,
+        45.5
+      ],
+      "girder_count": 2,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "steel_box_girder_envelope",
+        "rectangles_m": [
+          [
+            3.9501,
+            0.0,
+            0.025
+          ],
+          [
+            3.9501,
+            2.175,
+            2.2
+          ],
+          [
+            0.02,
+            0.025,
+            2.175
+          ],
+          [
+            0.02,
+            0.025,
+            2.175
+          ]
+        ],
+        "area_m2": 0.2835049999999997,
+        "I_m4": 0.2667187260416663,
+        "z_centroid_m": 1.0999999999999985,
+        "c_top_m": 1.1000000000000016,
+        "c_bottom_m": 1.0999999999999985,
+        "height_m": 2.2
+      },
+      "loads": {
+        "tributary_width_m": 4.725,
+        "deck_dead_N_per_m": 30906.392973749997,
+        "live_N_per_m": 23625.0,
+        "self_weight_N_per_m": 21824.839319762472,
+        "total_line_N_per_m": 76356.23229351247
+      },
+      "results": {
+        "max_sagging_kNm": 17897.609798894966,
+        "max_sagging_x_m": 22.2,
+        "sagging_stress_MPa": 73.81323040553579,
+        "max_hogging_kNm": -25814.86085939012,
+        "max_hogging_x_m": 55.5,
+        "hogging_stress_MPa": 106.46551656404188,
+        "max_deflection_mm": 22.821651997423366,
+        "deflection_ratio": 2431.9010738690663,
+        "reactions_kN_per_girder": [
+          1653.8,
+          4908.2,
+          4269.0,
+          1309.7
+        ]
+      },
+      "main_span_m": 58.0,
+      "masses_kg": {
+        "girder_total": 708781.7783399993,
+        "deck_concrete": 829407.6,
+        "pavement": 172793.25
+      }
+    },
+    {
+      "tag": "S03",
+      "form": "7径間連続PCポステン中空床版橋",
+      "spans_m": [
+        25.0,
+        26.0,
+        26.0,
+        26.0,
+        26.0,
+        26.0,
+        24.99
+      ],
+      "status": "analyzed_slab_bending",
+      "section": {
+        "strip_area_m2_per_m": 0.8862433862433863,
+        "strip_I_m4_per_m": 0.15091938106261021,
+        "thickness_m": 1.25,
+        "hollow_void_present": true
+      },
+      "loads": {
+        "strip_dead_N_per_m": 21986.35363888889,
+        "strip_live_N_per_m": 5000.0
+      },
+      "results": {
+        "max_sagging_kNm_per_m": 1292.2831403139628,
+        "sagging_stress_MPa": 3.794335022424837,
+        "max_hogging_kNm_per_m": -1829.2334565067604,
+        "hogging_stress_MPa": 5.37090081244005,
+        "max_deflection_mm": 2.6893372056070706,
+        "deflection_ratio": 9295.970749921891,
+        "reactions_kN_per_m": [
+          264.2,
+          776.3,
+          682.9,
+          705.4,
+          705.4,
+          682.9,
+          776.1,
+          264.0
+        ]
+      },
+      "main_span_m": 26.0,
+      "masses_kg": {
+        "slab_concrete": 3617799.0,
+        "pavement": 195604.1325
+      }
+    },
+    {
+      "tag": "S04",
+      "form": "7径間連続PCポステン中空床版橋",
+      "spans_m": [
+        25.99,
+        26.0,
+        26.0,
+        26.0,
+        26.0,
+        26.0,
+        25.99
+      ],
+      "status": "analyzed_slab_bending",
+      "section": {
+        "strip_area_m2_per_m": 0.8862433862433863,
+        "strip_I_m4_per_m": 0.15091938106261021,
+        "thickness_m": 1.25,
+        "hollow_void_present": true
+      },
+      "loads": {
+        "strip_dead_N_per_m": 21986.35363888889,
+        "strip_live_N_per_m": 5000.0
+      },
+      "results": {
+        "max_sagging_kNm_per_m": 1417.0323864356208,
+        "sagging_stress_MPa": 4.1606173167721145,
+        "max_hogging_kNm_per_m": -1926.0424903005585,
+        "hogging_stress_MPa": 5.655146498197179,
+        "max_deflection_mm": 3.2236217234447047,
+        "deflection_ratio": 8062.36036039227,
+        "reactions_kN_per_m": [
+          276.6,
+          795.3,
+          677.0,
+          706.6,
+          706.6,
+          677.0,
+          795.3,
+          276.6
+        ]
+      },
+      "main_span_m": 26.0,
+      "masses_kg": {
+        "slab_concrete": 3657798.0,
+        "pavement": 197766.76499999998
+      }
+    },
+    {
+      "tag": "S05",
+      "form": "7径間連続PCポステン中空床版橋",
+      "spans_m": [
+        25.99,
+        26.0,
+        26.0,
+        26.0,
+        26.0,
+        26.0,
+        26.0
+      ],
+      "status": "analyzed_slab_bending",
+      "section": {
+        "strip_area_m2_per_m": 0.8862433862433863,
+        "strip_I_m4_per_m": 0.15091938106261021,
+        "thickness_m": 1.25,
+        "hollow_void_present": true
+      },
+      "loads": {
+        "strip_dead_N_per_m": 21986.35363888889,
+        "strip_live_N_per_m": 5000.0
+      },
+      "results": {
+        "max_sagging_kNm_per_m": 1418.311006546209,
+        "sagging_stress_MPa": 4.164371535112226,
+        "max_hogging_kNm_per_m": -1927.0550016011434,
+        "hogging_stress_MPa": 5.658119381591352,
+        "max_deflection_mm": 3.2293459215093185,
+        "deflection_ratio": 8051.165973525754,
+        "reactions_kN_per_m": [
+          276.6,
+          795.3,
+          677.0,
+          706.6,
+          706.6,
+          676.9,
+          795.5,
+          276.7
+        ]
+      },
+      "main_span_m": 26.0,
+      "masses_kg": {
+        "slab_concrete": 3657999.0,
+        "pavement": 197777.6325
+      }
+    },
+    {
+      "tag": "S06",
+      "form": "3径間連続鋼非合成箱桁橋",
+      "spans_m": [
+        47.385,
+        58.0,
+        47.425
+      ],
+      "girder_count": 2,
+      "status": "analyzed_girder_bending",
+      "section": {
+        "type": "steel_box_girder_envelope",
+        "rectangles_m": [
+          [
+            3.9501,
+            0.0,
+            0.025
+          ],
+          [
+            3.9501,
+            2.175,
+            2.2
+          ],
+          [
+            0.02,
+            0.025,
+            2.175
+          ],
+          [
+            0.02,
+            0.025,
+            2.175
+          ]
+        ],
+        "area_m2": 0.2835049999999997,
+        "I_m4": 0.2667187260416663,
+        "z_centroid_m": 1.0999999999999985,
+        "c_top_m": 1.1000000000000016,
+        "c_bottom_m": 1.0999999999999985,
+        "height_m": 2.2
+      },
+      "loads": {
+        "tributary_width_m": 4.725,
+        "deck_dead_N_per_m": 30906.392973749997,
+        "live_N_per_m": 23625.0,
+        "self_weight_N_per_m": 21824.839319762472,
+        "total_line_N_per_m": 76356.23229351247
+      },
+      "results": {
+        "max_sagging_kNm": 12088.282520529307,
+        "max_sagging_x_m": 135.025625,
+        "sagging_stress_MPa": 49.85443268240944,
+        "max_hogging_kNm": -21431.811339302923,
+        "max_hogging_x_m": 105.38499999999999,
+        "hogging_stress_MPa": 88.38896624585111,
+        "max_deflection_mm": 10.482109004384151,
+        "deflection_ratio": 4524.375770197052,
+        "reactions_kN_per_girder": [
+          1357.3,
+          4474.8,
+          4477.2,
+          1358.7
+        ]
+      },
+      "main_span_m": 58.0,
+      "masses_kg": {
+        "girder_total": 681229.9119249993,
+        "deck_concrete": 797118.084,
+        "pavement": 166066.26750000002
+      }
+    },
+    {
+      "tag": "S07",
+      "form": "3径間連続PCポステン中空床版橋",
+      "spans_m": [
+        26.0,
+        26.0,
+        26.0
+      ],
+      "status": "analyzed_slab_bending",
+      "section": {
+        "strip_area_m2_per_m": 0.8862433862433863,
+        "strip_I_m4_per_m": 0.15091938106261021,
+        "thickness_m": 1.25,
+        "hollow_void_present": true
+      },
+      "loads": {
+        "strip_dead_N_per_m": 21986.35363888889,
+        "strip_live_N_per_m": 5000.0
+      },
+      "results": {
+        "max_sagging_kNm_per_m": 1459.4220047911122,
+        "sagging_stress_MPa": 4.285079525165847,
+        "max_hogging_kNm_per_m": -1824.2775059888893,
+        "hogging_stress_MPa": 5.356349406457308,
+        "max_deflection_mm": 3.3955710484878865,
+        "deflection_ratio": 7657.033126012281,
+        "reactions_kN_per_m": [
+          280.7,
+          771.8,
+          771.8,
+          280.7
+        ]
+      },
+      "main_span_m": 26.0,
+      "masses_kg": {
+        "slab_concrete": 1567800.0,
+        "pavement": 84766.5
+      }
+    }
+  ],
+  "summary": {
+    "structure_count": 7,
+    "statuses": [
+      "analyzed_girder_bending",
+      "analyzed_slab_bending"
+    ],
+    "max_stress_MPa": 106.46551656404188,
+    "worst_structure": "正曲げ σ 74 MPa · 支点負曲げ σ 106 MPa · たわみ 22.8 mm (1/2,432)",
+    "min_deflection_ratio": 2431.9010738690663
+  },
+  "masses_kg": {
+    "steel_girders_truss": 1390011.6902649985,
+    "deck_concrete": 16178121.684,
+    "pavement": 1125623.0475
+  }
+}
