@@ -27,7 +27,7 @@
     {
       "name": "A1",
       "material": "RC",
-      "height": 6600.0,
+      "height": 6.6,
       "form": "逆T式橋台",
       "foundation_form": "場所打ぐい",
       "evidence": {
@@ -38,7 +38,7 @@
     {
       "name": "A2",
       "material": "RC",
-      "height": 6300.0,
+      "height": 6.3,
       "form": "逆T式橋台",
       "foundation_form": "場所打ぐい",
       "evidence": {
@@ -68,7 +68,10 @@
       "raw": "20.65          19.75            0.50            0.00              0.00              3.50          0.00          0          0.00              0.00                    3          11.25             2.50             2.50           0.00          0.40"
     }
   },
-  "issues": [],
+  "issues": [
+    "下部構造高が100m超の記載値6600.0（A1）。小数点省略のmm表記と解釈して/1000",
+    "下部構造高が100m超の記載値6300.0（A2）。小数点省略のmm表記と解釈して/1000"
+  ],
   "length": 50.2,
   "span_count": 1,
   "plan_radius": null,

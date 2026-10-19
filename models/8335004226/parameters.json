@@ -84,7 +84,7 @@
     {
       "name": "A1",
       "material": "RC",
-      "height": 0.0,
+      "height": null,
       "form": "その他(橋台)",
       "foundation_form": "0.8",
       "evidence": {
@@ -225,7 +225,8 @@
     }
   },
   "issues": [
-    "支間式の確認が必要: 構造体3 "
+    "支間式の確認が必要: 構造体3 ",
+    "下部構造高の記載値0: A1。欠損として扱う"
   ],
   "length": 354.25,
   "span_count": 10,
@@ -424,6 +425,12 @@
       "field": "inter_structure_gaps",
       "value": 0.10000000000000002,
       "reason": "橋長と支間合計の差を構造体間に均等配分。桁端・遊間寸法とは未照合",
+      "status": "assumed"
+    },
+    {
+      "field": "A1",
+      "value": 10.785,
+      "reason": "該当支点の諸元が未抽出／未記載。同橋の下部構造高の中央値を仮定",
       "status": "assumed"
     }
   ],
