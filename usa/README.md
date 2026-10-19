@@ -3,7 +3,10 @@
 **[15橋の一覧を開く](index.html)** · [モデル一覧JSON](manifest.json)
 
 [公開ファイル・リンクの検証](publication_validation.json) ·
-[15橋の実ブラウザ検証](browser_verification.json)
+[15橋の実ブラウザ検証](browser_verification.json) ·
+[GitHub Pages実配信・248ファイルのハッシュ・15橋の描画検証](deployment_verification.json)
+
+公開URL：<https://momiji-fullmoon.github.io/karte-bridge-cad/usa/>
 
 歴史的橋梁の実際の図面スキャン・OCR・読取り記録をもとに、SolidCraftの
 ネイティブ履歴付き概略モデルを作成しました。ブラウザ用3Dビューは、
