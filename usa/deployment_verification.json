@@ -1,28 +1,103 @@
 {
   "schema": "usa.deployment_verification/1",
   "passed": true,
-  "checked_at_utc": "2026-10-19T00:26:35.179233+00:00",
+  "checked_at_utc": "2026-10-19T12:11:34.951184+00:00",
   "site_url": "https://momiji-fullmoon.github.io/karte-bridge-cad/usa/",
-  "artifact_commit": "2b2d82fd6a27697dc6c252e9ac14b806dcd7ebae",
-  "http_200_and_sha256_matched_files": 248,
-  "downloaded_bytes": 61315162,
+  "artifact_commit": "009bdd04b22409d16483c74780fc4a81bfe51aa0",
+  "http_200_and_sha256_matched_files": 263,
+  "downloaded_bytes": 61380901,
   "native_cad_files_checked": 60,
   "rendered_models": [
-    {"id": "AR-27_South_Fork", "parts": 8, "gl_error": 0, "foreground_pixels": 79282},
-    {"id": "AR-32_Springfield_DesArc", "parts": 233, "gl_error": 0, "foreground_pixels": 52664},
-    {"id": "AR-38_Wyman", "parts": 145, "gl_error": 0, "foreground_pixels": 28948},
-    {"id": "AR-46_Old_River", "parts": 158, "gl_error": 0, "foreground_pixels": 34835},
-    {"id": "AR-51_Judsonia", "parts": 246, "gl_error": 0, "foreground_pixels": 27737},
-    {"id": "AR-63_Woolsey", "parts": 210, "gl_error": 0, "foreground_pixels": 33025},
-    {"id": "AR-64_Fryers_Ford", "parts": 90, "gl_error": 0, "foreground_pixels": 68243},
-    {"id": "AR-66_Nimrod", "parts": 135, "gl_error": 0, "foreground_pixels": 54375},
-    {"id": "AR-70_Wards_Crossing", "parts": 120, "gl_error": 0, "foreground_pixels": 57252},
-    {"id": "AR-81_DeGray", "parts": 46, "gl_error": 0, "foreground_pixels": 86207},
-    {"id": "CT-0629_Nineveh_Falls", "parts": 101, "gl_error": 0, "foreground_pixels": 84306},
-    {"id": "Chicago_Columbus_Drive", "parts": 160, "gl_error": 0, "foreground_pixels": 104199},
-    {"id": "Chicago_Lake_Shore_Drive", "parts": 160, "gl_error": 0, "foreground_pixels": 108331},
-    {"id": "Chicago_La_Salle_Street", "parts": 160, "gl_error": 0, "foreground_pixels": 108582},
-    {"id": "Chicago_West_Van_Buren", "parts": 160, "gl_error": 0, "foreground_pixels": 98285}
+    {
+      "id": "AR-27_South_Fork",
+      "parts": 8,
+      "gl_error": 0,
+      "foreground_pixels": 79282
+    },
+    {
+      "id": "AR-32_Springfield_DesArc",
+      "parts": 233,
+      "gl_error": 0,
+      "foreground_pixels": 52664
+    },
+    {
+      "id": "AR-38_Wyman",
+      "parts": 145,
+      "gl_error": 0,
+      "foreground_pixels": 28948
+    },
+    {
+      "id": "AR-46_Old_River",
+      "parts": 158,
+      "gl_error": 0,
+      "foreground_pixels": 34835
+    },
+    {
+      "id": "AR-51_Judsonia",
+      "parts": 246,
+      "gl_error": 0,
+      "foreground_pixels": 27737
+    },
+    {
+      "id": "AR-63_Woolsey",
+      "parts": 210,
+      "gl_error": 0,
+      "foreground_pixels": 33025
+    },
+    {
+      "id": "AR-64_Fryers_Ford",
+      "parts": 90,
+      "gl_error": 0,
+      "foreground_pixels": 68243
+    },
+    {
+      "id": "AR-66_Nimrod",
+      "parts": 135,
+      "gl_error": 0,
+      "foreground_pixels": 54375
+    },
+    {
+      "id": "AR-70_Wards_Crossing",
+      "parts": 120,
+      "gl_error": 0,
+      "foreground_pixels": 57252
+    },
+    {
+      "id": "AR-81_DeGray",
+      "parts": 46,
+      "gl_error": 0,
+      "foreground_pixels": 86207
+    },
+    {
+      "id": "CT-0629_Nineveh_Falls",
+      "parts": 101,
+      "gl_error": 0,
+      "foreground_pixels": 84306
+    },
+    {
+      "id": "Chicago_Columbus_Drive",
+      "parts": 160,
+      "gl_error": 0,
+      "foreground_pixels": 104199
+    },
+    {
+      "id": "Chicago_Lake_Shore_Drive",
+      "parts": 160,
+      "gl_error": 0,
+      "foreground_pixels": 108331
+    },
+    {
+      "id": "Chicago_La_Salle_Street",
+      "parts": 160,
+      "gl_error": 0,
+      "foreground_pixels": 108582
+    },
+    {
+      "id": "Chicago_West_Van_Buren",
+      "parts": 160,
+      "gl_error": 0,
+      "foreground_pixels": 98285
+    }
   ],
   "javascript_errors": [],
   "failed_responses": [],
@@ -38,7 +113,8 @@
     "explode",
     "native CAD browser download hash",
     "mobile layout",
-    "all per-model files and manifests served with matching SHA-256"
+    "AR-32 truss viewer shows structural screening section and structural.json link",
+    "all per-model files incl. structural.json and manifests served with matching SHA-256"
   ],
   "scope": "Live deployment and browser checks of existing source-linked conceptual models; not drawing-recognition accuracy."
 }
