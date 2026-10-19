@@ -112,7 +112,7 @@ def live_checks():
                        if (directory / "parameters.json").is_file())
     paths = [f"models/{case_id}/structural.json" for case_id in model_ids]
     paths += ["models/8335004026/viewer.html", "models/8335004043/viewer.html",
-              "models/8335004044/viewer.html", "models/8335005072/viewer.html"]
+              "models/8335004044/viewer.html",               "models/8335050072/viewer.html"]
     try:
         remotes = fetch_many(paths)
         checked.extend(paths)
@@ -137,8 +137,8 @@ def playwright_check(case_id: str, problems):
         heading = page.evaluate("""Array.from(document.querySelectorAll('h2')).some(h => h.textContent.includes('簡易構造解析'))""")
         webgl = page.evaluate("(() => { const c = document.createElement('canvas');"
                               "return !!(c.getContext('webgl2') || c.getContext('webgl')); })()")
-        if not (heading and "簡易構造解析" in heading):
-            problems.append(f"{case_id}: live structural heading missing (got {heading!r})")
+        if not (heading is True):
+            problems.append(f"{case_id}: live structural heading missing")
         if not webgl:
             problems.append(f"{case_id}: WebGL unavailable")
         if errors:
