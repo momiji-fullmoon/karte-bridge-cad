@@ -1,0 +1,160 @@
+{
+  "schema": "usa.structural_screening/1",
+  "case_id": "AR-66_Nimrod",
+  "name": "Nimrod / Wallace Bridge (1908)",
+  "family": "camelback",
+  "scaled": true,
+  "assumptions": {
+    "idealization": "トラス面（y<0 / y>0）ごとの面内ピン接合トラス。各面が床版線荷重の半分を負担",
+    "excluded": "横構・ブレーシング・縦桁の面外効果と節点モーメント（ガセット剛性）は対象外",
+    "steel_elastic_modulus_GPa": 200.0,
+    "steel_density_kg_m3": 7850.0,
+    "concrete_elastic_modulus_GPa": 25.0,
+    "concrete_density_kg_m3": 2400.0,
+    "live_load_kPa": 5.0,
+    "sections": "矩形包絡断面 A=幅×梁成（実断面ではない。軸力・応力は目安）",
+    "self_weight": "包絡体積×材料密度。縦桁自重は床版死荷重に含める",
+    "deck_material": "コンクリート換算 24 kN/m3（実床版構成の確定ではない）"
+  },
+  "status": "analyzed_plane_truss",
+  "idealization": "2 plane trusses analyzed independently; each carries half the deck line load",
+  "model": {
+    "planes": 2,
+    "skipped_out_of_plane_roles": {}
+  },
+  "loads": {
+    "deck_dead_N": 968126.8289581351,
+    "deck_live_N": 1521577.6020000002,
+    "deck_length_m": 54.864,
+    "deck_width_m": 5.546725,
+    "deck_equivalent_thickness_m": 0.0762,
+    "stringer_mass_kg": 43068.24
+  },
+  "main_span_m": 54.86,
+  "max_tension": {
+    "member": "lower_chord_005",
+    "kN": 1356.315063377395,
+    "MPa": 113.0262552814496
+  },
+  "max_compression": {
+    "member": "upper_chord_006",
+    "kN": 1419.5517123285163,
+    "MPa": 40.32817364569649
+  },
+  "max_deflection_mm": 46.522385513665355,
+  "deflection_ratio": 1179.217260556976,
+  "supports": [
+    {
+      "x_m": -0.0,
+      "vertical_kN": 787.7
+    },
+    {
+      "x_m": 54.86,
+      "vertical_kN": 787.7
+    }
+  ],
+  "central_pier_reactions": [],
+  "masses_kg": {
+    "steel": 67412.6102655834,
+    "deck_concrete": 41.13394265448
+  },
+  "per_plane": [
+    {
+      "plane_y_sign": -1,
+      "status": "analyzed_plane_truss",
+      "main_span_m": 54.86,
+      "max_tension": {
+        "member": "lower_chord_005",
+        "kN": 1356.315063377395,
+        "MPa": 113.0262552814496
+      },
+      "max_compression": {
+        "member": "upper_chord_006",
+        "kN": 1419.5517123285163,
+        "MPa": 40.32817364569649
+      },
+      "max_deflection_mm": 46.522385513665355,
+      "deflection_ratio": 1179.217260556976,
+      "checks": {
+        "vertical_reaction_residual_relative": 1.3153454096384672e-14,
+        "applied_vertical_N": 1575398.1527095593
+      }
+    },
+    {
+      "plane_y_sign": 1,
+      "status": "analyzed_plane_truss",
+      "main_span_m": 54.86,
+      "max_tension": {
+        "member": "lower_chord_015",
+        "kN": 1356.315063377395,
+        "MPa": 113.0262552814496
+      },
+      "max_compression": {
+        "member": "upper_chord_016",
+        "kN": 1419.5517123285163,
+        "MPa": 40.32817364569649
+      },
+      "max_deflection_mm": 46.522385513665355,
+      "deflection_ratio": 1179.217260556976,
+      "checks": {
+        "vertical_reaction_residual_relative": 1.3153454096384672e-14,
+        "applied_vertical_N": 1575398.1527095593
+      }
+    }
+  ],
+  "top_tension": [
+    {
+      "member": "lower_chord_005",
+      "kN": 1356.315063377395,
+      "MPa": 113.0262552814496
+    },
+    {
+      "member": "lower_chord_006",
+      "kN": 1356.3150633773905,
+      "MPa": 113.02625528144922
+    },
+    {
+      "member": "lower_chord_004",
+      "kN": 1314.5866371277245,
+      "MPa": 109.54888642731038
+    },
+    {
+      "member": "lower_chord_007",
+      "kN": 1314.5866371277102,
+      "MPa": 109.54888642730918
+    },
+    {
+      "member": "lower_chord_003",
+      "kN": 1137.1961343398439,
+      "MPa": 94.76634452832032
+    }
+  ],
+  "top_compression": [
+    {
+      "member": "upper_chord_006",
+      "kN": 1419.5517123285163,
+      "MPa": 40.32817364569649
+    },
+    {
+      "member": "upper_chord_005",
+      "kN": 1419.5517123285144,
+      "MPa": 40.328173645696445
+    },
+    {
+      "member": "upper_chord_004",
+      "kN": 1382.8727853362102,
+      "MPa": 39.28615867432416
+    },
+    {
+      "member": "upper_chord_007",
+      "kN": 1382.8727853362093,
+      "MPa": 39.286158674324135
+    },
+    {
+      "member": "upper_chord_003",
+      "kN": 1337.6469381439588,
+      "MPa": 38.00133346999884
+    }
+  ],
+  "warnings": []
+}

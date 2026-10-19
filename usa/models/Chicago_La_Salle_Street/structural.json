@@ -1,0 +1,21 @@
+{
+  "schema": "usa.structural_screening/1",
+  "case_id": "Chicago_La_Salle_Street",
+  "name": "La Salle Street bascule bridge (UNSCALED REVIEW MODEL)",
+  "family": "bascule",
+  "scaled": false,
+  "assumptions": {
+    "idealization": "トラス面（y<0 / y>0）ごとの面内ピン接合トラス。各面が床版線荷重の半分を負担",
+    "excluded": "横構・ブレーシング・縦桁の面外効果と節点モーメント（ガセット剛性）は対象外",
+    "steel_elastic_modulus_GPa": 200.0,
+    "steel_density_kg_m3": 7850.0,
+    "concrete_elastic_modulus_GPa": 25.0,
+    "concrete_density_kg_m3": 2400.0,
+    "live_load_kPa": 5.0,
+    "sections": "矩形包絡断面 A=幅×梁成（実断面ではない。軸力・応力は目安）",
+    "self_weight": "包絡体積×材料密度。縦桁自重は床版死荷重に含める",
+    "deck_material": "コンクリート換算 24 kN/m3（実床版構成の確定ではない）"
+  },
+  "status": "not_analyzed_unscaled",
+  "reason": "未縮尺・正規化モデルのため実寸法に基づく構造計算は意味を持たない"
+}

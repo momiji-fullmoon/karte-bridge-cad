@@ -8,6 +8,8 @@
       "unscaled": false,
       "member_count": 8,
       "viewer": "models/AR-27_South_Fork/viewer.html",
+      "structural_status": "not_analyzed_structure_type",
+      "structural_main_span_m": null,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 8,
@@ -36,6 +38,8 @@
       "unscaled": false,
       "member_count": 233,
       "viewer": "models/AR-32_Springfield_DesArc/viewer.html",
+      "structural_status": "analyzed_plane_truss",
+      "structural_main_span_m": 44.91,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 233,
@@ -64,6 +68,8 @@
       "unscaled": false,
       "member_count": 145,
       "viewer": "models/AR-38_Wyman/viewer.html",
+      "structural_status": "analyzed_plane_truss",
+      "structural_main_span_m": 51.82,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 145,
@@ -92,6 +98,8 @@
       "unscaled": false,
       "member_count": 158,
       "viewer": "models/AR-46_Old_River/viewer.html",
+      "structural_status": "analyzed_plane_truss",
+      "structural_main_span_m": 40.51,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 158,
@@ -120,6 +128,8 @@
       "unscaled": false,
       "member_count": 246,
       "viewer": "models/AR-51_Judsonia/viewer.html",
+      "structural_status": "analyzed_plane_truss",
+      "structural_main_span_m": 40.45,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 246,
@@ -148,6 +158,8 @@
       "unscaled": false,
       "member_count": 210,
       "viewer": "models/AR-63_Woolsey/viewer.html",
+      "structural_status": "analyzed_plane_truss",
+      "structural_main_span_m": 45.87,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 210,
@@ -176,6 +188,8 @@
       "unscaled": false,
       "member_count": 90,
       "viewer": "models/AR-64_Fryers_Ford/viewer.html",
+      "structural_status": "analyzed_plane_truss",
+      "structural_main_span_m": 38.46,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 90,
@@ -204,6 +218,8 @@
       "unscaled": false,
       "member_count": 135,
       "viewer": "models/AR-66_Nimrod/viewer.html",
+      "structural_status": "analyzed_plane_truss",
+      "structural_main_span_m": 54.86,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 135,
@@ -232,6 +248,8 @@
       "unscaled": false,
       "member_count": 120,
       "viewer": "models/AR-70_Wards_Crossing/viewer.html",
+      "structural_status": "analyzed_plane_truss",
+      "structural_main_span_m": 48.69,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 120,
@@ -265,6 +283,8 @@
       "unscaled": false,
       "member_count": 46,
       "viewer": "models/AR-81_DeGray/viewer.html",
+      "structural_status": "analyzed_plane_truss",
+      "structural_main_span_m": 18.85,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 46,
@@ -293,6 +313,8 @@
       "unscaled": false,
       "member_count": 101,
       "viewer": "models/CT-0629_Nineveh_Falls/viewer.html",
+      "structural_status": "not_analyzed_structure_type",
+      "structural_main_span_m": null,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 101,
@@ -336,6 +358,8 @@
       "unscaled": true,
       "member_count": 160,
       "viewer": "models/Chicago_Columbus_Drive/viewer.html",
+      "structural_status": "not_analyzed_unscaled",
+      "structural_main_span_m": null,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 160,
@@ -364,6 +388,8 @@
       "unscaled": true,
       "member_count": 160,
       "viewer": "models/Chicago_Lake_Shore_Drive/viewer.html",
+      "structural_status": "not_analyzed_unscaled",
+      "structural_main_span_m": null,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 160,
@@ -397,6 +423,8 @@
       "unscaled": true,
       "member_count": 160,
       "viewer": "models/Chicago_La_Salle_Street/viewer.html",
+      "structural_status": "not_analyzed_unscaled",
+      "structural_main_span_m": null,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 160,
@@ -425,6 +453,8 @@
       "unscaled": true,
       "member_count": 160,
       "viewer": "models/Chicago_West_Van_Buren/viewer.html",
+      "structural_status": "not_analyzed_unscaled",
+      "structural_main_span_m": null,
       "web_mesh_validation": {
         "mesh_source": "audited native 3MF export",
         "member_count": 160,

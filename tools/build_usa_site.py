@@ -152,6 +152,61 @@ def make_meshes(directory, case, plan):
                            "glb_units": "m", "glb_up_axis": "Y"}
 
 
+def format_number(value, digits=0):
+    return f"{value:,.{digits}f}"
+
+
+def structural_html(struct):
+    if struct is None:
+        return "<p>構造解析データなし</p>"
+    link =('<p><a href="structural.json">解析詳細 JSON</a> · '
+           '<a href="../../structural_summary.json">全15橋のサマリ</a></p>')
+    status = struct["status"]
+    caveat = ("<p class=\"small\">面内ピン接合トラスの簡易スクリーニング。節点モーメント・横構・2次効果は対象外。"
+              "断面は包絡矩形（幅×せい）の近似で、屈折座屈・局部断面は評価していません。"
+              "活荷重は床版全面5kPa（歩道想定）。設計照査ではありません。</p>")
+    if status == "analyzed_plane_truss":
+        tension, compression = struct["max_tension"], struct["max_compression"]
+        span = struct.get("main_span_m")
+        lines = [f"<p><strong>主支間 {span:.2f}m</strong>（面トラス、各面が床版線荷重の半分を負担）</p>"]
+        lines.append(f"<p>最大引張部材: {html.escape(tension['member'])} {format_number(tension['kN'])} kN "
+                     f"（{format_number(tension['MPa'],1)} MPa）<br>"
+                     f"最大圧縮部材: {html.escape(compression['member'])} {format_number(compression['kN'])} kN "
+                     f"（{format_number(compression['MPa'],1)} MPa）</p>")
+        if struct.get("max_deflection_mm") is not None:
+            lines.append(f"<p>最大たわみ目安 {format_number(struct['max_deflection_mm'],1)} mm "
+                         f"（約1/{format_number(struct['deflection_ratio'])}）</p>")
+        piers = struct.get("central_pier_reactions") or []
+        if piers:
+            lines.append("<p>" + " · ".join(f"回転支点（x={row['x_m']}m）反力目安 "
+                                            f"{format_number(row['vertical_kN'])} kN" for row in piers) + "</p>")
+        if struct.get("warnings"):
+            lines.append(f'<p class="small">注記 {len(struct["warnings"])}件（未接続支点等、詳細はJSON）</p>')
+        return "".join(lines) + caveat + link
+    label = {"not_analyzed_unscaled": "対象外（未縮尺モデル）",
+             "not_analyzed_structure_type": "対象外（この構造形式は骨組理想化に不適）"}.get(status, "対象外")
+    reason = html.escape(str(struct.get("reason", "")))
+    if "masses_kg" in struct:
+        masses = struct["masses_kg"]
+        parts = [f"{key} {format_number(value)} kg" for key, value in masses.items() if value]
+        if parts:
+            reason += "。質量目計: " + " / ".join(parts)
+    return f"<p><strong>{label}</strong></p><p>{reason}</p>" + caveat + link
+
+
+def structural_card_text(struct):
+    if struct is None or struct["status"] != "analyzed_plane_truss":
+        if struct is not None and struct["status"] == "not_analyzed_unscaled":
+            return "構造解析対象外（未縮尺）"
+        return "構造解析対象外"
+    bits = [f"支間 {struct['main_span_m']:.1f}m"]
+    if struct.get("max_tension"):
+        bits.append(f"最大引張 {struct['max_tension']['kN']:,.0f}kN")
+    if struct.get("deflection_ratio"):
+        bits.append(f"たわみ 1/{struct['deflection_ratio']:,.0f}")
+    return "構造スクリーニング: " + " · ".join(bits)
+
+
 def build(source, destination):
     source, destination = Path(source), Path(destination)
     results = json.loads((source / "results.json").read_text())
@@ -206,11 +261,14 @@ def build(source, destination):
         downloads += ' · <a href="bridge.glb" download>GLB</a>'
         motion = ('<p><a href="motion_15deg.png">15°可動径間の検証画像</a></p>'
                   if case["family"] in {"bascule", "swing_truss"} else "")
+        structure = (json.loads((target / "structural.json").read_text(encoding="utf-8"))
+                     if (target / "structural.json").is_file() else None)
         replacements = {"__TITLE__": html.escape(case["name"]), "__CLASS__": classification,
                         "__DIMENSIONS__": size_text, "__ID__": key, "__DOWNLOADS__": downloads,
                         "__NOTICE__": ("未縮尺モデルです。表示・ダウンロード数値は実橋の絶対寸法ではありません。" if unscaled else
                                        "原図寸法と読取りに基づく概略CADです。断面・支承・基礎等には仮定と簡略化があります。"),
                         "__MOTION__": motion, "__ASSUMPTION_COUNT__": str(len(assumptions)),
+                        "__STRUCTURAL__": structural_html(structure),
                         "__MODEL__": json.dumps(data, ensure_ascii=False, separators=(",", ":"), allow_nan=False).replace("</", "<\\/")}
         page_html = template
         for marker, value in replacements.items():
@@ -221,11 +279,15 @@ def build(source, destination):
         write_json(target / "files.json", files)
         published.append({"id": key, "name": case["name"], "family": case["family"], "unscaled": unscaled,
                           "member_count": len(parts), "viewer": f"models/{key}/viewer.html",
+                          "structural_status": structure["status"] if structure else None,
+                          "structural_main_span_m": structure.get("main_span_m") if structure else None,
                           "web_mesh_validation": validation, "source_files": public_plan["sources"]})
-        cards.append(f'<article data-name="{html.escape(key+" "+case["name"]+" "+case["family"])}">'
+        struct_card = structural_card_text(structure)
+        cards.append(f'<article data-name="{html.escape(key+" "+case["name"]+" "+case["family"]+" "+struct_card)}">'
                      f'<a href="models/{key}/viewer.html"><img src="models/{key}/iso.png" loading="lazy" alt="{html.escape(case["name"])}">'
                      f'<h2>{html.escape(case["name"])}</h2></a><p class="badge {"unscaled" if unscaled else ""}">{classification}</p>'
                      f'<p>{size_text}</p><p>{len(parts)}部材 · {case["family"]}</p>'
+                     f'<p class="small">{html.escape(struct_card)}</p>'
                      f'<p><a href="models/{key}/viewer.html">3Dを開く</a> · <a href="models/{key}/{key}.solidcraft" download>SolidCraft</a>'
                      f' · <a href="models/{key}/{key}.step" download>STEP</a> · <a href="models/{key}/source_spec.json">寸法・根拠</a></p></article>')
         print(f"{key}: {len(parts)} parts, mesh/GLB validation passed", flush=True)
@@ -235,14 +297,20 @@ def build(source, destination):
                "scope": "Conceptual source-linked models; four cases unscaled; no independently measured recognition/quantity accuracy"})
     write_json(destination / "source_audit.json", audit)
     shutil.copy2(source / "reviewed_readings.json", destination / "reviewed_readings.json")
+    if (destination / "structural_summary.json").is_file():
+        summary = json.loads((destination / "structural_summary.json").read_text(encoding="utf-8"))
+        summary["published_schema"] = "usa.structural_screening_summary/1"
+        summary["note"] = "スクリーニング指標。仮定は各モデルの structural.json の assumptions を参照。"
+        write_json(destination / "structural_summary.json", summary)
     catalog = '''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>USA橋梁 3D CAD | カルテ橋梁三次元CAD</title><style>
-*{box-sizing:border-box}body{margin:0;background:#0c1725;color:#e2edf7;font:15px system-ui;padding:28px}a{color:#8ed2ff}header{max-width:1200px;margin:auto}h1{font-size:30px}p{line-height:1.7;color:#b7c9db}.badge{display:inline-block;background:#214458;border-radius:5px;padding:5px 9px}.unscaled{background:#62461c;color:#ffdb95}input{width:100%;padding:13px;margin:15px 0 25px;background:#1a2c40;color:white;border:1px solid #46657f;border-radius:6px;font:inherit}#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:20px;max-width:1400px;margin:auto}article{background:#152639;border:1px solid #31455d;border-radius:10px;padding:15px}img{width:100%;aspect-ratio:3/2;object-fit:contain;background:#dfe7ef;border-radius:6px}h2{font-size:18px}article a{text-decoration:none}nav{margin-bottom:18px}
+*{box-sizing:border-box}body{margin:0;background:#0c1725;color:#e2edf7;font:15px system-ui;padding:28px}a{color:#8ed2ff}header{max-width:1200px;margin:auto}h1{font-size:30px}p{line-height:1.7;color:#b7c9db}.badge{display:inline-block;background:#214458;border-radius:5px;padding:5px 9px}.unscaled{background:#62461c;color:#ffdb95}input{width:100%;padding:13px;margin:15px 0 25px;background:#1a2c40;color:white;border:1px solid #46657f;border-radius:6px;font:inherit}#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:20px;max-width:1400px;margin:auto}article{background:#152639;border:1px solid #31455d;border-radius:10px;padding:15px}img{width:100%;aspect-ratio:3/2;object-fit:contain;background:#dfe7ef;border-radius:6px}h2{font-size:18px}article a{text-decoration:none}nav{margin-bottom:18px}.small{font-size:13px;color:#93a9bd}
 </style><header><nav><a href="../index.html">← 国内カルテ106橋</a> · <a href="README.md">作成方法・精度と前提</a> · <a href="manifest.json">公開モデル一覧</a></nav>
 <span class="badge">SOURCE DRAWINGS → EDITABLE SOLIDCRAFT CAD</span><h1>USA橋梁 3D CAD</h1>
 <p>米国の歴史的橋梁図面から再構成した15橋。ブラウザ内で回転・拡大・部材選択でき、編集可能なSolidCraftとSTEPもダウンロードできます。</p>
 <p><strong>11橋は図面寸法に基づく概略モデル、Chicagoの4橋は未縮尺の正規化モデルです。</strong>欠落寸法・断面・接合詳細等の仮定は各橋の根拠データに記録しています。</p>
 <p>15橋すべてでネイティブ再読込・編集・独立STEP検証を実施。5橋で15°可動径間の目標位置を検証。<a href="source_audit.json">元成果物の監査結果</a></p>
+<p>簡易構造スクリーニング（面トラスのピン接合理想化、床版全面5kPa活荷重）の指標値を各ビューアに掲載。<a href="structural_summary.json">結果サマリ (JSON)</a>。末梢の仮定は各橋ビューアに明記。設計照査ではありません。</p>
 <label for="search">橋梁名・ID・形式で検索（表示 <strong id="count">15</strong>橋）</label><input id="search" type="search" placeholder="例: Judsonia / camelback / Chicago"></header><main id="grid">'''
     catalog += "\n".join(cards)+'''</main><script>
 const cards=[...document.querySelectorAll('article')];document.getElementById('search').addEventListener('input',event=>{const q=event.target.value.toLowerCase();let n=0;for(const card of cards){const visible=card.dataset.name.toLowerCase().includes(q);card.hidden=!visible;if(visible)n++;}document.getElementById('count').textContent=n;});

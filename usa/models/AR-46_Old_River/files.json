@@ -43,6 +43,10 @@
     "sha256": "1c51684168977d3d6fbd6299e2d4e47efa58fb269445014e911a6bef4a0c2adf",
     "bytes": 81513
   },
+  "structural.json": {
+    "sha256": "141703909c140561bf0c793e312ced7c91c605cd3b38a8cfff66c4c7f4db5f50",
+    "bytes": 4483
+  },
   "top.png": {
     "sha256": "3e62efaa32f166bb936953b4d97ec353dc508b37b8945c9c8f793080d3dc3614",
     "bytes": 125441
@@ -52,8 +56,8 @@
     "bytes": 140938
   },
   "viewer.html": {
-    "sha256": "a911958fb10994a9df3fd1bfd634b3a84475b1aa1ed9c56dd8751000e3ab42d3",
-    "bytes": 300321
+    "sha256": "27bb50ece5273c5d2a3d99c764ded33b3269690efc036ff3fbfc4194c60c6db2",
+    "bytes": 301149
   },
   "web_mesh_validation.json": {
     "sha256": "923e1b170c88172e2a10ada0212cb26de39c285b1ee5b5342e3d353039b60645",

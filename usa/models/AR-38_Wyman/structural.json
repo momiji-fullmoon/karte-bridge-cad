@@ -1,0 +1,177 @@
+{
+  "schema": "usa.structural_screening/1",
+  "case_id": "AR-38_Wyman",
+  "name": "Wyman Bridge (1906)",
+  "family": "parker",
+  "scaled": true,
+  "assumptions": {
+    "idealization": "トラス面（y<0 / y>0）ごとの面内ピン接合トラス。各面が床版線荷重の半分を負担",
+    "excluded": "横構・ブレーシング・縦桁の面外効果と節点モーメント（ガセット剛性）は対象外",
+    "steel_elastic_modulus_GPa": 200.0,
+    "steel_density_kg_m3": 7850.0,
+    "concrete_elastic_modulus_GPa": 25.0,
+    "concrete_density_kg_m3": 2400.0,
+    "live_load_kPa": 5.0,
+    "sections": "矩形包絡断面 A=幅×梁成（実断面ではない。軸力・応力は目安）",
+    "self_weight": "包絡体積×材料密度。縦桁自重は床版死荷重に含める",
+    "deck_material": "コンクリート換算 24 kN/m3（実床版構成の確定ではない）"
+  },
+  "status": "analyzed_plane_truss",
+  "idealization": "2 plane trusses analyzed independently; each carries half the deck line load",
+  "model": {
+    "planes": 2,
+    "skipped_out_of_plane_roles": {}
+  },
+  "loads": {
+    "deck_dead_N": 1393303.3284337437,
+    "deck_live_N": 1981961.9999999998,
+    "deck_length_m": 88.0872,
+    "deck_width_m": 4.5,
+    "deck_equivalent_thickness_m": 0.10658823529411764,
+    "stringer_mass_kg": 40675.560000000005
+  },
+  "main_span_m": 51.82,
+  "max_tension": {
+    "member": "lower_chord_005",
+    "kN": 1079.9740414733337,
+    "MPa": 89.99783678944448
+  },
+  "max_compression": {
+    "member": "upper_chord_006",
+    "kN": 1123.499774893235,
+    "MPa": 31.917607241285097
+  },
+  "max_deflection_mm": 31.782562819393046,
+  "deflection_ratio": 1630.4537898492104,
+  "supports": [
+    {
+      "x_m": -36.27,
+      "vertical_kN": 113.1
+    },
+    {
+      "x_m": 0.0,
+      "vertical_kN": 771.3
+    },
+    {
+      "x_m": 51.82,
+      "vertical_kN": 658.3
+    }
+  ],
+  "central_pier_reactions": [],
+  "masses_kg": {
+    "steel": 112160.78942689169,
+    "deck_concrete": 59.19891639999999
+  },
+  "per_plane": [
+    {
+      "plane_y_sign": -1,
+      "status": "analyzed_plane_truss",
+      "main_span_m": 51.82,
+      "max_tension": {
+        "member": "lower_chord_005",
+        "kN": 1079.9740414733337,
+        "MPa": 89.99783678944448
+      },
+      "max_compression": {
+        "member": "upper_chord_006",
+        "kN": 1123.499774893235,
+        "MPa": 31.917607241285097
+      },
+      "max_deflection_mm": 31.782562819393046,
+      "deflection_ratio": 1630.4537898492104,
+      "checks": {
+        "vertical_reaction_residual_relative": 6.037020076275935e-16,
+        "applied_vertical_N": 1542685.8994147736
+      }
+    },
+    {
+      "plane_y_sign": 1,
+      "status": "analyzed_plane_truss",
+      "main_span_m": 51.82,
+      "max_tension": {
+        "member": "lower_chord_015",
+        "kN": 1079.9740414733337,
+        "MPa": 89.99783678944448
+      },
+      "max_compression": {
+        "member": "upper_chord_016",
+        "kN": 1123.499774893235,
+        "MPa": 31.917607241285097
+      },
+      "max_deflection_mm": 31.782562819393046,
+      "deflection_ratio": 1630.4537898492104,
+      "checks": {
+        "vertical_reaction_residual_relative": 6.037020076275935e-16,
+        "applied_vertical_N": 1542685.8994147736
+      }
+    }
+  ],
+  "top_tension": [
+    {
+      "member": "lower_chord_005",
+      "kN": 1079.9740414733337,
+      "MPa": 89.99783678944448
+    },
+    {
+      "member": "lower_chord_006",
+      "kN": 1079.9740414733321,
+      "MPa": 89.99783678944434
+    },
+    {
+      "member": "lower_chord_007",
+      "kN": 984.9830263725008,
+      "MPa": 82.08191886437507
+    },
+    {
+      "member": "lower_chord_004",
+      "kN": 984.983026372498,
+      "MPa": 82.08191886437484
+    },
+    {
+      "member": "lower_chord_008",
+      "kN": 797.2197394872899,
+      "MPa": 66.43497829060749
+    }
+  ],
+  "top_compression": [
+    {
+      "member": "upper_chord_006",
+      "kN": 1123.499774893235,
+      "MPa": 31.917607241285097
+    },
+    {
+      "member": "upper_chord_005",
+      "kN": 1123.4997748932303,
+      "MPa": 31.91760724128496
+    },
+    {
+      "member": "upper_chord_007",
+      "kN": 1057.0844579425973,
+      "MPa": 30.03080846427834
+    },
+    {
+      "member": "upper_chord_004",
+      "kN": 1057.08445794259,
+      "MPa": 30.030808464278135
+    },
+    {
+      "member": "upper_chord_008",
+      "kN": 969.2362140004944,
+      "MPa": 27.535119715923145
+    }
+  ],
+  "warnings": [
+    "bearing at x=-31.09m matched no plane node within 2.5m",
+    "bearing at x=-25.91m matched no plane node within 2.5m",
+    "bearing at x=-20.73m matched no plane node within 2.5m",
+    "bearing at x=-15.54m matched no plane node within 2.5m",
+    "bearing at x=-10.36m matched no plane node within 2.5m",
+    "bearing at x=-5.18m matched no plane node within 2.5m",
+    "bearing at x=-31.09m matched no plane node within 2.5m",
+    "bearing at x=-25.91m matched no plane node within 2.5m",
+    "bearing at x=-20.73m matched no plane node within 2.5m",
+    "bearing at x=-15.54m matched no plane node within 2.5m",
+    "bearing at x=-10.36m matched no plane node within 2.5m",
+    "bearing at x=-5.18m matched no plane node within 2.5m"
+  ]
+}

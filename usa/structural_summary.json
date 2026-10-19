@@ -1,0 +1,261 @@
+{
+  "schema": "usa.structural_screening_summary/1",
+  "cases": [
+    {
+      "id": "AR-27_South_Fork",
+      "name": "South Fork Bridge (1928)",
+      "family": "closed_spandrel_arch",
+      "status": "not_analyzed_structure_type",
+      "scaled": true,
+      "main_span_m": null,
+      "max_tension": null,
+      "max_compression": null,
+      "max_deflection_mm": null,
+      "deflection_ratio": null
+    },
+    {
+      "id": "AR-32_Springfield_DesArc",
+      "name": "Springfield–Des Arc Bridge (1871–1874)",
+      "family": "bowstring",
+      "status": "analyzed_plane_truss",
+      "scaled": true,
+      "main_span_m": 44.91,
+      "max_tension": {
+        "member": "lower_chord_009",
+        "kN": 1112.0206169208082,
+        "MPa": 92.66838474340068
+      },
+      "max_compression": {
+        "member": "upper_chord_015",
+        "kN": 1218.1608162749276,
+        "MPa": 34.60684137144682
+      },
+      "max_deflection_mm": 41.733801639398365,
+      "deflection_ratio": 1076.1061354545561
+    },
+    {
+      "id": "AR-38_Wyman",
+      "name": "Wyman Bridge (1906)",
+      "family": "parker",
+      "status": "analyzed_plane_truss",
+      "scaled": true,
+      "main_span_m": 51.82,
+      "max_tension": {
+        "member": "lower_chord_005",
+        "kN": 1079.9740414733337,
+        "MPa": 89.99783678944448
+      },
+      "max_compression": {
+        "member": "upper_chord_006",
+        "kN": 1123.499774893235,
+        "MPa": 31.917607241285097
+      },
+      "max_deflection_mm": 31.782562819393046,
+      "deflection_ratio": 1630.4537898492104
+    },
+    {
+      "id": "AR-46_Old_River",
+      "name": "Old River Bridge (1891)",
+      "family": "pratt",
+      "status": "analyzed_plane_truss",
+      "scaled": true,
+      "main_span_m": 40.51,
+      "max_tension": {
+        "member": "lower_chord_015",
+        "kN": 662.6572968489875,
+        "MPa": 55.22144140408229
+      },
+      "max_compression": {
+        "member": "upper_chord_015",
+        "kN": 723.3547879704975,
+        "MPa": 20.549851930980047
+      },
+      "max_deflection_mm": 16.660386209971993,
+      "deflection_ratio": 2431.516261955136
+    },
+    {
+      "id": "AR-51_Judsonia",
+      "name": "Judsonia swing bridge (1923)",
+      "family": "swing_truss",
+      "status": "analyzed_plane_truss",
+      "scaled": true,
+      "main_span_m": 40.45,
+      "max_tension": {
+        "member": "diagonal_007",
+        "kN": 572.4468992070103,
+        "MPa": 127.21042204600231
+      },
+      "max_compression": {
+        "member": "vertical_006",
+        "kN": 619.1186767173743,
+        "MPa": 31.749675729096122
+      },
+      "max_deflection_mm": 17.260973976104005,
+      "deflection_ratio": 2343.436706178849
+    },
+    {
+      "id": "AR-63_Woolsey",
+      "name": "Woolsey Creek Bridge (1947)",
+      "family": "parker",
+      "status": "analyzed_plane_truss",
+      "scaled": true,
+      "main_span_m": 45.87,
+      "max_tension": {
+        "member": "lower_chord_020",
+        "kN": 856.8760783064707,
+        "MPa": 71.40633985887257
+      },
+      "max_compression": {
+        "member": "upper_chord_020",
+        "kN": 904.5468272193065,
+        "MPa": 25.69735304600303
+      },
+      "max_deflection_mm": 21.45387672831685,
+      "deflection_ratio": 2138.075117186464
+    },
+    {
+      "id": "AR-64_Fryers_Ford",
+      "name": "Fryer's Ford Bridge (1890–1891)",
+      "family": "pratt",
+      "status": "analyzed_plane_truss",
+      "scaled": true,
+      "main_span_m": 38.46,
+      "max_tension": {
+        "member": "lower_chord_004",
+        "kN": 728.1982836113955,
+        "MPa": 60.683190300949626
+      },
+      "max_compression": {
+        "member": "upper_chord_004",
+        "kN": 750.9355735087856,
+        "MPa": 21.333396974681417
+      },
+      "max_deflection_mm": 17.327077254453005,
+      "deflection_ratio": 2219.6472858754005
+    },
+    {
+      "id": "AR-66_Nimrod",
+      "name": "Nimrod / Wallace Bridge (1908)",
+      "family": "camelback",
+      "status": "analyzed_plane_truss",
+      "scaled": true,
+      "main_span_m": 54.86,
+      "max_tension": {
+        "member": "lower_chord_005",
+        "kN": 1356.315063377395,
+        "MPa": 113.0262552814496
+      },
+      "max_compression": {
+        "member": "upper_chord_006",
+        "kN": 1419.5517123285163,
+        "MPa": 40.32817364569649
+      },
+      "max_deflection_mm": 46.522385513665355,
+      "deflection_ratio": 1179.217260556976
+    },
+    {
+      "id": "AR-70_Wards_Crossing",
+      "name": "Ward's Crossing Bridge (1905)",
+      "family": "camelback",
+      "status": "analyzed_plane_truss",
+      "scaled": true,
+      "main_span_m": 48.69,
+      "max_tension": {
+        "member": "lower_chord_005",
+        "kN": 996.602576245046,
+        "MPa": 83.05021468708716
+      },
+      "max_compression": {
+        "member": "upper_chord_005",
+        "kN": 1019.8485299565456,
+        "MPa": 28.972969601038233
+      },
+      "max_deflection_mm": 26.515180192462736,
+      "deflection_ratio": 1836.3065853816345
+    },
+    {
+      "id": "AR-81_DeGray",
+      "name": "DeGray Creek Bridge (circa 1915)",
+      "family": "pony_truss",
+      "status": "analyzed_plane_truss",
+      "scaled": true,
+      "main_span_m": 18.85,
+      "max_tension": {
+        "member": "lower_chord_003",
+        "kN": 320.46894395168863,
+        "MPa": 26.705745329307387
+      },
+      "max_compression": {
+        "member": "upper_chord_003",
+        "kN": 396.26939753910426,
+        "MPa": 11.2576533391791
+      },
+      "max_deflection_mm": 5.539316466692143,
+      "deflection_ratio": 3402.9469363855396
+    },
+    {
+      "id": "CT-0629_Nineveh_Falls",
+      "name": "Nineveh Falls / Hammonasset River bridge",
+      "family": "open_spandrel_arch",
+      "status": "not_analyzed_structure_type",
+      "scaled": true,
+      "main_span_m": null,
+      "max_tension": null,
+      "max_compression": null,
+      "max_deflection_mm": null,
+      "deflection_ratio": null
+    },
+    {
+      "id": "Chicago_Columbus_Drive",
+      "name": "Columbus Drive bascule bridge (UNSCALED REVIEW MODEL)",
+      "family": "bascule",
+      "status": "not_analyzed_unscaled",
+      "scaled": false,
+      "main_span_m": null,
+      "max_tension": null,
+      "max_compression": null,
+      "max_deflection_mm": null,
+      "deflection_ratio": null
+    },
+    {
+      "id": "Chicago_La_Salle_Street",
+      "name": "La Salle Street bascule bridge (UNSCALED REVIEW MODEL)",
+      "family": "bascule",
+      "status": "not_analyzed_unscaled",
+      "scaled": false,
+      "main_span_m": null,
+      "max_tension": null,
+      "max_compression": null,
+      "max_deflection_mm": null,
+      "deflection_ratio": null
+    },
+    {
+      "id": "Chicago_Lake_Shore_Drive",
+      "name": "Lake Shore Drive bascule bridge (UNSCALED REVIEW MODEL)",
+      "family": "bascule",
+      "status": "not_analyzed_unscaled",
+      "scaled": false,
+      "main_span_m": null,
+      "max_tension": null,
+      "max_compression": null,
+      "max_deflection_mm": null,
+      "deflection_ratio": null
+    },
+    {
+      "id": "Chicago_West_Van_Buren",
+      "name": "West Van Buren Street bascule bridge (UNSCALED REVIEW MODEL)",
+      "family": "bascule",
+      "status": "not_analyzed_unscaled",
+      "scaled": false,
+      "main_span_m": null,
+      "max_tension": null,
+      "max_compression": null,
+      "max_deflection_mm": null,
+      "deflection_ratio": null
+    }
+  ],
+  "method": "トラス面ごとの面内ピン接合理想化（各面が床版線荷重の半分）。仮定は各structural.jsonのassumptions参照",
+  "scope": "Screening indicators with stated assumptions; not design verification",
+  "published_schema": "usa.structural_screening_summary/1",
+  "note": "スクリーニング指標。仮定は各モデルの structural.json の assumptions を参照。"
+}

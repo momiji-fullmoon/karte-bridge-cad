@@ -1,0 +1,164 @@
+{
+  "schema": "usa.structural_screening/1",
+  "case_id": "AR-46_Old_River",
+  "name": "Old River Bridge (1891)",
+  "family": "pratt",
+  "scaled": true,
+  "assumptions": {
+    "idealization": "トラス面（y<0 / y>0）ごとの面内ピン接合トラス。各面が床版線荷重の半分を負担",
+    "excluded": "横構・ブレーシング・縦桁の面外効果と節点モーメント（ガセット剛性）は対象外",
+    "steel_elastic_modulus_GPa": 200.0,
+    "steel_density_kg_m3": 7850.0,
+    "concrete_elastic_modulus_GPa": 25.0,
+    "concrete_density_kg_m3": 2400.0,
+    "live_load_kPa": 5.0,
+    "sections": "矩形包絡断面 A=幅×梁成（実断面ではない。軸力・応力は目安）",
+    "self_weight": "包絡体積×材料密度。縦桁自重は床版死荷重に含める",
+    "deck_material": "コンクリート換算 24 kN/m3（実床版構成の確定ではない）"
+  },
+  "status": "analyzed_plane_truss",
+  "idealization": "2 plane trusses analyzed independently; each carries half the deck line load",
+  "model": {
+    "planes": 2,
+    "skipped_out_of_plane_roles": {}
+  },
+  "loads": {
+    "deck_dead_N": 1267294.5127829632,
+    "deck_live_N": 1882292.606375,
+    "deck_length_m": 79.47025,
+    "deck_width_m": 4.737100000000001,
+    "deck_equivalent_thickness_m": 0.07503705952856572,
+    "stringer_mass_kg": 61432.05900000001
+  },
+  "main_span_m": 40.51,
+  "max_tension": {
+    "member": "lower_chord_015",
+    "kN": 662.6572968489875,
+    "MPa": 55.22144140408229
+  },
+  "max_compression": {
+    "member": "upper_chord_015",
+    "kN": 723.3547879704975,
+    "MPa": 20.549851930980047
+  },
+  "max_deflection_mm": 16.660386209971993,
+  "deflection_ratio": 2431.516261955136,
+  "supports": [
+    {
+      "x_m": -0.0,
+      "vertical_kN": 497.7
+    },
+    {
+      "x_m": 38.96,
+      "vertical_kN": 1023.4
+    },
+    {
+      "x_m": 79.47,
+      "vertical_kN": 501.7
+    }
+  ],
+  "central_pier_reactions": [],
+  "masses_kg": {
+    "steel": 91357.88326504041,
+    "deck_concrete": 53.845031720948
+  },
+  "per_plane": [
+    {
+      "plane_y_sign": -1,
+      "status": "analyzed_plane_truss",
+      "main_span_m": 40.51,
+      "max_tension": {
+        "member": "lower_chord_015",
+        "kN": 662.6572968489875,
+        "MPa": 55.22144140408229
+      },
+      "max_compression": {
+        "member": "upper_chord_015",
+        "kN": 723.3547879704975,
+        "MPa": 20.549851930980047
+      },
+      "max_deflection_mm": 16.660386209971993,
+      "deflection_ratio": 2431.516261955136,
+      "checks": {
+        "vertical_reaction_residual_relative": 3.107867909911472e-15,
+        "applied_vertical_N": 2022745.9985046627
+      }
+    },
+    {
+      "plane_y_sign": 1,
+      "status": "analyzed_plane_truss",
+      "main_span_m": 40.51,
+      "max_tension": {
+        "member": "lower_chord_021",
+        "kN": 662.6572968489875,
+        "MPa": 55.22144140408229
+      },
+      "max_compression": {
+        "member": "upper_chord_021",
+        "kN": 723.3547879704975,
+        "MPa": 20.549851930980047
+      },
+      "max_deflection_mm": 16.660386209971993,
+      "deflection_ratio": 2431.516261955136,
+      "checks": {
+        "vertical_reaction_residual_relative": 3.107867909911472e-15,
+        "applied_vertical_N": 2022745.9985046627
+      }
+    }
+  ],
+  "top_tension": [
+    {
+      "member": "lower_chord_015",
+      "kN": 662.6572968489875,
+      "MPa": 55.22144140408229
+    },
+    {
+      "member": "lower_chord_016",
+      "kN": 662.6564481345371,
+      "MPa": 55.22137067787809
+    },
+    {
+      "member": "lower_chord_003",
+      "kN": 651.7976650944884,
+      "MPa": 54.316472091207366
+    },
+    {
+      "member": "lower_chord_004",
+      "kN": 651.7941692798761,
+      "MPa": 54.316180773323005
+    },
+    {
+      "member": "lower_chord_017",
+      "kN": 408.14861751375696,
+      "MPa": 34.01238479281308
+    }
+  ],
+  "top_compression": [
+    {
+      "member": "upper_chord_015",
+      "kN": 723.3547879704975,
+      "MPa": 20.549851930980047
+    },
+    {
+      "member": "upper_chord_016",
+      "kN": 723.3543945792476,
+      "MPa": 20.549840755092266
+    },
+    {
+      "member": "upper_chord_003",
+      "kN": 711.0735031174892,
+      "MPa": 20.20095179311049
+    },
+    {
+      "member": "upper_chord_004",
+      "kN": 711.071883224945,
+      "MPa": 20.20090577343594
+    },
+    {
+      "member": "upper_chord_017",
+      "kN": 652.2236285282976,
+      "MPa": 18.529080355917547
+    }
+  ],
+  "warnings": []
+}

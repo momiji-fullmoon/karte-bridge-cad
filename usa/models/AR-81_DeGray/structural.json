@@ -1,0 +1,160 @@
+{
+  "schema": "usa.structural_screening/1",
+  "case_id": "AR-81_DeGray",
+  "name": "DeGray Creek Bridge (circa 1915)",
+  "family": "pony_truss",
+  "scaled": true,
+  "assumptions": {
+    "idealization": "トラス面（y<0 / y>0）ごとの面内ピン接合トラス。各面が床版線荷重の半分を負担",
+    "excluded": "横構・ブレーシング・縦桁の面外効果と節点モーメント（ガセット剛性）は対象外",
+    "steel_elastic_modulus_GPa": 200.0,
+    "steel_density_kg_m3": 7850.0,
+    "concrete_elastic_modulus_GPa": 25.0,
+    "concrete_density_kg_m3": 2400.0,
+    "live_load_kPa": 5.0,
+    "sections": "矩形包絡断面 A=幅×梁成（実断面ではない。軸力・応力は目安）",
+    "self_weight": "包絡体積×材料密度。縦桁自重は床版死荷重に含める",
+    "deck_material": "コンクリート換算 24 kN/m3（実床版構成の確定ではない）"
+  },
+  "status": "analyzed_plane_truss",
+  "idealization": "2 plane trusses analyzed independently; each carries half the deck line load",
+  "model": {
+    "planes": 2,
+    "skipped_out_of_plane_roles": {}
+  },
+  "loads": {
+    "deck_dead_N": 268715.92070441565,
+    "deck_live_N": 344670.27839999995,
+    "deck_length_m": 18.846799999999998,
+    "deck_width_m": 3.6576,
+    "deck_equivalent_thickness_m": 0.07620000000000003,
+    "stringer_mass_kg": 14794.737999999998
+  },
+  "main_span_m": 18.85,
+  "max_tension": {
+    "member": "lower_chord_003",
+    "kN": 320.46894395168863,
+    "MPa": 26.705745329307387
+  },
+  "max_compression": {
+    "member": "upper_chord_003",
+    "kN": 396.26939753910426,
+    "MPa": 11.2576533391791
+  },
+  "max_deflection_mm": 5.539316466692143,
+  "deflection_ratio": 3402.9469363855396,
+  "supports": [
+    {
+      "x_m": -0.0,
+      "vertical_kN": 196.7
+    },
+    {
+      "x_m": 18.85,
+      "vertical_kN": 196.7
+    }
+  ],
+  "central_pier_reactions": [],
+  "masses_kg": {
+    "steel": 17677.796527434315,
+    "deck_concrete": 11.417249209482666
+  },
+  "per_plane": [
+    {
+      "plane_y_sign": -1,
+      "status": "analyzed_plane_truss",
+      "main_span_m": 18.85,
+      "max_tension": {
+        "member": "lower_chord_003",
+        "kN": 320.46894395168863,
+        "MPa": 26.705745329307387
+      },
+      "max_compression": {
+        "member": "upper_chord_003",
+        "kN": 396.26939753910426,
+        "MPa": 11.2576533391791
+      },
+      "max_deflection_mm": 5.539316466692143,
+      "deflection_ratio": 3402.9469363855396,
+      "checks": {
+        "vertical_reaction_residual_relative": 4.439082040482362e-16,
+        "applied_vertical_N": 393376.3358007847
+      }
+    },
+    {
+      "plane_y_sign": 1,
+      "status": "analyzed_plane_truss",
+      "main_span_m": 18.85,
+      "max_tension": {
+        "member": "lower_chord_007",
+        "kN": 320.46894395168863,
+        "MPa": 26.705745329307387
+      },
+      "max_compression": {
+        "member": "upper_chord_007",
+        "kN": 396.26939753910426,
+        "MPa": 11.2576533391791
+      },
+      "max_deflection_mm": 5.539316466692143,
+      "deflection_ratio": 3402.9469363855396,
+      "checks": {
+        "vertical_reaction_residual_relative": 4.439082040482362e-16,
+        "applied_vertical_N": 393376.3358007847
+      }
+    }
+  ],
+  "top_tension": [
+    {
+      "member": "lower_chord_003",
+      "kN": 320.46894395168863,
+      "MPa": 26.705745329307387
+    },
+    {
+      "member": "lower_chord_002",
+      "kN": 320.46333840678557,
+      "MPa": 26.705278200565463
+    },
+    {
+      "member": "lower_chord_004",
+      "kN": 306.7021172707952,
+      "MPa": 25.558509772566268
+    },
+    {
+      "member": "lower_chord_001",
+      "kN": 306.6937322404106,
+      "MPa": 25.55781102003422
+    },
+    {
+      "member": "diagonal_001",
+      "kN": 99.50782116870691,
+      "MPa": 22.112849148601537
+    }
+  ],
+  "top_compression": [
+    {
+      "member": "upper_chord_003",
+      "kN": 396.26939753910426,
+      "MPa": 11.2576533391791
+    },
+    {
+      "member": "upper_chord_002",
+      "kN": 396.2666180536219,
+      "MPa": 11.257574376523351
+    },
+    {
+      "member": "upper_chord_004",
+      "kN": 341.0700061744324,
+      "MPa": 9.68948881177365
+    },
+    {
+      "member": "upper_chord_001",
+      "kN": 341.06068154899236,
+      "MPa": 9.68922390764183
+    },
+    {
+      "member": "counterbrace_001",
+      "kN": 15.296855689392876,
+      "MPa": 8.741060393938788
+    }
+  ],
+  "warnings": []
+}

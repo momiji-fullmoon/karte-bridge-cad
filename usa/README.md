@@ -7,6 +7,7 @@
 [GitHub Pages実配信・248ファイルのハッシュ・15橋の描画検証](deployment_verification.json)
 
 公開URL：<https://momiji-fullmoon.github.io/karte-bridge-cad/usa/>
+簡易構造スクリーニング一覧：<https://momiji-fullmoon.github.io/karte-bridge-cad/usa/structural_summary.json>
 
 歴史的橋梁の実際の図面スキャン・OCR・読取り記録をもとに、SolidCraftの
 ネイティブ履歴付き概略モデルを作成しました。ブラウザ用3Dビューは、
@@ -49,6 +50,27 @@
 公開時にローカル絶対パスをファイル名へ置き換え、MCP実行ジャーナルを省略しました。
 SolidCraft / STEP / STL / 3MFおよび既存のCAD画像は元成果物と同一バイトです。
 
+## 簡易構造スクリーニング
+
+各`viewer.html`に「簡易構造解析（スクリーニング）」の節、各モデルに
+`structural.json`（解析詳細）、全橋サマリとして
+[structural_summary.json](structural_summary.json) を収録しています。
+
+- **対象**：Arkansasのトラス9橋（Springfield–Des Arc、Wyman、Old River、Judsonia、Woolsey、
+  Fryer's Ford、Nimrod、Ward's Crossing、DeGray）。
+- **対象外**：AR-27 South Fork（閉鎖スペンドル、アーチ壁が全長を覆い明確なスパンが取れない。
+  質量集計のみ）、CT Nineveh Falls（主要部材が端点を持たない概念ソリッド）、Chicago 4橋（未縮尺）。
+- **理想化**：2面トラスを独立に扱い、各面が床版線荷重（死荷重＝床版コンクリート2400kg/m³＋縦桁自重、
+  活荷重＝床版全面5kPa）の半分を負担。節点は部材端点（graph_members）から生成、断面は
+  `width_mm × depth_mm` 矩形包絡。鋼E=200GPa・ρ=7850kg/m³、コンクリートE=25GPa・ρ=2400kg/m³。
+- **結果の例**：Springfield–Des Arc 主支間44.91m、最大引張 lower_chord_009 1112kN（92.7MPa）、
+  最大圧縮 upper_chord_015 1218kN、最大たわみ目安41.7mm（約1/1076）。
+  Judsoniaは回転支点（中央ピア）反力目安1412kN。縦反力の残差は全橋1e-13以下。
+- **対象外の理由の補足**：AR-27は質量集計のみ提供。Chicago 4橋は未縮尺のため実寸に基づく
+  構造計算が意味を持たない。
+- **限界**：節点モーメント・横構・ブレーシングの寄与・座屈・2次効果は評価していません。
+  指標値であり設計照査ではありません。
+
 ## 精度・編集の範囲
 
 図面の記載寸法、図形からの比率推定、導出値、可視化上の仮定、正規化を
@@ -83,6 +105,7 @@ GLB往復の個数・単位・座標を確認しています。
 
 ```bash
 # リポジトリのルートで実行。Python、NumPy、trimeshが必要です。
+python tools/structural_screening.py   # usa/models/<id>/structural.json と structural_summary.json を生成
 python tools/build_usa_site.py --source /path/to/USA/drawing2cad
 python tools/verify_usa_site.py
 
